@@ -20,20 +20,20 @@
   position: absolute;
   font-size: 0.35em;
   top: 10%;
-  left: 90%;
+  left: 93%;
 }
 
 .tblMGUCod {
   padding-top: 1%;
   padding-bottom: 1%;
   padding-left: 2%;
-  width: 5rem;
+  width: 10rem;
 }
 .tblMGUPermissao {
   padding-top: 1%;
   padding-bottom: 1%;
-  padding-left: 5%;
-  width: 8rem;
+  padding-left: 4%;
+  width: 10rem;
 }
 .btnMGUPermissoes {
   background-color: transparent;
@@ -44,11 +44,11 @@
   padding-top: 1%;
   padding-bottom: 1%;
   padding-left: 2%;
-  width: 40rem;
+  width: 80rem;
 }
 .MGUStatus {
   padding-top: 1%;
   padding-bottom: 1%;
-  padding-left: 5%;
-  width: 8rem;
+  padding-left: 4%;
+  width: 10rem;
 }

@@ -116,9 +116,9 @@ function FormularioCadastro() {
         </div>
       </div>
       <ProfileDireita />
+      <SidebarMobile />
       <div className="buttonProfileDireita">
         <SideBarDireita />
-        <SidebarMobile />
       </div>
     </div>
   )

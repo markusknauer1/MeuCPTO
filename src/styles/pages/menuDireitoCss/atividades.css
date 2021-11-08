@@ -1,0 +1,83 @@
+.btnCodAtivid {
+  position: absolute;
+  top: 5%;
+  left: 4%;
+}
+.btnAtivid {
+  position: absolute;
+  top: 5%;
+  left: 16%;
+}
+.btnStatusAtiv {
+  position: absolute;
+  top: 5%;
+  left: 92%;
+}
+/* 
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+.atividadeRef2 :hover {
+  background-color: #ddd;
+} */
+
+.tblCodAtivid {
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-left: 4%;
+  width: 10rem;
+}
+.tblAtivid {
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-left: 5%;
+  width: 80rem;
+}
+.tblStatusAtivid {
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-left: 5%;
+  width: 10rem;
+}
+
+@media screen and (max-width: 500px) {
+  .atividadeRef1 {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-style: none;
+    font-family: 'baloo bhaina 2';
+    font-weight: 600;
+    background-color: #1c396b;
+    text-align: center;
+    border-radius: 0;
+    font-size: clamp(0.1em, 0.1em + 2.5vw, 3em);
+  }
+
+  .btnCodAtivid {
+    top: 2%;
+    left: 7%;
+  }
+  .btnAtivid {
+    top: 2%;
+    left: 20%;
+  }
+  .btnStatusAtiv {
+    top: 2%;
+    left: 87%;
+  }
+
+  .atividadeRef2 {
+    position: absolute;
+    top: 5%;
+    font-family: 'baloo bhaina 2';
+    font-weight: 600;
+    font-size: clamp(0.1em, 0.1em + 2.5vw, 3em);
+    width: 100%;
+    border-radius: 10px;
+    background-color: white;
+    border-style: none;
+    border: 1px solid;
+  }
+}

@@ -1,0 +1,286 @@
+.fnameSubMenu {
+  position: absolute;
+  left: 48%;
+  top: 8%;
+  padding-left: 10px;
+  background-color: rgb(201, 201, 201);
+  font-family: 'baloo bhaina 2';
+  font-weight: 400;
+  font-size: clamp(0.1em, 0.1em + 1.2vw, 3em);
+  border: none;
+  align-items: center;
+  color: rgb(32, 32, 32);
+  border-radius: 5px;
+  width: 15%;
+  height: 5%;
+  z-index: 1;
+}
+section {
+  position: relative;
+  border: 1px solid #000;
+  padding-top: 5%;
+  margin-top: 2%;
+  width: 100%;
+  height: 10%;
+  background: #1c396b;
+  border-radius: 10px;
+}
+.container {
+  overflow-y: auto;
+  margin-left: -1px;
+  border: 1px solid;
+  width: 100.4%;
+  height: 38rem;
+}
+.container::-webkit-scrollbar {
+  width: 6px;
+  background-color: rgb(219, 219, 219);
+  /* rgb(219, 219, 219); */
+  /* border-radius: 10px; */
+}
+table {
+  border-spacing: 0;
+  background-color: #fff;
+}
+td + td {
+  border-left: 1px solid #eee;
+}
+th {
+  border-bottom: 1px solid #eee;
+  background: #ddd;
+  color: #000;
+}
+
+/*-------------Conteudo do cabeçalho da tabela-----------------*/
+.tblSubCod {
+  position: absolute;
+  top: 5%;
+  left: 3%;
+}
+.tblSubPessoacod {
+  position: absolute;
+  top: 5%;
+  left: 14%;
+}
+.tblSubMail {
+  position: absolute;
+  top: 5%;
+  left: 44%;
+}
+.tblSubMetas {
+  position: absolute;
+  top: 5%;
+  left: 78%;
+}
+.tblSubAtivo {
+  position: absolute;
+  top: 5%;
+  left: 91%;
+}
+
+/*-------------Conteudo da tabela-----------------*/
+.btnSubCod {
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-left: 3%;
+  width: 10rem;
+}
+.btnSubOBS {
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-left: 1%;
+  width: 25rem;
+}
+.btnSubMail {
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-left: 1%;
+  width: 25rem;
+}
+.btnSubMetas {
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-left: 4.5%;
+  width: 10rem;
+}
+.btnSubAtivo {
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-left: 7%;
+  width: 10rem;
+}
+.action {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 25%;
+  background-color: transparent;
+  border: none;
+}
+
+td {
+  border-bottom: 1px solid #eee;
+  background: #fff;
+  font-family: 'baloo bhaina 2';
+  font-weight: 700;
+  font-size: clamp(1em, 1em + 1vw, 1.1em);
+  color: #000;
+  width: 100%;
+}
+th {
+  height: 0;
+  line-height: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  color: transparent;
+  border: none;
+  white-space: nowrap;
+}
+th div {
+  position: absolute;
+  background: transparent;
+  color: #fff;
+  top: 1%;
+  margin-left: 4%;
+  line-height: normal;
+  border-left: none;
+  font-size: clamp(0.1em, 0.1em + 1vw, 3em);
+}
+th:first-child div {
+  border: none;
+}
+
+/*------------------------------------------------------------------------------------------*/
+
+@media screen and (max-width: 500px) {
+  .buttonModalPadrao {
+    position: absolute;
+    top: 75%;
+    left: 60%;
+    width: 35%;
+    height: 4%;
+    font-size: clamp(0.1em, 0.1em + 3.5vw, 3em);
+    z-index: 1;
+    cursor: pointer;
+    font-family: 'baloo bhaina 2';
+    font-weight: 800;
+    background-color: #0b9e82;
+    color: white;
+    border-style: none;
+    border-radius: 10px;
+  }
+  .buttonModalPadrao1 {
+    position: absolute;
+    top: 21%;
+    left: 55%;
+    width: 40%;
+    height: 4%;
+    font-size: clamp(0.1em, 0.1em + 3.5vw, 3em);
+    z-index: 1;
+    cursor: pointer;
+    font-family: 'baloo bhaina 2';
+    font-weight: 800;
+    background-color: #0b9e82;
+    color: white;
+    border-style: none;
+    border-radius: 10px;
+  }
+  .buttonModalObservaçoes {
+    position: absolute;
+    top: 21%;
+    left: 65%;
+    width: 30%;
+    height: 5%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 0.5%;
+    z-index: 2;
+    cursor: pointer;
+    font-family: 'baloo bhaina 2';
+    font-weight: 800;
+    font-size: clamp(0.1em, 1em + 1.3vw, 3em);
+    background-color: #172d52;
+    color: white;
+    border-style: none;
+    border-radius: 10px;
+  }
+
+  .fnamePadrao {
+    position: absolute;
+    left: 56%;
+    top: 21%;
+    padding-left: 10px;
+    background-color: rgb(201, 201, 201);
+    font-size: clamp(0.1em, 0.1em + 3vw, 3em);
+    font-family: baloo bhaina2;
+    border: none;
+    align-items: center;
+    color: rgb(32, 32, 32);
+    border-radius: 5px;
+    width: 40%;
+    height: 4%;
+    z-index: 1;
+  }
+  .subtPadrao1 {
+    position: fixed;
+    top: 16%;
+    left: 5%;
+    border-radius: 20px;
+    display: block;
+    font-size: clamp(0.01em, 0.01em + 6vw, 1.5em);
+    font-family: 'baloo bhaina 2';
+    font-weight: 800;
+    color: #ffffff;
+    z-index: -1;
+  }
+  .subtPadrao2 {
+    position: absolute;
+    top: 0;
+    left: 5%;
+    font-weight: 100;
+    display: block;
+    font-size: clamp(0.1em, 0.1em + 3.5vw, 3em);
+    font-family: 'baloo bhaina 2';
+    color: #1c396b;
+    letter-spacing: -2px;
+  }
+
+  .tabelaPadrao {
+    overflow: auto;
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    width: 90%;
+    height: 58%;
+    background-color: white;
+    border-radius: 5px;
+  }
+
+  .tblcod {
+    top: 2%;
+    position: absolute;
+    left: 5%;
+  }
+  .tblobservador {
+    top: 2%;
+    position: absolute;
+    left: 15%;
+  }
+  .tbtlogin {
+    top: 2%;
+    position: absolute;
+    left: 50%;
+  }
+  .tblfuncao {
+    top: 2%;
+    position: absolute;
+    left: 76%;
+  }
+
+  .tblmetas {
+    top: 2%;
+    position: absolute;
+    left: 90%;
+  }
+}

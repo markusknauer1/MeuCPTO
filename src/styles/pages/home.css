@@ -1,0 +1,760 @@
+.MetaMes1 {
+  position: absolute;
+  top: 20%;
+  left: 10%;
+  font-family: 'baloo bhaina 2';
+  font-weight: 400;
+  font-size: clamp(0.01em, 0.01em + 1.4vw, 2em);
+  color: #adadad;
+  z-index: 2;
+}
+.MetaMes2 {
+  position: absolute;
+  top: 23%;
+  left: 10%;
+  font-family: 'baloo bhaina 2';
+  font-weight: 800;
+  font-size: clamp(0.01em, 0.01em + 2.3vw, 3.5em);
+  border-style: none;
+  background: transparent;
+  color: #172d52;
+  z-index: 2;
+}
+.SelectUnidade1 {
+  position: fixed;
+  top: 6.5%;
+  left: 46%;
+  border-radius: 20px;
+  display: block;
+  font-size: clamp(0.01em, 0.01em + 1.1vw, 1.5em);
+  font-family: 'baloo bhaina 2';
+  font-weight: 800;
+  color: #0b9e82;
+  z-index: -1;
+}
+.SelectUnidade2 {
+  position: absolute;
+  top: 10%;
+  left: 46%;
+  background-color: #e6e6e6;
+  font-size: clamp(0.01em, 0.01em + 1.5vw, 1.5em);
+  font-family: 'baloo bhaina 2';
+  font-weight: 200;
+  border: none;
+  color: #949494;
+  border-radius: 5px;
+  padding-top: 0.2%;
+  padding-left: 10px;
+  width: 17%;
+  height: 5%;
+  z-index: -1;
+}
+.select {
+  position: absolute;
+}
+.Metas::-webkit-scrollbar {
+  width: 6px;
+  background-color: rgb(219, 219, 219);
+  border-radius: 10px;
+}
+.Metas {
+  overflow: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+
+  height: 100%;
+  max-height: 63%;
+
+  border-style: none;
+  border-radius: 10px;
+  z-index: 1;
+  top: 32%;
+  left: 10%;
+  position: absolute;
+  padding: 0;
+}
+.tittleMeta {
+  align-items: center;
+  position: absolute;
+  display: flex;
+  font-size: clamp(0.01em, 0.01em + 1.2vw, 1.5em);
+  cursor: pointer;
+  color: rgb(255, 255, 255);
+  transition: color 0.2s ease-in-out;
+  top: 10%;
+  left: 2%;
+  z-index: 2;
+
+  height: 9vmin;
+  cursor: pointer;
+}
+.tittleMeta1 {
+  align-items: center;
+  position: absolute;
+  display: flex;
+  font-size: clamp(0.01em, 0.01em + 1.2vw, 1.5em);
+  cursor: pointer;
+  color: rgb(255, 255, 255);
+  transition: color 0.2s ease-in-out;
+  top: 10%;
+  left: 20%;
+  z-index: 2;
+
+  height: 9vmin;
+  cursor: pointer;
+}
+.tittleMeta2 {
+  align-items: center;
+  position: absolute;
+  display: flex;
+  font-size: clamp(0.01em, 0.01em + 1.2vw, 1.5em);
+  cursor: pointer;
+  color: #5f5f5f;
+  transition: color 0.2s ease-in-out;
+  top: 10%;
+  left: 2%;
+  z-index: 2;
+
+  height: 9vmin;
+  cursor: pointer;
+}
+
+.tittleMeta3 {
+  align-items: center;
+  position: absolute;
+  display: flex;
+  font-size: clamp(0.01em, 0.01em + 1.2vw, 1.5em);
+  cursor: pointer;
+  color: #5f5f5f;
+  transition: color 0.2s ease-in-out;
+  top: 10%;
+  left: 20%;
+  z-index: 2;
+
+  height: 9vmin;
+  cursor: pointer;
+}
+.estimativa {
+  position: absolute;
+  font-size: clamp(0.01em, 0.01em + 1.5vw, 1.5em);
+  top: 50%;
+  left: 43%;
+}
+.realidade {
+  position: absolute;
+  font-size: clamp(0.01em, 0.01em + 1.5vw, 1.5em);
+  top: 50%;
+  left: 53%;
+}
+.hrMeta1 {
+  transform: rotate(10deg);
+  position: absolute;
+  background-color: #5f5f5f;
+  top: 46%;
+  left: 50.6%;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20%;
+  border: none;
+  width: clamp(0.1em, 0.1em + 0.01vw, 3em);
+  height: clamp(0.1em, 0.1em + 1.8vw, 3em);
+}
+.hrMeta {
+  transform: rotate(10deg);
+  position: absolute;
+  background-color: white;
+  top: 46%;
+  left: 50%;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20%;
+  width: clamp(0.1em, 0.1em + 0.1vw, 3em);
+  height: clamp(0.1em, 0.1em + 1.8vw, 3em);
+}
+.resultGeral {
+  position: absolute;
+  font-size: clamp(0.01em, 0.01em + 2.5vw, 2.5em);
+  left: 21%;
+  top: 70%;
+  filter: invert(0%) sepia(0%) saturate(0%);
+}
+
+.resultGeralIcs {
+  position: absolute;
+  width: 15%;
+  left: 42%;
+  top: 45%;
+}
+
+.pending {
+  position: absolute;
+  width: 120%;
+  left: -100%;
+  top: -190%;
+}
+.pending1 {
+  position: absolute;
+  width: 35%;
+  left: 30%;
+  top: 32%;
+}
+.ConclusaoOk {
+  position: absolute;
+  width: 15%;
+  left: 20%;
+  top: 67.5%;
+}
+.ConclusaoWrong {
+  position: absolute;
+
+  width: 15%;
+  left: 14%;
+  top: 67.5%;
+}
+.Conclusao1 {
+  position: absolute;
+  width: 30%;
+  font-size: clamp(0.01em, 0.01em + 1.2vw, 1.5em);
+  left: 40%;
+  top: 72%;
+  fill: #ffffff;
+}
+.Conclusao2 {
+  position: absolute;
+  width: 60%;
+  font-size: clamp(0.01em, 0.01em + 1.2vw, 1.5em);
+  left: 32%;
+  top: 72%;
+  fill: #ffffff;
+}
+
+.metas1 {
+  background-color: rgb(202, 202, 202);
+  color: #5f5f5f;
+  position: absolute;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+  top: 0;
+  left: 0;
+  width: 28%;
+  height: 38%;
+  border-radius: 10px;
+  border-style: none;
+  display: flex;
+  line-height: 1 !important;
+  font: bold 18px 'baloo bhaina 2';
+}
+.metas2 {
+  position: absolute;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+  top: 0rem;
+  left: 35%;
+  width: 28%;
+  height: 38%;
+  color: white;
+  border-radius: 10px;
+  border-style: none;
+  display: flex;
+  line-height: 1 !important;
+  font: 400 18px 'baloo bhaina 2';
+  background-image: linear-gradient(100deg, #11806a, #258f7a, #3ca38f);
+}
+.metas3 {
+  position: absolute;
+  align-items: center;
+  text-align: center;
+  left: 70%;
+  top: 0rem;
+  width: 28%;
+  height: 38%;
+  border-radius: 10px;
+  border-style: none;
+  display: flex;
+  line-height: 1 !important;
+  font: 400 18px 'baloo bhaina 2';
+  color: white;
+  background-image: linear-gradient(120deg, #ec3565 25%, #eb406e 90%, #f0658a);
+  background-size: 100%;
+}
+.metas4 {
+  background-color: rgb(202, 202, 202);
+  color: #5f5f5f;
+  position: absolute;
+  position: absolute;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+  top: 45%;
+  left: 0;
+  width: 28%;
+  height: 38%;
+  border-radius: 10px;
+  border-style: none;
+  display: flex;
+  line-height: 1 !important;
+  font: bold 18px 'baloo bhaina 2';
+}
+.metas5 {
+  background-color: rgb(202, 202, 202);
+  color: #5f5f5f;
+  position: absolute;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+  top: 45%;
+  left: 35%;
+  width: 28%;
+  height: 38%;
+  border-radius: 10px;
+  border-style: none;
+  display: flex;
+  line-height: 1 !important;
+  font: bold 18px 'baloo bhaina 2';
+}
+
+.metas6 {
+  background-color: rgb(202, 202, 202);
+  color: #5f5f5f;
+  position: absolute;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+  top: 45%;
+  left: 70%;
+  width: 28%;
+  height: 38%;
+  border-radius: 10px;
+  border-style: none;
+  display: flex;
+  line-height: 1 !important;
+  font: bold 18px 'baloo bhaina 2';
+}
+.metas7 {
+  background-color: rgb(202, 202, 202);
+  color: #5f5f5f;
+  position: absolute;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+  top: 90%;
+  left: 70%;
+  width: 28%;
+  height: 38%;
+  border-radius: 10px;
+  border-style: none;
+  display: flex;
+  line-height: 1 !important;
+  font: bold 18px 'baloo bhaina 2';
+}
+
+.MetaHome {
+  position: absolute;
+  top: 90%;
+  left: 0;
+  width: 63%;
+  height: 38%;
+  border-radius: 10px;
+  border-style: none;
+  display: flex;
+  line-height: 1 !important;
+  font: bold 18px 'baloo bhaina 2';
+  color: black;
+  background-size: 100%;
+  background-color: rgb(202, 202, 202);
+}
+.graph {
+  position: absolute;
+  display: flex;
+  top: 1rem;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  font: bold 'baloo bhaina 2';
+  font-size: clamp(0.01em, 0.01em + 1.4vw, 1.5em);
+  border-style: none;
+  color: #274172;
+}
+.calendarHome {
+  position: absolute;
+  top: 38%;
+  left: 75%;
+  width: 20.4%;
+}
+
+@media screen and (max-width: 500px) {
+  .MetaMes1 {
+    display: none;
+  }
+  .MetaMes2 {
+    position: absolute;
+    top: 6%;
+    left: 26%;
+    font-family: 'baloo bhaina 2';
+    font-weight: 800;
+    font-size: clamp(0.01em, 0.01em + 6vw, 3em);
+    border-style: none;
+    background: transparent;
+    color: #172f58;
+    z-index: 2;
+  }
+  .SelectUnidade1 {
+    position: fixed;
+    top: 16%;
+    left: 5%;
+    border-radius: 20px;
+    display: block;
+    font-size: clamp(0.01em, 0.01em + 6vw, 1.5em);
+    font-family: 'baloo bhaina 2';
+    font-weight: 800;
+    color: #ffffff;
+    z-index: -1;
+  }
+  .SelectUnidade2 {
+    position: absolute;
+    top: 21%;
+    left: 5%;
+    background-color: #e6e6e6;
+    font-size: clamp(0.01em, 0.01em + 3vw, 1.5em);
+    font-family: 'baloo bhaina 2';
+    font-weight: 200;
+    border: none;
+    color: #6e6e6e;
+    border-radius: 5px;
+    padding-top: 2.5px;
+    width: 50%;
+    height: 4%;
+    z-index: -1;
+  }
+  .select {
+    position: absolute;
+  }
+  .Metas::-webkit-scrollbar {
+    width: 0;
+    height: 5px;
+  }
+  .Metas {
+    overflow: auto;
+    display: flex;
+    width: 90%;
+    height: 57%;
+
+    border-style: none;
+    border-radius: 10px;
+    z-index: 1;
+    top: 15%;
+    left: 5%;
+    position: absolute;
+  }
+  .tittleMeta {
+    align-items: center;
+    position: absolute;
+    display: flex;
+    font-size: clamp(0.01em, 0.01em + 5vw, 1.5em);
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    transition: color 0.2s ease-in-out;
+    top: 10%;
+    left: 2%;
+    z-index: 2;
+
+    height: 9vmin;
+    cursor: pointer;
+  }
+  .tittleMeta1 {
+    align-items: center;
+    position: absolute;
+    display: flex;
+    font-size: clamp(0.01em, 0.01em + 5vw, 1.5em);
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    transition: color 0.2s ease-in-out;
+    top: 10%;
+    left: 20%;
+    z-index: 2;
+
+    height: 9vmin;
+    cursor: pointer;
+  }
+  .tittleMeta2 {
+    align-items: center;
+    position: absolute;
+    display: flex;
+    font-size: clamp(0.01em, 0.01em + 5vw, 1.5em);
+    cursor: pointer;
+    color: #5f5f5f;
+    transition: color 0.2s ease-in-out;
+    top: 10%;
+    left: 25%;
+    width: 50%;
+    z-index: 2;
+
+    height: 9vmin;
+    cursor: pointer;
+  }
+
+  .tittleMeta3 {
+    align-items: center;
+    position: absolute;
+    display: flex;
+    font-size: clamp(0.01em, 0.01em + 5vw, 1.5em);
+    cursor: pointer;
+    color: #5f5f5f;
+    transition: color 0.2s ease-in-out;
+    top: 10%;
+    left: 22%;
+    width: 60%;
+    z-index: 2;
+
+    height: 9vmin;
+    cursor: pointer;
+  }
+  .estimativa {
+    position: absolute;
+    font-size: clamp(0.01em, 0.01em + 10vw, 1.5em);
+    top: 44.5%;
+    left: 43%;
+  }
+  .realidade {
+    position: absolute;
+    font-size: clamp(0.01em, 0.01em + 10vw, 1.5em);
+    top: 44.5%;
+    left: 54%;
+  }
+  .hrMeta1 {
+    background-color: #5f5f5f;
+    transform: rotate(10deg);
+    position: absolute;
+    top: 42%;
+    left: 51.5%;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20%;
+    width: clamp(0.1em, 0.1em + 0.5vw, 3em);
+    height: clamp(0.1em, 0.1em + 7vw, 3em);
+  }
+  .hrMeta {
+    background-color: white;
+    transform: rotate(10deg);
+    position: absolute;
+    top: 42%;
+    left: 51.5%;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20%;
+    width: clamp(0.1em, 0.1em + 0.5vw, 3em);
+    height: clamp(0.1em, 0.1em + 7vw, 3em);
+  }
+  .resultGeral {
+    position: absolute;
+    font-size: clamp(0.01em, 0.01em + 15vw, 2.5em);
+    left: 18%;
+    top: 70%;
+    filter: invert(0%) sepia(0%) saturate(0%);
+  }
+
+  .resultGeralIcs {
+    position: absolute;
+    width: 15%;
+    left: 42%;
+    top: 45%;
+  }
+  .ConclusaoOk {
+    position: absolute;
+    width: 15%;
+    left: 20%;
+    top: 67.5%;
+  }
+  .ConclusaoWrong {
+    position: absolute;
+
+    width: 15%;
+    left: 20%;
+    top: 67.5%;
+  }
+  .Conclusao1 {
+    position: absolute;
+    width: 30%;
+    font-size: clamp(0.01em, 0.01em + 5vw, 1.5em);
+    left: 42%;
+    top: 72%;
+    fill: #ffffff;
+  }
+  .Conclusao2 {
+    position: absolute;
+    width: 60%;
+    font-size: clamp(0.01em, 0.01em + 5vw, 1.5em);
+    left: 32%;
+    top: 72%;
+    fill: #ffffff;
+  }
+
+  .metas1 {
+    background-color: rgb(202, 202, 202);
+    color: #5f5f5f;
+    position: absolute;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    top: 10%;
+    left: 15%;
+    width: 70%;
+    height: 80%;
+    border-radius: 10px;
+    border-style: none;
+    display: flex;
+    line-height: 1 !important;
+    font: 600 18px 'baloo bhaina 2';
+  }
+  .metas2 {
+    position: absolute;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    top: 10%;
+    left: 95%;
+    width: 70%;
+    height: 80%;
+    color: white;
+    border-radius: 10px;
+    border-style: none;
+    display: flex;
+    line-height: 1 !important;
+    font: 400 18px 'baloo bhaina 2';
+    background-image: linear-gradient(100deg, #11806a, #258f7a, #3ca38f);
+  }
+  .metas3 {
+    position: absolute;
+    align-items: center;
+    text-align: center;
+    top: 10%;
+    left: 175%;
+    width: 70%;
+    height: 80%;
+    border-radius: 10px;
+    border-style: none;
+    display: flex;
+    line-height: 1 !important;
+    font: 400 18px 'baloo bhaina 2';
+    color: white;
+    background-image: linear-gradient(
+      120deg,
+      #ec3565 25%,
+      #eb406e 90%,
+      #f0658a
+    );
+    background-size: 100%;
+  }
+  .metas4 {
+    background-color: rgb(202, 202, 202);
+    color: rgb(0, 0, 0);
+    position: absolute;
+    position: absolute;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    top: 10%;
+    left: 255%;
+    width: 70%;
+    height: 80%;
+    border-radius: 10px;
+    border-style: none;
+    display: flex;
+    line-height: 1 !important;
+    font: bold 18px 'baloo bhaina 2';
+  }
+  .metas5 {
+    background-color: rgb(202, 202, 202);
+    color: rgb(0, 0, 0);
+    position: absolute;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    top: 10%;
+    left: 335%;
+    width: 70%;
+    height: 80%;
+    border-radius: 10px;
+    border-style: none;
+    display: flex;
+    line-height: 1 !important;
+    font: bold 18px 'baloo bhaina 2';
+  }
+
+  .metas6 {
+    background-color: rgb(202, 202, 202);
+    color: black;
+    position: absolute;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    top: 10%;
+    left: 415%;
+    width: 70%;
+    height: 80%;
+    border-radius: 10px;
+    border-style: none;
+    display: flex;
+    line-height: 1 !important;
+    font: bold 18px 'baloo bhaina 2';
+  }
+  .metas7 {
+    background-color: rgb(202, 202, 202);
+    color: black;
+    position: absolute;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    top: 10%;
+    left: 495%;
+    width: 70%;
+    height: 80%;
+    border-radius: 10px;
+    border-style: none;
+    display: flex;
+    line-height: 1 !important;
+    font: bold 18px 'baloo bhaina 2';
+  }
+
+  .MetaHome {
+    position: absolute;
+    top: 10%;
+    left: 575%;
+    width: 70%;
+    height: 80%;
+    border-radius: 10px;
+    border-style: none;
+    display: flex;
+    line-height: 1 !important;
+    font: bold 18px 'baloo bhaina 2';
+    color: black;
+    background-size: 100%;
+    background-color: rgb(202, 202, 202);
+  }
+  .graph {
+    position: absolute;
+    display: flex;
+    top: 1rem;
+    left: 0650;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    font: bold 'baloo bhaina 2';
+    font-size: clamp(0.01em, 0.01em + 4vw, 1.5em);
+    border-style: none;
+    color: #274172;
+  }
+
+  .calendarHome {
+    display: none;
+  }
+}

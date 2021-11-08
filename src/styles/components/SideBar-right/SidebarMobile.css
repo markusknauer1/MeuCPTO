@@ -1,0 +1,571 @@
+.navbar {
+  position: absolute;
+  font-size: 45px;
+  left: 95%;
+  bottom: 0%;
+  z-index: 1;
+}
+
+/* botao open */
+.NavButtomDireita {
+  background: none;
+  transition: 1000ms;
+
+  filter: invert(48%) sepia(0%) saturate(2476%) hue-rotate(86deg)
+    brightness(80%) contrast(119%);
+}
+/* botao close */
+.close-background {
+  position: absolute;
+  right: 0rem;
+  top: 0;
+  height: 13%;
+  width: 100%;
+  font-size: 2rem;
+  background-image: radial-gradient(
+    rgb(34, 53, 88) 0%,
+    rgb(27, 44, 75) 35%,
+    rgb(15, 30, 56) 70%,
+    rgb(11, 24, 46) 100%
+  );
+}
+.positionX {
+  position: absolute;
+  top: 10%;
+  left: 87%;
+}
+.Moblogo {
+  position: absolute;
+  width: 40%;
+  top: 2%;
+  left: 5%;
+  z-index: 1;
+}
+.nav-menu {
+  background-color: rgb(219, 219, 219);
+  width: 31%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  right: 0;
+  bottom: -100%;
+  transition: 1000ms;
+}
+.Moblogologo {
+  position: absolute;
+
+  width: 50%;
+  left: 25%;
+  bottom: 5%;
+}
+.nav-menu.active {
+  right: 0;
+  bottom: 0;
+  transition: 0.5s;
+}
+.nav-text {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 3rem 0px 8px 16px;
+  list-style: none;
+  height: 40px;
+}
+.nav-text a {
+  text-decoration: none;
+  color: #35c2aa;
+  font-family: 'baloo bhaina 2';
+  font-weight: 600;
+  font-size: 30px;
+  width: 95%;
+  height: 100%;
+  align-items: center;
+  padding: 0 64px;
+  border-style: none;
+}
+.nav-text a:hover {
+  background-color: white;
+}
+.nav-menu-items {
+  width: 100%;
+}
+.navbar-toggle {
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  height: 80px;
+  display: block;
+  justify-content: start;
+  align-items: center;
+}
+span {
+  margin-left: 16px;
+}
+
+/* conteudo do botão imersivo de navegação direita */
+.MobileProfileDireita {
+  position: absolute;
+  display: block;
+  align-items: center;
+  top: 28%;
+  left: 18%;
+  width: 64%;
+  height: 45%;
+  border-radius: 5px;
+  background-color: transparent;
+}
+.Mobwork {
+  position: absolute;
+  padding-top: 5px;
+  top: 0px;
+  width: 100%;
+  height: 15%;
+  font-family: 'baloo bhaina 2';
+  font-weight: 800;
+  font-size: clamp(0.01em, 0.01em + 1.4vw, 2em);
+  background-color: #fff;
+  color: rgb(0, 0, 0);
+  border: none;
+  border-radius: 5px;
+}
+.Mobwork:hover {
+  color: rgb(255, 255, 255);
+  background-color: #0b9e82;
+  transition: 0.5s;
+}
+.MobtypObs {
+  position: absolute;
+  padding-top: 5px;
+  top: 20%;
+  width: 100%;
+  height: 15%;
+  font-family: 'baloo bhaina 2';
+  font-weight: 800;
+  font-size: clamp(0.01em, 0.01em + 1.4vw, 2em);
+  background-color: #fff;
+  color: rgb(0, 0, 0);
+  border: none;
+
+  border-radius: 5px;
+}
+.MobtypObs:hover {
+  color: rgb(255, 255, 255);
+  background-color: #0b9e82;
+  transition: 0.5s;
+}
+.MobTextActiv {
+  position: absolute;
+  padding-top: 5px;
+  top: 40%;
+  left: 0;
+  width: 100%;
+  height: 15%;
+  font-family: 'baloo bhaina 2';
+  font-weight: 800;
+  font-size: clamp(0.01em, 0.01em + 1.4vw, 2em);
+  border: none;
+
+  border-radius: 5px;
+  background-color: #fff;
+  color: rgb(0, 0, 0);
+  border: none;
+}
+.MobTextActiv:hover {
+  color: rgb(255, 255, 255);
+  background-color: #0b9e82;
+  transition: 0.5s;
+}
+.MobpeopleTest {
+  position: absolute;
+  padding-top: 5px;
+  top: 60%;
+  right: 0px;
+  width: 100%;
+  height: 15%;
+  font-family: 'baloo bhaina 2';
+  font-weight: 800;
+  font-size: clamp(0.01em, 0.01em + 1.4vw, 2em);
+  border: none;
+  border-radius: 10px;
+  background-color: #fff;
+  color: rgb(0, 0, 0);
+  border: none;
+
+  border-radius: 5px;
+}
+.MobpeopleTest:hover {
+  color: rgb(255, 255, 255);
+  background-color: #0b9e82;
+  transition: 0.5s;
+}
+.MobUserGroup {
+  position: absolute;
+  padding-top: 5px;
+  top: 80%;
+  left: 0px;
+  width: 100%;
+  height: 15%;
+  font-family: 'baloo bhaina 2';
+  font-weight: 800;
+  font-size: clamp(0.01em, 0.01em + 1.4vw, 2em);
+  border: none;
+  margin-right: 10px;
+  background-color: #fff;
+  color: rgb(0, 0, 0);
+  border: none;
+
+  border-radius: 5px;
+}
+.MobUserGroup:hover {
+  color: rgb(255, 255, 255);
+  background-color: #0b9e82;
+  transition: 0.5s;
+}
+/* 
+  .menuComp{
+    display: none;
+  } */
+@media screen and (max-width: 500px) {
+  /* .menuComp{
+      position: absolute;
+      display:flex;
+      justify-content: center;
+      background-color: #35c2aa;
+      width: 80%;
+      height: 80%;
+    top: 5%;
+    left: 10%;
+    }   */
+
+  .navbar {
+    background-color: transparent;
+    position: fixed;
+    left: 42%;
+    top: 81%;
+    border-radius: 50px;
+  }
+
+  /* botao open */
+  .NavButtomDireita {
+    background: none;
+  }
+  /* botao close */
+  .close-background {
+    position: absolute;
+    left: 0;
+    height: 5rem;
+    padding-top: 1rem;
+    font-size: 2rem;
+    padding-left: 19rem;
+    background-color: rgb(204, 204, 204);
+  }
+  .nav-menu {
+    background-color: rgb(219, 219, 219);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    right: 0;
+    bottom: -100%;
+    transition: 850ms;
+    z-index: 2;
+  }
+
+  .Moblogo {
+    position: absolute;
+    width: 12rem;
+    left: 1rem;
+    top: 1rem;
+    z-index: 1;
+  }
+  .Moblogologo {
+    position: absolute;
+
+    width: 16rem;
+    right: 1.5rem;
+    bottom: 5%;
+  }
+  .nav-menu.active {
+    right: 0;
+    bottom: 0;
+    transition: 0.5s;
+  }
+  .nav-text {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    padding-top: 3.5rem;
+    list-style: none;
+    letter-spacing: -2px;
+    height: 40px;
+  }
+  .nav-text a {
+    text-decoration: none;
+    color: #35c2aa;
+    font-family: 'baloo bhaina 2';
+    font-weight: 600;
+    font-size: 30px;
+    width: 95%;
+    height: 100%;
+    align-items: center;
+    padding: 0;
+    border-style: none;
+  }
+  .nav-text a:hover {
+    background-color: white;
+  }
+  .nav-menu-items {
+    width: 100%;
+  }
+  .navbar-toggle {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 8%;
+    display: block;
+    justify-content: start;
+    align-items: center;
+  }
+  span {
+    margin-left: 16px;
+  }
+
+  /* conteudo do botão imersivo de navegação direita */
+  .MobileProfileDireita {
+    position: absolute;
+    display: block;
+    align-items: center;
+    top: 10%;
+    left: 18%;
+    width: 64%;
+    height: 45%;
+    border-radius: 20px;
+    background-color: transparent;
+    z-index: 2;
+  }
+
+  /*MENU COMPLEMENTAR-------*/
+  .mobcaddate {
+    display: none;
+    /* width: 100%;
+      height: 12%;
+      position:absolute;
+      padding-top:1% ;
+      top: 0px;
+      font-family: 'baloo bhaina 2';
+      font-weight: 800;
+      
+      padding-top:1% ;
+      font-size: clamp(0.01em, 0.01em + 4.5vw, 2em);
+      background-color: #fff;
+      color: rgb(0, 0, 0);
+      border: none;
+      border-radius: 5px; */
+  }
+  .mobcontacts {
+    display: none;
+    /* position:absolute;
+      top: 16%;
+      width: 100%;
+      height: 12%;
+      font-family: 'baloo bhaina 2';
+      font-weight: 800;
+      padding-top:1% ;
+      font-size: clamp(0.01em, 0.01em + 4.5vw, 2em);
+      background-color: #fff;
+      color: rgb(0, 0, 0);
+      border: none;
+      border-radius: 5px; */
+  }
+  .mobpeople {
+    display: none;
+    /* position:absolute;
+      top: 32%;
+      left: 0;
+      width: 48%;
+      height: 12%;
+      font-family: 'baloo bhaina 2';
+      font-weight: 800;
+      padding-top:1% ;
+      font-size: clamp(0.01em, 0.01em + 4.5vw, 2em);
+      border: none;
+      border-radius: 5px;
+      background-color: #fff;
+      color: rgb(0, 0, 0);
+      border: none; */
+  }
+  .mobteams {
+    display: none;
+    /* position:absolute;
+      top: 32%;
+      right: 0px;
+      width: 48%;
+      height: 12%;
+      font-family: 'baloo bhaina 2';
+      font-weight: 800;
+      padding-top:1% ;
+      font-size: clamp(0.01em, 0.01em + 4.5vw, 2em);
+      border: none;
+      border-radius: 5px;
+      background-color: #fff;
+      color: rgb(0, 0, 0);
+      border: none;
+      border-radius: 5px; */
+  }
+  .mobmanage {
+    display: none;
+    /* position:absolute;
+      top: 48%;
+      left: 0px;
+      width: 48%;
+      height: 12%;
+      font-family: 'baloo bhaina 2';
+      font-weight: 800;
+      padding-top:1% ;
+      font-size: clamp(0.01em, 0.01em + 4.5vw, 2em);
+      border: none;
+      margin-right: 10px;
+      background-color: #fff;
+      color: rgb(0, 0, 0);
+      border: none;
+      border-radius: 5px; */
+  }
+  .mobactivities {
+    display: none;
+    /* position:absolute;
+      top: 48%;
+      right: 0px;
+      width: 48%;
+      height: 12%;
+      font-family: 'baloo bhaina 2';
+      font-weight: 800;
+      padding-top:1% ;
+      font-size: clamp(0.01em, 0.01em + 4.5vw, 2em);
+      border: none;
+      margin-bottom: 5px;
+      background-color: #fff;
+      color: rgb(0, 0, 0);
+      border: none;
+      border-radius: 5px; */
+  }
+  .mobarea {
+    display: none;
+    /* position:absolute;
+      top: 64%;
+      left: 0px;
+      width: 48%;
+      height: 12%;
+      font-family: 'baloo bhaina 2';
+      font-weight: 800;
+      padding-top:1% ;
+      font-size: clamp(0.01em, 0.01em + 4.5vw, 2em);
+      border: none;
+      border-radius: 5px;
+      margin-bottom: 10px;
+      background-color: #fff;
+      color: rgb(0, 0, 0);
+      border: none;
+      border-radius: 5px; */
+  }
+  .mobcomments {
+    display: none;
+    /* position:absolute;
+      top: 64%;
+      right: 0px;
+      width: 48%;
+      height: 12%;
+      font-family: 'baloo bhaina 2';
+      font-weight: 800;
+      padding-top:1% ;
+      font-size: clamp(0.01em, 0.01em + 4.5vw, 2em);
+      border: none;
+      margin-bottom: 10px;
+      background-color: #fff;
+      color: rgb(0, 0, 0);
+      border: none;
+      border-radius: 5px; */
+  }
+  .mobdashIcs {
+    display: none;
+    /* position:absolute;
+      top: 81%;
+      width: 100%;
+      height: 12%;
+      font-family: 'baloo bhaina 2';
+      font-weight: 800;
+      font-size: clamp(0.01em, 0.01em + 4.5vw, 2em);
+      border: none;
+      background-color: #fff;
+      color: rgb(0, 0, 0);
+      border: none;
+      border-radius: 5px; */
+  }
+  /*------------------------*/
+
+  .Mobwork {
+    font-family: 'baloo bhaina 2';
+    font-weight: 800;
+    font-size: 16px;
+    background-color: #fff;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 10px;
+    top: 32%;
+  }
+  .MobtypObs {
+    font-size: 16px;
+    width: 100%;
+    height: 15%;
+    top: 48%;
+    font-family: 'baloo bhaina 2';
+    font-weight: 800;
+    background-color: #fff;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 10px;
+  }
+  .MobTextActiv {
+    font-size: 16px;
+    width: 100%;
+    height: 15%;
+    top: 64%;
+    font-family: 'baloo bhaina 2';
+    font-weight: 800;
+    border: none;
+    border-radius: 10px;
+
+    background-color: #fff;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 10px;
+  }
+  .MobpeopleTest {
+    font-size: 16px;
+    width: 100%;
+    height: 15%;
+    top: 80%;
+    font-family: 'baloo bhaina 2';
+    font-weight: 800;
+    border: none;
+    border-radius: 10px;
+    background-color: #fff;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 10px;
+  }
+  .MobUserGroup {
+    font-size: 16px;
+    width: 100%;
+    height: 15%;
+    top: 96%;
+    font-family: 'baloo bhaina 2';
+    font-weight: 800;
+    border: none;
+    border-radius: 10px;
+    background-color: #fff;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 10px;
+  }
+}

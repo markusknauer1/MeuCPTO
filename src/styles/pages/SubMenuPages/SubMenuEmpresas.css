@@ -1,0 +1,34 @@
+.tblSubEmpresaCod {
+  position: absolute;
+  top: 5%;
+  left: 3%;
+}
+.tblSubEmpresaPessoacod {
+  position: absolute;
+  top: 5%;
+  left: 14%;
+}
+.tblSubEmpresaAtivo {
+  position: absolute;
+  top: 5%;
+  left: 91%;
+}
+
+.btnSubEmpresaCod {
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-left: 3%;
+  width: 10rem;
+}
+.btnSubEmpresaOBS {
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-left: 1%;
+  width: 60rem;
+}
+.btnSubEmpresaAtivo {
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-left: 7%;
+  width: 10rem;
+}

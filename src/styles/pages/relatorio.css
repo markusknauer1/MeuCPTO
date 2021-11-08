@@ -1,0 +1,581 @@
+.subtRel1 {
+  position: absolute;
+  top: 20%;
+  left: 10%;
+  border-radius: 20px;
+  display: block;
+  font-size: clamp(0.1em, 0.1em + 1vw, 3em);
+  font-weight: 500;
+  color: #adadad;
+}
+.subtRel2 {
+  position: absolute;
+  top: 24%;
+  left: 10%;
+  font-weight: 800;
+  display: block;
+  font-size: clamp(0.1em, 0.1em + 2vw, 3em);
+  font-family: 'baloo bhaina 2';
+  color: #1c396b;
+  letter-spacing: -1px;
+}
+.subtRel3 {
+  position: absolute;
+  top: 30%;
+  left: 10%;
+  font-weight: 200;
+  display: block;
+  font-size: clamp(0.1em, 0.1em + 2vw, 3em);
+  font-family: 'baloo bhaina 2';
+  color: #1c396b;
+  letter-spacing: -2px;
+}
+.tabelaPadrao2 {
+  overflow: auto;
+  position: absolute;
+  top: 40%;
+  left: 10%;
+  width: 80%;
+  height: 50%;
+  background-color: white;
+  border-radius: 2%;
+}
+.tabelaPadrao2::-webkit-scrollbar {
+  width: 6px;
+  background-color: rgb(219, 219, 219);
+  border-radius: 10px;
+}
+.ICS1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 28%;
+  height: 45%;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font: 800 25px 'baloo bhaina 2';
+  text-align: center;
+  border: none;
+  background-image: linear-gradient(100deg, #11806a, #258f7a, #3ca38f);
+}
+.ICS2 {
+  position: absolute;
+  top: 0;
+  left: 35%;
+  width: 28%;
+  height: 45%;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font: 800 25px 'baloo bhaina 2';
+  text-align: center;
+
+  border: none;
+  background-image: linear-gradient(100deg, #11806a, #258f7a, #3ca38f);
+}
+.ICS3 {
+  position: absolute;
+  top: 0;
+  left: 70%;
+  width: 28%;
+  height: 45%;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font: 800 25px 'baloo bhaina 2';
+  text-align: center;
+
+  border: none;
+  background-image: linear-gradient(100deg, #ec3565, #ec3565, #ec3565);
+}
+.ICS4 {
+  position: absolute;
+  top: 60%;
+  left: 0;
+  width: 28%;
+  height: 45%;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font: 800 25px 'baloo bhaina 2';
+  text-align: center;
+
+  border: none;
+  background-image: linear-gradient(100deg, #11806a, #258f7a, #3ca38f);
+}
+.ICS5 {
+  position: absolute;
+  top: 60%;
+  left: 35%;
+  width: 28%;
+  height: 45%;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font: 800 25px 'baloo bhaina 2';
+  text-align: center;
+
+  border: none;
+  background-image: linear-gradient(100deg, #ec3565, #ec3565, #ec3565);
+}
+
+.ICS6 {
+  position: absolute;
+  left: 70%;
+  top: 60%;
+  width: 28%;
+  height: 45%;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font: 800 25px 'baloo bhaina 2';
+  text-align: center;
+
+  border: none;
+  background-image: linear-gradient(100deg, #11806a, #258f7a, #3ca38f);
+}
+
+.ICS7 {
+  position: absolute;
+  left: 0;
+  top: 120%;
+  width: 28%;
+  height: 45%;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font: 800 25px 'baloo bhaina 2';
+  text-align: center;
+
+  border: none;
+  background-image: linear-gradient(100deg, #ec3565, #ec3565, #ec3565);
+}
+
+.ICS8 {
+  position: absolute;
+  left: 35%;
+  top: 120%;
+  width: 28%;
+  height: 45%;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font: 800 25px 'baloo bhaina 2';
+  text-align: center;
+
+  border: none;
+  background-image: linear-gradient(100deg, #11806a, #258f7a, #3ca38f);
+}
+
+.ICS9 {
+  position: absolute;
+  left: 70%;
+  top: 120%;
+  width: 28%;
+  height: 45%;
+  border-radius: 10px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font: 800 25px 'baloo bhaina 2';
+  text-align: center;
+
+  border: none;
+  background-image: linear-gradient(100deg, #ec3565, #ec3565, #ec3565);
+}
+
+.statusRel {
+  position: absolute;
+  width: 15%;
+  top: 10%;
+}
+.FuncaoResultado {
+  position: absolute;
+  top: 40%;
+  font-size: clamp(0.1em, 0.1em + 2.5vw, 3em);
+  font-family: 'baloo bhaina 2';
+  font-weight: 600;
+  background-color: transparent;
+  color: white;
+  border-style: none;
+  line-height: 20px;
+}
+.FuncaoMeta {
+  position: absolute;
+  left: 10%;
+  top: 65%;
+  font-family: 'baloo bhaina 2';
+  font-weight: 600;
+  font-size: clamp(0.1em, 0.1em + 1.2vw, 3em);
+  background-color: transparent;
+  color: white;
+  border-style: none;
+  line-height: 100%;
+}
+.hrICS {
+  position: relative;
+  top: 24%;
+  width: 1%;
+  height: 20%;
+  background-color: white;
+  border-color: transparent;
+}
+.FuncaoReal {
+  position: absolute;
+  left: 60%;
+  top: 65%;
+  font-family: 'baloo bhaina 2';
+  font-weight: 600;
+  font-size: clamp(0.1em, 0.1em + 1.2vw, 3em);
+  background-color: transparent;
+  border-style: none;
+  color: white;
+  line-height: 100%;
+}
+
+.locale {
+  position: absolute;
+  top: 100%;
+  color: #1c396b;
+  font-size: clamp(0.1em, 0.1em + 1.2vw, 3em);
+  background: transparent !important;
+}
+.calendarRelatorio {
+  position: absolute;
+  top: 23%;
+  left: 75%;
+  width: 20%;
+  height: 60%;
+  background-color: transparent;
+  z-index: -1;
+}
+.selectAnalise1 {
+  color: #1c396b;
+  top: -5%;
+  font-size: clamp(0.1em, 0.1em + 2vw, 3em);
+  position: absolute;
+  display: flex;
+}
+.selectAnalise2 {
+  color: #1c396b;
+  top: 4%;
+  font-size: clamp(0.1em, 0.1em + 1vw, 3em);
+  position: absolute;
+  display: flex;
+}
+.SelectCliente {
+  position: absolute;
+  top: 10%;
+  left: 0;
+  font-size: clamp(0.1em, 0.1em + 1.2vw, 3em);
+  font-family: 'Baloo Bhaina 2';
+  font-weight: 600;
+  color: #30aa93;
+}
+.SelectIdCliente {
+  position: absolute;
+  top: 18%;
+  left: 0;
+  background-color: rgb(255, 255, 255);
+  font-size: clamp(0.1em, 0.1em + 1.2vw, 3em);
+  font-family: 'baloo bhaina2';
+  border: none;
+  display: flex;
+  color: gray;
+  border-radius: 5px;
+  width: 100%;
+  height: 7%;
+  cursor: pointer;
+}
+.SelectObserv {
+  position: absolute;
+  top: 25%;
+  left: 0;
+  font-size: clamp(0.1em, 0.1em + 1.2vw, 3em);
+  font-family: 'Baloo Bhaina 2';
+  font-weight: 600;
+  color: #30aa93;
+}
+.SelectIdObserv {
+  position: absolute;
+  top: 32%;
+  left: 0;
+  background-color: rgb(255, 255, 255);
+  font-size: clamp(0.1em, 0.1em + 1.2vw, 3em);
+  font-family: 'baloo bhaina2';
+  border: none;
+  display: flex;
+  align-items: center;
+  color: gray;
+  border-radius: 5px;
+  width: 100%;
+  height: 7%;
+  z-index: 1;
+  cursor: pointer;
+}
+.SelectDate {
+  position: absolute;
+  top: 40%;
+  left: 5%;
+  font-size: clamp(0.1em, 0.1em + 1.3vw, 3em);
+
+  font-family: 'Baloo Bhaina 2';
+  font-weight: 600;
+  color: #30aa93;
+}
+.calendarioAnalise {
+  position: absolute;
+  top: 50%;
+  left: 5%;
+  z-index: 1;
+  width: 100%;
+  height: 22%;
+  letter-spacing: -1px;
+}
+.logoK {
+  position: absolute;
+  display: flex;
+  left: 78%;
+  top: 22%;
+  width: 12%;
+}
+
+@media screen and (max-width: 500px) {
+  .subtRel1 {
+    position: absolute;
+    top: -5%;
+    left: 5%;
+    border-radius: 20px;
+    display: block;
+    font-size: clamp(0.1em, 0.1em + 4vw, 3em);
+    color: #ffffff;
+    letter-spacing: -1px;
+  }
+  .subtRel2 {
+    position: absolute;
+    top: 0%;
+    left: 5%;
+    font-weight: 800;
+    display: block;
+    font-size: clamp(0.1em, 0.1em + 5vw, 5em);
+    font-family: 'baloo bhaina 2';
+    color: #1c396b;
+    letter-spacing: -1px;
+  }
+  .subtRel3 {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    font-weight: 600;
+    display: block;
+    font-size: clamp(0.1em, 0.1em + 5vw, 5em);
+    font-family: 'baloo bhaina 2';
+    color: #1c396b;
+    letter-spacing: -1px;
+  }
+
+  .calendarRelatorio {
+    display: none;
+  }
+
+  .locale {
+    position: absolute;
+    top: -10%;
+    font-size: clamp(1em, 1em + 2.5vw, 4em);
+    background: transparent !important;
+  }
+  .FuncaoResultado {
+    position: absolute;
+    left: 25%;
+    top: 30%;
+    font-family: 'baloo bhaina 2';
+    font-weight: 600;
+    font-size: 40px;
+  }
+  .FuncaoMeta {
+    position: absolute;
+    text-align: left;
+    left: 15%;
+    top: 70%;
+    font-family: 'baloo bhaina 2';
+    font-weight: 600;
+    font-size: 22px;
+  }
+  .hrICS {
+    position: relative;
+    top: 25%;
+    width: 1%;
+    height: 25%;
+    background-color: white;
+    border-color: transparent;
+  }
+  .FuncaoReal {
+    position: absolute;
+    text-align: left;
+    right: 10%;
+    top: 70%;
+    font-family: 'baloo bhaina 2';
+    font-weight: 600;
+    font-size: 22px;
+  }
+
+  .tabelaPadrao2 {
+    overflow: auto;
+    position: absolute;
+    top: 12%;
+    left: 5%;
+    width: 90%;
+    height: 60%;
+    border-radius: 2%;
+  }
+
+  .ICS1 {
+    position: absolute;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    left: 10%;
+    top: 10%;
+    width: 80%;
+    height: 80%;
+    border-radius: 10px;
+    border-style: none;
+    display: flex;
+    line-height: 1 !important;
+    font: 600 18px 'baloo bhaina 2';
+  }
+  .ICS2 {
+    position: absolute;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    left: 100%;
+    top: 10%;
+    width: 80%;
+    height: 80%;
+    border-radius: 10px;
+    border-style: none;
+    display: flex;
+    line-height: 1 !important;
+    font: 600 18px 'baloo bhaina 2';
+  }
+  .ICS3 {
+    position: absolute;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    left: 190%;
+    top: 10%;
+    width: 80%;
+    height: 80%;
+    border-radius: 10px;
+    border-style: none;
+    display: flex;
+    line-height: 1 !important;
+    font: 600 18px 'baloo bhaina 2';
+  }
+  .ICS4 {
+    position: absolute;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    left: 280%;
+    top: 10%;
+    width: 80%;
+    height: 80%;
+    border-radius: 10px;
+    border-style: none;
+    display: flex;
+    line-height: 1 !important;
+    font: 600 18px 'baloo bhaina 2';
+  }
+  .ICS5 {
+    position: absolute;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    left: 370%;
+    top: 10%;
+    width: 80%;
+    height: 80%;
+    border-radius: 10px;
+    border-style: none;
+    display: flex;
+    line-height: 1 !important;
+    font: 600 18px 'baloo bhaina 2';
+  }
+
+  .ICS6 {
+    position: absolute;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    left: 460%;
+    top: 10%;
+    width: 80%;
+    height: 80%;
+    border-radius: 10px;
+    border-style: none;
+    display: flex;
+    line-height: 1 !important;
+    font: 600 18px 'baloo bhaina 2';
+  }
+
+  .ICS7 {
+    position: absolute;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    left: 550%;
+    top: 10%;
+    width: 80%;
+    height: 80%;
+    border-radius: 10px;
+    border-style: none;
+    display: flex;
+    line-height: 1 !important;
+    font: 600 18px 'baloo bhaina 2';
+  }
+
+  .ICS8 {
+    position: absolute;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    left: 640%;
+    top: 10%;
+    width: 80%;
+    height: 80%;
+    border-radius: 10px;
+    border-style: none;
+    display: flex;
+    line-height: 1 !important;
+    font: 600 18px 'baloo bhaina 2';
+  }
+
+  .ICS9 {
+    position: absolute;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    left: 730%;
+    top: 10%;
+    width: 80%;
+    height: 80%;
+    border-radius: 10px;
+    border-style: none;
+    display: flex;
+    line-height: 1 !important;
+    font: 600 18px 'baloo bhaina 2';
+  }
+}

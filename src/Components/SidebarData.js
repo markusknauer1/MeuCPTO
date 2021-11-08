@@ -1,0 +1,48 @@
+export const SidebarData =[
+{
+    title:'Home',
+    path:'/Home',
+    cName:'nav-text'
+},
+{
+    title:'Cadastro',
+    path:'/FormularioCadastro',
+    cName:'nav-text'
+},
+{
+    title:'Unidades',
+    path:'/Unidades',
+    cName:'nav-text'
+},
+{
+    title:'Pessoas',
+    path:'/Pessoas',
+    cName:'nav-text'
+},
+{
+    title:'Equipes',
+    path:'/Equipes',
+    cName:'nav-text'
+},
+{
+    title:'Gerências',
+    path:'/Gerencias',
+    cName:'nav-text'
+},
+{
+    title:'Atividades',
+    path:'/Atividades',
+    cName:'nav-text'
+},
+{
+    title:'Área',
+    path:'/Area',
+    cName:'nav-text'
+},
+{
+    title:'Observações',
+    path:'/Observacoes',
+    cName:'nav-text'
+}
+  
+]

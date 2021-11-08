@@ -21,19 +21,19 @@
   position: absolute;
   font-size: 0.35em;
   top: 5%;
-  left: 8.5%;
+  left: 8%;
 }
 .PASGroupAnalise {
   position: absolute;
   font-size: 0.35em;
   top: 5%;
-  left: 19%;
+  left: 22%;
 }
 .PASDescr {
   position: absolute;
   font-size: 0.35em;
   top: 5%;
-  left: 28%;
+  left: 33%;
 }
 
 .tblPASCod {
@@ -46,13 +46,13 @@
   padding-top: 1%;
   padding-bottom: 1%;
   padding-left: 4%;
-  width: 7rem;
+  width: 8rem;
 }
 .tblPASGroupAnalise {
   padding-top: 1%;
   padding-bottom: 1%;
-  padding-left: 1%;
-  width: 5rem;
+  text-align: center;
+  width: 10rem;
 }
 .tblPASDescr {
   padding-top: 1%;

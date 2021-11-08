@@ -4,6 +4,11 @@
   top: 5%;
   left: 8%;
 }
+.SubMTACOD {
+  background-color: transparent;
+  border: none;
+  margin-left: 2%;
+}
 .btnActive {
   font-size: clamp(1em, 1em + 1vw, 1em);
   position: absolute;

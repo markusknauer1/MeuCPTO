@@ -47,7 +47,9 @@ function SubMenuTextActive() {
                   </tr>
                 </thead>
                 <tbody>
-                  <td className="tblCodActive">001 - Ver ativadores</td>
+                  <td className="tblCodActive">
+                    001 -<button className="btnMTACOD"> Ver ativadores </button>
+                  </td>
                   <td className="tblActive">Sociais</td>
                   <td className="tblStatusActive">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -58,7 +60,10 @@ function SubMenuTextActive() {
                   </td>
                 </tbody>
                 <tbody>
-                  <td className="tblCodActive">001 - Ver ativadores</td>
+                  <td className="tblCodActive">
+                    001 - -{' '}
+                    <button className="SubMTACOD"> Ver ativadores</button>
+                  </td>
                   <td className="tblActive">Psicólogicos</td>
                   <td className="tblStatusActive">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -69,7 +74,9 @@ function SubMenuTextActive() {
                   </td>
                 </tbody>
                 <tbody>
-                  <td className="tblCodActive">001 - Ver ativadores</td>
+                  <td className="tblCodActive">
+                    001 - <button className="btnMTACOD"> Ver ativadores</button>{' '}
+                  </td>
                   <td className="tblActive">Fisiológicos</td>
                   <td className="tblStatusActive">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -80,7 +87,9 @@ function SubMenuTextActive() {
                   </td>
                 </tbody>
                 <tbody>
-                  <td className="tblCodActive">001 - Ver ativadores</td>
+                  <td className="tblCodActive">
+                    001 - <button className="btnMTACOD"> Ver ativadores</button>{' '}
+                  </td>
                   <td className="tblActive">Cognitivos</td>
                   <td className="tblStatusActive">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -91,7 +100,9 @@ function SubMenuTextActive() {
                   </td>
                 </tbody>
                 <tbody>
-                  <td className="tblCodActive">001 - Ver ativadores</td>
+                  <td className="tblCodActive">
+                    001 <button className="btnMTACOD"> Ver ativadores</button>{' '}
+                  </td>
                   <td className="tblActive">Pessoal</td>
                   <td className="tblStatusActive">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.

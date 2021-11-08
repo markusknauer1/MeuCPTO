@@ -24,6 +24,10 @@ import tipoQualidadeDeObservacao from './pages/SubMenuPages/pages-tiposDeobserva
 import TQOQuestoesReg from './pages/SubMenuPages/pages-tiposDeobservaçoes/Questões-tiposDeQuestões/TQOQuestoesReg'
 import SubMenuGruposUsuarios from './pages/SubMenuPages/SubMenuGruposUsuarios'
 import PermissoesDeacessoAoSistema from './pages/SubMenuPages/pages-GruposDeUsuario/PermissoesDeAcessoAoSistema'
+import AtivadoresSociais from './pages/SubMenuPages/pages-textosAtivadores/AtivadoresSociais'
+import AtivadoresPsicologicos from './pages/SubMenuPages/pages-textosAtivadores/AtivadoresPsicologicos'
+import AtivadoresPessoal from './pages/SubMenuPages/pages-textosAtivadores/AtivadoresPessoal'
+import AtivadoresCognitivos from './pages/SubMenuPages/pages-textosAtivadores/AtivadoresCognitivos'
 
 function Routes() {
   return (
@@ -75,6 +79,22 @@ function Routes() {
         <Route
           path="/PermissoesDeacessoAoSistema"
           component={PermissoesDeacessoAoSistema}
+        ></Route>
+
+        {/* ------------espaço para telas do page textos ativadores----------*/}
+        <Route path="/AtivadoresSociais" component={AtivadoresSociais}></Route>
+        <Route
+          path="/AtivadoresPsicologicos"
+          component={AtivadoresPsicologicos}
+        ></Route>
+        <Route path="/AtivadoresPessoal" component={AtivadoresPessoal}></Route>
+        <Route
+          path="/AtivadoresFisiológicos"
+          component={AtivadoresPsicologicos}
+        ></Route>
+        <Route
+          path="/AtivadoresCognitivos"
+          component={AtivadoresCognitivos}
         ></Route>
       </Switch>
     </BrowserRouter>

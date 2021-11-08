@@ -17,7 +17,7 @@ export default function Modal() {
   return (
     <>
       <button onClick={toggleModal} className="buttonModalPadrao">
-        Novo Ativador
+        Novo Grupo
       </button>
 
       {modal && (

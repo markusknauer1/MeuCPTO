@@ -103,11 +103,23 @@ th {
   padding-left: 4.5%;
   width: 10rem;
 }
+.btnSMPMetas {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
 .btnSubAtivo {
   padding-top: 1%;
   padding-bottom: 1%;
   padding-left: 7%;
   width: 10rem;
+  font-size: 2rem;
+}
+.btnSMPAtivo {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 1.5rem;
 }
 .action {
   display: flex;

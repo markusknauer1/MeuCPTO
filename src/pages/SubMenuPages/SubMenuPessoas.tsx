@@ -58,126 +58,210 @@ function SubMenuPessoas() {
                   <td className="btnSubOBS">João da silva</td>
                   <td className="btnSubMail">Alex@humanit-ti.com</td>
                   <td className="btnSubMetas">
-                    <i className="fas fa-bars"></i>
+                    <button className="btnSMPMetas">
+                      <i className="fas fa-bars"></i>
+                    </button>
                   </td>
-                  <td className="btnSubAtivo"></td>
+                  <td className="btnSubAtivo">
+                    <button className="btnSMPAtivo">
+                      <i className="fas fa-check-circle"></i>
+                    </button>
+                  </td>
                 </tbody>
                 <tbody>
                   <td className="btnSubCod">001</td>
                   <td className="btnSubOBS">João da silva</td>
                   <td className="btnSubMail">Alex@humanit-ti.com</td>
                   <td className="btnSubMetas">
-                    <i className="fas fa-bars"></i>
+                    <button className="btnSMPMetas">
+                      <i className="fas fa-bars"></i>
+                    </button>
                   </td>
-                  <td className="btnSubAtivo"></td>
+                  <td className="btnSubAtivo">
+                    <button className="btnSMPAtivo">
+                      <i className="fas fa-check-circle"></i>
+                    </button>
+                  </td>
                 </tbody>
                 <tbody>
                   <td className="btnSubCod">001</td>
                   <td className="btnSubOBS">João da silva</td>
                   <td className="btnSubMail">Alex@humanit-ti.com</td>
                   <td className="btnSubMetas">
-                    <i className="fas fa-bars"></i>
+                    <button className="btnSMPMetas">
+                      <i className="fas fa-bars"></i>
+                    </button>
                   </td>
-                  <td className="btnSubAtivo"></td>
+                  <td className="btnSubAtivo">
+                    <button className="btnSMPAtivo">
+                      <i className="fas fa-check-circle"></i>
+                    </button>
+                  </td>
                 </tbody>
                 <tbody>
                   <td className="btnSubCod">001</td>
                   <td className="btnSubOBS">João da silva</td>
                   <td className="btnSubMail">Alex@humanit-ti.com</td>
                   <td className="btnSubMetas">
-                    <i className="fas fa-bars"></i>
+                    <button className="btnSMPMetas">
+                      <i className="fas fa-bars"></i>
+                    </button>
                   </td>
-                  <td className="btnSubAtivo"></td>
+                  <td className="btnSubAtivo">
+                    <button className="btnSMPAtivo">
+                      <i className="fas fa-check-circle"></i>
+                    </button>
+                  </td>
                 </tbody>
                 <tbody>
                   <td className="btnSubCod">001</td>
                   <td className="btnSubOBS">João da silva</td>
                   <td className="btnSubMail">Alex@humanit-ti.com</td>
                   <td className="btnSubMetas">
-                    <i className="fas fa-bars"></i>
+                    <button className="btnSMPMetas">
+                      <i className="fas fa-bars"></i>
+                    </button>
                   </td>
-                  <td className="btnSubAtivo"></td>
+                  <td className="btnSubAtivo">
+                    <button className="btnSMPAtivo">
+                      <i className="fas fa-check-circle"></i>
+                    </button>
+                  </td>
                 </tbody>
                 <tbody>
                   <td className="btnSubCod">001</td>
                   <td className="btnSubOBS">João da silva</td>
                   <td className="btnSubMail">Alex@humanit-ti.com</td>
                   <td className="btnSubMetas">
-                    <i className="fas fa-bars"></i>
+                    <button className="btnSMPMetas">
+                      <i className="fas fa-bars"></i>
+                    </button>
                   </td>
-                  <td className="btnSubAtivo"></td>
+                  <td className="btnSubAtivo">
+                    <button className="btnSMPAtivo">
+                      <i className="fas fa-check-circle"></i>
+                    </button>
+                  </td>
                 </tbody>
                 <tbody>
                   <td className="btnSubCod">001</td>
                   <td className="btnSubOBS">João da silva</td>
                   <td className="btnSubMail">Alex@humanit-ti.com</td>
                   <td className="btnSubMetas">
-                    <i className="fas fa-bars"></i>
+                    <button className="btnSMPMetas">
+                      <i className="fas fa-bars"></i>
+                    </button>
                   </td>
-                  <td className="btnSubAtivo"></td>
+                  <td className="btnSubAtivo">
+                    <button className="btnSMPAtivo">
+                      <i className="fas fa-check-circle"></i>
+                    </button>
+                  </td>
                 </tbody>
                 <tbody>
                   <td className="btnSubCod">001</td>
                   <td className="btnSubOBS">João da silva</td>
                   <td className="btnSubMail">Alex@humanit-ti.com</td>
                   <td className="btnSubMetas">
-                    <i className="fas fa-bars"></i>
+                    <button className="btnSMPMetas">
+                      <i className="fas fa-bars"></i>
+                    </button>
                   </td>
-                  <td className="btnSubAtivo"></td>
+                  <td className="btnSubAtivo">
+                    <button className="btnSMPAtivo">
+                      <i className="fas fa-check-circle"></i>
+                    </button>
+                  </td>
                 </tbody>
                 <tbody>
                   <td className="btnSubCod">001</td>
                   <td className="btnSubOBS">João da silva</td>
                   <td className="btnSubMail">Alex@humanit-ti.com</td>
                   <td className="btnSubMetas">
-                    <i className="fas fa-bars"></i>
+                    <button className="btnSMPMetas">
+                      <i className="fas fa-bars"></i>
+                    </button>
                   </td>
-                  <td className="btnSubAtivo"></td>
+                  <td className="btnSubAtivo">
+                    <button className="btnSMPAtivo">
+                      <i className="fas fa-check-circle"></i>
+                    </button>
+                  </td>
                 </tbody>
                 <tbody>
                   <td className="btnSubCod">001</td>
                   <td className="btnSubOBS">João da silva</td>
                   <td className="btnSubMail">Alex@humanit-ti.com</td>
                   <td className="btnSubMetas">
-                    <i className="fas fa-bars"></i>
+                    <button className="btnSMPMetas">
+                      <i className="fas fa-bars"></i>
+                    </button>
                   </td>
-                  <td className="btnSubAtivo"></td>
+                  <td className="btnSubAtivo">
+                    <button className="btnSMPAtivo">
+                      <i className="fas fa-check-circle"></i>
+                    </button>
+                  </td>
                 </tbody>
                 <tbody>
                   <td className="btnSubCod">001</td>
                   <td className="btnSubOBS">João da silva</td>
                   <td className="btnSubMail">Alex@humanit-ti.com</td>
                   <td className="btnSubMetas">
-                    <i className="fas fa-bars"></i>
+                    <button className="btnSMPMetas">
+                      <i className="fas fa-bars"></i>
+                    </button>
                   </td>
-                  <td className="btnSubAtivo"></td>
+                  <td className="btnSubAtivo">
+                    <button className="btnSMPAtivo">
+                      <i className="fas fa-check-circle"></i>
+                    </button>
+                  </td>
                 </tbody>
                 <tbody>
                   <td className="btnSubCod">001</td>
                   <td className="btnSubOBS">João da silva</td>
                   <td className="btnSubMail">Alex@humanit-ti.com</td>
                   <td className="btnSubMetas">
-                    <i className="fas fa-bars"></i>
+                    <button className="btnSMPMetas">
+                      <i className="fas fa-bars"></i>
+                    </button>
                   </td>
-                  <td className="btnSubAtivo"></td>
+                  <td className="btnSubAtivo">
+                    <button className="btnSMPAtivo">
+                      <i className="fas fa-check-circle"></i>
+                    </button>
+                  </td>
                 </tbody>
                 <tbody>
                   <td className="btnSubCod">001</td>
                   <td className="btnSubOBS">João da silva</td>
                   <td className="btnSubMail">Alex@humanit-ti.com</td>
                   <td className="btnSubMetas">
-                    <i className="fas fa-bars"></i>
+                    <button className="btnSMPMetas">
+                      <i className="fas fa-bars"></i>
+                    </button>
                   </td>
-                  <td className="btnSubAtivo"></td>
+                  <td className="btnSubAtivo">
+                    <button className="btnSMPAtivo">
+                      <i className="fas fa-check-circle"></i>
+                    </button>
+                  </td>
                 </tbody>
                 <tbody>
                   <td className="btnSubCod">001</td>
                   <td className="btnSubOBS">João da silva</td>
                   <td className="btnSubMail">Alex@humanit-ti.com</td>
                   <td className="btnSubMetas">
-                    <i className="fas fa-bars"></i>
+                    <button className="btnSMPMetas">
+                      <i className="fas fa-bars"></i>
+                    </button>
                   </td>
-                  <td className="btnSubAtivo"></td>
+                  <td className="btnSubAtivo">
+                    <button className="btnSMPAtivo">
+                      <i className="fas fa-check-circle"></i>
+                    </button>
+                  </td>
                 </tbody>
               </table>
             </div>

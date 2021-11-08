@@ -48,7 +48,7 @@ function SubMenuTextActive() {
                 </thead>
                 <tbody>
                   <td className="tblCodActive">
-                    001 -<button className="btnMTACOD"> Ver ativadores </button>
+                    001 <button className="SubMTACod"> Ver ativadores</button>
                   </td>
                   <td className="tblActive">Sociais</td>
                   <td className="tblStatusActive">
@@ -61,8 +61,7 @@ function SubMenuTextActive() {
                 </tbody>
                 <tbody>
                   <td className="tblCodActive">
-                    001 - -{' '}
-                    <button className="SubMTACOD"> Ver ativadores</button>
+                    001 <button className="SubMTACod"> Ver ativadores</button>
                   </td>
                   <td className="tblActive">Psicólogicos</td>
                   <td className="tblStatusActive">
@@ -75,7 +74,7 @@ function SubMenuTextActive() {
                 </tbody>
                 <tbody>
                   <td className="tblCodActive">
-                    001 - <button className="btnMTACOD"> Ver ativadores</button>{' '}
+                    001 <button className="SubMTACod"> Ver ativadores</button>
                   </td>
                   <td className="tblActive">Fisiológicos</td>
                   <td className="tblStatusActive">
@@ -88,7 +87,7 @@ function SubMenuTextActive() {
                 </tbody>
                 <tbody>
                   <td className="tblCodActive">
-                    001 - <button className="btnMTACOD"> Ver ativadores</button>{' '}
+                    001 <button className="SubMTACod"> Ver ativadores</button>
                   </td>
                   <td className="tblActive">Cognitivos</td>
                   <td className="tblStatusActive">
@@ -101,7 +100,7 @@ function SubMenuTextActive() {
                 </tbody>
                 <tbody>
                   <td className="tblCodActive">
-                    001 <button className="btnMTACOD"> Ver ativadores</button>{' '}
+                    001 <button className="SubMTACod"> Ver ativadores</button>
                   </td>
                   <td className="tblActive">Pessoal</td>
                   <td className="tblStatusActive">

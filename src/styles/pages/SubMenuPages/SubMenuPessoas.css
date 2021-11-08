@@ -55,7 +55,7 @@ th {
 .tblSubCod {
   position: absolute;
   top: 5%;
-  left: 3%;
+  left: 2%;
 }
 .tblSubPessoacod {
   position: absolute;
@@ -65,17 +65,17 @@ th {
 .tblSubMail {
   position: absolute;
   top: 5%;
-  left: 44%;
+  left: 46%;
 }
 .tblSubMetas {
   position: absolute;
   top: 5%;
-  left: 78%;
+  left: 80%;
 }
 .tblSubAtivo {
   position: absolute;
   top: 5%;
-  left: 91%;
+  left: 92%;
 }
 
 /*-------------Conteudo da tabela-----------------*/

@@ -36,12 +36,14 @@
 }
 .logoQ1 {
   background-image: url(../../Images/background.svg);
-  height: 100vh;
-  width: 100%;
+
+  width: clamp(1em, 1em + 120vw, 220em);
+  height: clamp(1em, 1em + 120vw, 220em);
+  border-radius: 50px;
   position: absolute;
   float: left;
   background-size: 60%;
-  background-position: -72% 55%;
+  background-position: -74% -70%;
   background-repeat: no-repeat;
   z-index: -99;
 }
@@ -211,12 +213,14 @@
   }
   .logoQ2 {
     background-image: url(../../Images/background.svg);
-    height: 100vh;
-    width: 100%;
-    border-left-style: 20%;
+
+    width: clamp(1em, 1em + 150vw, 220em);
+    height: clamp(1em, 1em + 150vw, 220em);
+    border-radius: 50px;
     position: absolute;
-    background-size: 99%;
-    background-position: 3500% -85%;
+    float: left;
+    background-size: 60%;
+    background-position: 65% -115%;
     background-repeat: no-repeat;
     z-index: -99;
   }
@@ -232,11 +236,11 @@
     background-color: transparent;
   }
   .buttonHome {
-    position: fixed;
+    position: absolute;
     justify-content: center;
     align-items: center;
     left: 0%;
-    top: 73%;
+    top: 2%;
     border-radius: 50px;
     border: none;
     background-color: transparent;
@@ -246,11 +250,11 @@
       brightness(80%) contrast(119%);
   }
   .buttonCadastro {
-    position: fixed;
+    position: absolute;
     justify-content: center;
     align-items: center;
     left: 20%;
-    top: 73.3%;
+    top: 3%;
     border-radius: 50px;
     height: 18vmin;
     cursor: pointer;
@@ -258,11 +262,11 @@
       brightness(80%) contrast(119%);
   }
   .buttonShare {
-    position: fixed;
+    position: absolute;
     justify-content: center;
     align-items: center;
     left: 60%;
-    top: 73.5%;
+    top: 4%;
     border-radius: 50px;
     height: 18vmin;
     cursor: pointer;
@@ -270,11 +274,11 @@
       brightness(80%) contrast(119%);
   }
   .buttonLogout {
-    position: fixed;
+    position: absolute;
     justify-content: center;
     align-items: center;
     left: 80%;
-    top: 73%;
+    top: 3%;
     border-radius: 50px;
     height: 18vmin;
     cursor: pointer;

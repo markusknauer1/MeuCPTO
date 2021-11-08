@@ -1,34 +1,104 @@
+/*------------Cabeçalho da tabela Empresa------------*/
 .tblSubEmpresaCod {
   position: absolute;
   top: 5%;
   left: 3%;
 }
-.tblSubEmpresaPessoacod {
+.tblSubEmpresaEmpresa {
   position: absolute;
   top: 5%;
-  left: 14%;
+  left: 15%;
 }
 .tblSubEmpresaAtivo {
   position: absolute;
   top: 5%;
-  left: 91%;
+  left: 90%;
 }
-
+/*------------Conteudo da tabela Empresa------------*/
 .btnSubEmpresaCod {
   padding-top: 1%;
   padding-bottom: 1%;
-  padding-left: 3%;
+  text-align: center;
   width: 10rem;
 }
 .btnSubEmpresaOBS {
   padding-top: 1%;
   padding-bottom: 1%;
-  padding-left: 1%;
+  padding-left: 2%;
   width: 60rem;
 }
 .btnSubEmpresaAtivo {
   padding-top: 1%;
   padding-bottom: 1%;
-  padding-left: 7%;
+  text-align: center;
+  color: #11806a;
+  font-size: 1.5em;
   width: 10rem;
+}
+/*------------Modal da tabela Empresa------------*/
+.fNomeFantasiaEmpresa {
+  position: relative;
+  top: 18%;
+  left: 5%;
+  padding-left: 2%;
+  width: 60%;
+}
+.fRazãoSocialEmpresa {
+  position: relative;
+  top: 20%;
+  left: 5%;
+  padding-left: 2%;
+  width: 60%;
+}
+.fSelectTipEmpresa {
+  position: relative;
+  top: 22%;
+  left: 5%;
+  padding-left: 2%;
+  width: 60%;
+}
+.fCNPJEmpresa {
+  position: relative;
+  top: 24%;
+  left: 5%;
+  padding-left: 2%;
+  width: 60%;
+}
+.fInscEst {
+  position: relative;
+  top: 26%;
+  left: 5%;
+  padding-left: 2%;
+  width: 60%;
+}
+.fObsEmpresa {
+  position: relative;
+  top: 28%;
+  left: 5%;
+  padding-left: 2%;
+  width: 90%;
+  height: 25%;
+}
+.form-group {
+  text-align: center;
+  position: absolute;
+  top: 20%;
+  left: 60%;
+  width: 40%;
+  font-size: 1em;
+  height: 25%;
+}
+.btn-AlterarInfo {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.imgProfileEmpresa {
+  position: absolute;
+  width: clamp(1em, 1em + 6vw, 12em);
+  height: clamp(1em, 1em + 6vw, 12em);
+  border-radius: 50px;
+}
+.form-control-file {
+  font-size: 1.1rem;
 }

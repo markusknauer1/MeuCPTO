@@ -243,6 +243,7 @@ span {
     left: 42%;
     top: 81%;
     border-radius: 50px;
+    z-index: 99;
   }
 
   /* botao open */

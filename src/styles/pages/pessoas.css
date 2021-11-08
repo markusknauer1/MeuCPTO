@@ -371,32 +371,37 @@ th:first-child div {
     color: #ffffff;
     text-align: center;
     border-radius: 0;
-    font-size: clamp(0.1em, 0.1em + 2.5vw, 3em);
   }
 
-  .tblcod {
+  .tblPessoacod {
     top: 2%;
+
+    font-size: clamp(0.1em, 1em + 10vw, 10em);
     position: absolute;
-    left: 5%;
+    left: 3%;
   }
-  .tblobservador {
+  .tblPessoaObservador {
     top: 2%;
+    font-size: clamp(0.1em, 1em + 10vw, 10em);
     position: absolute;
-    left: 15%;
+    left: 12%;
   }
-  .tbtlogin {
+  .tbtPessoalogin {
     top: 2%;
+    font-size: clamp(0.1em, 1em + 10vw, 10em);
     position: absolute;
-    left: 50%;
+    left: 36%;
   }
-  .tblfuncao {
+  .tblPessoaFuncao {
     top: 2%;
+    font-size: clamp(0.1em, 1em + 10vw, 10em);
     position: absolute;
-    left: 76%;
+    left: 68%;
   }
 
-  .tblmetas {
+  .tblPessoaMetas {
     top: 2%;
+    font-size: clamp(0.1em, 1em + 10vw, 10em);
     position: absolute;
     left: 90%;
   }

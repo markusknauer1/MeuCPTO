@@ -33,23 +33,18 @@ function Pessoas() {
                 <thead>
                   <tr className="header">
                     <th className="tblPessoacod">
-                      CÓD
                       <div>CÓD</div>
                     </th>
                     <th className="tblPessoaObservador">
-                      Observador
                       <div>Observador</div>
                     </th>
                     <th className="tbtPessoalogin">
-                      E-Mail/login
                       <div>E-Mail/login</div>
                     </th>
                     <th className="tblPessoaFuncao">
-                      Função
                       <div>Função</div>
                     </th>
                     <th className="tblPessoaMetas">
-                      Metas
                       <div>Metas</div>
                     </th>
                   </tr>

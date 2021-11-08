@@ -28,7 +28,7 @@ function SidebarGerencia() {
               <li className="navbar-toggle">
                 <div className="close-background"></div>
                 <aside className="MobileProfileDireita">
-                  <Link to="#">
+                  <Link to="/SubMenuEmpresas">
                     <button className="Mobwork">EMPRESAS</button>
                   </Link>
                   <Link to="/SubMenuTipoDeObservacao">

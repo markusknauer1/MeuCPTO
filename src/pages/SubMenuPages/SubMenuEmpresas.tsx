@@ -1,9 +1,10 @@
 import ProfileDireita from '../../Components/ProfileDireita'
 import SideBar from '../../Components/SideBar'
 import SideBarDireita from '../../Components/SideBar-right/SideBarDireita'
-import Modal from '../MenuDIreito/MenuDireito-Modal/ModalCadPessoa'
+import Modal from '../SubMenuPages/Modal-SubMenuEmpresas/AlterarRegistroEmpresas'
 import '../../styles/pages/SubMenuPages/SubMenuEmpresas.css'
 import SidebarGerencia from '../../Components/SideBar-right/SidebarGerencia'
+import AlterarRegistroEmpresas from '../SubMenuPages/Modal-SubMenuEmpresas/AlterarRegistroEmpresas'
 
 function SubMenuEmpresas() {
   return (
@@ -32,24 +33,23 @@ function SubMenuEmpresas() {
                 <thead>
                   <tr className="header">
                     <th className="tblSubEmpresaCod">
-                      CÓD
-                      <div>CÓD</div>
+                      <div>Código</div>
                     </th>
-                    <th className="tblSubEmpresaPessoacod">
-                      Pessoa
-                      <div>Pessoa</div>
+                    <th className="tblSubEmpresaEmpresa">
+                      <div>Empresa</div>
                     </th>
                     <th className="tblSubEmpresaAtivo">
-                      Ativo
-                      <div>Ativo</div>
+                      <div>Status</div>
                     </th>
                   </tr>
                 </thead>
 
                 <tbody>
-                  <td className="btnSubEmpresaCod">001</td>
-                  <td className="btnSubEmpresaOBS">João da silva</td>
-                  <td className="btnSubEmpresaAtivo"></td>
+                  <td className="btnSubEmpresaCod">01</td>
+                  <td className="btnSubEmpresaOBS">Humanit-TI</td>
+                  <td className="btnSubEmpresaAtivo">
+                    <i className="fas fa-check-circle"></i>
+                  </td>
                 </tbody>
               </table>
             </div>

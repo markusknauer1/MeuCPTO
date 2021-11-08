@@ -225,7 +225,7 @@ span {
   .menuComp{
     display: none;
   } */
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 780px) {
   /* .menuComp{
       position: absolute;
       display:flex;
@@ -241,7 +241,8 @@ span {
     background-color: transparent;
     position: fixed;
     left: 42%;
-    top: 81%;
+    top: 80.5%;
+    font-size: clamp(1em, 1em + 11vw, 11em);
     border-radius: 50px;
     z-index: 99;
   }

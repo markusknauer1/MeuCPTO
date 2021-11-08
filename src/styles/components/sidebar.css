@@ -177,7 +177,7 @@
   transition: 0.3s;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 780px) {
   .HomePage {
     height: 100%;
     width: 100%;

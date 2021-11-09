@@ -18,22 +18,27 @@
 
 .ObsCod {
   position: absolute;
+  font-size: 0.5rem !important;
   top: 5%;
   left: 3%;
 }
 .ObsObservador {
   position: absolute;
+
+  font-size: 0.5rem !important;
   top: 5%;
-  left: 9.5%;
+  left: 9%;
 }
 .ObsDescFun {
   position: absolute;
+  font-size: 0.5rem !important;
   top: 5%;
   text-align: center;
   left: 23%;
 }
 .ObsStatus {
   position: absolute;
+  font-size: 0.5rem !important;
   top: 5%;
   text-align: center;
   left: 90%;

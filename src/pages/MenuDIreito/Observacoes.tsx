@@ -41,7 +41,7 @@ function Observacoes() {
                       <div>CÓD</div>
                     </th>
                     <th className="ObsObservador">
-                      <div>Observador</div>
+                      <div>Observação</div>
                     </th>
                     <th className="ObsDescFun">
                       <div>Descrição da função</div>

@@ -68,6 +68,66 @@ function Gerencias() {
                     </button>
                   </td>
                 </tbody>
+                <tbody>
+                  <td className="tblGerCod">001</td>
+                  <td className="tblGerDesc">Descrição</td>
+                  <td className="tblGerUni">Klabim</td>
+                  <td className="tblGerStatus">
+                    <button className="action">
+                      <i className="fas fa-bars"></i>
+                    </button>
+                  </td>
+                </tbody>
+                <tbody>
+                  <td className="tblGerCod">001</td>
+                  <td className="tblGerDesc">Descrição</td>
+                  <td className="tblGerUni">Klabim</td>
+                  <td className="tblGerStatus">
+                    <button className="action">
+                      <i className="fas fa-bars"></i>
+                    </button>
+                  </td>
+                </tbody>
+                <tbody>
+                  <td className="tblGerCod">001</td>
+                  <td className="tblGerDesc">Descrição</td>
+                  <td className="tblGerUni">Klabim</td>
+                  <td className="tblGerStatus">
+                    <button className="action">
+                      <i className="fas fa-bars"></i>
+                    </button>
+                  </td>
+                </tbody>
+                <tbody>
+                  <td className="tblGerCod">001</td>
+                  <td className="tblGerDesc">Descrição</td>
+                  <td className="tblGerUni">Klabim</td>
+                  <td className="tblGerStatus">
+                    <button className="action">
+                      <i className="fas fa-bars"></i>
+                    </button>
+                  </td>
+                </tbody>
+                <tbody>
+                  <td className="tblGerCod">001</td>
+                  <td className="tblGerDesc">Descrição</td>
+                  <td className="tblGerUni">Klabim</td>
+                  <td className="tblGerStatus">
+                    <button className="action">
+                      <i className="fas fa-bars"></i>
+                    </button>
+                  </td>
+                </tbody>
+                <tbody>
+                  <td className="tblGerCod">001</td>
+                  <td className="tblGerDesc">Descrição</td>
+                  <td className="tblGerUni">Klabim</td>
+                  <td className="tblGerStatus">
+                    <button className="action">
+                      <i className="fas fa-bars"></i>
+                    </button>
+                  </td>
+                </tbody>
               </table>
             </div>
           </section>

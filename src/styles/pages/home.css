@@ -1,21 +1,19 @@
 .MetaMes1 {
   position: absolute;
-  top: 20%;
+  top: 18%;
   left: 10%;
-  font-family: 'Baloo Bhaina 2', cursive;
-
-  width: 100%;
-  font-size: clamp(0.01em, 0.01em + 1.6vw, 1.6em);
+  font-family: 'baloo bhaina 2';
   font-weight: 400;
+  font-size: clamp(0.1em, 0.1em + 1.2vw, 2em);
   color: #adadad;
 }
 .MetaMes2 {
   position: absolute;
-  top: 23%;
+  top: 22%;
   left: 10%;
-  font-family: 'Baloo Bhaina 2', cursive;
-  width: 100%;
-  font-size: clamp(0.01em, 0.01em + 3vw, 3em);
+  font-family: 'baloo bhaina 2';
+  font-weight: 400;
+  font-size: clamp(0.1em, 0.1em + 3vw, 3em);
   font-weight: 800;
   border-style: none;
   background: transparent;

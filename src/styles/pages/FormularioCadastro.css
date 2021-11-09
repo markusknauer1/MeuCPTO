@@ -11,33 +11,38 @@
 
 .subtcad1 {
   position: absolute;
+  display: block;
   top: 18%;
   left: 10%;
-  display: block;
-  font-size: clamp(0.1em, 0.1em + 1vw, 3em);
-  font-weight: 500;
+  font-family: 'baloo bhaina 2';
+  font-weight: 400;
+  font-size: clamp(0.1em, 0.1em + 1.2vw, 2em);
   color: #adadad;
 }
 .subtcad2 {
   position: absolute;
-  top: 23.5%;
+  top: 22%;
   left: 10%;
-  font-weight: 700;
-  display: block;
-  font-size: clamp(0.1em, 0.1em + 2.3vw, 3em);
   font-family: 'baloo bhaina 2';
-  color: #1c396b;
+  font-weight: 400;
+  font-size: clamp(0.1em, 0.1em + 3vw, 3em);
+  font-weight: 800;
+  border-style: none;
+  background: transparent;
+  color: #172d52;
+  z-index: 2;
 }
 .subtcad3 {
   position: absolute;
-  top: 30%;
+  top: 28%;
   left: 10%;
-  font-weight: 200;
-  display: block;
-  font-size: clamp(0.1em, 0.1em + 2vw, 3em);
   font-family: 'baloo bhaina 2';
-  color: #1c396b;
-  letter-spacing: -1px;
+  font-weight: 200;
+  font-size: clamp(0.1em, 0.1em + 3vw, 3em);
+  border-style: none;
+  background: transparent;
+  color: #172d52;
+  z-index: 2;
 }
 .tabelaPadraoCad {
   overflow: auto;

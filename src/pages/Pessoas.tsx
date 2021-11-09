@@ -2,6 +2,7 @@ import ProfileDireita from '../Components/ProfileDireita'
 import SideBar from '../Components/SideBar'
 import SideBarDireita from '../Components/SideBar-right/SideBarDireita'
 import SidebarMobile from '../Components/SideBar-right/SidebarMobile'
+
 import '../styles/pages/pessoas.css'
 import Modal from './MenuDIreito/MenuDireito-Modal/ModalCadPessoa'
 

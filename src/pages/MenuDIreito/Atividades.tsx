@@ -5,6 +5,8 @@ import SideBarDireita from '../../Components/SideBar-right/SideBarDireita'
 import '../../styles/pages/menuDireitoCss/atividades.css'
 import ModalCadAtividade from './MenuDireito-Modal/ModalCadAtividade'
 
+import SidebarMobile from '../../Components/SideBar-right/SidebarMobile'
+
 function Atividades() {
   return (
     <div className="HomePage">
@@ -207,6 +209,7 @@ function Atividades() {
       <ProfileDireita />
       <div className="buttonProfileDireita">
         <SideBarDireita />
+        <SidebarMobile />
       </div>
     </div>
   )

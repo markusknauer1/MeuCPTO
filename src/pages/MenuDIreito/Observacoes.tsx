@@ -6,6 +6,8 @@ import '../../styles/pages/menuDireitoCss/observacoes.css'
 import ModalCadObservacoes from './MenuDireito-Modal/ModalCadObservacoes'
 import ModalAltObservacoes from './MenuDireito-Modal/ModalAlterarInfo/ModalAltObservacoes'
 
+import SidebarMobile from '../../Components/SideBar-right/SidebarMobile'
+
 function Observacoes() {
   return (
     <div className="HomePage">
@@ -201,24 +203,10 @@ function Observacoes() {
       <ProfileDireita />
       <div className="buttonProfileDireita">
         <SideBarDireita />
+        <SidebarMobile />
       </div>
     </div>
   )
 }
 
 export default Observacoes
-
-// <table>
-//             <td className="cod">CÓD</td>
-//             <td className="Obs">Obs.</td>
-//             <td className="DescFun">Descrição da função</td>
-//             <td className="status">Status</td>
-//           </tr>
-
-//           <tr>
-//             <td className="btnCod">001</td>
-//             <td className="btnObs"><i className="fas fa-bars"></i></td>
-//             <td className="BtnDescFun">Nome do Funcionário
-//             </td>
-//             <td className="btnStatus"><i className="far fa-check-circle"></i></td>
-//           </tr>

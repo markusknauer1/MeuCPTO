@@ -5,6 +5,8 @@ import SideBarDireita from '../../Components/SideBar-right/SideBarDireita'
 import '../../styles/pages/menuDireitoCss/area.css'
 import Modal from './MenuDireito-Modal/ModalCadArea'
 
+import SidebarMobile from '../../Components/SideBar-right/SidebarMobile'
+
 function Area() {
   return (
     <div className="HomePage">
@@ -235,6 +237,7 @@ function Area() {
       <ProfileDireita />
       <div className="buttonProfileDireita">
         <SideBarDireita />
+        <SidebarMobile />
       </div>
     </div>
   )

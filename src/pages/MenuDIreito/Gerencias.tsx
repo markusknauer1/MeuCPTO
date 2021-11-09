@@ -4,6 +4,7 @@ import SideBar from '../../Components/SideBar'
 import SideBarDireita from '../../Components/SideBar-right/SideBarDireita'
 import '../../styles/pages/menuDireitoCss/gerencias.css'
 import ModalCadGerencia from './MenuDireito-Modal/ModalCadGerencia'
+import SidebarMobile from '../../Components/SideBar-right/SidebarMobile'
 
 function Gerencias() {
   return (
@@ -198,26 +199,10 @@ function Gerencias() {
       <ProfileDireita />
       <div className="buttonProfileDireita">
         <SideBarDireita />
+        <SidebarMobile />
       </div>
     </div>
   )
 }
 
 export default Gerencias
-
-// <table>
-//           <tr className="gerenciaRef1">
-//             <td className="tblCod">CÓD</td>
-//             <td className="tblDescGeren">Descrição / Gerência</td>
-//             <td className="tblUnidGer">Unidade</td>
-//             <td className="tblStatusGerencia">Status</td>
-//           </tr>
-//           </table>
-
-//           <table className="gerenciaRef2">
-//           <tr>
-//           <td className="btnCod">001</td>
-//             <td className="btnDescGeren">Equipe</td>
-//             <td className="btnUnidGer">Gerência</td>
-//             <td className="btnStatusGerencia"><i className="far fa-check-circle"></i></td>
-//           </tr>

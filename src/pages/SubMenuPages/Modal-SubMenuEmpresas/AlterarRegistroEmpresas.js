@@ -9,12 +9,6 @@ export default function Modal() {
     e.preventdefault()
     const formData = new FormData()
     formData.append('image', image)
-
-    const headers = {
-      headers: {
-        'content-type': 'application/json'
-      }
-    }
   }
 
   const [modal, setModal] = useState(false)

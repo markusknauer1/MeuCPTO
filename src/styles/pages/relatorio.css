@@ -271,6 +271,22 @@
   position: absolute;
   display: flex;
 }
+.selectAnalise1 {
+  color: #1c396b;
+  top: -4%;
+  font-size: clamp(0.1em, 0.1em + 2vw, 3em);
+  font-family: 'baloo bhaina 2';
+  position: absolute;
+  display: flex;
+}
+.selectAnalise2 {
+  color: #1c396b;
+  top: 5%;
+  font-size: clamp(0.1em, 0.1em + 1vw, 1.5em);
+  font-family: 'baloo bhaina 2';
+  position: absolute;
+  display: flex;
+}
 .SelectCliente {
   position: absolute;
   top: 10%;

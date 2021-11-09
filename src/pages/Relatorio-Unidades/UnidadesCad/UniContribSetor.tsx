@@ -1,4 +1,4 @@
-import { Link, useHistory } from 'react-router-dom'
+import { useHistory } from 'react-router-dom'
 import ProfileDireita from '../../../Components/ProfileDireita'
 import SideBar from '../../../Components/SideBar'
 import '../../../styles/pages/ModalObservaçoes/UniClienteExe.css'

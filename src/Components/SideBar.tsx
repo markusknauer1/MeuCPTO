@@ -5,13 +5,11 @@ import pessoas from '../Images/Pessoas.svg'
 import graph from '../Images/Graph.svg'
 import Logout from '../Images/Logout.svg'
 
-import { useHistory } from 'react-router-dom'
 import { Link } from 'react-router-dom'
 
 import logoQMobile from '../Images/logoMeuCptoHorizBranco@2x.png'
 
 function SideBar() {
-  const { goBack } = useHistory()
   return (
     <div>
       <div className="logoQ1" />

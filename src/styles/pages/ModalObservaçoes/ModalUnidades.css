@@ -10,7 +10,6 @@ body.active-ModalObsUnidades {
   position: absolute;
   align-items: center;
   text-align: center;
-  padding-top: 0.5%;
   justify-content: center;
   font-size: clamp(0.01em, 0.01em + 1.5vw, 1.8em);
   width: clamp(0.01em, 0.01em + 10vw, 15em);

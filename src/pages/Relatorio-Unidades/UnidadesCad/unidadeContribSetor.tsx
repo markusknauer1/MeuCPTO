@@ -24,7 +24,7 @@ function unidadeContribSetor() {
       <div className="page">
         <div className="filter1">
           <h4 className="subtRel1"> RELATÓRIO / UNIDADES</h4>
-          <h2 className="subtRel2">Humani-TI</h2>
+          <h2 className="subtRel2">Humanit-TI</h2>
           <img className="logoK" src={logoHumaniTI} alt="" />
           <label className="subtRel3">Observações realizadas: 0</label>
         </div>

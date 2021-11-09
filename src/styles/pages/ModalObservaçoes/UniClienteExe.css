@@ -725,21 +725,23 @@
   top: -5%;
 }
 .lgAcima {
-  position: absolute;
-  display: flex;
+  background-image: linear-gradient(100deg, #11806a, #258f7a, #3ca38f);
   left: 30%;
   top: 0;
-  padding-top: 1%;
-  background-image: linear-gradient(100deg, #11806a, #258f7a, #3ca38f);
+  position: absolute;
+  display: flex;
+  padding-top: 2%;
   font-size: clamp(1em, 0.1em + 0.7vw, 1.5em);
   font-weight: 600;
   color: white;
   width: 30%;
+  height: 40%;
   gap: 0.6rem;
   border: none;
   border-radius: 10px;
 }
 .okImg {
+  margin-top: -3px;
   margin-left: 5%;
   width: 15%;
 }
@@ -748,37 +750,41 @@
   display: flex;
   left: 62%;
   top: 0;
-  padding-top: 1%;
+  padding-top: 2%;
   background-color: #3269c7;
   gap: 1.5rem;
   font-size: clamp(1em, 0.1em + 0.7vw, 1.5em);
   font-weight: 600;
   color: white;
   width: 30%;
+  height: 40%;
   border: none;
   border-radius: 10px;
+  gap: 0.6rem;
 }
 .GraphImg {
   margin-left: 5%;
-  margin-top: -3%;
-  width: 20%;
+  margin-top: -8%;
+  width: 25%;
 }
 .lgAbaixo {
-  position: absolute;
-  display: flex;
+  background-color: #ec3565;
   left: 94%;
   top: 0;
-  padding-top: 1%;
-  background-color: #ec3565;
+  position: absolute;
+  display: flex;
+  padding-top: 2%;
   font-size: clamp(1em, 0.1em + 0.7vw, 1.5em);
   font-weight: 600;
   color: white;
   width: 30%;
+  height: 40%;
   gap: 0.6rem;
   border: none;
   border-radius: 10px;
 }
 .wrongImg {
+  margin-top: -3px;
   margin-left: 5%;
   width: 15%;
 }

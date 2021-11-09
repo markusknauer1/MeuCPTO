@@ -9,11 +9,11 @@ import SidebarMobile from './SideBar-right/SidebarMobile'
 function ProfileDireita() {
   return (
     <div className="Profile-direita">
-      <div className="greetings1">
-        <h6>Seja muito Bem-vindo,</h6>
+      <div>
+        <h6 className="titleProfile1">Seja Muito Bem-vindo,</h6>
       </div>
       <div>
-        <h6 className="greetings2">João da Silva</h6>
+        <h6 className="titleProfile2">João da Silva</h6>
       </div>
 
       <div className="cxProfile">

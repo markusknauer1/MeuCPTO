@@ -2,7 +2,6 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: 'baloo bhaina 2', sans-serif;
 }
 html {
   /* a cada 1rem será considerada 10px */
@@ -11,12 +10,6 @@ html {
 .body {
   color: white;
   background-color: #ebfef5;
-}
-body,
-input,
-button,
-textarea {
-  font: 800 1.6rem;
 }
 
 .login {

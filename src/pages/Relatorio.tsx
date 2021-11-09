@@ -22,7 +22,7 @@ function Relatorio() {
           <h3 className="subtRel3">Índice de Comportamento Seguro</h3>
         </div>
 
-        <div className="tabelaPadrao2">
+        <div className="row tabelaPadrao2">
           <Link to="/UniClienteExe">
             <button className="ICS1">
               <img className="statusRel" src={okImg} alt="okImg" />
@@ -160,11 +160,11 @@ function Relatorio() {
             <button className="ICS8">
               <img className="statusRel" src={okImg} alt="okImg" />
               <label className="FuncaoResultado">00,00%</label>
-              <button className="FuncaoMeta">
+              <label className="FuncaoMeta">
                 Meta:
                 <br />
                 0.00%
-              </button>
+              </label>
               <hr className="hrICS" />
               <label className="FuncaoReal">
                 Real:

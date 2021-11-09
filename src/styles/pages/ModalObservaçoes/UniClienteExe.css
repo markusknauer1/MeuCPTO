@@ -319,12 +319,13 @@
 }
 .UniClienteICS {
   background-image: linear-gradient(100deg, #11806a, #258f7a, #3ca38f);
+  color: #fff;
   position: absolute;
   align-items: center;
   text-align: center;
   justify-content: center;
   top: 0;
-  left: 0;
+  left: 0%;
   width: 28%;
   height: 45%;
   justify-content: center;
@@ -333,10 +334,11 @@
   border-style: none;
   display: flex;
   line-height: 1 !important;
-  font: bold 18px 'baloo bhaina 2';
+  font: 400 18px 'baloo bhaina 2';
 }
 .UniClienteProAtivo {
   background-image: linear-gradient(100deg, #11806a, #258f7a, #3ca38f);
+  color: #fff;
   position: absolute;
   align-items: center;
   text-align: center;
@@ -351,225 +353,233 @@
   border-style: none;
   display: flex;
   line-height: 1 !important;
-  font: bold 18px 'baloo bhaina 2';
+  font: 400 18px 'baloo bhaina 2';
+}
+.ICSUnidadegraph {
+  background-image: linear-gradient(100deg, #11806a, #258f7a, #3ca38f);
+  color: #fff;
+  position: absolute;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  top: 0;
+  left: 70%;
+  width: 28%;
+  height: 45%;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  border-style: none;
+  display: flex;
+  line-height: 1 !important;
+  font: 400 25px 'baloo bhaina 2';
 }
 .relProjetado {
   background-image: linear-gradient(100deg, #11806a, #258f7a, #3ca38f);
+  color: white;
+  top: 10%;
+  left: 0;
   position: absolute;
   align-items: center;
   text-align: center;
   justify-content: center;
-  top: 7%;
-  left: 0;
-  width: 28%;
-  height: 45%;
-  justify-content: center;
-  align-items: center;
+  width: clamp(0.01em, 0.01em + 13vw, 15em);
+  height: clamp(0.01em, 0.01em + 12vw, 15em);
   border-radius: 10px;
   border-style: none;
   display: flex;
   line-height: 1 !important;
-  font: bold 18px 'baloo bhaina 2';
+  font: 400 18px 'baloo bhaina 2';
 }
 .relAcumulado {
   background-image: linear-gradient(100deg, #11806a, #258f7a, #3ca38f);
+  color: white;
+  top: 10%;
+  left: 35%;
   position: absolute;
   align-items: center;
   text-align: center;
   justify-content: center;
-  top: 7%;
-  left: 35%;
-  width: 28%;
-  height: 45%;
-  justify-content: center;
-  align-items: center;
+  width: clamp(0.01em, 0.01em + 13vw, 15em);
+  height: clamp(0.01em, 0.01em + 12vw, 15em);
   border-radius: 10px;
   border-style: none;
   display: flex;
   line-height: 1 !important;
-  font: bold 18px 'baloo bhaina 2';
+  font: 400 18px 'baloo bhaina 2';
 }
 
 .mesSetor1,
 .UniClienteMes1,
 .UniClienteSetor1 {
   background-image: linear-gradient(100deg, #11806a, #258f7a, #3ca38f);
+  color: white;
+  top: 70%;
+  left: 0;
   position: absolute;
   align-items: center;
   text-align: center;
   justify-content: center;
-  top: 65%;
-  left: 0;
-  width: 28%;
-  height: 45%;
-  justify-content: center;
-  align-items: center;
+  width: clamp(0.01em, 0.01em + 13vw, 15em);
+  height: clamp(0.01em, 0.01em + 12vw, 15em);
   border-radius: 10px;
   border-style: none;
   display: flex;
   line-height: 1 !important;
-  font: bold 18px 'baloo bhaina 2';
+  font: 400 18px 'baloo bhaina 2';
 }
 .mesSetor2,
 .UniClienteMes2,
 .UniClienteSetor2 {
   background-image: linear-gradient(100deg, #11806a, #258f7a, #3ca38f);
+  color: white;
+  top: 70%;
+  left: 35%;
   position: absolute;
   align-items: center;
   text-align: center;
   justify-content: center;
-  top: 65%;
-  left: 35%;
-  width: 28%;
-  height: 45%;
-  justify-content: center;
-  align-items: center;
+  width: clamp(0.01em, 0.01em + 13vw, 15em);
+  height: clamp(0.01em, 0.01em + 12vw, 15em);
   border-radius: 10px;
   border-style: none;
   display: flex;
   line-height: 1 !important;
-  font: bold 18px 'baloo bhaina 2';
+  font: 400 18px 'baloo bhaina 2';
 }
 .mesSetor3,
 .UniClienteMes3,
 .UniClienteSetor3 {
   background-image: linear-gradient(100deg, #11806a, #258f7a, #3ca38f);
+  color: white;
+  top: 70%;
+  left: 70%;
   position: absolute;
   align-items: center;
   text-align: center;
   justify-content: center;
-  top: 65%;
-  left: 70%;
-  width: 28%;
-  height: 45%;
-  justify-content: center;
-  align-items: center;
+  width: clamp(0.01em, 0.01em + 13vw, 15em);
+  height: clamp(0.01em, 0.01em + 12vw, 15em);
   border-radius: 10px;
   border-style: none;
   display: flex;
   line-height: 1 !important;
-  font: bold 18px 'baloo bhaina 2';
+  font: 400 18px 'baloo bhaina 2';
 }
 .mesSetor4,
 .UniClienteMes4,
 .UniClienteSetor4 {
   background-image: linear-gradient(100deg, #11806a, #258f7a, #3ca38f);
+  color: white;
+  top: 130%;
+  left: 0;
   position: absolute;
   align-items: center;
   text-align: center;
   justify-content: center;
-  top: 125%;
-  left: 0;
-  width: 28%;
-  height: 45%;
-  justify-content: center;
-  align-items: center;
+  width: clamp(0.01em, 0.01em + 13vw, 15em);
+  height: clamp(0.01em, 0.01em + 12vw, 15em);
   border-radius: 10px;
   border-style: none;
   display: flex;
   line-height: 1 !important;
-  font: bold 18px 'baloo bhaina 2';
+  font: 400 18px 'baloo bhaina 2';
 }
 .mesSetor5,
 .UniClienteMes5,
 .UniClienteSetor5 {
   background-image: linear-gradient(100deg, #11806a, #258f7a, #3ca38f);
+  color: white;
+  top: 130%;
+  left: 35%;
   position: absolute;
   align-items: center;
   text-align: center;
   justify-content: center;
-  top: 125%;
-  left: 35%;
-  width: 28%;
-  height: 45%;
-  justify-content: center;
-  align-items: center;
+  width: clamp(0.01em, 0.01em + 13vw, 15em);
+  height: clamp(0.01em, 0.01em + 12vw, 15em);
   border-radius: 10px;
   border-style: none;
   display: flex;
   line-height: 1 !important;
-  font: bold 18px 'baloo bhaina 2';
+  font: 400 18px 'baloo bhaina 2';
 }
 .mesSetor6,
 .UniClienteMes6,
 .UniClienteSetor6 {
   background-image: linear-gradient(100deg, #11806a, #258f7a, #3ca38f);
+  color: white;
+  top: 130%;
+  left: 70%;
   position: absolute;
   align-items: center;
   text-align: center;
   justify-content: center;
-  top: 125%;
-  left: 70%;
-  width: 28%;
-  height: 45%;
-  justify-content: center;
-  align-items: center;
+  width: clamp(0.01em, 0.01em + 13vw, 15em);
+  height: clamp(0.01em, 0.01em + 12vw, 15em);
   border-radius: 10px;
   border-style: none;
   display: flex;
   line-height: 1 !important;
-  font: bold 18px 'baloo bhaina 2';
+  font: 400 18px 'baloo bhaina 2';
 }
 .mesSetor7,
 .UniClienteMes7,
 .UniClienteSetor7 {
   background-image: linear-gradient(100deg, #11806a, #258f7a, #3ca38f);
+  color: white;
+  top: 190%;
+  left: 0;
   position: absolute;
   align-items: center;
   text-align: center;
   justify-content: center;
-  top: 185%;
-  left: 0;
-  width: 28%;
-  height: 45%;
-  justify-content: center;
-  align-items: center;
+  width: clamp(0.01em, 0.01em + 13vw, 15em);
+  height: clamp(0.01em, 0.01em + 12vw, 15em);
   border-radius: 10px;
   border-style: none;
   display: flex;
   line-height: 1 !important;
-  font: bold 18px 'baloo bhaina 2';
+  font: 400 18px 'baloo bhaina 2';
 }
 .mesSetor8,
 .UniClienteMes8,
 .UniClienteSetor8 {
   background-image: linear-gradient(100deg, #11806a, #258f7a, #3ca38f);
+  color: white;
+  top: 190%;
+  left: 35%;
   position: absolute;
   align-items: center;
   text-align: center;
   justify-content: center;
-  top: 185%;
-  left: 35%;
-  width: 28%;
-  height: 45%;
-  justify-content: center;
-  align-items: center;
+  width: clamp(0.01em, 0.01em + 13vw, 15em);
+  height: clamp(0.01em, 0.01em + 12vw, 15em);
   border-radius: 10px;
   border-style: none;
   display: flex;
   line-height: 1 !important;
-  font: bold 18px 'baloo bhaina 2';
+  font: 400 18px 'baloo bhaina 2';
 }
 
 .mesSetor9,
 .UniClienteMes9,
 .UniClienteSetor9 {
   background-image: linear-gradient(100deg, #11806a, #258f7a, #3ca38f);
+  color: white;
+  top: 190%;
+  left: 70%;
   position: absolute;
   align-items: center;
   text-align: center;
   justify-content: center;
-  top: 185%;
-  left: 70%;
-  width: 28%;
-  height: 45%;
-  justify-content: center;
-  align-items: center;
+  width: clamp(0.01em, 0.01em + 13vw, 15em);
+  height: clamp(0.01em, 0.01em + 12vw, 15em);
   border-radius: 10px;
   border-style: none;
   display: flex;
   line-height: 1 !important;
-  font: bold 18px 'baloo bhaina 2';
+  font: 400 18px 'baloo bhaina 2';
 }
 .btnReturn {
   position: absolute;
@@ -593,12 +603,10 @@
 .TittleIndice {
   position: absolute;
   text-align: center;
-  top: 56%;
+  top: 60%;
   left: 2%;
-  font-size: clamp(0.1em, 0.1em + 1.4vw, 3em);
-  font-weight: 600;
+  font: 400 18px 'baloo bhaina 2';
   color: #1c396b;
-  background: transparent;
 }
 .TittleProjetadoAcumulado {
   position: absolute;
@@ -693,24 +701,6 @@
   top: 63%;
   border: none;
   background-color: white;
-}
-.ICSUnidadegraph {
-  background-image: linear-gradient(100deg, #11806a, #258f7a, #3ca38f);
-  position: absolute;
-  align-items: center;
-  text-align: center;
-  justify-content: center;
-  top: 0%;
-  left: 70%;
-  width: 28%;
-  height: 45%;
-  justify-content: center;
-  align-items: center;
-  border-radius: 10px;
-  border-style: none;
-  display: flex;
-  line-height: 1 !important;
-  font: bold 18px 'baloo bhaina 2';
 }
 .cxLegenda {
   justify-content: right;

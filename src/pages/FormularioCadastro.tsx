@@ -13,7 +13,7 @@ function FormularioCadastro() {
 
       <div className="page">
         <div className="filter1">
-          <h4 className="subtcad4">UNIDADES:</h4>
+          <h4 className="subtcad1">UNIDADES:</h4>
           <h2 className="subtcad2">Unidade Registrada (Produção)</h2>
           {newLocal}
           <h3 className="subtcad3">Dados Cadastrais:</h3>

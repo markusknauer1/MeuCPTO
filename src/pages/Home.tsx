@@ -49,8 +49,8 @@ function Home() {
               <label htmlFor="" className="realidade">
                 3
               </label>
+              <img src={pending} className="pending" alt="Concluida" />
               <label htmlFor="" className="Conclusao1">
-                <img src={pending} className="pending" alt="Concluida" />
                 Pendente
               </label>
             </button>
@@ -104,8 +104,8 @@ function Home() {
               <label htmlFor="" className="realidade">
                 3
               </label>
+              <img src={pending} className="pending" alt="Concluida" />
               <label htmlFor="" className="Conclusao1">
-                <img src={pending} className="pending" alt="Concluida" />
                 Pendente
               </label>
             </button>
@@ -122,8 +122,8 @@ function Home() {
               <label htmlFor="" className="realidade">
                 3
               </label>
+              <img src={pending} className="pending" alt="Concluida" />
               <label htmlFor="" className="Conclusao1">
-                <img src={pending} className="pending" alt="Concluida" />
                 Pendente
               </label>
             </button>

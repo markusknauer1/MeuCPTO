@@ -9,14 +9,12 @@
   z-index: 2;
 }
 
-.subtcad4 {
+.subtcad1 {
   position: absolute;
-  top: 20%;
+  top: 18%;
   left: 10%;
-  border-radius: 20px;
-  display: flex;
-  font-family: 'baloo bhaina 2';
-  font-size: clamp(0.01em, 0.01em + 1.2vw, 1.8em);
+  display: block;
+  font-size: clamp(0.1em, 0.1em + 1vw, 3em);
   font-weight: 500;
   color: #adadad;
 }
@@ -98,10 +96,10 @@
   padding-left: 10px;
   background-color: #d8d8d8;
   font-size: clamp(0.01em, 0.01em + 1.1vw, 1.5em);
-  font-family: baloo bhaina2;
+  font-family: 'baloo bhaina 2';
   border: none;
   align-items: center;
-  color: #424242;
+  color: #1c396b;
   border-radius: 3px;
 }
 .titulo3 {
@@ -126,7 +124,7 @@
   font-family: baloo bhaina2;
   border: none;
   align-items: center;
-  color: #424242;
+  color: #1c396b;
   border-radius: 3px;
 }
 .titulo4 {
@@ -151,7 +149,7 @@
   font-family: baloo bhaina2;
   border: none;
   align-items: center;
-  color: #424242;
+  color: #1c396b;
   border-radius: 3px;
 }
 .titulo5 {
@@ -176,7 +174,7 @@
   font-family: baloo bhaina2;
   border: none;
   align-items: center;
-  color: #424242;
+  color: #1c396b;
   border-radius: 3px;
 }
 .titulo6 {
@@ -201,7 +199,7 @@
   font-family: baloo bhaina2;
   border: none;
   align-items: center;
-  color: #424242;
+  color: #1c396b;
   border-radius: 3px;
 }
 .titulo7 {
@@ -223,10 +221,10 @@
   padding-left: 10px;
   background-color: #d8d8d8;
   font-size: clamp(0.01em, 0.01em + 1.1vw, 1.5em);
-  font-family: baloo bhaina2;
+  font-family: 'baloo bhaina 2';
   border: none;
   align-items: center;
-  color: #424242;
+  color: #1c396b;
   border-radius: 3px;
 }
 .titulo8 {
@@ -249,10 +247,10 @@
   padding-left: 10px;
   background-color: #d8d8d8;
   font-size: clamp(0.01em, 0.01em + 1.1vw, 1.5em);
-  font-family: baloo bhaina2;
+  font-family: 'baloo bhaina 2';
   border: none;
   align-items: center;
-  color: #424242;
+  color: #1c396b;
   border-radius: 3px;
 }
 .titulo9 {
@@ -274,10 +272,10 @@
   padding-left: 10px;
   background-color: #d8d8d8;
   font-size: clamp(0.01em, 0.01em + 1.1vw, 1.5em);
-  font-family: baloo bhaina2;
+  font-family: 'baloo bhaina 2';
   border: none;
   align-items: center;
-  color: #424242;
+  color: #1c396b;
   border-radius: 3px;
 }
 .titulo10 {
@@ -299,10 +297,10 @@
   padding-left: 10px;
   background-color: #d8d8d8;
   font-size: clamp(0.01em, 0.01em + 1.1vw, 1.5em);
-  font-family: baloo bhaina2;
+  font-family: 'baloo bhaina 2';
   border: none;
   align-items: center;
-  color: #424242;
+  color: #1c396b;
   border-radius: 3px;
 }
 .titulo11 {
@@ -324,10 +322,10 @@
   padding-left: 10px;
   background-color: #d8d8d8;
   font-size: clamp(0.01em, 0.01em + 1.1vw, 1.5em);
-  font-family: baloo bhaina2;
+  font-family: 'baloo bhaina 2';
   border: none;
   align-items: center;
-  color: #424242;
+  color: #1c396b;
   border-radius: 3px;
 }
 .titulo12 {
@@ -349,10 +347,10 @@
   padding-left: 10px;
   background-color: #d8d8d8;
   font-size: clamp(0.01em, 0.01em + 1.1vw, 1.5em);
-  font-family: baloo bhaina2;
+  font-family: 'baloo bhaina 2';
   border: none;
   align-items: center;
-  color: #424242;
+  color: #1c396b;
   border-radius: 3px;
 }
 .titulo13 {
@@ -374,10 +372,10 @@
   padding-left: 10px;
   background-color: #d8d8d8;
   font-size: clamp(0.01em, 0.01em + 1.1vw, 1.5em);
-  font-family: baloo bhaina2;
+  font-family: 200 'baloo bhaina 2';
   border: none;
   align-items: center;
-  color: #424242;
+  color: #1c396b;
   border-radius: 3px;
 }
 

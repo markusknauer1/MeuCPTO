@@ -275,6 +275,7 @@
   color: #1c396b;
   top: -4%;
   font-size: clamp(0.1em, 0.1em + 2vw, 3em);
+  font-weight: 200;
   font-family: 'baloo bhaina 2';
   position: absolute;
   display: flex;
@@ -284,6 +285,7 @@
   top: 5%;
   font-size: clamp(0.1em, 0.1em + 1vw, 1.5em);
   font-family: 'baloo bhaina 2';
+  font-weight: 500;
   position: absolute;
   display: flex;
 }

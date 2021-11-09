@@ -712,17 +712,18 @@
   left: 30%;
   top: 92%;
   width: 47%;
-  height: 10%;
+  height: 4%;
   background-color: transparent;
 }
 .lgLegenda {
   position: absolute;
   display: flex;
-
+  font-family: 'baloo bhaina 2';
   font-size: clamp(0.1em, 0.1em + 1.2vw, 4em);
   font-weight: 600;
-  left: 10%;
-  top: -5%;
+  left: 8%;
+  justify-content: center;
+  align-items: center;
 }
 .lgAcima {
   background-image: linear-gradient(100deg, #11806a, #258f7a, #3ca38f);
@@ -738,11 +739,12 @@
   color: white;
   width: clamp(1em, 1em + 8vw, 12em);
   height: clamp(1em, 1em + 1.3vw, 12em);
-  gap: 0.6rem;
+  gap: 1rem;
   border: none;
-  border-radius: 10px;
+  border-radius: 5px;
 }
 .okImg {
+  margin-left: -6%;
   margin-top: -3px;
   width: 15%;
 }
@@ -754,16 +756,15 @@
   left: 62%;
   top: 0;
   padding-top: 2%;
-  background-color: #3269c7;
-  gap: 1.5rem;
+  background-color: #5c56ea;
   font-size: clamp(1em, 0.1em + 0.7vw, 1.5em);
   font-weight: 600;
   color: white;
   width: clamp(1em, 1em + 8vw, 12em);
-  height: clamp(1em, 1em + 1.3vw, 12em);
+  height: clamp(1em, 1em + 1.25vw, 12em);
   border: none;
-  border-radius: 10px;
-  gap: 4rem;
+  border-radius: 5px;
+  gap: 1rem;
 }
 .GraphImg {
   margin-left: -10%;
@@ -786,11 +787,11 @@
   height: clamp(1em, 1em + 1.3vw, 12em);
   gap: 0.6rem;
   border: none;
-  border-radius: 10px;
+  border-radius: 5px;
 }
 .wrongImg {
   margin-top: -3px;
-  margin-left: 1%;
+  margin-left: -6%;
   width: 15%;
 }
 

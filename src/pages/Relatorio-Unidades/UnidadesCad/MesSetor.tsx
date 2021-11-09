@@ -76,6 +76,7 @@ function MesSetor() {
 
           <Link to="/UniContribSetor">
             <button className="mesSetor1">
+              <img className="statusRel" src={okImg} alt="okImg" />
               <label htmlFor="" className="TittleMes">
                 Outubro
               </label>
@@ -96,6 +97,7 @@ function MesSetor() {
 
           <Link to="/UniContribSetor">
             <button className="mesSetor2">
+              <img className="statusRel" src={okImg} alt="okImg" />
               <label htmlFor="" className="TittleMes">
                 Novembro
               </label>
@@ -116,6 +118,7 @@ function MesSetor() {
 
           <Link to="/UniContribSetor">
             <button className="mesSetor3">
+              <img className="statusRel" src={okImg} alt="okImg" />
               <label htmlFor="" className="TittleMes">
                 Dezembro
               </label>
@@ -136,6 +139,7 @@ function MesSetor() {
 
           <Link to="/UniContribSetor">
             <button className="mesSetor4">
+              <img className="statusRel" src={okImg} alt="okImg" />
               <label htmlFor="" className="TittleMes">
                 Janeiro
               </label>
@@ -156,6 +160,7 @@ function MesSetor() {
 
           <Link to="/UniContribSetor">
             <button className="mesSetor5">
+              <img className="statusRel" src={okImg} alt="okImg" />
               <label htmlFor="" className="TittleMes">
                 Fevereiro
               </label>
@@ -176,6 +181,7 @@ function MesSetor() {
 
           <Link to="/UniContribSetor">
             <button className="mesSetor6">
+              <img className="statusRel" src={okImg} alt="okImg" />
               <label htmlFor="" className="TittleMes">
                 Março
               </label>
@@ -196,6 +202,7 @@ function MesSetor() {
 
           <Link to="/UniContribSetor">
             <button className="mesSetor7">
+              <img className="statusRel" src={okImg} alt="okImg" />
               <label htmlFor="" className="TittleMes">
                 Abril
               </label>
@@ -216,6 +223,7 @@ function MesSetor() {
 
           <Link to="/UniContribSetor">
             <button className="mesSetor8">
+              <img className="statusRel" src={okImg} alt="okImg" />
               <label htmlFor="" className="TittleMes">
                 Maio
               </label>
@@ -236,6 +244,7 @@ function MesSetor() {
 
           <Link to="/UniContribSetor">
             <button className="mesSetor9">
+              <img className="statusRel" src={okImg} alt="okImg" />
               <label htmlFor="" className="TittleMes">
                 Junho
               </label>

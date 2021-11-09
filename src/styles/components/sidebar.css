@@ -36,7 +36,6 @@
 }
 .logoQ1 {
   background-image: url(../../Images/background.svg);
-
   width: clamp(1em, 1em + 120vw, 220em);
   height: clamp(1em, 1em + 120vw, 220em);
   border-radius: 50px;

@@ -27,18 +27,21 @@ tr:nth-child(even) {
   padding-bottom: 1%;
   padding-left: 3%;
   width: 10rem;
+  font-weight: 500;
 }
 .btnUni {
   padding-top: 1%;
   padding-bottom: 1%;
   padding-left: 2%;
   width: 80rem;
+  font-weight: 500;
 }
 .btnStatusUnidades {
   padding-top: 1%;
   padding-bottom: 1%;
   padding-left: 4%;
   width: 10rem;
+  font-weight: 500;
 }
 
 @media screen and (max-width: 500px) {

@@ -16,6 +16,9 @@
   height: 5%;
   z-index: 1;
 }
+::-webkit-input-placeholder {
+  font-family: 'baloo bhaina 2';
+}
 .buttonModalPadrao {
   position: fixed;
   top: 22.5%;
@@ -138,7 +141,7 @@ th {
 .tblPessoaObservador {
   position: absolute;
   top: 5%;
-  left: 18%;
+  left: 16%;
 }
 .tbtPessoalogin {
   position: absolute;
@@ -162,30 +165,35 @@ th {
   padding-bottom: 1%;
   padding-left: 5%;
   width: 10rem;
+  font-weight: 500;
 }
 .btnOBS {
   padding-top: 1%;
   padding-bottom: 1%;
   padding-left: 1%;
   width: 15rem;
+  font-weight: 500;
 }
 .btnMail {
   padding-top: 1%;
   padding-bottom: 1%;
   padding-left: 1%;
   width: 15rem;
+  font-weight: 500;
 }
 .btnFunc {
   padding-top: 1%;
   padding-bottom: 1%;
   padding-left: 1%;
   width: 15rem;
+  font-weight: 500;
 }
 .btnMetas {
   padding-top: 1%;
   padding-bottom: 1%;
   padding-left: 7%;
   width: 10rem;
+  font-weight: 500;
 }
 .action {
   display: flex;

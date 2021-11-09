@@ -26,12 +26,14 @@ tr:nth-child(even) {
   padding-bottom: 1%;
   padding-left: 4%;
   width: 10rem;
+  font-weight: 500;
 }
 .tblAtivid {
   padding-top: 1%;
   padding-bottom: 1%;
   padding-left: 5%;
   width: 80rem;
+  font-weight: 500;
 }
 .tblStatusAtivid {
   padding-top: 1%;

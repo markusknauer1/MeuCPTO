@@ -57,17 +57,21 @@ tr:nth-child(even) {
   padding-bottom: 1%;
   padding-left: 3%;
   width: 5rem;
+  font-weight: 500;
 }
 .btnObs {
   padding-top: 1%;
   padding-bottom: 1%;
   padding-left: 5%;
   width: 8rem;
+  font-weight: 500;
 }
 .BtnDescFun {
   padding-bottom: 1%;
   padding-left: 2%;
+  padding-top: 1%;
   width: 40rem;
+  font-weight: 500;
 }
 .btnStatus {
   padding-top: 1%;

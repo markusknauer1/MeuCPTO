@@ -6,6 +6,7 @@ import logoK from '../Images/logoK.png'
 import SidebarMobile from '../Components/SideBar-right/SidebarMobile'
 
 function FormularioCadastro() {
+  const newLocal = <img className="logoKmobile" src={logoK} alt="LogoEmpresa" />
   return (
     <div className="HomePage">
       <SideBar />
@@ -14,10 +15,9 @@ function FormularioCadastro() {
         <div className="filter1">
           <h4 className="subtcad4">UNIDADES:</h4>
           <h2 className="subtcad2">Unidade Registrada (Produção)</h2>
+          {newLocal}
           <h3 className="subtcad3">Dados Cadastrais:</h3>
         </div>
-
-        <img className="logoKmobile" src={logoK} alt="LogoEmpresa" />
         <div className="tabelaPadraoCad">
           <p className="titulo1">Nome Fantasia</p>
           <input

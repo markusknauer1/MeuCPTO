@@ -17,8 +17,6 @@ body.active-modalArea {
 .overlay {
   background: rgba(49, 49, 49, 0.8);
 }
-.titleModal {
-}
 .modalArea-content {
   position: fixed;
   top: 25%;
@@ -35,8 +33,8 @@ body.active-modalArea {
   bottom: 5%;
   font-family: 'baloo bhaina 2';
   font-weight: 500;
-  font-size: clamp(0.1em, 0.1em + 1.5vw, 3em);
-  width: 25%;
+  font-size: clamp(0.1em, 0.1em + 1.3vw, 3em);
+  width: 20%;
   background-color: #1c396b;
   color: white;
   border-radius: 10px;

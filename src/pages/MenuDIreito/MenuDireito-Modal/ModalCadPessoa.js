@@ -179,7 +179,7 @@ export default function Modal() {
                   defaultChecked={true}
                 />
 
-                <span className="ch">Acesso ao APP</span>
+                <span className="checkText">Acesso ao APP</span>
               </label>
               <br />
               <label>
@@ -189,7 +189,7 @@ export default function Modal() {
                   placeholder="WebAcess"
                   defaultChecked={true}
                 />
-                <span className="ch">Acesso Web</span>
+                <span className="checkText">Acesso Web</span>
               </label>
             </div>
 

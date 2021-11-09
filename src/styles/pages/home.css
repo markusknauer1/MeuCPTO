@@ -389,6 +389,25 @@
   width: 20.4%;
 }
 
+@media screen and (max-width: 780px) {
+  .tabelaPadrao {
+    position: absolute;
+    top: 30%;
+    left: 2%;
+    width: 60%;
+    height: 65%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 0;
+    z-index: 5;
+  }
+  .tabelaPadrao::-webkit-scrollbar {
+    width: 6px;
+    background-color: transparent;
+    /* rgb(219, 219, 219); */
+    /* border-radius: 10px; */
+  }
+}
+
 @media screen and (max-width: 500px) {
   .MetaMes1 {
     display: none;

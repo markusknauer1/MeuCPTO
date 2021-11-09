@@ -4,7 +4,6 @@ import SideBarDireita from '../../Components/SideBar-right/SideBarDireita'
 import Modal from '../SubMenuPages/Modal-SubMenuEmpresas/AlterarRegistroEmpresas'
 import '../../styles/pages/SubMenuPages/SubMenuEmpresas.css'
 import SidebarGerencia from '../../Components/SideBar-right/SidebarGerencia'
-import AlterarRegistroEmpresas from '../SubMenuPages/Modal-SubMenuEmpresas/AlterarRegistroEmpresas'
 
 function SubMenuEmpresas() {
   return (

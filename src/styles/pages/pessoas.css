@@ -60,16 +60,6 @@
   border-style: none;
   border-radius: 5px;
 }
-.subtPadrao1 {
-  position: absolute;
-  display: block;
-  top: 18%;
-  left: 10%;
-  font-family: 'baloo bhaina 2';
-  font-weight: 400;
-  font-size: clamp(0.1em, 0.1em + 1.2vw, 2em);
-  color: #adadad;
-}
 .subtPadrao2 {
   position: absolute;
   top: 22%;

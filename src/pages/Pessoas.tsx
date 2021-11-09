@@ -22,7 +22,7 @@ function Pessoas() {
       <SideBar />
       <div className="page">
         <div className="filter1">
-          <h4 className="subtRel1">DADOS CADASTRAIS / NOVA PESSOA:</h4>
+          <h4 className="subtPadrao1">DADOS CADASTRAIS / NOVA PESSOA:</h4>
           <div className="subtPadrao2">
             <h2>Gerentes/Operadores</h2>
           </div>

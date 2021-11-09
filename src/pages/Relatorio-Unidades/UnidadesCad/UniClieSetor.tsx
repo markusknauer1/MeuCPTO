@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom'
+import { Link, useHistory } from 'react-router-dom'
 import ProfileDireita from '../../../Components/ProfileDireita'
 import SideBar from '../../../Components/SideBar'
 import '../../../styles/pages/ModalObservaçoes/UniClienteExe.css'
@@ -13,14 +13,13 @@ import Calendar from 'react-calendar'
 import SidebarMobile from '../../../Components/SideBar-right/SidebarMobile'
 
 function UniClieSetor() {
+  let history = useHistory()
   return (
     <div className="HomePage">
       <SideBar />
-      <Link to="/UniClienteExe">
-        <button className="btnReturn">
-          <TypIcons.TiArrowBackOutline />
-        </button>
-      </Link>
+      <button className="btnReturn" onClick={() => history.goBack()}>
+        <TypIcons.TiArrowBackOutline />
+      </button>
 
       <div className="page">
         <div className="filter1">
@@ -30,46 +29,43 @@ function UniClieSetor() {
           <label className="subtRel3">Observações realizadas: 0</label>
         </div>
         <div className="tabelaPadraoSetor">
-          <Link to="/UniClieSetor">
-            <button className="relProjetado">
-              <img className="statusRel" src={okImg} alt="okImg" />
-              <label htmlFor="" className="TittleProjetadoAcumulado">
-                Projetado:
-              </label>
-              <label className="FuncaoResultado">00,00%</label>
-              <label className="FuncaoMeta">
-                Meta:
-                <br />
-                0.00%
-              </label>
-              <hr className="hr" />
-              <label className="FuncaoReal">
-                Real:
-                <br />
-                0.00%
-              </label>
-            </button>
-          </Link>
-          <Link to="/UniClieSetor">
-            <button className="relAcumulado">
-              <img className="statusRel" src={okImg} alt="okImg" />
-              <label htmlFor="" className="TittleProjetadoAcumulado">
-                Acumulado:
-              </label>
-              <label className="FuncaoResultado">00,00%</label>
-              <label className="FuncaoMeta">
-                Meta:
-                <br />
-                0.00%
-              </label>
-              <hr className="hr" />
-              <label className="FuncaoReal">
-                Real:
-                <br />
-                0.00%
-              </label>
-            </button>
-          </Link>
+          <button className="relProjetado">
+            <img className="statusRel" src={okImg} alt="okImg" />
+            <label htmlFor="" className="TittleProjetadoAcumulado">
+              Projetado:
+            </label>
+            <label className="FuncaoResultado">00,00%</label>
+            <label className="FuncaoMeta">
+              Meta:
+              <br />
+              0.00%
+            </label>
+            <hr className="hr" />
+            <label className="FuncaoReal">
+              Real:
+              <br />
+              0.00%
+            </label>
+          </button>
+
+          <button className="relAcumulado">
+            <img className="statusRel" src={okImg} alt="okImg" />
+            <label htmlFor="" className="TittleProjetadoAcumulado">
+              Acumulado:
+            </label>
+            <label className="FuncaoResultado">00,00%</label>
+            <label className="FuncaoMeta">
+              Meta:
+              <br />
+              0.00%
+            </label>
+            <hr className="hr" />
+            <label className="FuncaoReal">
+              Real:
+              <br />
+              0.00%
+            </label>
+          </button>
 
           <label htmlFor="" className="TittleIndice">
             Resultado por setor da Empresa:

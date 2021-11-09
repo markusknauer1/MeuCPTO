@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom'
+import { Link, useHistory } from 'react-router-dom'
 import ProfileDireita from '../../../Components/ProfileDireita'
 import SideBar from '../../../Components/SideBar'
 import '../../../styles/pages/ModalObservaçoes/UniClienteExe.css'
@@ -12,15 +12,14 @@ import Modal from '../ModalObservaçoes/ModalObsUnidades'
 import Calendar from 'react-calendar'
 import SidebarMobile from '../../../Components/SideBar-right/SidebarMobile'
 
-function unidadeContribSetor() {
+function UniContribSetor() {
+  let history = useHistory()
   return (
     <div className="HomePage">
       <SideBar />
-      <Link to="/MesSetor">
-        <button className="btnReturn">
-          <TypIcons.TiArrowBackOutline />
-        </button>
-      </Link>
+      <button className="btnReturn" onClick={() => history.goBack()}>
+        <TypIcons.TiArrowBackOutline />
+      </button>
       <div className="page">
         <div className="filter1">
           <h4 className="subtRel1"> RELATÓRIO / UNIDADES</h4>
@@ -29,60 +28,56 @@ function unidadeContribSetor() {
           <label className="subtRel3">Observações realizadas: 0</label>
         </div>
         <div className="tabelaPadraoICS">
-          <Link to="/unidadeContribSetor">
-            <button className="UniClienteICS">
-              <label htmlFor="" className="tittleICS">
-                ICS
-              </label>
-              <label className="FuncaoResultado">00,00%</label>
-              <label className="FuncaoMeta">
-                Meta:
-                <br />
-                0.00%
-              </label>
-              <hr className="hr" />
-              <label className="FuncaoReal">
-                Real:
-                <br />
-                0.00%
-              </label>
-            </button>
-          </Link>
+          <button className="UniClienteICS">
+            <label htmlFor="" className="tittleICS">
+              ICS
+            </label>
+            <label className="FuncaoResultado">00,00%</label>
+            <label className="FuncaoMeta">
+              Meta:
+              <br />
+              0.00%
+            </label>
+            <hr className="hr" />
+            <label className="FuncaoReal">
+              Real:
+              <br />
+              0.00%
+            </label>
+          </button>
 
-          <Link to="/unidadeContribSetor">
-            <button className="UniClienteProAtivo">
-              <label htmlFor="" className="tittleProativo">
-                ProAtivo
-              </label>
-              <label className="FuncaoResultado">00,00%</label>
-              <label className="FuncaoMeta">
-                Meta:
-                <br />
-                0.00%
-              </label>
-              <hr className="hr" />
-              <label className="FuncaoReal">
-                Real:
-                <br />
-                0.00%
-              </label>
-            </button>
-          </Link>
+          <button className="UniClienteProAtivo">
+            <label htmlFor="" className="tittleProativo">
+              ProAtivo
+            </label>
+            <label className="FuncaoResultado">00,00%</label>
+            <label className="FuncaoMeta">
+              Meta:
+              <br />
+              0.00%
+            </label>
+            <hr className="hr" />
+            <label className="FuncaoReal">
+              Real:
+              <br />
+              0.00%
+            </label>
+          </button>
 
-          <Link to="/unidadeContribSetor">
-            <button className="ICSUnidadegraph">
-              <label htmlFor="" className="tittleICSRel">
-                Incidência de Ativadores da Unidade no mês
-              </label>
-            </button>
-          </Link>
+          <button className="ICSUnidadegraph">
+            <label htmlFor="" className="tittleICSRel">
+              Incidência de Ativadores da Unidade no mês
+            </label>
+          </button>
         </div>
+
         <div className="cxLegenda">
           <label htmlFor="" className="lgLegenda">
             Legenda:
           </label>
           <button className="lgAcima">
-            <img className="okImg" src={okImg} alt="" /> Acima da Média
+            <img className="okImg" src={okImg} alt="" />{' '}
+            <label className="lbllgAcima">Acima da Média</label>
           </button>
           <button className="lgMedia">
             <img className="GraphImg" src={GraphImg} alt="" /> Média
@@ -130,4 +125,4 @@ function unidadeContribSetor() {
   )
 }
 
-export default unidadeContribSetor
+export default UniContribSetor

@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom'
+import { Link, useHistory } from 'react-router-dom'
 import ProfileDireita from '../../../Components/ProfileDireita'
 import SideBar from '../../../Components/SideBar'
 import '../../../styles/pages/ModalObservaçoes/UniClienteExe.css'
@@ -13,14 +13,13 @@ import Calendar from 'react-calendar'
 import SidebarMobile from '../../../Components/SideBar-right/SidebarMobile'
 
 function MesSetor() {
+  let history = useHistory()
   return (
     <div className="HomePage">
       <SideBar />
-      <Link to="/UniClieSetor">
-        <button className="btnReturn">
-          <TypIcons.TiArrowBackOutline />
-        </button>
-      </Link>
+      <button className="btnReturn" onClick={() => history.goBack()}>
+        <TypIcons.TiArrowBackOutline />
+      </button>
 
       <div className="page">
         <div className="filter1">
@@ -75,7 +74,7 @@ function MesSetor() {
             Resultado por Mês/Setor da Empresa:
           </label>
 
-          <Link to="unidadeContribSetor">
+          <Link to="/UniContribSetor">
             <button className="mesSetor1">
               <label htmlFor="" className="TittleMes">
                 Outubro
@@ -95,7 +94,7 @@ function MesSetor() {
             </button>
           </Link>
 
-          <Link to="unidadeContribSetor">
+          <Link to="/UniContribSetor">
             <button className="mesSetor2">
               <label htmlFor="" className="TittleMes">
                 Novembro
@@ -115,7 +114,7 @@ function MesSetor() {
             </button>
           </Link>
 
-          <Link to="unidadeContribSetor">
+          <Link to="/UniContribSetor">
             <button className="mesSetor3">
               <label htmlFor="" className="TittleMes">
                 Dezembro
@@ -135,7 +134,7 @@ function MesSetor() {
             </button>
           </Link>
 
-          <Link to="unidadeContribSetor">
+          <Link to="/UniContribSetor">
             <button className="mesSetor4">
               <label htmlFor="" className="TittleMes">
                 Janeiro
@@ -155,7 +154,7 @@ function MesSetor() {
             </button>
           </Link>
 
-          <Link to="unidadeContribSetor">
+          <Link to="/UniContribSetor">
             <button className="mesSetor5">
               <label htmlFor="" className="TittleMes">
                 Fevereiro
@@ -175,7 +174,7 @@ function MesSetor() {
             </button>
           </Link>
 
-          <Link to="unidadeContribSetor">
+          <Link to="/UniContribSetor">
             <button className="mesSetor6">
               <label htmlFor="" className="TittleMes">
                 Março
@@ -195,7 +194,7 @@ function MesSetor() {
             </button>
           </Link>
 
-          <Link to="unidadeContribSetor">
+          <Link to="/UniContribSetor">
             <button className="mesSetor7">
               <label htmlFor="" className="TittleMes">
                 Abril
@@ -215,7 +214,7 @@ function MesSetor() {
             </button>
           </Link>
 
-          <Link to="unidadeContribSetor">
+          <Link to="/UniContribSetor">
             <button className="mesSetor8">
               <label htmlFor="" className="TittleMes">
                 Maio
@@ -235,7 +234,7 @@ function MesSetor() {
             </button>
           </Link>
 
-          <Link to="unidadeContribSetor">
+          <Link to="/UniContribSetor">
             <button className="mesSetor9">
               <label htmlFor="" className="TittleMes">
                 Junho

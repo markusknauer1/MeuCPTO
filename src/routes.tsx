@@ -14,7 +14,7 @@ import Area from './pages/MenuDIreito/Area'
 import UniClienteExe from './pages/Relatorio-Unidades/UnidadesCad/UniClienteExe'
 import UniClieSetor from './pages/Relatorio-Unidades/UnidadesCad/UniClieSetor'
 import MesSetor from './pages/Relatorio-Unidades/UnidadesCad/MesSetor'
-import unidadeContribSetor from './pages/Relatorio-Unidades/UnidadesCad/unidadeContribSetor'
+
 import ObservCpto from './pages/Relatorio-Unidades/DetalhesDaObserv/ObservCpto'
 import SubMenuPessoas from './pages/SubMenuPages/SubMenuPessoas'
 import SubMenuTextActive from './pages/SubMenuPages/SubMenuTextActive'
@@ -29,6 +29,7 @@ import AtivadoresPsicologicos from './pages/SubMenuPages/pages-textosAtivadores/
 import AtivadoresPessoal from './pages/SubMenuPages/pages-textosAtivadores/AtivadoresPessoal'
 import AtivadoresCognitivos from './pages/SubMenuPages/pages-textosAtivadores/AtivadoresCognitivos'
 import AtivadoresFisiologicos from './pages/SubMenuPages/pages-textosAtivadores/AtivadoresFisiologicos'
+import UniContribSetor from './pages/Relatorio-Unidades/UnidadesCad/UniContribSetor'
 
 function Routes() {
   return (
@@ -53,10 +54,7 @@ function Routes() {
         <Route path="/UniClienteExe" component={UniClienteExe}></Route>
         <Route path="/UniClieSetor" component={UniClieSetor}></Route>
         <Route path="/MesSetor" component={MesSetor}></Route>
-        <Route
-          path="/unidadeContribSetor"
-          component={unidadeContribSetor}
-        ></Route>
+        <Route path="/UniContribSetor" component={UniContribSetor}></Route>
         <Route path="/ObservCpto" component={ObservCpto}></Route>
         {/* ---------------- SUB MENU Gerencia----------------- */}
         <Route path="/SubMenuTextActive" component={SubMenuTextActive}></Route>

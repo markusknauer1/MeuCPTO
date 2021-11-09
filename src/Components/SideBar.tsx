@@ -45,10 +45,11 @@ function SideBar() {
             <img src={graph} className="buttonGraph" alt="graph" />
           </button>
         </Link>
-
-        <button className="buttonLogout" type="button" onClick={goBack}>
-          <img src={Logout} className="buttonLogout" alt="Logout" />
-        </button>
+        <Link to="/">
+          <button className="buttonLogout" type="button">
+            <img src={Logout} className="buttonLogout" alt="Logout" />
+          </button>
+        </Link>
       </aside>
     </div>
   )

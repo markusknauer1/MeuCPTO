@@ -36,21 +36,6 @@ body.active-AlterarRegistroEmpresas {
   border-radius: 20px;
   z-index: 2;
 }
-.gravar-modal {
-  position: absolute;
-  right: 5%;
-  bottom: 8%;
-  margin-bottom: -1rem;
-  font-family: 'baloo bhaina 2';
-  font-weight: 800;
-  font-size: clamp(0.1em, 0.1em + 1.5vw, 3em);
-  width: 25%;
-  background-color: #1c396b;
-  color: white;
-  border-radius: 10px;
-  border-style: none;
-  cursor: pointer;
-}
 .close-modal {
   position: absolute;
   top: 6%;
@@ -207,21 +192,6 @@ body.active-AlterarRegistroEmpresas {
     padding: 1rem;
   }
 
-  .gravar-modal {
-    position: absolute;
-    right: 8%;
-    bottom: 8%;
-    margin-bottom: -1rem;
-    font-family: 'baloo bhaina 2';
-    font-weight: 800;
-    font-size: clamp(0.1em, 0.1em + 3vw, 3em);
-    width: 26%;
-    background-color: #1c396b;
-    color: white;
-    border-radius: 5px;
-    border-style: none;
-    cursor: pointer;
-  }
   .close-modal {
     position: absolute;
     top: 6%;

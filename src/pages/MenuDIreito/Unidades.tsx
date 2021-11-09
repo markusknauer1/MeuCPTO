@@ -17,7 +17,7 @@ function Unidades() {
           name="fname"
         />
 
-        <button className="buttonModalUnidade" type="button">
+        <button className="buttonModalPadrao1" type="button">
           <h2>Nova Unidade</h2>
         </button>
       </div>

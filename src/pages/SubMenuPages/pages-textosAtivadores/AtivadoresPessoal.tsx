@@ -2,6 +2,7 @@ import ProfileDireita from '../../../Components/ProfileDireita'
 import SideBar from '../../../Components/SideBar'
 import SideBarDireita from '../../../Components/SideBar-right/SideBarDireita'
 import Modal from './modal-textosAtivadores/ModalNovoAtivador'
+import '../../../styles/pages/SubMenuPages/modal-textosAtivadores/pages-textosAtivadores/AtivadoresPadrao.css'
 
 function AtivadoresPessoa() {
   return (
@@ -29,38 +30,35 @@ function AtivadoresPessoa() {
               <table>
                 <thead>
                   <tr className="header">
-                    <th className="btnCodActivSocial">
-                      CÓD
+                    <th className="tblActivPadrao1">
                       <div>CÓD</div>
                     </th>
-                    <th className="btnActivSocial">
-                      Texto Ativador
-                      <div>Grupos de Ativadores</div>
+                    <th className="tblActivPadrao2">
+                      <div>Texto Ativador</div>
                     </th>
-                    <th className="btnObsActivSocial">
-                      Observações/aplicação
-                      <div>Observações/aplicação</div>
+                    <th className="tblActivPadrao3">
+                      <div>Observações/Aplicação</div>
                     </th>
-                    <th className="btnPesoActivSocial">
-                      Peso
+                    <th className="tblActivPadrao4">
                       <div>Peso</div>
                     </th>
-                    <th className="btnStatusActivSocial">
-                      Status
+                    <th className="tblActivPadrao5">
                       <div>Status</div>
                     </th>
                   </tr>
                 </thead>
                 <tbody>
-                  <td className="tblCodActive">001 - Ver ativadores</td>
-                  <td className="tblActive">Sociais</td>
-                  <td className="tblStatusActive">
+                  <td className="tblActivPadrao6">001</td>
+                  <td className="tblActivPadrao7">Sociais</td>
+                  <td className="tblActivPadrao8">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Iure iusto eius suscipit, repellat perferendis praesentium
                     obcaecati aliquid a recusandae alias dolorum mollitia?
                     Eligendi doloribus quia amet earum numquam, assumenda
                     consequuntur.
                   </td>
+                  <td className="tblActivPadrao9">0,00</td>
+                  <td className="tblActivPadrao10"></td>
                 </tbody>
               </table>
             </div>

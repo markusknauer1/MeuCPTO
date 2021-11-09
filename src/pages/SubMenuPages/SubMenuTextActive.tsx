@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import ProfileDireita from '../../Components/ProfileDireita'
 import SideBar from '../../Components/SideBar'
 import SideBarDireita from '../../Components/SideBar-right/SideBarDireita'
@@ -48,7 +49,10 @@ function SubMenuTextActive() {
                 </thead>
                 <tbody>
                   <td className="tblCodActive">
-                    001 <button className="SubMTACod"> Ver ativadores</button>
+                    001{' '}
+                    <Link to="/AtivadoresSociais">
+                      <button className="SubMTACod"> Ver ativadores</button>
+                    </Link>
                   </td>
                   <td className="tblActive">Sociais</td>
                   <td className="tblStatusActive">
@@ -61,7 +65,10 @@ function SubMenuTextActive() {
                 </tbody>
                 <tbody>
                   <td className="tblCodActive">
-                    001 <button className="SubMTACod"> Ver ativadores</button>
+                    001{' '}
+                    <Link to="/AtivadoresPsicologicos">
+                      <button className="SubMTACod"> Ver ativadores</button>
+                    </Link>
                   </td>
                   <td className="tblActive">Psicólogicos</td>
                   <td className="tblStatusActive">
@@ -74,7 +81,10 @@ function SubMenuTextActive() {
                 </tbody>
                 <tbody>
                   <td className="tblCodActive">
-                    001 <button className="SubMTACod"> Ver ativadores</button>
+                    001{' '}
+                    <Link to="/AtivadoresFisiológicos">
+                      <button className="SubMTACod"> Ver ativadores</button>
+                    </Link>
                   </td>
                   <td className="tblActive">Fisiológicos</td>
                   <td className="tblStatusActive">
@@ -87,7 +97,10 @@ function SubMenuTextActive() {
                 </tbody>
                 <tbody>
                   <td className="tblCodActive">
-                    001 <button className="SubMTACod"> Ver ativadores</button>
+                    001{' '}
+                    <Link to="/AtivadoresCognitivos">
+                      <button className="SubMTACod"> Ver ativadores</button>
+                    </Link>
                   </td>
                   <td className="tblActive">Cognitivos</td>
                   <td className="tblStatusActive">

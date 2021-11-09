@@ -17,21 +17,19 @@
   z-index: 1;
 }
 .buttonModalPadrao {
-  position: absolute;
+  position: fixed;
   top: 22.5%;
   left: 50.5%;
   width: 12%;
   height: 5%;
   display: flex;
-  padding-top: 0.2%;
   justify-content: center;
   text-align: center;
   z-index: 2;
   cursor: pointer;
-
   font-family: 'baloo bhaina 2';
-  font-weight: 800;
-  font-size: clamp(0.1em, 0.1em + 1.2vw, 3em);
+  font-weight: 600;
+  font-size: clamp(0.01em, 0.01em + 1.4vw, 2em);
   background-color: #0b9e82;
   color: white;
   border-style: none;
@@ -39,25 +37,28 @@
 }
 
 .buttonModalPadrao1 {
-  position: absolute;
-  top: 24%;
-  left: 50%;
-  width: 14%;
+  position: fixed;
+  top: 22.5%;
+  left: 50.5%;
+  width: 12%;
   height: 5%;
+  padding-top: 0.2%;
+
   display: flex;
   justify-content: center;
   text-align: center;
-  font-size: 16px;
-  padding-top: 0.2%;
   z-index: 2;
+
   cursor: pointer;
+
   font-family: 'baloo bhaina 2';
-  font-weight: 800;
-  font-size: clamp(0.1em, 0.1em + 1.3vw, 3em);
+  font-weight: 200;
+  font-size: clamp(1em, 1em + 1.2vw, 1.2em);
   background-color: #0b9e82;
   color: white;
+
   border-style: none;
-  border-radius: 10px;
+  border-radius: 5px;
 }
 .subtPadrao1 {
   position: absolute;

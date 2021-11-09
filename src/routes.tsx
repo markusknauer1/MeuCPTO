@@ -28,6 +28,7 @@ import AtivadoresSociais from './pages/SubMenuPages/pages-textosAtivadores/Ativa
 import AtivadoresPsicologicos from './pages/SubMenuPages/pages-textosAtivadores/AtivadoresPsicologicos'
 import AtivadoresPessoal from './pages/SubMenuPages/pages-textosAtivadores/AtivadoresPessoal'
 import AtivadoresCognitivos from './pages/SubMenuPages/pages-textosAtivadores/AtivadoresCognitivos'
+import AtivadoresFisiologicos from './pages/SubMenuPages/pages-textosAtivadores/AtivadoresFisiologicos'
 
 function Routes() {
   return (
@@ -90,7 +91,7 @@ function Routes() {
         <Route path="/AtivadoresPessoal" component={AtivadoresPessoal}></Route>
         <Route
           path="/AtivadoresFisiológicos"
-          component={AtivadoresPsicologicos}
+          component={AtivadoresFisiologicos}
         ></Route>
         <Route
           path="/AtivadoresCognitivos"

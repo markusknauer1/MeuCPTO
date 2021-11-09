@@ -3,10 +3,11 @@
   left: 48%;
   top: 8%;
   padding-left: 10px;
+  padding-top: 0.2%;
   background-color: rgb(201, 201, 201);
   font-family: 'baloo bhaina 2';
   font-weight: 400;
-  font-size: clamp(0.1em, 0.1em + 1.2vw, 3em);
+  font-size: clamp(0.1em, 0.1em + 1vw, 2.5em);
   border: none;
   align-items: center;
   color: rgb(32, 32, 32);

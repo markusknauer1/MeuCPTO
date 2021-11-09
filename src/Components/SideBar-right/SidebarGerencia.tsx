@@ -29,19 +29,19 @@ function SidebarGerencia() {
                 <div className="close-background"></div>
                 <aside className="MobileProfileDireita">
                   <Link to="/SubMenuEmpresas">
-                    <button className="Mobwork">EMPRESAS</button>
+                    <button className="Mobwork">Empresas</button>
                   </Link>
                   <Link to="/SubMenuTipoDeObservacao">
-                    <button className="MobtypObs">TIPO DE OBSERVAÇÃO</button>
+                    <button className="MobtypObs">Tipo de Oservação</button>
                   </Link>
                   <Link to="/SubMenuTextActive">
-                    <button className="MobTextActiv">TEXTOS ATIVADORES</button>
+                    <button className="MobTextActiv">Textos Ativadores</button>
                   </Link>
                   <Link to="/SubMenuPessoas">
-                    <button className="MobpeopleTest">PESSOAS</button>
+                    <button className="MobpeopleTest">Pessoas</button>
                   </Link>
                   <Link to="/SubMenuGruposUsuarios">
-                    <button className="MobUserGroup">GRUPOS DE USUÁRIOS</button>
+                    <button className="MobUserGroup">Grupos de Usuários</button>
                   </Link>
                 </aside>
               </li>

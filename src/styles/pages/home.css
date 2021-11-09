@@ -237,15 +237,15 @@
   align-items: center;
   text-align: center;
   justify-content: space-between;
-  top: 0;
-  left: 0;
+  top: 0rem;
+  left: 0%;
   width: 28%;
   height: 38%;
   border-radius: 10px;
   border-style: none;
   display: flex;
   line-height: 1 !important;
-  font: bold 18px 'baloo bhaina 2';
+  font: 400 18px 'baloo bhaina 2';
 }
 .metas2 {
   position: absolute;
@@ -285,19 +285,18 @@
   background-color: rgb(202, 202, 202);
   color: #5f5f5f;
   position: absolute;
-  position: absolute;
   align-items: center;
   text-align: center;
   justify-content: space-between;
-  top: 45%;
-  left: 0;
+  top: 0rem;
+  left: 35%;
   width: 28%;
   height: 38%;
   border-radius: 10px;
   border-style: none;
   display: flex;
   line-height: 1 !important;
-  font: bold 18px 'baloo bhaina 2';
+  font: 400 18px 'baloo bhaina 2';
 }
 .metas5 {
   background-color: rgb(202, 202, 202);

@@ -263,17 +263,11 @@
   background-color: transparent;
   z-index: -1;
 }
-.selectAnalise1 {
+.selectAnalise {
   color: #1c396b;
-  top: -5%;
+  top: -0%;
   font-size: clamp(0.1em, 0.1em + 2vw, 3em);
-  position: absolute;
-  display: flex;
-}
-.selectAnalise2 {
-  color: #1c396b;
-  top: 4%;
-  font-size: clamp(0.1em, 0.1em + 1vw, 3em);
+  font-family: 'baloo bhaina 2';
   position: absolute;
   display: flex;
 }

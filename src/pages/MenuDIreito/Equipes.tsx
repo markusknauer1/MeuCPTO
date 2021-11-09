@@ -36,210 +36,34 @@ function Equipes() {
               <table>
                 <thead>
                   <tr className="header">
-                    <th className="tblcodEquipe">
+                    <th className="tblTtlcodEquipe">
                       CÓD
                       <div>CÓD</div>
                     </th>
-                    <th className="tblequipDesc">
+                    <th className="tblTtlequipDesc">
                       Descrição / Equipe
                       <div>Descrição / Equipe</div>
                     </th>
-                    <th className="tblEquipGer">
+                    <th className="tblTtlEquipGer">
                       Gerência Responsável
                       <div>Gerência Responsável</div>
                     </th>
-                    <th className="tblEquipCLient">
+                    <th className="tblTtlEquipCLient">
                       Cliente
                       <div>Cliente</div>
                     </th>
-                    <th className="tblEquipState">
+                    <th className="tblTtlEquipState">
                       Status
                       <div>Status</div>
                     </th>
                   </tr>
                 </thead>
                 <tbody>
-                  <td className="btnCod">001</td>
-                  <td className="btnOBS">Descriçao / equipe</td>
-                  <td className="btnMail">Gerência</td>
-                  <td className="btnFunc">Klabim</td>
-                  <td className="btnMetas">
-                    <button className="action">
-                      <i className="fas fa-bars"></i>
-                    </button>
-                  </td>
-                </tbody>
-                <tbody>
-                  <td className="btnCod">001</td>
-                  <td className="btnOBS">Descriçao / equipe</td>
-                  <td className="btnMail">Gerência</td>
-                  <td className="btnFunc">Klabim</td>
-                  <td className="btnMetas">
-                    <button className="action">
-                      <i className="fas fa-bars"></i>
-                    </button>
-                  </td>
-                </tbody>
-                <tbody>
-                  <td className="btnCod">001</td>
-                  <td className="btnOBS">Descriçao / equipe</td>
-                  <td className="btnMail">Gerência</td>
-                  <td className="btnFunc">Klabim</td>
-                  <td className="btnMetas">
-                    <button className="action">
-                      <i className="fas fa-bars"></i>
-                    </button>
-                  </td>
-                </tbody>
-                <tbody>
-                  <td className="btnCod">001</td>
-                  <td className="btnOBS">Descriçao / equipe</td>
-                  <td className="btnMail">Gerência</td>
-                  <td className="btnFunc">Klabim</td>
-                  <td className="btnMetas">
-                    <button className="action">
-                      <i className="fas fa-bars"></i>
-                    </button>
-                  </td>
-                </tbody>
-                <tbody>
-                  <td className="btnCod">001</td>
-                  <td className="btnOBS">Descriçao / equipe</td>
-                  <td className="btnMail">Gerência</td>
-                  <td className="btnFunc">Klabim</td>
-                  <td className="btnMetas">
-                    <button className="action">
-                      <i className="fas fa-bars"></i>
-                    </button>
-                  </td>
-                </tbody>
-                <tbody>
-                  <td className="btnCod">001</td>
-                  <td className="btnOBS">Descriçao / equipe</td>
-                  <td className="btnMail">Gerência</td>
-                  <td className="btnFunc">Klabim</td>
-                  <td className="btnMetas">
-                    <button className="action">
-                      <i className="fas fa-bars"></i>
-                    </button>
-                  </td>
-                </tbody>
-                <tbody>
-                  <td className="btnCod">001</td>
-                  <td className="btnOBS">Descriçao / equipe</td>
-                  <td className="btnMail">Gerência</td>
-                  <td className="btnFunc">Klabim</td>
-                  <td className="btnMetas">
-                    <button className="action">
-                      <i className="fas fa-bars"></i>
-                    </button>
-                  </td>
-                </tbody>
-                <tbody>
-                  <td className="btnCod">001</td>
-                  <td className="btnOBS">Descriçao / equipe</td>
-                  <td className="btnMail">Gerência</td>
-                  <td className="btnFunc">Klabim</td>
-                  <td className="btnMetas">
-                    <button className="action">
-                      <i className="fas fa-bars"></i>
-                    </button>
-                  </td>
-                </tbody>
-                <tbody>
-                  <td className="btnCod">001</td>
-                  <td className="btnOBS">Descriçao / equipe</td>
-                  <td className="btnMail">Gerência</td>
-                  <td className="btnFunc">Klabim</td>
-                  <td className="btnMetas">
-                    <button className="action">
-                      <i className="fas fa-bars"></i>
-                    </button>
-                  </td>
-                </tbody>
-                <tbody>
-                  <td className="btnCod">001</td>
-                  <td className="btnOBS">Descriçao / equipe</td>
-                  <td className="btnMail">Gerência</td>
-                  <td className="btnFunc">Klabim</td>
-                  <td className="btnMetas">
-                    <button className="action">
-                      <i className="fas fa-bars"></i>
-                    </button>
-                  </td>
-                </tbody>
-                <tbody>
-                  <td className="btnCod">001</td>
-                  <td className="btnOBS">Descriçao / equipe</td>
-                  <td className="btnMail">Gerência</td>
-                  <td className="btnFunc">Klabim</td>
-                  <td className="btnMetas">
-                    <button className="action">
-                      <i className="fas fa-bars"></i>
-                    </button>
-                  </td>
-                </tbody>
-                <tbody>
-                  <td className="btnCod">001</td>
-                  <td className="btnOBS">Descriçao / equipe</td>
-                  <td className="btnMail">Gerência</td>
-                  <td className="btnFunc">Klabim</td>
-                  <td className="btnMetas">
-                    <button className="action">
-                      <i className="fas fa-bars"></i>
-                    </button>
-                  </td>
-                </tbody>
-                <tbody>
-                  <td className="btnCod">001</td>
-                  <td className="btnOBS">Descriçao / equipe</td>
-                  <td className="btnMail">Gerência</td>
-                  <td className="btnFunc">Klabim</td>
-                  <td className="btnMetas">
-                    <button className="action">
-                      <i className="fas fa-bars"></i>
-                    </button>
-                  </td>
-                </tbody>
-                <tbody>
-                  <td className="btnCod">001</td>
-                  <td className="btnOBS">Descriçao / equipe</td>
-                  <td className="btnMail">Gerência</td>
-                  <td className="btnFunc">Klabim</td>
-                  <td className="btnMetas">
-                    <button className="action">
-                      <i className="fas fa-bars"></i>
-                    </button>
-                  </td>
-                </tbody>
-                <tbody>
-                  <td className="btnCod">001</td>
-                  <td className="btnOBS">Descriçao / equipe</td>
-                  <td className="btnMail">Gerência</td>
-                  <td className="btnFunc">Klabim</td>
-                  <td className="btnMetas">
-                    <button className="action">
-                      <i className="fas fa-bars"></i>
-                    </button>
-                  </td>
-                </tbody>
-                <tbody>
-                  <td className="btnCod">001</td>
-                  <td className="btnOBS">Descriçao / equipe</td>
-                  <td className="btnMail">Gerência</td>
-                  <td className="btnFunc">Klabim</td>
-                  <td className="btnMetas">
-                    <button className="action">
-                      <i className="fas fa-bars"></i>
-                    </button>
-                  </td>
-                </tbody>
-                <tbody>
-                  <td className="btnCod">001</td>
-                  <td className="btnOBS">Descriçao / equipe</td>
-                  <td className="btnMail">Gerência</td>
-                  <td className="btnFunc">Klabim</td>
-                  <td className="btnMetas">
+                  <td className="tblEquipesCod">001</td>
+                  <td className="tblEquipesOBS">Descriçao / equipe</td>
+                  <td className="tblEquipesMail">Gerência</td>
+                  <td className="tblEquipesFunc">Klabim</td>
+                  <td className="tblEquipesMetas">
                     <button className="action">
                       <i className="fas fa-bars"></i>
                     </button>

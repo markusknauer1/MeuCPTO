@@ -1,26 +1,26 @@
-.tblcodEquipe {
+.tblTtlcodEquipe {
   position: absolute;
   display: flex;
   top: 1%;
   left: 2%;
 }
-.tblequipDesc {
+.tblTtlequipDesc {
   position: absolute;
   display: flex;
   top: 1%;
-  left: 11%;
+  left: 8%;
 }
-.tblEquipGer {
+.tblTtlEquipGer {
   position: absolute;
   top: 1%;
   left: 35%;
 }
-.tblEquipCLient {
+.tblTtlEquipCLient {
   position: absolute;
   top: 1%;
   left: 61%;
 }
-.tblEquipState {
+.tblTtlEquipState {
   position: absolute;
   top: 1%;
   left: 89%;
@@ -34,35 +34,33 @@ tr:nth-child(even) {
   background-color: #ddd;
 } */
 
-.btnCod {
+.tblEquipesCod {
   padding-top: 1%;
   padding-bottom: 1%;
   padding-left: 3%;
-  width: 6rem;
+  width: 5rem;
 }
-.btnEquip {
+.tblEquipesOBS {
   padding-top: 1%;
   padding-bottom: 1%;
   padding-left: 1%;
   width: 20rem;
 }
-.btnGer {
+.tblEquipesMail {
   padding-top: 1%;
   padding-bottom: 1%;
   padding-left: 1%;
-  width: 15rem;
+  width: 20rem;
 }
-.btnClien {
+.tblEquipesFunc {
   padding-top: 1%;
   padding-bottom: 1%;
   padding-left: 1%;
-  width: 15rem;
+  width: 20rem;
 }
-.btnState {
-  padding-top: 1%;
-  padding-bottom: 1%;
-  padding-left: 1%;
-  width: 15rem;
+.tblEquipesMetas {
+  padding-left: 5%;
+  width: 10rem;
 }
 
 @media screen and (max-width: 500px) {

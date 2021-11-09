@@ -1,36 +1,21 @@
-.fnameGerencia {
+.tblTtlCod {
   position: absolute;
-  margin-left: 38rem;
-  margin-top: 17rem;
-  padding-left: 10px;
-  background-color: rgb(201, 201, 201);
-  font-size: 16px;
-  font-family: 'baloo bhaina2';
-  border: none;
-  align-items: center;
-  color: gray;
-  border-radius: 10px;
-  width: 270px;
-  height: 50px;
-  z-index: 1;
+  display: flex;
+  top: 1%;
+  left: 2%;
 }
-
-.tblCod {
-  top: 5%;
+.tblTtlDescGeren {
   position: absolute;
-  left: 3%;
-}
-.tblDescGeren {
-  top: 5%;
-  position: absolute;
+  display: flex;
+  top: 1%;
   left: 10%;
 }
-.tblUnidGer {
+.tblTtlUnidGer {
   top: 5%;
   position: absolute;
   left: 49%;
 }
-.tblStatusGerencia {
+.tblTtlStatusGerencia {
   top: 5%;
   position: absolute;
   left: 89%;
@@ -42,27 +27,28 @@ tr:nth-child(even) {
 .gerenciaRef2 :hover {
   background-color: #ddd;
 } */
-
-.gerDesc {
+.tblGerCod {
   padding-top: 1%;
+  padding-bottom: 1%;
+  padding-left: 3%;
+  width: 6rem;
+}
+.tblGerDesc {
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-left: 1%;
+  width: 25rem;
+}
+.tblGerUni {
   padding-bottom: 1%;
   padding-left: 2%;
   width: 25rem;
 }
-.btnGerUni {
+.tblGerStatus {
   padding-top: 1%;
   padding-bottom: 1%;
-  padding-left: 2%;
-  width: 25rem;
-}
-.btnMetas {
-  padding-top: 1%;
-  padding-bottom: 1%;
-  padding-left: 6%;
-  width: 10rem;
-}
-.btnStatusGerencia {
-  text-align: center;
+  padding-left: 5%;
+  width: 8rem;
 }
 
 @media screen and (max-width: 500px) {

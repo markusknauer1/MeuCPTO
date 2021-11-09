@@ -27,165 +27,42 @@ function Gerencias() {
             <h2>Cadastro de Gerências</h2>
           </div>
         </div>
+
         <div className="tabelaPadrao">
           <section className="">
             <div className="container">
               <table>
                 <thead>
                   <tr className="header">
-                    <th className="tblCod">
-                      CÓD
+                    <th className="tblTtlCod">
                       <div>CÓD</div>
                     </th>
-                    <th className="tblDescGeren">
-                      Descrição / Gerência
+                    <th className="tblTtlDescGeren">
                       <div>Descrição / Gerência</div>
                     </th>
-                    <th className="tblUnidGer">
-                      Unidade
+                    <th className="tblTtlUnidGer">
                       <div>Unidade</div>
                     </th>
-                    <th className="tblStatusGerencia">
-                      Status
+                    <th className="tblTtlStatusGerencia">
                       <div>Status</div>
                     </th>
                   </tr>
                 </thead>
                 <tbody>
-                  <td className="btnCod">001</td>
-                  <td className="gerDesc">Descrição</td>
-                  <td className="btnGerUni">Klabim</td>
-                  <td className="btnMetas">
+                  <td className="tblGerCod">001</td>
+                  <td className="tblGerDesc">Descrição</td>
+                  <td className="tblGerUni">Klabim</td>
+                  <td className="tblGerStatus">
                     <button className="action">
                       <i className="fas fa-bars"></i>
                     </button>
                   </td>
                 </tbody>
                 <tbody>
-                  <td className="btnCod">001</td>
-                  <td className="gerDesc">Descrição</td>
-                  <td className="btnGerUni">Klabim</td>
-                  <td className="btnMetas">
-                    <button className="action">
-                      <i className="fas fa-bars"></i>
-                    </button>
-                  </td>
-                </tbody>
-                <tbody>
-                  <td className="btnCod">001</td>
-                  <td className="gerDesc">Descrição</td>
-                  <td className="btnGerUni">Klabim</td>
-                  <td className="btnMetas">
-                    <button className="action">
-                      <i className="fas fa-bars"></i>
-                    </button>
-                  </td>
-                </tbody>
-                <tbody>
-                  <td className="btnCod">001</td>
-                  <td className="gerDesc">Descrição</td>
-                  <td className="btnGerUni">Klabim</td>
-                  <td className="btnMetas">
-                    <button className="action">
-                      <i className="fas fa-bars"></i>
-                    </button>
-                  </td>
-                </tbody>
-                <tbody>
-                  <td className="btnCod">001</td>
-                  <td className="gerDesc">Descrição</td>
-                  <td className="btnGerUni">Klabim</td>
-                  <td className="btnMetas">
-                    <button className="action">
-                      <i className="fas fa-bars"></i>
-                    </button>
-                  </td>
-                </tbody>
-                <tbody>
-                  <td className="btnCod">001</td>
-                  <td className="gerDesc">Descrição</td>
-                  <td className="btnGerUni">Klabim</td>
-                  <td className="btnMetas">
-                    <button className="action">
-                      <i className="fas fa-bars"></i>
-                    </button>
-                  </td>
-                </tbody>
-                <tbody>
-                  <td className="btnCod">001</td>
-                  <td className="gerDesc">Descrição</td>
-                  <td className="btnGerUni">Klabim</td>
-                  <td className="btnMetas">
-                    <button className="action">
-                      <i className="fas fa-bars"></i>
-                    </button>
-                  </td>
-                </tbody>
-                <tbody>
-                  <td className="btnCod">001</td>
-                  <td className="gerDesc">Descrição</td>
-                  <td className="btnGerUni">Klabim</td>
-                  <td className="btnMetas">
-                    <button className="action">
-                      <i className="fas fa-bars"></i>
-                    </button>
-                  </td>
-                </tbody>
-                <tbody>
-                  <td className="btnCod">001</td>
-                  <td className="gerDesc">Descrição</td>
-                  <td className="btnGerUni">Klabim</td>
-                  <td className="btnMetas">
-                    <button className="action">
-                      <i className="fas fa-bars"></i>
-                    </button>
-                  </td>
-                </tbody>
-                <tbody>
-                  <td className="btnCod">001</td>
-                  <td className="gerDesc">Descrição</td>
-                  <td className="btnGerUni">Klabim</td>
-                  <td className="btnMetas">
-                    <button className="action">
-                      <i className="fas fa-bars"></i>
-                    </button>
-                  </td>
-                </tbody>
-                <tbody>
-                  <td className="btnCod">001</td>
-                  <td className="gerDesc">Descrição</td>
-                  <td className="btnGerUni">Klabim</td>
-                  <td className="btnMetas">
-                    <button className="action">
-                      <i className="fas fa-bars"></i>
-                    </button>
-                  </td>
-                </tbody>
-                <tbody>
-                  <td className="btnCod">001</td>
-                  <td className="gerDesc">Descrição</td>
-                  <td className="btnGerUni">Klabim</td>
-                  <td className="btnMetas">
-                    <button className="action">
-                      <i className="fas fa-bars"></i>
-                    </button>
-                  </td>
-                </tbody>
-                <tbody>
-                  <td className="btnCod">001</td>
-                  <td className="gerDesc">Descrição</td>
-                  <td className="btnGerUni">Klabim</td>
-                  <td className="btnMetas">
-                    <button className="action">
-                      <i className="fas fa-bars"></i>
-                    </button>
-                  </td>
-                </tbody>
-                <tbody>
-                  <td className="btnCod">001</td>
-                  <td className="gerDesc">Descrição</td>
-                  <td className="btnGerUni">Klabim</td>
-                  <td className="btnMetas">
+                  <td className="tblGerCod">001</td>
+                  <td className="tblGerDesc">Descrição</td>
+                  <td className="tblGerUni">Klabim</td>
+                  <td className="tblGerStatus">
                     <button className="action">
                       <i className="fas fa-bars"></i>
                     </button>

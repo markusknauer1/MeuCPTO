@@ -472,7 +472,7 @@
     width: 100%;
     font-size: clamp(0.1em, 0.1em + 3vw, 3em);
     top: 110px;
-    height: 8%;
+    height: 25px;
   }
   .titulo4 {
     width: 10rem;
@@ -483,7 +483,7 @@
     width: 45%;
     font-size: clamp(0.1em, 0.1em + 3vw, 3em);
     top: 160px;
-    height: 8%;
+    height: 25px;
   }
   .titulo5 {
     width: 10rem;
@@ -496,7 +496,7 @@
     font-size: clamp(0.1em, 0.1em + 3vw, 3em);
     top: 160px;
     left: 50%;
-    height: 8%;
+    height: 25px;
   }
   .titulo6 {
     width: 10rem;
@@ -506,7 +506,7 @@
   }
   .fcadastro6 {
     width: 100%;
-    height: 8%;
+    height: 25px;
     font-size: clamp(0.1em, 0.1em + 3vw, 3em);
     top: 210px;
     left: 0%;
@@ -519,7 +519,7 @@
   }
   .fcadastro7 {
     width: 100%;
-    height: 8%;
+    height: 25px;
     font-size: clamp(0.1em, 0.1em + 3vw, 3em);
     top: 260px;
     left: 0;
@@ -532,7 +532,7 @@
   }
   .fcadastro8 {
     width: 100%;
-    height: 8%;
+    height: 25px;
     font-size: clamp(0.1em, 0.1em + 3vw, 3em);
     top: 310px;
     left: 0;
@@ -545,7 +545,7 @@
   }
   .fcadastro9 {
     width: 100%;
-    height: 8%;
+    height: 25px;
     font-size: clamp(0.1em, 0.1em + 3vw, 3em);
     top: 360px;
     left: 0;
@@ -558,7 +558,7 @@
   }
   .fcadastro10 {
     width: 100%;
-    height: 8%;
+    height: 25px;
     font-size: clamp(0.1em, 0.1em + 3vw, 3em);
     top: 410px;
     left: 0;
@@ -571,7 +571,7 @@
   }
   .fcadastro11 {
     width: 10rem;
-    height: 8%;
+    height: 25px;
     font-size: clamp(0.1em, 0.1em + 3vw, 3em);
     top: 460px;
     left: 0;
@@ -584,7 +584,7 @@
   }
   .fcadastro12 {
     width: 10rem;
-    height: 8%;
+    height: 25px;
     font-size: clamp(0.1em, 0.1em + 3vw, 3em);
     top: 460px;
     left: 35%;
@@ -597,7 +597,7 @@
   }
   .fcadastro13 {
     width: 10rem;
-    height: 8%;
+    height: 25px;
     font-size: clamp(0.1em, 0.1em + 3vw, 3em);
     top: 460px;
     left: 70%;

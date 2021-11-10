@@ -251,7 +251,7 @@ html {
     transition: color 0.2s ease-in-out;
     width: 73.4%;
     height: 12%;
-    top: 70px;
+    top: 80px;
     left: 13.4%;
   }
 
@@ -273,7 +273,7 @@ html {
     transition: color 0.2s ease-in-out;
     width: 73.4%;
     height: 12%;
-    top: 100px;
+    top: 120px;
     left: 13.4%;
   }
   .login .enter-app {
@@ -291,7 +291,7 @@ html {
     transition: color 0.2s ease-in-out;
     width: 73.4%;
     height: 14%;
-    top: 130px;
+    top: 160px;
     left: 13.4%;
     z-index: 5;
   }
@@ -308,7 +308,7 @@ html {
     transition: color 0.2s ease-in-out;
     width: 73.4%;
     height: 14%;
-    top: 165px;
+    top: 200px;
     left: 11%;
     z-index: 5;
   }
@@ -338,7 +338,7 @@ html {
     transition: color 0.2s ease-in-out;
     width: 28%;
     height: 10%;
-    top: 165px;
+    top: 200px;
     left: 63%;
     z-index: 5;
   }

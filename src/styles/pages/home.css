@@ -70,7 +70,7 @@
   border-style: none;
   border-radius: 10px;
   z-index: 1;
-  top: 32%;
+  bottom: 25px;
   left: 10%;
   position: absolute;
   padding: 0;
@@ -190,7 +190,7 @@
 
 .pending {
   position: absolute;
-  width: 9vmin;
+  width: 7vmin;
   left: 10%;
   top: 56%;
 }
@@ -388,32 +388,13 @@
   width: 20.4%;
 }
 
-@media screen and (max-width: 780px) {
-  .tabelaPadrao {
-    position: absolute;
-    top: 30%;
-    left: 2%;
-    width: 60%;
-    height: 65%;
-    background-color: rgb(255, 255, 255);
-    border-radius: 0;
-    z-index: 5;
-  }
-  .tabelaPadrao::-webkit-scrollbar {
-    width: 6px;
-    background-color: transparent;
-    /* rgb(219, 219, 219); */
-    /* border-radius: 10px; */
-  }
-}
-
 @media screen and (max-width: 500px) {
   .MetaMes1 {
     display: none;
   }
   .MetaMes2 {
     position: absolute;
-    top: 6%;
+    top: 8%;
     left: 26%;
     font-family: 'baloo bhaina 2';
     font-weight: 800;
@@ -462,12 +443,12 @@
     overflow: auto;
     display: flex;
     width: 90%;
-    height: 57%;
+    height: 300px;
 
     border-style: none;
     border-radius: 10px;
     z-index: 1;
-    top: 15%;
+    bottom: 30%;
     left: 5%;
     position: absolute;
   }

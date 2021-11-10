@@ -407,7 +407,7 @@
     height: 52%;
   }
 
-  .subtcad4 {
+  .subtcad1 {
     position: absolute;
     top: -8%;
     left: 1rem;
@@ -432,7 +432,7 @@
     position: absolute;
     top: 0rem;
     left: 1rem;
-    font-weight: 600;
+    font-weight: 500;
     display: block;
     font-size: clamp(0.1em, 0.1em + 10vw, 3em);
     font-family: 'baloo bhaina 2';
@@ -447,161 +447,159 @@
   }
   .fcadastro1 {
     width: 100%;
-    height: 8%;
+    height: 25px;
     font-size: clamp(0.1em, 0.1em + 3vw, 3em);
-    top: 7%;
+    top: 18px;
   }
   .titulo2 {
     font-size: clamp(0.1em, 0.1em + 3vw, 3em);
     left: 0rem;
-    top: 14%;
+    top: 45px;
   }
   .fcadastro2 {
     width: 100%;
     font-size: clamp(0.1em, 0.1em + 3vw, 3em);
-    top: 21%;
-    height: 8%;
+    top: 64px;
+    height: 25px;
     left: 0;
   }
   .titulo3 {
     width: 10rem;
     font-size: clamp(0.1em, 0.1em + 3vw, 3em);
-    top: 29%;
+    top: 90px;
   }
   .fcadastro3 {
     width: 100%;
     font-size: clamp(0.1em, 0.1em + 3vw, 3em);
-    top: 36%;
+    top: 110px;
     height: 8%;
   }
   .titulo4 {
     width: 10rem;
     font-size: clamp(0.1em, 0.1em + 3vw, 3em);
-    top: 43%;
+    top: 140px;
   }
   .fcadastro4 {
     width: 45%;
     font-size: clamp(0.1em, 0.1em + 3vw, 3em);
-    top: 50%;
+    top: 160px;
     height: 8%;
   }
   .titulo5 {
     width: 10rem;
     font-size: clamp(0.1em, 0.1em + 3vw, 3em);
-    top: 43%;
+    top: 140px;
     left: 51%;
   }
   .fcadastro5 {
     width: 50%;
     font-size: clamp(0.1em, 0.1em + 3vw, 3em);
-    top: 50%;
+    top: 160px;
     left: 50%;
     height: 8%;
   }
   .titulo6 {
     width: 10rem;
     font-size: clamp(0.1em, 0.1em + 3vw, 3em);
-    top: 58%;
+    top: 190px;
     left: 0;
   }
   .fcadastro6 {
     width: 100%;
     height: 8%;
     font-size: clamp(0.1em, 0.1em + 3vw, 3em);
-    top: 65%;
+    top: 210px;
     left: 0%;
   }
   .titulo7 {
     width: 10rem;
     font-size: clamp(0.1em, 0.1em + 3vw, 3em);
-    top: 73%;
+    top: 240px;
     left: 0;
   }
   .fcadastro7 {
     width: 100%;
     height: 8%;
     font-size: clamp(0.1em, 0.1em + 3vw, 3em);
-    top: 80%;
+    top: 260px;
     left: 0;
   }
   .titulo8 {
     width: 43%;
     font-size: clamp(0.1em, 0.1em + 3vw, 3em);
-    top: 88%;
+    top: 290px;
     left: 0;
   }
   .fcadastro8 {
     width: 100%;
     height: 8%;
     font-size: clamp(0.1em, 0.1em + 3vw, 3em);
-    top: 95%;
+    top: 310px;
     left: 0;
   }
   .titulo9 {
     width: 10rem;
     font-size: clamp(0.1em, 0.1em + 3vw, 3em);
-    top: 102%;
+    top: 340px;
     left: 0;
   }
   .fcadastro9 {
     width: 100%;
     height: 8%;
     font-size: clamp(0.1em, 0.1em + 3vw, 3em);
-    top: 109%;
+    top: 360px;
     left: 0;
   }
   .titulo10 {
     width: 10rem;
     font-size: clamp(0.1em, 0.1em + 3vw, 3em);
-    top: 115%;
+    top: 390px;
     left: 0;
   }
   .fcadastro10 {
     width: 100%;
     height: 8%;
     font-size: clamp(0.1em, 0.1em + 3vw, 3em);
-    top: 122%;
+    top: 410px;
     left: 0;
   }
   .titulo11 {
     width: 10rem;
     font-size: clamp(0.1em, 0.1em + 3vw, 3em);
-    top: 129%;
+    top: 440px;
     left: 0;
   }
   .fcadastro11 {
     width: 10rem;
     height: 8%;
-
-    padding-left: 0.2;
     font-size: clamp(0.1em, 0.1em + 3vw, 3em);
-    top: 136%;
+    top: 460px;
     left: 0;
   }
   .titulo12 {
     width: 10rem;
     font-size: clamp(0.1em, 0.1em + 3vw, 3em);
-    top: 129%;
+    top: 440px;
     left: 35%;
   }
   .fcadastro12 {
     width: 10rem;
     height: 8%;
     font-size: clamp(0.1em, 0.1em + 3vw, 3em);
-    top: 136%;
+    top: 460px;
     left: 35%;
   }
   .titulo13 {
     width: 10rem;
     font-size: clamp(0.1em, 0.1em + 3vw, 3em);
-    top: 129%;
+    top: 440px;
     left: 70%;
   }
   .fcadastro13 {
     width: 10rem;
     height: 8%;
     font-size: clamp(0.1em, 0.1em + 3vw, 3em);
-    top: 136%;
+    top: 460px;
     left: 70%;
   }
 }

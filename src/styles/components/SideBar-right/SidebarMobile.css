@@ -241,7 +241,7 @@ span {
     background-color: transparent;
     position: fixed;
     left: 42%;
-    top: 80.5%;
+    top: 81.5%;
     font-size: clamp(1em, 1em + 11vw, 11em);
     border-radius: 50px;
     z-index: 99;
@@ -347,7 +347,7 @@ span {
     z-index: 2;
   }
 
-  /*MENU COMPLEMENTAR-------*/
+  /*-------------------------MENU COMPLEMENTAR-------*/
   .mobcaddate {
     display: none;
     /* width: 100%;

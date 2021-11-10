@@ -196,7 +196,12 @@ export default function Modal() {
             <button className="close-modal" onClick={toggleModal}>
               X
             </button>
-            <button onClick={toggleModal} className="gravar-modal">
+
+            <button
+              onClick={toggleModal}
+              type="submit"
+              className="gravar-modal"
+            >
               Salvar Registro
             </button>
           </div>

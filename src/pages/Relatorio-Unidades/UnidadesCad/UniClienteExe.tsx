@@ -16,7 +16,11 @@ function UniExe() {
   return (
     <div className="HomePage">
       <SideBar />
-      <button className="btnReturn" onClick={() => history.goBack()}>
+      <button
+        className="btnReturn"
+        type="button"
+        onClick={() => history.goBack()}
+      >
         <TypIcons.TiArrowBackOutline />
       </button>
       <div className="page">

@@ -98,10 +98,11 @@
     color: #749898;
     background-color: transparent;
   }
-  .greetings1 {
+
+  .titleProfile1 {
     display: none;
   }
-  .greetings2 {
+  .titleProfile2 {
     display: none;
   }
 }
@@ -144,10 +145,10 @@
     color: #749898;
     background-color: transparent;
   }
-  .greetings1 {
+  .titleProfile1 {
     display: none;
   }
-  .greetings2 {
+  .titleProfile2 {
     display: none;
   }
 }

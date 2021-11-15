@@ -107,7 +107,7 @@
   }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 1024px) {
   .Profile-direita {
     position: absolute;
     width: 100%;

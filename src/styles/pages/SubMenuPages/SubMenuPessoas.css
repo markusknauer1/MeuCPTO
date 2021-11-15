@@ -1,21 +1,3 @@
-.fnameSubMenu {
-  position: absolute;
-  left: 48%;
-  top: 8%;
-  padding-left: 10px;
-  padding-top: 0.2%;
-  background-color: rgb(201, 201, 201);
-  font-family: 'baloo bhaina 2';
-  font-weight: 400;
-  font-size: clamp(0.1em, 0.1em + 1vw, 2.5em);
-  border: none;
-  align-items: center;
-  color: rgb(32, 32, 32);
-  border-radius: 5px;
-  width: 15%;
-  height: 5%;
-  z-index: 1;
-}
 section {
   position: relative;
   border: 1px solid #000;
@@ -165,7 +147,7 @@ th:first-child div {
 
 /*------------------------------------------------------------------------------------------*/
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 1024px) {
   .buttonModalPadrao {
     position: absolute;
     top: 75%;

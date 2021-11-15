@@ -410,10 +410,22 @@
     font-size: clamp(1em, 1em + 2.5vw, 4em);
     background: transparent !important;
   }
+  .statusRel {
+    position: absolute;
+    width: 15%;
+    top: 20%;
+  }
+  .locale {
+    position: absolute;
+    top: 105%;
+    color: #1c396b;
+    font-size: clamp(0.1em, 0.1em + 1.2vw, 3em);
+    background: transparent !important;
+  }
   .FuncaoResultado {
     position: absolute;
     left: 25%;
-    top: 30%;
+    top: 45%;
     font-family: 'baloo bhaina 2';
     font-weight: 600;
     font-size: 40px;

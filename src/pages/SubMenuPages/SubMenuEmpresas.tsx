@@ -42,7 +42,97 @@ function SubMenuEmpresas() {
                     </th>
                   </tr>
                 </thead>
-
+                <tbody>
+                  <td className="btnSubEmpresaCod">01</td>
+                  <td className="btnSubEmpresaOBS">Humanit-TI</td>
+                  <td className="btnSubEmpresaAtivo">
+                    <i className="fas fa-check-circle"></i>
+                  </td>
+                </tbody>
+                <tbody>
+                  <td className="btnSubEmpresaCod">01</td>
+                  <td className="btnSubEmpresaOBS">Humanit-TI</td>
+                  <td className="btnSubEmpresaAtivo">
+                    <i className="fas fa-check-circle"></i>
+                  </td>
+                </tbody>
+                <tbody>
+                  <td className="btnSubEmpresaCod">01</td>
+                  <td className="btnSubEmpresaOBS">Humanit-TI</td>
+                  <td className="btnSubEmpresaAtivo">
+                    <i className="fas fa-check-circle"></i>
+                  </td>
+                </tbody>
+                <tbody>
+                  <td className="btnSubEmpresaCod">01</td>
+                  <td className="btnSubEmpresaOBS">Humanit-TI</td>
+                  <td className="btnSubEmpresaAtivo">
+                    <i className="fas fa-check-circle"></i>
+                  </td>
+                </tbody>
+                <tbody>
+                  <td className="btnSubEmpresaCod">01</td>
+                  <td className="btnSubEmpresaOBS">Humanit-TI</td>
+                  <td className="btnSubEmpresaAtivo">
+                    <i className="fas fa-check-circle"></i>
+                  </td>
+                </tbody>
+                <tbody>
+                  <td className="btnSubEmpresaCod">01</td>
+                  <td className="btnSubEmpresaOBS">Humanit-TI</td>
+                  <td className="btnSubEmpresaAtivo">
+                    <i className="fas fa-check-circle"></i>
+                  </td>
+                </tbody>
+                <tbody>
+                  <td className="btnSubEmpresaCod">01</td>
+                  <td className="btnSubEmpresaOBS">Humanit-TI</td>
+                  <td className="btnSubEmpresaAtivo">
+                    <i className="fas fa-check-circle"></i>
+                  </td>
+                </tbody>
+                <tbody>
+                  <td className="btnSubEmpresaCod">01</td>
+                  <td className="btnSubEmpresaOBS">Humanit-TI</td>
+                  <td className="btnSubEmpresaAtivo">
+                    <i className="fas fa-check-circle"></i>
+                  </td>
+                </tbody>
+                <tbody>
+                  <td className="btnSubEmpresaCod">01</td>
+                  <td className="btnSubEmpresaOBS">Humanit-TI</td>
+                  <td className="btnSubEmpresaAtivo">
+                    <i className="fas fa-check-circle"></i>
+                  </td>
+                </tbody>
+                <tbody>
+                  <td className="btnSubEmpresaCod">01</td>
+                  <td className="btnSubEmpresaOBS">Humanit-TI</td>
+                  <td className="btnSubEmpresaAtivo">
+                    <i className="fas fa-check-circle"></i>
+                  </td>
+                </tbody>
+                <tbody>
+                  <td className="btnSubEmpresaCod">01</td>
+                  <td className="btnSubEmpresaOBS">Humanit-TI</td>
+                  <td className="btnSubEmpresaAtivo">
+                    <i className="fas fa-check-circle"></i>
+                  </td>
+                </tbody>
+                <tbody>
+                  <td className="btnSubEmpresaCod">01</td>
+                  <td className="btnSubEmpresaOBS">Humanit-TI</td>
+                  <td className="btnSubEmpresaAtivo">
+                    <i className="fas fa-check-circle"></i>
+                  </td>
+                </tbody>
+                <tbody>
+                  <td className="btnSubEmpresaCod">01</td>
+                  <td className="btnSubEmpresaOBS">Humanit-TI</td>
+                  <td className="btnSubEmpresaAtivo">
+                    <i className="fas fa-check-circle"></i>
+                  </td>
+                </tbody>
                 <tbody>
                   <td className="btnSubEmpresaCod">01</td>
                   <td className="btnSubEmpresaOBS">Humanit-TI</td>

@@ -225,7 +225,19 @@ span {
   .menuComp{
     display: none;
   } */
+
 @media screen and (max-width: 780px) {
+  .navbar {
+    background-color: transparent;
+    position: fixed;
+    left: 330px;
+    top: 82.5%;
+    font-size: clamp(1em, 1em + 10vw, 10em);
+    border-radius: 50px;
+    z-index: 99;
+  }
+}
+@media screen and (max-width: 500px) {
   /* .menuComp{
       position: absolute;
       display:flex;

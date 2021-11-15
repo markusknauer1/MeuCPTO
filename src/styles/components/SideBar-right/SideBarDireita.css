@@ -257,6 +257,30 @@
   transition: 0.3s;
 }
 
+@media screen and (max-width: 1024px) {
+  .buttonProfileDireita {
+    display: none;
+  }
+
+  .buttonSave {
+    position: fixed;
+    width: 20%;
+    height: 6%;
+    top: 73%;
+    left: 75%;
+    font-family: 'baloo bhaina 2';
+    font-weight: 800;
+    font-size: clamp(0.01em, 0.01em + 6vw, 2em);
+    background-color: #35c2aa;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    border: none;
+    border-radius: 5px;
+    z-index: 2;
+  }
+}
+
 @media screen and (max-width: 500px) {
   .buttonProfileDireita {
     display: none;

@@ -1,42 +1,5 @@
-.fnamePadrao {
-  position: absolute;
-  left: 38%;
-  top: 22.5%;
-  padding-top: 0.1%;
-  padding-left: 10px;
-  background-color: rgb(201, 201, 201);
-  font-family: 'baloo bhaina 2';
-  font-weight: 400;
-  font-size: clamp(0.1em, 0.1em + 1vw, 3em);
-  border: none;
-  align-items: center;
-  color: rgb(32, 32, 32);
-  border-radius: 5px;
-  width: 12%;
-  height: 5%;
-  z-index: 1;
-}
 ::-webkit-input-placeholder {
   font-family: 'baloo bhaina 2';
-}
-.buttonModalPadrao {
-  position: fixed;
-  top: 22.5%;
-  left: 50.5%;
-  width: 12%;
-  height: 5%;
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  z-index: 2;
-  cursor: pointer;
-  font-family: 'baloo bhaina 2';
-  font-weight: 600;
-  font-size: clamp(0.01em, 0.01em + 1.4vw, 2em);
-  background-color: #0b9e82;
-  color: white;
-  border-style: none;
-  border-radius: 5px;
 }
 
 .buttonModalPadrao1 {
@@ -81,7 +44,7 @@
   position: absolute;
   top: 30%;
   left: 10%;
-  width: 78%;
+  width: 80%;
   height: 65%;
   background-color: rgb(255, 255, 255);
   border-radius: 0;
@@ -238,23 +201,7 @@ th:first-child div {
 
 /*------------------------------------------------------------------------------------------*/
 
-@media screen and (max-width: 500px) {
-  .buttonModalPadrao {
-    position: absolute;
-    top: 75%;
-    left: 60%;
-    width: 35%;
-    height: 4%;
-    font-size: clamp(0.1em, 0.1em + 3.5vw, 3em);
-    z-index: 1;
-    cursor: pointer;
-    font-family: 'baloo bhaina 2';
-    font-weight: 800;
-    background-color: #0b9e82;
-    color: white;
-    border-style: none;
-    border-radius: 10px;
-  }
+@media screen and (max-width: 1024px) {
   .buttonModalPadrao1 {
     position: absolute;
     top: 21%;
@@ -292,22 +239,6 @@ th:first-child div {
     border-radius: 10px;
   }
 
-  .fnamePadrao {
-    position: absolute;
-    left: 56%;
-    top: 21%;
-    padding-left: 10px;
-    background-color: rgb(201, 201, 201);
-    font-size: clamp(0.1em, 0.1em + 3vw, 3em);
-    font-family: baloo bhaina2;
-    border: none;
-    align-items: center;
-    color: rgb(32, 32, 32);
-    border-radius: 5px;
-    width: 40%;
-    height: 4%;
-    z-index: 1;
-  }
   .subtPadrao1 {
     position: fixed;
     top: 16%;

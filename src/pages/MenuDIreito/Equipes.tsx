@@ -2,11 +2,10 @@ import React from 'react'
 import ProfileDireita from '../../Components/ProfileDireita'
 import SideBar from '../../Components/SideBar'
 import SideBarDireita from '../../Components/SideBar-right/SideBarDireita'
-import '../../styles/pages/pessoas.css'
 import SidebarMobile from '../../Components/SideBar-right/SidebarMobile'
 
 import Modal from './MenuDireito-Modal/ModalCadEquipe'
-import '../../styles/pages/menuDireitoCss/equipes.css'
+import '../../styles/pages/MenuDireitoCss/equipes.css'
 
 function Equipes() {
   return (

@@ -1,8 +1,5 @@
-import React, { useState } from 'react'
-import '../../../styles/pages/menuDireitoCss/modal/modalPessoa.css'
-
-import DatePicker from 'react-date-picker'
-import '../../../styles/components/DatePicker.css'
+import { useState } from 'react'
+import '../../../styles/pages/MenuDireitoCss/modal/modalPessoa.css'
 
 export default function Modal() {
   const [modal, setModal] = useState(false)
@@ -16,7 +13,6 @@ export default function Modal() {
   } else {
     document.body.classList.remove('active-modal')
   }
-  const [value, onChange] = useState(new Date())
 
   return (
     <>
@@ -29,6 +25,7 @@ export default function Modal() {
           <div onClick={toggleModal} className="overlay"></div>
           <div className="modalPessoa-content">
             <h2 className="titleModal">Nova Pessoa</h2>
+            <hr className="hrTitleModal" />
 
             <div className="formCadModal">
               <input
@@ -49,22 +46,17 @@ export default function Modal() {
                 <option value="">Feminino</option>
                 <option value="">Masculino</option>
               </select>
+
+              <input className="fcadastroPessoa3" id="date" type="date" />
+
               <select
                 name="Função"
-                className="fcadastroPessoa3"
+                className="fcadastroPessoa4"
                 type="text"
                 id="fcontexto"
               >
                 <option value="">Função</option>
               </select>
-
-              <div className="fcadastroPessoa4">
-                <DatePicker
-                  calendarType="Hebrew"
-                  onChange={onChange}
-                  value={value}
-                />
-              </div>
 
               <input
                 className="fcadastroPessoa5"
@@ -175,8 +167,7 @@ export default function Modal() {
                 <input
                   className="CheckAcess"
                   type="checkbox"
-                  placeholder="AppAcess"
-                  defaultChecked={true}
+                  defaultChecked={false}
                 />
 
                 <span className="checkText">Acesso ao APP</span>
@@ -186,8 +177,7 @@ export default function Modal() {
                 <input
                   className="CheckAcess"
                   type="checkbox"
-                  placeholder="WebAcess"
-                  defaultChecked={true}
+                  defaultChecked={false}
                 />
                 <span className="checkText">Acesso Web</span>
               </label>

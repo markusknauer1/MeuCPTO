@@ -77,23 +77,6 @@ tr:nth-child(even) {
 }
 
 @media screen and (max-width: 1024px) {
-  .fCxPesquisa {
-    position: absolute;
-    left: 72%;
-    top: 21%;
-    padding-left: 10px;
-    background-color: rgb(201, 201, 201);
-    font-size: clamp(0.1em, 0.1em + 1.5vw, 1.5em);
-    font-family: baloo bhaina2;
-    border: none;
-    align-items: center;
-    color: rgb(32, 32, 32);
-    border-radius: 5px;
-    width: 22%;
-    height: 4%;
-    z-index: 1;
-  }
-
   .cod {
     top: 2%;
     left: 5%;

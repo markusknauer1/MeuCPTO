@@ -219,7 +219,7 @@ html {
 .fCxPesquisa {
   position: absolute;
   left: 52%;
-  top: 5%;
+  top: 7%;
   padding-left: 10px;
   background-color: rgb(201, 201, 201);
   font-size: clamp(0.1em, 0.1em + 1.5vw, 1.5em);
@@ -298,6 +298,109 @@ html {
   color: white;
   border-style: none;
   border-radius: 5px;
+}
+
+.close-modal {
+  position: absolute;
+  top: 6%;
+  right: 5%;
+  border-style: none;
+  font-size: 20px;
+  color: #a0a0a0;
+  height: 1%;
+  width: 1%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  background-color: transparent;
+  cursor: pointer;
+}
+.gravar-modal {
+  position: absolute;
+  right: 5%;
+  bottom: 5%;
+  font-family: 'baloo bhaina 2';
+  font-weight: 400;
+  font-size: clamp(0.1em, 0.1em + 1.2vw, 3em);
+  width: 15rem;
+  height: 3.5rem;
+  background-color: #1c396b;
+  color: white;
+  border-radius: 5px;
+  border-style: none;
+  cursor: pointer;
+}
+.titleModal {
+  position: absolute;
+  left: 5%;
+  top: 4%;
+  font-family: 'baloo bhaina 2';
+  font-weight: 500;
+  font-size: clamp(0.1em, 0.1em + 1.8vw, 3em);
+  color: #1c396b;
+}
+.cxtittleModalPadrao {
+  position: absolute;
+  left: 5%;
+  top: 5%;
+  width: 50%;
+  height: 20%;
+  background-color: brown;
+}
+.hrTitleModal {
+  position: absolute;
+  display: flex;
+  background-image: linear-gradient(90deg, #fff 20%, rgb(209, 209, 209) 80%);
+  border-color: transparent;
+  border-style: none;
+  top: 11%;
+  left: 5%;
+  width: 25%;
+  height: 2.5px;
+}
+.hrTitleModal1 {
+  position: absolute;
+  display: flex;
+  background-image: linear-gradient(90deg, #fff 20%, rgb(197, 197, 197) 80%);
+  border-color: transparent;
+  top: 16%;
+  left: 5%;
+  width: 25%;
+  height: 3px;
+}
+.hrTitleModal2 {
+  position: absolute;
+  display: flex;
+  background-image: linear-gradient(
+    90deg,
+    rgb(238, 238, 238) 20%,
+    rgb(197, 197, 197) 80%
+  );
+  border-color: transparent;
+  top: 14%;
+  left: 5%;
+  width: 25%;
+  height: 3px;
+}
+.hrTitleModal3 {
+  position: absolute;
+  display: flex;
+  background-image: linear-gradient(90deg, #fff 20%, rgb(197, 197, 197) 80%);
+  border-color: transparent;
+  top: 16%;
+  left: 5%;
+  width: 45%;
+  height: 3px;
+}
+.hrTitleModal4 {
+  position: absolute;
+  display: flex;
+  background-image: linear-gradient(90deg, #fff 20%, rgb(197, 197, 197) 80%);
+  border-color: transparent;
+  top: 16%;
+  left: 5%;
+  width: 32%;
+  height: 3px;
 }
 
 @media screen and (max-width: 1024px) {

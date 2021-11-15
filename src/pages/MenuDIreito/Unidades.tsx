@@ -3,14 +3,14 @@ import ProfileDireita from '../../Components/ProfileDireita'
 import SideBar from '../../Components/SideBar'
 import SideBarDireita from '../../Components/SideBar-right/SideBarDireita'
 import SidebarMobile from '../../Components/SideBar-right/SidebarMobile'
-import '../../styles/pages/menuDireitoCss/unidades.css'
+import '../../styles/pages/MenuDireitoCss/unidades.css'
 
 function Unidades() {
   return (
     <div className="HomePage">
       <div>
         <input
-          className="fCxPesquisa"
+          className="fnamePadrao"
           placeholder="Pesquisar"
           type="text"
           id="fnameUnidade"
@@ -51,77 +51,77 @@ function Unidades() {
                 </thead>
                 <tbody>
                   <td className="btnCod">001</td>
-                  <td className="btnUni">Equipe</td>
+                  <td className="btnUni">Unidade</td>
                   <td className="btnStatusUnidades">
                     <i className="far fa-check-circle"></i>
                   </td>
                 </tbody>
                 <tbody>
                   <td className="btnCod">001</td>
-                  <td className="btnUni">Equipe</td>
+                  <td className="btnUni">Unidade</td>
                   <td className="btnStatusUnidades">
                     <i className="far fa-check-circle"></i>
                   </td>
                 </tbody>
                 <tbody>
                   <td className="btnCod">001</td>
-                  <td className="btnUni">Equipe</td>
+                  <td className="btnUni">Unidade</td>
                   <td className="btnStatusUnidades">
                     <i className="far fa-check-circle"></i>
                   </td>
                 </tbody>
                 <tbody>
                   <td className="btnCod">001</td>
-                  <td className="btnUni">Equipe</td>
+                  <td className="btnUni">Unidade</td>
                   <td className="btnStatusUnidades">
                     <i className="far fa-check-circle"></i>
                   </td>
                 </tbody>
                 <tbody>
                   <td className="btnCod">001</td>
-                  <td className="btnUni">Equipe</td>
+                  <td className="btnUni">Unidade</td>
                   <td className="btnStatusUnidades">
                     <i className="far fa-check-circle"></i>
                   </td>
                 </tbody>
                 <tbody>
                   <td className="btnCod">001</td>
-                  <td className="btnUni">Equipe</td>
+                  <td className="btnUni">Unidade</td>
                   <td className="btnStatusUnidades">
                     <i className="far fa-check-circle"></i>
                   </td>
                 </tbody>
                 <tbody>
                   <td className="btnCod">001</td>
-                  <td className="btnUni">Equipe</td>
+                  <td className="btnUni">Unidade</td>
                   <td className="btnStatusUnidades">
                     <i className="far fa-check-circle"></i>
                   </td>
                 </tbody>
                 <tbody>
                   <td className="btnCod">001</td>
-                  <td className="btnUni">Equipe</td>
+                  <td className="btnUni">Unidade</td>
                   <td className="btnStatusUnidades">
                     <i className="far fa-check-circle"></i>
                   </td>
                 </tbody>
                 <tbody>
                   <td className="btnCod">001</td>
-                  <td className="btnUni">Equipe</td>
+                  <td className="btnUni">Unidade</td>
                   <td className="btnStatusUnidades">
                     <i className="far fa-check-circle"></i>
                   </td>
                 </tbody>
                 <tbody>
                   <td className="btnCod">001</td>
-                  <td className="btnUni">Equipe</td>
+                  <td className="btnUni">Unidade</td>
                   <td className="btnStatusUnidades">
                     <i className="far fa-check-circle"></i>
                   </td>
                 </tbody>
                 <tbody>
                   <td className="btnCod">001</td>
-                  <td className="btnUni">Equipe</td>
+                  <td className="btnUni">Unidade</td>
                   <td className="btnStatusUnidades">
                     <i className="far fa-check-circle"></i>
                   </td>

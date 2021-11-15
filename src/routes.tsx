@@ -4,32 +4,30 @@ import index from './Components/Login/index'
 import Home from './pages/Home'
 import FormCad from './pages/FormularioCadastro'
 import Pessoas from './pages/Pessoas'
-import Relatorio from './pages/Relatorio'
+import Relatorio from './pages/Relatorio/Relatorio'
 import Observacoes from './pages/MenuDIreito/Observacoes'
 import Equipes from './pages/MenuDIreito/Equipes'
 import Gerencias from './pages/MenuDIreito/Gerencias'
 import Unidades from './pages/MenuDIreito/Unidades'
 import Atividades from './pages/MenuDIreito/Atividades'
 import Area from './pages/MenuDIreito/Area'
-import UniClienteExe from './pages/Relatorio-Unidades/UnidadesCad/UniClienteExe'
-import UniClieSetor from './pages/Relatorio-Unidades/UnidadesCad/UniClieSetor'
-import MesSetor from './pages/Relatorio-Unidades/UnidadesCad/MesSetor'
-
-import ObservCpto from './pages/Relatorio-Unidades/DetalhesDaObserv/ObservCpto'
-import SubMenuPessoas from './pages/SubMenuPages/SubMenuPessoas'
-import SubMenuTextActive from './pages/SubMenuPages/SubMenuTextActive'
-import SubMenuEmpresas from './pages/SubMenuPages/SubMenuEmpresas'
-import SubMenuTipoDeObservacao from './pages/SubMenuPages/SubMenuTipoDeObservacao'
-import tipoQualidadeDeObservacao from './pages/SubMenuPages/pages-tiposDeobservaçoes/tipoQualidadeDeObservacao'
-import TQOQuestoesReg from './pages/SubMenuPages/pages-tiposDeobservaçoes/Questões-tiposDeQuestões/TQOQuestoesReg'
-import SubMenuGruposUsuarios from './pages/SubMenuPages/SubMenuGruposUsuarios'
-import PermissoesDeacessoAoSistema from './pages/SubMenuPages/pages-GruposDeUsuario/PermissoesDeAcessoAoSistema'
-import AtivadoresSociais from './pages/SubMenuPages/pages-textosAtivadores/AtivadoresSociais'
-import AtivadoresPsicologicos from './pages/SubMenuPages/pages-textosAtivadores/AtivadoresPsicologicos'
-import AtivadoresPessoal from './pages/SubMenuPages/pages-textosAtivadores/AtivadoresPessoal'
-import AtivadoresCognitivos from './pages/SubMenuPages/pages-textosAtivadores/AtivadoresCognitivos'
-import AtivadoresFisiologicos from './pages/SubMenuPages/pages-textosAtivadores/AtivadoresFisiologicos'
-import UniContribSetor from './pages/Relatorio-Unidades/UnidadesCad/UniContribSetor'
+import UniClienteExe from './pages/Relatorio/UnidadesCadastradas/UniClienteExe'
+import UniClieSetor from './pages/Relatorio/UnidadesCadastradas/UniClieSetor'
+import MesSetor from './pages/Relatorio/UnidadesCadastradas/MesSetor'
+import UniContribSetor from './pages/Relatorio/UnidadesCadastradas/UniContribSetor'
+import ObservCpto from './pages/Relatorio/DetalhesDaObservação/ObservCpto'
+import SubMenuTextActive from './pages/SubMenuPages/SubMenuTextosAtivadores/SubMenuTextosAtivadores'
+import SubMenuPessoas from './pages/SubMenuPages/SubMenuPessoas/SubMenuPessoas'
+import SubMenuEmpresas from './pages/SubMenuPages/SubMenuEmpresas/SubMenuEmpresas'
+import SubMenuTipoDeObservacao from './pages/SubMenuPages/SubMenuTiposDeobservaçoes/SubMenuTipoDeObservacao'
+import SubMenuGruposUsuarios from './pages/SubMenuPages/SubMenuGruposDeUsuario/SubMenuGruposUsuarios'
+import tipoQualidadeDeObservacao from './pages/SubMenuPages/SubMenuTiposDeobservaçoes/tipoQualidadeDeObservacao'
+import TQOQuestoesReg from './pages/SubMenuPages/SubMenuTiposDeobservaçoes/Questões-tiposDeQuestões/TQOQuestoesReg'
+import AtivadoresSociais from './pages/SubMenuPages/SubMenuTextosAtivadores/TextosAtivadores/AtivadoresSociais'
+import AtivadoresPsicologicos from './pages/SubMenuPages/SubMenuTextosAtivadores/TextosAtivadores/AtivadoresPsicologicos'
+import AtivadoresCognitivos from './pages/SubMenuPages/SubMenuTextosAtivadores/TextosAtivadores/AtivadoresCognitivos'
+import AtivadoresFisiologicos from './pages/SubMenuPages/SubMenuTextosAtivadores/TextosAtivadores/AtivadoresFisiologicos'
+import AtivadoresPessoal from './pages/SubMenuPages/SubMenuTextosAtivadores/TextosAtivadores/AtivadoresPessoal'
 
 function Routes() {
   return (
@@ -75,10 +73,10 @@ function Routes() {
           component={tipoQualidadeDeObservacao}
         ></Route>
         <Route path="/TQOQuestoesReg" component={TQOQuestoesReg}></Route>
-        <Route
+        {/* <Route
           path="/PermissoesDeacessoAoSistema"
           component={PermissoesDeacessoAoSistema}
-        ></Route>
+        ></Route> */}
 
         {/* ------------espaço para telas do page textos ativadores----------*/}
         <Route path="/AtivadoresSociais" component={AtivadoresSociais}></Route>

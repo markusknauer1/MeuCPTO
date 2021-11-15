@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import '../../../styles/pages/menuDireitoCss/modal/modalEquipe.css'
+import '../../../styles/pages/MenuDireitoCss/modal/modalEquipe.css'
 
 export default function Modal() {
   const [modal, setModal] = useState(false)
@@ -23,8 +23,9 @@ export default function Modal() {
       {modal && (
         <div className="modalEquipe">
           <div onClick={toggleModal} className="overlay"></div>
-          <div className="modalEquipe-content">
+          <div className="modalPadrao-content">
             <h2 className="titleModal">Nova Equipe</h2>
+            <hr className="hrTitleModal1" />
 
             <input
               className="fcadastroEquipe"

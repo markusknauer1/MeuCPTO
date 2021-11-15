@@ -32,24 +32,22 @@ body.active-modalAtividade {
 .fDescAtividade {
   position: absolute;
   left: 5%;
-  top: 28%;
+  top: 24%;
   border-radius: 5px;
   width: 90%;
   height: 8%;
   justify-content: center;
-  font-size: clamp(0.01em, 0.01em + 1.2vw, 4em);
   border: none;
   background-color: rgb(190, 190, 190);
-  color: rgb(94, 94, 94);
+  font-size: clamp(0.01em, 0.01em + 1.2vw, 4em);
   font-family: 'Baloo Bhaina 2', cursive;
   font-weight: 600;
-  padding-top: 1%;
-  padding-left: 1%;
+  padding-left: 10px;
 }
 .fObsAtividade {
   position: absolute;
   left: 5%;
-  top: 40%;
+  top: 35%;
   border-radius: 5px;
   width: 90%;
   height: 30%;
@@ -57,19 +55,13 @@ body.active-modalAtividade {
   font-size: clamp(0.01em, 0.01em + 1.2vw, 4em);
   border: none;
   background-color: rgb(190, 190, 190);
-  color: rgb(94, 94, 94);
   font-family: 'Baloo Bhaina 2', cursive;
   font-weight: 600;
   text-align: left;
-  padding-top: 1%;
-  padding-left: 1%;
+  padding-left: 10px;
 }
 
 @media screen and (max-width: 500px) {
-  .close-modalAtividade {
-    display: none;
-  }
-
   .modalAtividade,
   .overlay {
     width: 100%;

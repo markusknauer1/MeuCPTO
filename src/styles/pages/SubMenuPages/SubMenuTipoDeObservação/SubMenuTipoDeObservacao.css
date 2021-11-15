@@ -1,0 +1,219 @@
+.tblSubTipObsCod {
+  position: absolute;
+  font-size: 0.35em;
+  top: 5%;
+  left: 2.5%;
+}
+.tblSubTipObsPessoad {
+  position: absolute;
+  font-size: 0.35em;
+  top: 10%;
+  left: 27%;
+}
+.tblSubTipObsfator1 {
+  position: absolute;
+  font-size: 0.35em;
+  top: 10%;
+  left: 54%;
+}
+.tblSubTipObsfator2 {
+  position: absolute;
+  font-size: 0.35em;
+  top: 10%;
+  left: 63%;
+}
+.tblSubTipObsFatorN {
+  position: absolute;
+  font-size: 0.35em;
+  top: 10%;
+  left: 72%;
+}
+.tblSubTipObsPermissao {
+  position: absolute;
+  font-size: 0.35em;
+  top: 10%;
+  left: 82%;
+}
+.tblSubTipObsAtivo {
+  position: absolute;
+  font-size: 0.35em;
+  top: 8%;
+  left: 94%;
+}
+
+/* ------------------conteúdo da tabela---------------- */
+.btnSubTipObsCod {
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-left: 2%;
+  width: 18rem;
+  cursor: pointer;
+}
+.btnPageGroupQuest {
+  background-color: transparent;
+  border: none;
+  width: 14rem;
+  font-weight: 500;
+  font-family: 'baloo bhaina 2';
+  font-size: 1rem;
+}
+.GroupTipObs {
+  cursor: pointer;
+  margin-left: 2rem;
+}
+.btnSubTipObsQualiObs {
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-left: 1%;
+  font-weight: 500;
+  font-family: 'baloo bhaina 2';
+  width: 20rem;
+  font-size: 1rem;
+}
+.btnSubTipObsfator1 {
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-left: 3%;
+  font-weight: 500;
+  font-family: 'baloo bhaina 2';
+  width: 8rem;
+}
+.btnSubTipObsfator2 {
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-left: 3%;
+  font-weight: 500;
+  font-family: 'baloo bhaina 2';
+  width: 8rem;
+}
+
+.btnSubTipObsfatorN {
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-left: 3%;
+  font-weight: 500;
+  font-family: 'baloo bhaina 2';
+  width: 8rem;
+}
+.btnSubTipObsPermissao {
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-left: 4%;
+  font-weight: 500;
+  font-family: 'baloo bhaina 2';
+  width: 10rem;
+}
+.btnSubAtivo {
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-left: 3%;
+  font-size: clamp(1em, 1em + 1vw, 1em);
+  width: 6rem;
+}
+
+@media screen and (max-width: 760px) {
+  .tblSubTipObsCod {
+    position: absolute;
+    font-size: 3em;
+    top: 5%;
+    left: 2.5%;
+  }
+  .tblSubTipObsPessoad {
+    position: absolute;
+    font-size: 3em;
+    top: 10%;
+    left: 31%;
+  }
+  .tblSubTipObsfator1 {
+    position: absolute;
+    font-size: 3em;
+    top: 10%;
+    left: 56%;
+  }
+  .tblSubTipObsfator2 {
+    position: absolute;
+    font-size: 3em;
+    top: 10%;
+    left: 64%;
+  }
+  .tblSubTipObsFatorN {
+    position: absolute;
+    display: flex;
+    font-size: 3em;
+    top: 10%;
+    left: 73%;
+  }
+  .tblSubTipObsPermissao {
+    position: absolute;
+    font-size: 3em;
+    top: 10%;
+    left: 81%;
+  }
+  .tblSubTipObsAtivo {
+    position: absolute;
+    font-size: 3em;
+    top: 8%;
+    left: 94%;
+  }
+
+  /* ------------------conteúdo da tabela---------------- */
+  .btnSubTipObsCod {
+    padding-top: 1%;
+    font-size: 1em;
+    padding-bottom: 1%;
+    padding-left: 2%;
+    width: 26rem;
+    cursor: pointer;
+  }
+  .btnPageGroupQuest {
+    background-color: transparent;
+    border: none;
+    font-family: 'baloo bhaina 2';
+    font-weight: 700;
+    font-size: 0.5em;
+    cursor: pointer;
+  }
+  .GroupTipObs {
+    cursor: pointer;
+    margin-left: 1rem;
+  }
+  .btnSubTipObsQualiObs {
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 1%;
+    width: 14rem;
+    font-size: 0.7rem;
+  }
+  .btnSubTipObsfator1 {
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 3%;
+    width: 8rem;
+  }
+  .btnSubTipObsfator2 {
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 3%;
+    width: 8rem;
+  }
+
+  .btnSubTipObsfatorN {
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 3%;
+    width: 8rem;
+  }
+  .btnSubTipObsPermissao {
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 4%;
+    width: 14rem;
+  }
+  .btnSubAtivo {
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 2%;
+    font-size: 1em;
+    width: 5rem;
+  }
+}

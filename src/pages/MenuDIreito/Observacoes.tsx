@@ -2,7 +2,7 @@ import React from 'react'
 import ProfileDireita from '../../Components/ProfileDireita'
 import SideBar from '../../Components/SideBar'
 import SideBarDireita from '../../Components/SideBar-right/SideBarDireita'
-import '../../styles/pages/menuDireitoCss/observacoes.css'
+import '../../styles/pages/MenuDireitoCss/observacoes.css'
 import ModalCadObservacoes from './MenuDireito-Modal/ModalCadObservacoes'
 import ModalAltObservacoes from './MenuDireito-Modal/ModalAlterarInfo/ModalAltObservacoes'
 

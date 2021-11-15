@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import '../../styles/components/SideBar-right/SideBarDireita.css'
+import '../../styles/components/SideBarDireita/SideBarDireita.css'
 
 function SideBarDireita() {
   return (

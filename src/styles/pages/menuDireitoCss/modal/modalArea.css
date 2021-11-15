@@ -27,41 +27,10 @@ body.active-modalArea {
   border-radius: 20px;
   z-index: 2;
 }
-.gravar-modal {
-  position: absolute;
-  right: 5%;
-  bottom: 5%;
-  font-family: 'baloo bhaina 2';
-  font-weight: 500;
-  font-size: clamp(0.1em, 0.1em + 1.3vw, 3em);
-  width: 20%;
-  background-color: #1c396b;
-  color: white;
-  border-radius: 10px;
-  border-style: none;
-  cursor: pointer;
-}
-.close-modal {
-  position: absolute;
-  top: 6%;
-  padding-top: 1%;
-  right: 6%;
-  border-style: none;
-  font-size: 30px;
-  color: #a0a0a0;
-  height: 1%;
-  width: 1%;
-  justify-content: center;
-  align-items: center;
-  display: flex;
-  background-color: transparent;
-  cursor: pointer;
-}
-
 .fArea {
   position: absolute;
   left: 5%;
-  top: 20%;
+  top: 24%;
   border-radius: 5px;
   width: 90%;
   height: 8%;
@@ -69,7 +38,6 @@ body.active-modalArea {
   font-size: clamp(0.01em, 0.01em + 1.2vw, 4em);
   border: none;
   background-color: rgb(190, 190, 190);
-  color: rgb(94, 94, 94);
   font-family: 'Baloo Bhaina 2', cursive;
   font-weight: 600;
   padding-top: 1%;
@@ -78,7 +46,7 @@ body.active-modalArea {
 .fAreaRef {
   position: absolute;
   left: 5%;
-  top: 30%;
+  top: 34%;
   width: 90%;
   height: 8%;
   border-radius: 5px;
@@ -86,7 +54,6 @@ body.active-modalArea {
   font-size: clamp(0.01em, 0.01em + 1.2vw, 4em);
   border: none;
   background-color: rgb(190, 190, 190);
-  color: rgb(94, 94, 94);
   font-family: 'Baloo Bhaina 2', cursive;
   font-weight: 600;
   padding-left: 1%;
@@ -94,7 +61,7 @@ body.active-modalArea {
 .fObsArea {
   position: absolute;
   left: 5%;
-  top: 40%;
+  top: 44%;
   border-radius: 5px;
   width: 90%;
   height: 30%;
@@ -102,7 +69,6 @@ body.active-modalArea {
   font-size: clamp(0.01em, 0.01em + 1.2vw, 4em);
   border: none;
   background-color: rgb(190, 190, 190);
-  color: rgb(94, 94, 94);
   font-family: 'Baloo Bhaina 2', cursive;
   font-weight: 600;
   text-align: left;
@@ -111,19 +77,6 @@ body.active-modalArea {
 }
 
 @media screen and (max-width: 500px) {
-  .titleModal {
-    position: absolute;
-    left: 8%;
-    top: 3%;
-    font-family: 'baloo bhaina 2';
-    font-weight: 800;
-    font-size: 20px;
-    color: #1c396b;
-  }
-  .close-modalArea {
-    display: none;
-  }
-
   .modalArea,
   .overlay {
     width: 100%;
@@ -145,87 +98,5 @@ body.active-modalArea {
     height: 60%;
     border-radius: 20px;
     z-index: 3;
-  }
-
-  .fArea {
-    position: absolute;
-    left: 5%;
-    top: 5.5rem;
-    border-radius: 5px;
-    width: 90%;
-    height: 10%;
-    justify-content: center;
-    font-size: clamp(0.01em, 0.01em + 5vw, 4em);
-    border: none;
-    background-color: rgb(190, 190, 190);
-    color: rgb(94, 94, 94);
-    font-family: 'Baloo Bhaina 2', cursive;
-    font-weight: 600;
-    padding: 1rem;
-  }
-  .fAreaRef {
-    position: absolute;
-    left: 5%;
-    top: 26%;
-    width: 90%;
-    height: 10%;
-    border-radius: 5px;
-    justify-content: center;
-    font-size: 18px;
-    border: none;
-    background-color: rgb(190, 190, 190);
-    color: rgb(94, 94, 94);
-    font-family: 'Baloo Bhaina 2', cursive;
-    font-weight: 600;
-    padding-left: 10px;
-  }
-  .fObsArea {
-    position: absolute;
-    left: 5%;
-    top: 38%;
-    border-radius: 5px;
-    width: 90%;
-    height: 40%;
-    justify-content: center;
-    font-size: 18px;
-    border: none;
-    background-color: rgb(190, 190, 190);
-    color: rgb(94, 94, 94);
-    font-family: 'Baloo Bhaina 2', cursive;
-    font-weight: 600;
-    text-align: left;
-    padding: 1rem;
-  }
-
-  .gravar-modal {
-    position: absolute;
-    right: 8%;
-    bottom: 8%;
-    margin-bottom: -1rem;
-    font-family: 'baloo bhaina 2';
-    font-weight: 800;
-    font-size: clamp(0.1em, 0.1em + 3vw, 3em);
-    width: 26%;
-    background-color: #1c396b;
-    color: white;
-    border-radius: 5px;
-    border-style: none;
-    cursor: pointer;
-  }
-  .close-modal {
-    position: absolute;
-    top: 6%;
-    padding-top: 1%;
-    right: 6%;
-    border-style: none;
-    font-size: 30px;
-    color: #a0a0a0;
-    height: 1%;
-    width: 1%;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    background-color: transparent;
-    cursor: pointer;
   }
 }

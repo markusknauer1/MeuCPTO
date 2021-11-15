@@ -18,7 +18,7 @@ body.active-modalEquipe {
   background: rgba(49, 49, 49, 0.8);
 }
 
-.modalEquipe-content {
+.modalPadrao-content {
   position: fixed;
   top: 25%;
   left: 25%;
@@ -39,7 +39,6 @@ body.active-modalEquipe {
   justify-content: center;
   border: none;
   background-color: rgb(190, 190, 190);
-  color: rgb(94, 94, 94);
   font-size: clamp(0.01em, 0.01em + 1.2vw, 4em);
   font-family: 'Baloo Bhaina 2', cursive;
   font-weight: 600;
@@ -55,11 +54,10 @@ body.active-modalEquipe {
   justify-content: center;
   border: none;
   background-color: rgb(190, 190, 190);
-  color: rgb(94, 94, 94);
   font-size: clamp(0.01em, 0.01em + 1.2vw, 4em);
   font-family: 'Baloo Bhaina 2', cursive;
   font-weight: 600;
-  padding-left: 10px;
+  padding-left: 5px;
 }
 .fObs {
   position: absolute;
@@ -71,7 +69,6 @@ body.active-modalEquipe {
   justify-content: center;
   border: none;
   background-color: rgb(190, 190, 190);
-  color: rgb(94, 94, 94);
   font-size: clamp(0.01em, 0.01em + 1.2vw, 4em);
   font-family: 'Baloo Bhaina 2', cursive;
   font-weight: 600;
@@ -80,10 +77,6 @@ body.active-modalEquipe {
 }
 
 @media screen and (max-width: 500px) {
-  .close-modalEquipe {
-    display: none;
-  }
-
   .modalEquipe,
   .overlay {
     width: 100%;

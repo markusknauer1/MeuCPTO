@@ -22,273 +22,290 @@ body.active-modal {
   left: 5%;
   margin-top: 2rem;
   font-family: 'baloo bhaina 2';
-  font-weight: 800;
+  font-weight: 400;
   font-size: clamp(0.01em, 0.01em + 4vw, 4em);
   color: #1c396b;
 }
+
 .modalPessoa-content {
   position: absolute;
-  top: 10%;
-  left: 22%;
+  top: 14%;
+  left: 28%;
   line-height: 1.4;
   background: #f1f1f1;
-  width: 60%;
-  height: 80%;
-  border-radius: 10px;
+  width: 50%;
+  height: 70%;
+  border-radius: 25px;
   z-index: 2;
 }
-
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: black;
+  opacity: 1; /* Firefox */
+}
 .fcadastroPessoa1 {
   position: absolute;
   left: 5%;
-  top: 15%;
+  top: 20%;
   border-radius: 5px;
   width: 90%;
-  height: 6%;
+  height: 5%;
   justify-content: center;
-  font-size: clamp(0.01em, 0.01em + 1vw, 2em);
+  font-size: clamp(0.01em, 0.01em + 1vw, 1.3em);
   border: none;
   background-color: rgb(190, 190, 190);
   color: black;
   font-family: 'Baloo Bhaina 2', cursive;
   font-weight: 400;
-  padding: 1rem;
+  padding-top: 5px;
+  padding-left: 1%;
 }
 .fcadastroPessoa2 {
   position: absolute;
   left: 5%;
-  top: 22%;
-  width: 28%;
-  height: 6%;
+  top: 27%;
+  width: 20%;
+  height: 5%;
   border-radius: 5px;
   justify-content: center;
   align-items: center;
-  font-size: clamp(0.01em, 0.01em + 1vw, 2em);
+  font-size: clamp(0.01em, 0.01em + 1vw, 1.3em);
   border: none;
   background-color: rgb(190, 190, 190);
   color: black;
-  font-family: 'Baloo Bhaina 2', cursive;
+  font-family: 'Baloo Bhaina 2';
   font-weight: 400;
-  padding-left: 10px;
+  padding-left: 0.5%;
 }
 .fcadastroPessoa3 {
   position: absolute;
-  left: 33.5%;
-  top: 22%;
-  width: 28%;
-  height: 6%;
+  left: 28%;
+  top: 27%;
+  width: 26%;
+  height: 5%;
   border-radius: 5px;
   justify-content: center;
   align-items: center;
-  font-size: clamp(0.01em, 0.01em + 1vw, 2em);
+  font-size: clamp(0.01em, 0.01em + 1vw, 1.3em);
   border: none;
   background-color: rgb(190, 190, 190);
   color: black;
-  font-family: 'Baloo Bhaina 2', cursive;
+  font-family: 'Baloo Bhaina 2';
   font-weight: 400;
-  padding-left: 10px;
+  padding-left: 1%;
 }
 .fcadastroPessoa4 {
   position: absolute;
-  top: 22%;
-  left: 62%;
-  width: 33%;
-  height: 6%;
-  padding-left: 2.5%;
+  top: 27%;
+  left: 57%;
+  width: 38%;
+  height: 5%;
+  padding-left: 0.5%;
   border-radius: 5px;
-  font-size: clamp(0.01em, 0.01em + 1.9vw, 2em);
+  font-size: clamp(0.01em, 0.01em + 1vw, 1.3em);
   border: none;
   background-color: rgb(190, 190, 190);
   color: black;
   font-family: 'Baloo Bhaina 2', cursive;
   font-weight: 400;
 }
+
 .fcadastroPessoa5 {
   position: absolute;
   left: 5%;
-  top: 29%;
+  top: 34%;
   border-radius: 5px;
   width: 90%;
-  height: 6%;
+  height: 5%;
   justify-content: center;
-  font-size: clamp(0.01em, 0.01em + 1vw, 2em);
+  font-size: clamp(0.01em, 0.01em + 1vw, 1.3em);
   border: none;
   background-color: rgb(190, 190, 190);
   color: black;
   font-family: 'Baloo Bhaina 2', cursive;
   font-weight: 400;
-  padding: 1rem;
+  padding-top: 5px;
+  padding-left: 1%;
 }
 .fcadastroPessoa6 {
   position: absolute;
   left: 5%;
-  top: 36%;
+  top: 41%;
   width: 28%;
-  height: 6%;
+  height: 5%;
   border-radius: 5px;
   justify-content: center;
-  font-size: clamp(0.01em, 0.01em + 1vw, 2em);
+  font-size: clamp(0.01em, 0.01em + 1vw, 1.3em);
   border: none;
   background-color: rgb(190, 190, 190);
   color: black;
   font-family: 'Baloo Bhaina 2', cursive;
   font-weight: 400;
-  padding: 1rem;
+  padding-top: 5px;
+  padding-left: 1%;
 }
 .fcadastroPessoa7 {
   position: absolute;
-  left: 33.5%;
-  top: 36%;
+  left: 36%;
+  top: 41%;
   width: 28%;
-  height: 6%;
+  height: 5%;
   border-radius: 5px;
   justify-content: center;
-  font-size: clamp(0.01em, 0.01em + 1vw, 2em);
+  font-size: clamp(0.01em, 0.01em + 1vw, 1.3em);
   border: none;
   background-color: rgb(190, 190, 190);
   color: black;
   font-family: 'Baloo Bhaina 2', cursive;
   font-weight: 400;
+  padding-top: 5px;
   padding: 1rem;
 }
 .fcadastroPessoa8 {
   position: absolute;
-  left: 62%;
-  top: 36%;
-  width: 25%;
-  height: 6%;
+  left: 66%;
+  top: 41%;
+  width: 22%;
+  height: 5%;
   border-radius: 5px;
   justify-content: center;
-  font-size: clamp(0.01em, 0.01em + 1vw, 2em);
+  font-size: clamp(0.01em, 0.01em + 1vw, 1.3em);
   border: none;
   background-color: rgb(190, 190, 190);
   color: black;
   font-family: 'Baloo Bhaina 2', cursive;
   font-weight: 400;
-  padding: 1rem;
+  padding-top: 5px;
+  padding-left: 1%;
 }
 .consulltaCep {
   position: absolute;
-  left: 88%;
-  top: 34.5%;
-  width: 5rem;
-  height: 3rem;
+  left: 90%;
+  top: 39.5%;
   border-radius: 5px;
   justify-content: center;
-  font-size: clamp(0.01em, 0.01em + 2.5vw, 2em);
+  font-size: clamp(0.01em, 0.01em + 1.5vw, 1.8em);
   background-color: transparent;
   cursor: pointer;
   border: none;
   font-family: 'Baloo Bhaina 2', cursive;
   font-weight: 400;
-  padding: 1rem;
+  padding-top: 5px;
+  padding-left: 1%;
 }
 .fcadastroPessoa9 {
   position: absolute;
   left: 5%;
-  top: 43%;
+  top: 48%;
   border-radius: 5px;
-  width: 50%;
-  height: 6%;
+  width: 48%;
+  height: 5%;
   justify-content: center;
-  font-size: clamp(0.01em, 0.01em + 1vw, 2em);
+  font-size: clamp(0.01em, 0.01em + 1vw, 1.3em);
   border: none;
   background-color: rgb(190, 190, 190);
   color: black;
   font-family: 'Baloo Bhaina 2', cursive;
   font-weight: 400;
-  padding: 1rem;
+  padding-top: 5px;
+  padding-left: 1%;
 }
 .fcadastroPessoa10 {
   position: absolute;
-  left: 56%;
-  top: 43%;
+  left: 55%;
+  top: 48%;
   border-radius: 5px;
   width: 18%;
-  height: 6%;
+  height: 5%;
   justify-content: center;
-  font-size: clamp(0.01em, 0.01em + 1vw, 2em);
+  font-size: clamp(0.01em, 0.01em + 1vw, 1.3em);
   border: none;
   background-color: rgb(190, 190, 190);
   color: black;
   font-family: 'Baloo Bhaina 2', cursive;
   font-weight: 400;
-  padding: 1rem;
+  padding-top: 5px;
+  padding-left: 1%;
 }
 .fcadastroPessoa11 {
   position: absolute;
   left: 75%;
-  top: 43%;
+  top: 48%;
   border-radius: 5px;
   width: 20%;
-  height: 6%;
+  height: 5%;
   justify-content: center;
-  font-size: clamp(0.01em, 0.01em + 1vw, 2em);
+  font-size: clamp(0.01em, 0.01em + 1vw, 1.3em);
   border: none;
   background-color: rgb(190, 190, 190);
   color: black;
   font-family: 'Baloo Bhaina 2', cursive;
   font-weight: 400;
-  padding: 1rem;
+  padding-top: 5px;
+  padding-left: 1%;
 }
 .fcadastroPessoa12 {
   position: absolute;
   left: 5%;
-  top: 50%;
+  top: 55%;
   border-radius: 5px;
-  width: 50%;
-  height: 6%;
+  width: 48%;
+  height: 5%;
   justify-content: center;
-  font-size: clamp(0.01em, 0.01em + 1vw, 2em);
+  font-size: clamp(0.01em, 0.01em + 1vw, 1.3em);
   border: none;
   background-color: rgb(190, 190, 190);
   color: black;
   font-family: 'Baloo Bhaina 2', cursive;
   font-weight: 400;
-  padding: 1rem;
+  padding-top: 5px;
+  padding-left: 1%;
 }
 .fcadastroPessoa13 {
   position: absolute;
-  left: 56%;
-  top: 50%;
+  left: 55%;
+  top: 55%;
   border-radius: 5px;
   width: 18%;
-  height: 6%;
+  height: 5%;
   justify-content: center;
-  font-size: clamp(0.01em, 0.01em + 1vw, 2em);
+  font-size: clamp(0.01em, 0.01em + 1vw, 1.3em);
   border: none;
   background-color: rgb(190, 190, 190);
   color: black;
   font-family: 'Baloo Bhaina 2', cursive;
   font-weight: 400;
-  padding: 0.5rem;
+  padding-top: 5px;
+  padding-top: 5px;
+  padding-left: 1%;
 }
 .fcadastroPessoa14 {
   position: absolute;
   left: 75%;
-  top: 50%;
+  top: 55%;
   border-radius: 5px;
   width: 20%;
-  height: 6%;
+  height: 5%;
   justify-content: center;
-  font-size: clamp(0.01em, 0.01em + 1vw, 2em);
+  font-size: clamp(0.01em, 0.01em + 1vw, 1.3em);
   border: none;
   background-color: rgb(190, 190, 190);
   color: black;
   font-family: 'Baloo Bhaina 2', cursive;
   font-weight: 400;
-  padding: 1rem;
+  padding-top: 5px;
+  padding-left: 1%;
 }
 .fcadastroPessoa15 {
   padding: 10px;
   position: absolute;
   left: 5%;
-  top: 57%;
+  top: 62%;
   border-radius: 5px;
   width: 90%;
-  height: 18%;
+  height: 10%;
   justify-content: center;
-  font-size: clamp(0.01em, 0.01em + 1vw, 2em);
+  font-size: clamp(0.01em, 0.01em + 1vw, 1.3em);
   border: none;
   background-color: rgb(190, 190, 190);
   color: black;
@@ -299,81 +316,80 @@ body.active-modal {
 .fcadastroPessoa16 {
   position: absolute;
   left: 5%;
-  top: 76%;
+  top: 75%;
   border-radius: 5px;
   width: 24%;
-  height: 6%;
+  height: 5%;
   justify-content: center;
-  font-size: clamp(0.01em, 0.01em + 1vw, 2em);
+  font-size: clamp(0.01em, 0.01em + 1vw, 1.3em);
   border: none;
   background-color: rgb(190, 190, 190);
   color: black;
   font-family: 'Baloo Bhaina 2', cursive;
   font-weight: 400;
-  padding-left: 10px;
+  padding-top: 5px;
+  padding-left: 1%;
 }
 .fcadastroPessoa17 {
   position: absolute;
   left: 30%;
-  top: 76%;
+  top: 75%;
   border-radius: 5px;
   width: 24%;
-  height: 6%;
+  height: 5%;
   justify-content: center;
-  font-size: clamp(0.01em, 0.01em + 1vw, 2em);
+  font-size: clamp(0.01em, 0.01em + 1vw, 1.3em);
   border: none;
   background-color: rgb(190, 190, 190);
   color: black;
   font-family: 'Baloo Bhaina 2', cursive;
   font-weight: 400;
-  padding-left: 10px;
+  padding-top: 5px;
+  padding-left: 1%;
 }
 .fcadastroPessoa18 {
   position: absolute;
   left: 55%;
-  top: 76%;
+  top: 75%;
   border-radius: 5px;
-  width: 24%;
-  height: 6%;
+  width: 26%;
+  height: 5%;
   justify-content: center;
-  font-size: clamp(0.01em, 0.01em + 1vw, 2em);
+  font-size: clamp(0.01em, 0.01em + 1vw, 1.3em);
   border: none;
   background-color: rgb(190, 190, 190);
   color: black;
   font-family: 'Baloo Bhaina 2', cursive;
   font-weight: 400;
-  padding-left: 10px;
+  padding-top: 5px;
+  padding-left: 1%;
 }
 .InputAuthorization {
   position: absolute;
-  left: 80%;
-  top: 76.5%;
+  left: 83%;
+  top: 74%;
   width: 18%;
   background-color: transparent;
   border-radius: 5px;
   justify-content: center;
   border: none;
-  font-size: clamp(0.01em, 0.01em + 0.8vw, 2em);
   color: #1c396b;
   font-family: 'Baloo Bhaina 2', cursive;
-  font-weight: 400;
+  font-weight: 600;
   cursor: pointer;
   letter-spacing: -1px;
 }
 .checkText {
   position: absolute;
-  margin-top: -1px;
-  margin-left: 1%;
-  font-size: 120%;
+  margin-left: 5%;
+  font-size: clamp(0.01em, 0.01em + 1.2vw, 1em);
 }
 .CheckAcess {
-  width: clamp(0.01em, 0.01em + 1.5vw, 2.5em);
+  font-size: clamp(0.01em, 0.01em + 0.5vw, 1em);
+  width: clamp(0.01em, 0.01em + 1.5vw, 1.5em);
 }
 
 @media screen and (max-width: 500px) {
-  .close-modalPessoa {
-    display: none;
-  }
   .modalPessoa,
   .overlay {
     width: 100%;

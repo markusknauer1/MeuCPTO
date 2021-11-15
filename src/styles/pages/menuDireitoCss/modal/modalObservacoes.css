@@ -64,10 +64,6 @@ body.active-modalObservacoes {
 }
 
 @media screen and (max-width: 500px) {
-  .close-modalObservacoes {
-    display: none;
-  }
-
   .modalObservacoes,
   .overlay {
     width: 100%;

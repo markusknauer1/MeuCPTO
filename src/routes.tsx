@@ -21,6 +21,7 @@ import SubMenuPessoas from './pages/SubMenuPages/SubMenuPessoas/SubMenuPessoas'
 import SubMenuEmpresas from './pages/SubMenuPages/SubMenuEmpresas/SubMenuEmpresas'
 import SubMenuTipoDeObservacao from './pages/SubMenuPages/SubMenuTiposDeobservaçoes/SubMenuTipoDeObservacao'
 import SubMenuGruposUsuarios from './pages/SubMenuPages/SubMenuGruposDeUsuario/SubMenuGruposUsuarios'
+import PermissoesDeacessoAoSistema from './pages/SubMenuPages/SubMenuGruposDeUsuario/pages-GruposDeUsuario/PermissoesDeAcessoAoSistema'
 import tipoQualidadeDeObservacao from './pages/SubMenuPages/SubMenuTiposDeobservaçoes/tipoQualidadeDeObservacao'
 import TQOQuestoesReg from './pages/SubMenuPages/SubMenuTiposDeobservaçoes/Questões-tiposDeQuestões/TQOQuestoesReg'
 import AtivadoresSociais from './pages/SubMenuPages/SubMenuTextosAtivadores/TextosAtivadores/AtivadoresSociais'
@@ -73,10 +74,10 @@ function Routes() {
           component={tipoQualidadeDeObservacao}
         ></Route>
         <Route path="/TQOQuestoesReg" component={TQOQuestoesReg}></Route>
-        {/* <Route
+        <Route
           path="/PermissoesDeacessoAoSistema"
           component={PermissoesDeacessoAoSistema}
-        ></Route> */}
+        ></Route>
 
         {/* ------------espaço para telas do page textos ativadores----------*/}
         <Route path="/AtivadoresSociais" component={AtivadoresSociais}></Route>

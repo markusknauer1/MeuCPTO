@@ -1,14 +1,3 @@
-.subtPadrao1 {
-  position: absolute;
-  display: block;
-  top: 18%;
-  left: 10%;
-  font-family: 'baloo bhaina 2';
-  font-weight: 500;
-  font-size: clamp(0.1em, 0.1em + 1vw, 1.5em);
-  color: #adadad;
-  letter-spacing: -1px;
-}
 .subtRel2 {
   position: absolute;
   top: 23.5%;

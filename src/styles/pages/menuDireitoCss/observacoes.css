@@ -1,21 +1,3 @@
-.fCxPesquisa {
-  position: absolute;
-  left: 50%;
-  top: 6%;
-  padding-left: 10px;
-  background-color: rgb(201, 201, 201);
-  font-size: clamp(0.1em, 0.1em + 1vw, 3em);
-  font-family: 'baloo bhaina 2';
-  font-weight: 400;
-  border: none;
-  align-items: center;
-  color: rgb(32, 32, 32);
-  border-radius: 5px;
-  width: 13%;
-  height: 4%;
-  z-index: 1;
-}
-
 .ObsCod {
   position: absolute;
   font-size: 0.5rem !important;
@@ -94,20 +76,20 @@ tr:nth-child(even) {
   cursor: pointer;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 1024px) {
   .fCxPesquisa {
     position: absolute;
-    left: 67%;
-    top: 24%;
-    padding-left: 2%;
+    left: 72%;
+    top: 21%;
+    padding-left: 10px;
     background-color: rgb(201, 201, 201);
-    font-size: clamp(0.1em, 0.1em + 2.5vw, 3em);
-    font-family: 'baloo bhaina 2';
+    font-size: clamp(0.1em, 0.1em + 1.5vw, 1.5em);
+    font-family: baloo bhaina2;
     border: none;
     align-items: center;
-    color: gray;
+    color: rgb(32, 32, 32);
     border-radius: 5px;
-    width: 28%;
+    width: 22%;
     height: 4%;
     z-index: 1;
   }

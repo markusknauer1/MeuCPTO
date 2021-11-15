@@ -8,22 +8,22 @@
   position: absolute;
   display: flex;
   top: 1%;
-  left: 8%;
+  left: 11%;
 }
 .tblTtlEquipGer {
   position: absolute;
   top: 1%;
-  left: 35%;
+  left: 37%;
 }
 .tblTtlEquipCLient {
   position: absolute;
   top: 1%;
-  left: 61%;
+  left: 64%;
 }
 .tblTtlEquipState {
   position: absolute;
   top: 1%;
-  left: 89%;
+  left: 90%;
 }
 
 /* 
@@ -38,7 +38,7 @@ tr:nth-child(even) {
   padding-top: 1%;
   padding-bottom: 1%;
   padding-left: 3%;
-  width: 5rem;
+  width: 8rem;
   font-weight: 500;
 }
 .tblEquipesOBS {
@@ -64,7 +64,7 @@ tr:nth-child(even) {
 }
 .tblEquipesMetas {
   padding-left: 5%;
-  width: 10rem;
+  width: 9rem;
 }
 
 @media screen and (max-width: 500px) {

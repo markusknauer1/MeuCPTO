@@ -201,22 +201,6 @@ th:first-child div {
     border-radius: 10px;
   }
 
-  .fnamePadrao {
-    position: absolute;
-    left: 56%;
-    top: 21%;
-    padding-left: 10px;
-    background-color: rgb(201, 201, 201);
-    font-size: clamp(0.1em, 0.1em + 3vw, 3em);
-    font-family: baloo bhaina2;
-    border: none;
-    align-items: center;
-    color: rgb(32, 32, 32);
-    border-radius: 5px;
-    width: 40%;
-    height: 4%;
-    z-index: 1;
-  }
   .subtPadrao1 {
     position: fixed;
     top: 16%;

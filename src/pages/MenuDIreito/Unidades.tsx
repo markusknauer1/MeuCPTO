@@ -24,7 +24,7 @@ function Unidades() {
       <SideBar />
       <div className="page">
         <div className="filter1">
-          <h4 className="subtPadrao1">DADOS CADASTRAIS / NOVA EQUIPE:</h4>
+          <h4 className="subtPadrao1">DADOS CADASTRAIS / NOVA UNIDADE:</h4>
           <div className="subtPadrao2">
             <h2>Unidades:</h2>
           </div>

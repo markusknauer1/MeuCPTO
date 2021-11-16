@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import ProfileDireita from '../../../Components/ProfileDireita'
 import SideBar from '../../../Components/SideBar'
 import SideBarDireita from '../../../Components/SideBar-right/SideBarDireita'
-import SidebarGerencia from '../../../Components/SideBar-right/SidebarGerencia'
+import SidebarMobile from '../../../Components/SideBar-right/SidebarMobile'
 
 import '../../../styles/pages/SubMenuPages/SubMenuGruposUsuarios/SubMenuGruposUsuarios.css'
 import Modal from './modal-GruposDeUsuario/ModalNovoGrupoUser'
@@ -112,8 +112,8 @@ function SubMenuGruposUsuarios() {
       <ProfileDireita />
       <div className="buttonProfileDireita">
         <SideBarDireita />
-        <SidebarGerencia />
       </div>
+      <SidebarMobile />
     </div>
   )
 }

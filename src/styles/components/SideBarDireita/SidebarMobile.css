@@ -1,9 +1,9 @@
 .navbar {
   position: absolute;
   font-size: 45px;
-  left: 95%;
+  left: 84%;
   bottom: 0%;
-  z-index: 1;
+  z-index: 2;
 }
 
 /* botao open */
@@ -52,17 +52,17 @@
   bottom: -100%;
   transition: 1000ms;
 }
+.nav-menu.active {
+  right: 0;
+  bottom: 0;
+  transition: 0.5s;
+}
 .Moblogologo {
   position: absolute;
 
   width: 50%;
   left: 25%;
   bottom: 5%;
-}
-.nav-menu.active {
-  right: 0;
-  bottom: 0;
-  transition: 0.5s;
 }
 .nav-text {
   display: flex;
@@ -225,36 +225,241 @@ span {
   .menuComp{
     display: none;
   } */
-
-@media screen and (max-width: 780px) {
+@media screen and (max-width: 1024px) {
   .navbar {
     background-color: transparent;
     position: fixed;
-    left: 330px;
-    top: 82.5%;
+    left: 880px;
+    top: 90%;
     font-size: clamp(1em, 1em + 10vw, 10em);
     border-radius: 50px;
     z-index: 99;
   }
-}
-@media screen and (max-width: 500px) {
-  /* .menuComp{
-      position: absolute;
-      display:flex;
-      justify-content: center;
-      background-color: #35c2aa;
-      width: 80%;
-      height: 80%;
-    top: 5%;
-    left: 10%;
-    }   */
+  .nav-menu {
+    background-color: rgb(219, 219, 219);
+    width: 31%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    right: -100%;
+    transition: 1000ms;
+  }
+  .Moblogologo {
+    position: absolute;
 
+    width: 50%;
+    left: 25%;
+    right: 5%;
+  }
+  .nav-menu.active {
+    right: 0;
+    bottom: 0;
+    transition: 0.5s;
+  }
+  .close-background {
+    background-image: url(/src/Images/background.svg);
+    background-size: 500px;
+    background-position: 40%;
+    background-color: rgb(11, 24, 46);
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 0;
+    height: 27.3rem;
+    font-size: 2rem;
+    padding-left: 19rem;
+  }
+
+  .Mobwork {
+    font-family: 'baloo bhaina 2';
+    font-weight: 600;
+    font-size: 16px;
+    background-color: #fff;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 10px;
+    top: 18%;
+    width: 100%;
+    height: 6rem;
+  }
+  .MobtypObs {
+    font-size: 16px;
+    width: 100%;
+    height: 6rem;
+    top: 30%;
+    font-family: 'baloo bhaina 2';
+    font-weight: 600;
+    background-color: #fff;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 10px;
+  }
+  .MobTextActiv {
+    font-size: 16px;
+    width: 100%;
+    height: 6rem;
+    top: 42%;
+    font-family: 'baloo bhaina 2';
+    font-weight: 600;
+    border: none;
+    border-radius: 10px;
+    background-color: #fff;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 10px;
+  }
+  .MobpeopleTest {
+    font-size: 16px;
+    width: 100%;
+    height: 6rem;
+    top: 54%;
+    font-family: 'baloo bhaina 2';
+    font-weight: 600;
+    border: none;
+    border-radius: 10px;
+    background-color: #fff;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 10px;
+  }
+  .MobUserGroup {
+    font-size: 16px;
+    width: 100%;
+    height: 6rem;
+    top: 66%;
+    font-family: 'baloo bhaina 2';
+    font-weight: 600;
+    border: none;
+    border-radius: 10px;
+    background-color: #fff;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 10px;
+  }
+}
+@media screen and (max-width: 780px) {
   .navbar {
     background-color: transparent;
     position: fixed;
-    left: 42%;
-    top: 81.5%;
-    font-size: clamp(1em, 1em + 11vw, 11em);
+    left: 650px;
+    top: 90%;
+    font-size: clamp(1em, 1em + 10vw, 10em);
+    border-radius: 50px;
+    z-index: 99;
+  }
+  .nav-menu {
+    background-color: rgb(219, 219, 219);
+    width: 45%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    right: -100%;
+    transition: 1000ms;
+  }
+  .Moblogologo {
+    position: absolute;
+
+    width: 50%;
+    left: 25%;
+    right: 5%;
+  }
+  .Moblogologo {
+    position: absolute;
+
+    width: 50%;
+    left: 25%;
+    right: 5%;
+  }
+  .close-background {
+    background-image: url(/src/Images/background.svg);
+    background-size: 500px;
+    background-position: 40%;
+    background-color: rgb(11, 24, 46);
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 0;
+    height: 20.5rem;
+    font-size: 2rem;
+    padding-left: 19rem;
+  }
+
+  .Mobwork {
+    font-family: 'baloo bhaina 2';
+    font-weight: 600;
+    font-size: 16px;
+    background-color: #fff;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 10px;
+    top: 18%;
+    width: 100%;
+    height: 5rem;
+  }
+  .MobtypObs {
+    font-size: 16px;
+    width: 100%;
+    height: 5rem;
+    top: 30%;
+    font-family: 'baloo bhaina 2';
+    font-weight: 600;
+    background-color: #fff;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 10px;
+  }
+  .MobTextActiv {
+    font-size: 16px;
+    width: 100%;
+    height: 5rem;
+    top: 42%;
+    font-family: 'baloo bhaina 2';
+    font-weight: 600;
+    border: none;
+    border-radius: 10px;
+    background-color: #fff;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 10px;
+  }
+  .MobpeopleTest {
+    font-size: 16px;
+    width: 100%;
+    height: 5rem;
+    top: 54%;
+    font-family: 'baloo bhaina 2';
+    font-weight: 600;
+    border: none;
+    border-radius: 10px;
+    background-color: #fff;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 10px;
+  }
+  .MobUserGroup {
+    font-size: 16px;
+    width: 100%;
+    height: 5rem;
+    top: 66%;
+    font-family: 'baloo bhaina 2';
+    font-weight: 600;
+    border: none;
+    border-radius: 10px;
+    background-color: #fff;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 10px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .navbar {
+    background-color: transparent;
+    position: fixed;
+    left: 310px;
+    top: 90%;
+    font-size: clamp(1em, 1em + 10vw, 10em);
     border-radius: 50px;
     z-index: 99;
   }
@@ -265,13 +470,16 @@ span {
   }
   /* botao close */
   .close-background {
+    background-image: url(/src/Images/background.svg);
+    background-size: 500px;
+    background-position: 40%;
+    background-color: rgb(11, 24, 46);
+    background-repeat: no-repeat;
     position: absolute;
     left: 0;
-    height: 5rem;
-    padding-top: 1rem;
+    height: 10rem;
     font-size: 2rem;
     padding-left: 19rem;
-    background-color: rgb(204, 204, 204);
   }
   .nav-menu {
     background-color: rgb(219, 219, 219);

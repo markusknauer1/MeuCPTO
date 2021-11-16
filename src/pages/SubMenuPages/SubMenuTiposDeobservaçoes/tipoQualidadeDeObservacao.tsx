@@ -4,8 +4,8 @@ import ProfileDireita from '../../../Components/ProfileDireita'
 import SideBar from '../../../Components/SideBar'
 import SideBarDireita from '../../../Components/SideBar-right/SideBarDireita'
 import * as TypIcons from 'react-icons/ti'
-import SidebarGerencia from '../../../Components/SideBar-right/SidebarGerencia'
 import Modal from './modal-tiposDeObservações/modalNovoTipoDeObservacao'
+import SidebarMobile from '../../../Components/SideBar-right/SidebarMobile'
 
 function tipoQualidadeDeObservacao() {
   return (
@@ -57,7 +57,7 @@ function tipoQualidadeDeObservacao() {
       <ProfileDireita />
       <div className="buttonProfileDireita">
         <SideBarDireita />
-        <SidebarGerencia />
+        <SidebarMobile />
       </div>
     </div>
   )

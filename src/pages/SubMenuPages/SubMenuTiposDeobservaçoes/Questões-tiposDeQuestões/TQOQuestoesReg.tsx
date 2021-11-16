@@ -2,11 +2,11 @@ import React from 'react'
 import ProfileDireita from '../../../../Components/ProfileDireita'
 import SideBar from '../../../../Components/SideBar'
 import SideBarDireita from '../../../../Components/SideBar-right/SideBarDireita'
-import SidebarGerencia from '../../../../Components/SideBar-right/SidebarGerencia'
 
 import * as TypIcons from 'react-icons/ti'
 
 import { Link } from 'react-router-dom'
+import SidebarMobile from '../../../../Components/SideBar-right/SidebarMobile'
 function TQOQuestoesReg() {
   return (
     <div className="HomePage">
@@ -57,8 +57,8 @@ function TQOQuestoesReg() {
       <ProfileDireita />
       <div className="buttonProfileDireita">
         <SideBarDireita />
-        <SidebarGerencia />
       </div>
+      <SidebarMobile />
     </div>
   )
 }

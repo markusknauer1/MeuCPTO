@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import ProfileDireita from '../../../Components/ProfileDireita'
 import SideBar from '../../../Components/SideBar'
 import SideBarDireita from '../../../Components/SideBar-right/SideBarDireita'
-import SidebarGerencia from '../../../Components/SideBar-right/SidebarGerencia'
+import SidebarMobile from '../../../Components/SideBar-right/SidebarMobile'
 import '../../../styles/pages/SubMenuPages/SubMenuTextosAtivadores/SubMenuTextosAtivadores.css'
 import Modal from './modal-textosAtivadores/ModalNovoGrupo'
 
@@ -113,7 +113,10 @@ function SubMenuTextActive() {
                 </tbody>
                 <tbody>
                   <td className="tblCodActive">
-                    001 <button className="SubMTACod"> Ver ativadores</button>
+                    001{' '}
+                    <Link to="/AtivadoresPessoal">
+                      <button className="SubMTACod"> Ver ativadores</button>
+                    </Link>
                   </td>
                   <td className="tblActive">Pessoal</td>
                   <td className="tblStatusActive">
@@ -132,8 +135,8 @@ function SubMenuTextActive() {
       <ProfileDireita />
       <div className="buttonProfileDireita">
         <SideBarDireita />
-        <SidebarGerencia />
       </div>
+      <SidebarMobile />
     </div>
   )
 }

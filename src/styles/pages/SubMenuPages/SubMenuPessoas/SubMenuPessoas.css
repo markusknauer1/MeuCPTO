@@ -37,26 +37,31 @@ th {
 /*-------------Conteudo do cabeçalho da tabela-----------------*/
 .tblSubCod {
   position: absolute;
+  font-weight: 500;
   top: 5%;
   left: 2%;
 }
 .tblSubPessoacod {
   position: absolute;
+  font-weight: 500;
   top: 5%;
   left: 14%;
 }
 .tblSubMail {
   position: absolute;
+  font-weight: 500;
   top: 5%;
   left: 46%;
 }
 .tblSubMetas {
   position: absolute;
+  font-weight: 500;
   top: 5%;
   left: 80%;
 }
 .tblSubAtivo {
   position: absolute;
+  font-weight: 500;
   top: 5%;
   left: 92%;
 }
@@ -64,24 +69,28 @@ th {
 /*-------------Conteudo da tabela-----------------*/
 .btnSubCod {
   padding-top: 1%;
+  font-weight: 500;
   padding-bottom: 1%;
   padding-left: 3%;
   width: 10rem;
 }
 .btnSubOBS {
   padding-top: 1%;
+  font-weight: 500;
   padding-bottom: 1%;
   padding-left: 1%;
   width: 25rem;
 }
 .btnSubMail {
   padding-top: 1%;
+  font-weight: 500;
   padding-bottom: 1%;
   padding-left: 1%;
   width: 25rem;
 }
 .btnSubMetas {
   padding-top: 1%;
+  font-weight: 500;
   padding-bottom: 1%;
   padding-left: 4.5%;
   width: 10rem;

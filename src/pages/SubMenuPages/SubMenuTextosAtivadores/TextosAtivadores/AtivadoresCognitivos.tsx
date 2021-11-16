@@ -3,8 +3,12 @@ import '../../../../styles/pages/SubMenuPages/SubMenuTextosAtivadores/pages-text
 import SideBar from '../../../../Components/SideBar'
 import ProfileDireita from '../../../../Components/ProfileDireita'
 import SideBarDireita from '../../../../Components/SideBar-right/SideBarDireita'
+import { useHistory } from 'react-router-dom'
+import * as TypIcons from 'react-icons/ti'
+import SidebarMobile from '../../../../Components/SideBar-right/SidebarMobile'
 
 function AtivadoresCognitivos() {
+  let history = useHistory()
   return (
     <div className="HomePage">
       <div>
@@ -15,6 +19,13 @@ function AtivadoresCognitivos() {
           id="fname7"
           name="fname"
         />
+        <button
+          className="btnReturn"
+          type="button"
+          onClick={() => history.goBack()}
+        >
+          <TypIcons.TiArrowBackOutline />
+        </button>
         <Modal />
       </div>
       <SideBar />
@@ -69,6 +80,7 @@ function AtivadoresCognitivos() {
       <div className="buttonProfileDireita">
         <SideBarDireita />
       </div>
+      <SidebarMobile />
     </div>
   )
 }

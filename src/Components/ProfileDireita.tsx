@@ -4,7 +4,6 @@ import logo1 from '../Images/perflAlex.png'
 import logologo from '../Components/logoIniciativaAzul@2x.png'
 import '../styles/components/profiledireita.css'
 import { Link } from 'react-router-dom'
-import SidebarMobile from './SideBar-right/SidebarMobile'
 
 function ProfileDireita() {
   return (
@@ -22,10 +21,6 @@ function ProfileDireita() {
           <button className="profile-profileEditor">Ver perfil</button>
         </Link>
         <img className="logologo" src={logologo} alt="logo" />
-      </div>
-
-      <div className="menuExtra">
-        <SidebarMobile />
       </div>
     </div>
   )

@@ -2,10 +2,10 @@ import { Link } from 'react-router-dom'
 import ProfileDireita from '../../../../Components/ProfileDireita'
 import SideBar from '../../../../Components/SideBar'
 import SideBarDireita from '../../../../Components/SideBar-right/SideBarDireita'
-import SidebarGerencia from '../../../../Components/SideBar-right/SidebarGerencia'
 import '../../../../styles/pages/SubMenuPages/SubMenuGruposUsuarios/pages-GruposDeUsuario/PermissoesDeAcessoAoSistema.css'
 
 import * as TypIcons from 'react-icons/ti'
+import SidebarMobile from '../../../../Components/SideBar-right/SidebarMobile'
 
 function PermissoesDeAcessoAoSistema() {
   return (
@@ -101,8 +101,8 @@ function PermissoesDeAcessoAoSistema() {
       <ProfileDireita />
       <div className="buttonProfileDireita">
         <SideBarDireita />
-        <SidebarGerencia />
       </div>
+      <SidebarMobile />
     </div>
   )
 }

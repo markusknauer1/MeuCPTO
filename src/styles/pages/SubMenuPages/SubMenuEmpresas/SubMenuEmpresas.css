@@ -1,6 +1,7 @@
 /*------------Cabeçalho da tabela Empresa------------*/
 .tblSubEmpresaCod {
   position: absolute;
+  font-weight: 500;
   font-size: 35px;
   top: 5%;
   left: 3%;
@@ -8,12 +9,14 @@
 .tblSubEmpresaEmpresa {
   position: absolute;
   font-size: 35px;
+  font-weight: 500;
   top: 5%;
   left: 15%;
 }
 .tblSubEmpresaAtivo {
   position: absolute;
   font-size: 35px;
+  font-weight: 500;
   top: 5%;
   left: 90%;
 }

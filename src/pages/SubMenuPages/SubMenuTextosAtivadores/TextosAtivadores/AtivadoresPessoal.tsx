@@ -3,8 +3,12 @@ import '../../../../styles/pages/SubMenuPages/SubMenuTextosAtivadores/pages-text
 import SideBar from '../../../../Components/SideBar'
 import ProfileDireita from '../../../../Components/ProfileDireita'
 import SideBarDireita from '../../../../Components/SideBar-right/SideBarDireita'
+import { useHistory } from 'react-router-dom'
+import * as TypIcons from 'react-icons/ti'
+import SidebarMobile from '../../../../Components/SideBar-right/SidebarMobile'
 
 function AtivadoresPessoa() {
+  let history = useHistory()
   return (
     <div className="HomePage">
       <div>
@@ -15,13 +19,20 @@ function AtivadoresPessoa() {
           id="fname7"
           name="fname"
         />
+        <button
+          className="btnReturn"
+          type="button"
+          onClick={() => history.goBack()}
+        >
+          <TypIcons.TiArrowBackOutline />
+        </button>
         <Modal />
       </div>
       <SideBar />
       <div className="page">
         <div className="filter1">
           <div className="subtPadrao2">
-            <h2>Ativadores: Psicológicos</h2>
+            <h2>Ativadores: Pessoal</h2>
           </div>
         </div>
         <div className="tabelaPadrao">
@@ -69,6 +80,7 @@ function AtivadoresPessoa() {
       <div className="buttonProfileDireita">
         <SideBarDireita />
       </div>
+      <SidebarMobile />
     </div>
   )
 }

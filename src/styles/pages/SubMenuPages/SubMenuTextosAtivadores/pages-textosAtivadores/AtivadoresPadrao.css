@@ -1,27 +1,32 @@
 .tblActivPadrao1 {
   position: absolute;
+  font-weight: 500;
   top: 5%;
   left: 2%;
 }
 .tblActivPadrao2 {
   position: absolute;
+  font-weight: 500;
   top: 5%;
   left: 10%;
 }
 .tblActivPadrao3 {
   position: absolute;
+  font-weight: 500;
   top: 5%;
   left: 40%;
 }
 
 .tblActivPadrao4 {
   position: absolute;
+  font-weight: 500;
   top: 5%;
   left: 84%;
 }
 
 .tblActivPadrao5 {
   position: absolute;
+  font-weight: 500;
   top: 5%;
   left: 92%;
 }
@@ -31,15 +36,15 @@
   padding-top: 1%;
   padding-bottom: 1%;
   text-align: center;
-  font-weight: 600;
-  font-size: 1.5em;
+  font-weight: 500;
+  font-size: 1.2em;
   width: 5rem;
 }
 .tblActivPadrao7 {
   padding-top: 1%;
   padding-bottom: 1%;
   padding-left: 1%;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 1.2em;
   width: 16rem;
 }
@@ -47,6 +52,7 @@
   padding-top: 1%;
   padding-bottom: 1%;
   justify-content: center;
+  font-weight: 500;
   padding-left: 2%;
   padding-right: 2%;
   width: 25rem;
@@ -54,6 +60,7 @@
 .tblActivPadrao9 {
   padding-top: 1%;
   padding-bottom: 1%;
+  font-weight: 500;
   padding-left: 3%;
   width: 5rem;
 }

@@ -4,7 +4,7 @@ import Modal from './modal-tiposDeObservações/modalNovoTipoDeObservacao'
 import SideBar from '../../../Components/SideBar'
 import ProfileDireita from '../../../Components/ProfileDireita'
 import SideBarDireita from '../../../Components/SideBar-right/SideBarDireita'
-import SidebarGerencia from '../../../Components/SideBar-right/SidebarGerencia'
+import SidebarMobile from '../../../Components/SideBar-right/SidebarMobile'
 
 function SubMenuTipoDeObservacao() {
   return (
@@ -237,8 +237,8 @@ function SubMenuTipoDeObservacao() {
       <ProfileDireita />
       <div className="buttonProfileDireita">
         <SideBarDireita />
-        <SidebarGerencia />
       </div>
+      <SidebarMobile />
     </div>
   )
 }

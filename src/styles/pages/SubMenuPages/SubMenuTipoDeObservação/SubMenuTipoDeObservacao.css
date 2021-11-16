@@ -1,42 +1,49 @@
 .tblSubTipObsCod {
   position: absolute;
   font-size: 0.35em;
+  font-weight: 500;
   top: 5%;
   left: 2.5%;
 }
 .tblSubTipObsPessoad {
   position: absolute;
   font-size: 0.35em;
+  font-weight: 500;
   top: 10%;
   left: 27%;
 }
 .tblSubTipObsfator1 {
   position: absolute;
   font-size: 0.35em;
+  font-weight: 500;
   top: 10%;
   left: 54%;
 }
 .tblSubTipObsfator2 {
   position: absolute;
   font-size: 0.35em;
+  font-weight: 500;
   top: 10%;
   left: 63%;
 }
 .tblSubTipObsFatorN {
   position: absolute;
   font-size: 0.35em;
+  font-weight: 500;
   top: 10%;
   left: 72%;
 }
 .tblSubTipObsPermissao {
   position: absolute;
   font-size: 0.35em;
+  font-weight: 500;
   top: 10%;
   left: 82%;
 }
 .tblSubTipObsAtivo {
   position: absolute;
   font-size: 0.35em;
+  font-weight: 500;
   top: 8%;
   left: 94%;
 }

@@ -1,7 +1,7 @@
 import ProfileDireita from '../../../Components/ProfileDireita'
 import SideBar from '../../../Components/SideBar'
 import SideBarDireita from '../../../Components/SideBar-right/SideBarDireita'
-import SidebarGerencia from '../../../Components/SideBar-right/SidebarGerencia'
+import SidebarMobile from '../../../Components/SideBar-right/SidebarMobile'
 import '../../../styles/pages/SubMenuPages/SubMenuEmpresas/SubMenuEmpresas.css'
 import Modal from './modal-Empresas/AlterarRegistroEmpresas'
 
@@ -148,8 +148,8 @@ function SubMenuEmpresas() {
       <ProfileDireita />
       <div className="buttonProfileDireita">
         <SideBarDireita />
-        <SidebarGerencia />
       </div>
+      <SidebarMobile />
     </div>
   )
 }

@@ -4,7 +4,6 @@ import SideBar from '../../Components/SideBar'
 import SideBarDireita from '../../Components/SideBar-right/SideBarDireita'
 import '../../styles/pages/MenuDireitoCss/observacoes.css'
 import ModalCadObservacoes from './MenuDireito-Modal/ModalCadObservacoes'
-import ModalAltObservacoes from './MenuDireito-Modal/ModalAlterarInfo/ModalAltObservacoes'
 
 import SidebarMobile from '../../Components/SideBar-right/SidebarMobile'
 
@@ -56,9 +55,7 @@ function Observacoes() {
                   <td className="btnObs">
                     <i className="fas fa-bars"></i>
                   </td>
-                  <td className="BtnDescFun">
-                    Nome do Funcionário <ModalAltObservacoes />
-                  </td>
+                  <td className="BtnDescFun">Nome do Funcionário</td>
                   <td className="btnStatus">
                     <i className="far fa-check-circle"></i>
                   </td>
@@ -68,9 +65,7 @@ function Observacoes() {
                   <td className="btnObs">
                     <i className="fas fa-bars"></i>
                   </td>
-                  <td className="BtnDescFun">
-                    Nome do Funcionário <ModalAltObservacoes />
-                  </td>
+                  <td className="BtnDescFun">Nome do Funcionário</td>
                   <td className="btnStatus">
                     <i className="far fa-check-circle"></i>
                   </td>
@@ -80,9 +75,7 @@ function Observacoes() {
                   <td className="btnObs">
                     <i className="fas fa-bars"></i>
                   </td>
-                  <td className="BtnDescFun">
-                    Nome do Funcionário <ModalAltObservacoes />
-                  </td>
+                  <td className="BtnDescFun">Nome do Funcionário</td>
                   <td className="btnStatus">
                     <i className="far fa-check-circle"></i>
                   </td>
@@ -92,9 +85,7 @@ function Observacoes() {
                   <td className="btnObs">
                     <i className="fas fa-bars"></i>
                   </td>
-                  <td className="BtnDescFun">
-                    Nome do Funcionário <ModalAltObservacoes />
-                  </td>
+                  <td className="BtnDescFun">Nome do Funcionário</td>
                   <td className="btnStatus">
                     <i className="far fa-check-circle"></i>
                   </td>
@@ -104,9 +95,7 @@ function Observacoes() {
                   <td className="btnObs">
                     <i className="fas fa-bars"></i>
                   </td>
-                  <td className="BtnDescFun">
-                    Nome do Funcionário <ModalAltObservacoes />
-                  </td>
+                  <td className="BtnDescFun">Nome do Funcionário</td>
                   <td className="btnStatus">
                     <i className="far fa-check-circle"></i>
                   </td>
@@ -116,9 +105,7 @@ function Observacoes() {
                   <td className="btnObs">
                     <i className="fas fa-bars"></i>
                   </td>
-                  <td className="BtnDescFun">
-                    Nome do Funcionário <ModalAltObservacoes />
-                  </td>
+                  <td className="BtnDescFun">Nome do Funcionário</td>
                   <td className="btnStatus">
                     <i className="far fa-check-circle"></i>
                   </td>
@@ -128,9 +115,7 @@ function Observacoes() {
                   <td className="btnObs">
                     <i className="fas fa-bars"></i>
                   </td>
-                  <td className="BtnDescFun">
-                    Nome do Funcionário <ModalAltObservacoes />
-                  </td>
+                  <td className="BtnDescFun">Nome do Funcionário</td>
                   <td className="btnStatus">
                     <i className="far fa-check-circle"></i>
                   </td>
@@ -140,9 +125,7 @@ function Observacoes() {
                   <td className="btnObs">
                     <i className="fas fa-bars"></i>
                   </td>
-                  <td className="BtnDescFun">
-                    Nome do Funcionário <ModalAltObservacoes />
-                  </td>
+                  <td className="BtnDescFun">Nome do Funcionário</td>
                   <td className="btnStatus">
                     <i className="far fa-check-circle"></i>
                   </td>
@@ -152,9 +135,7 @@ function Observacoes() {
                   <td className="btnObs">
                     <i className="fas fa-bars"></i>
                   </td>
-                  <td className="BtnDescFun">
-                    Nome do Funcionário <ModalAltObservacoes />
-                  </td>
+                  <td className="BtnDescFun">Nome do Funcionário</td>
                   <td className="btnStatus">
                     <i className="far fa-check-circle"></i>
                   </td>
@@ -164,9 +145,7 @@ function Observacoes() {
                   <td className="btnObs">
                     <i className="fas fa-bars"></i>
                   </td>
-                  <td className="BtnDescFun">
-                    Nome do Funcionário <ModalAltObservacoes />
-                  </td>
+                  <td className="BtnDescFun">Nome do Funcionário</td>
                   <td className="btnStatus">
                     <i className="far fa-check-circle"></i>
                   </td>
@@ -176,9 +155,7 @@ function Observacoes() {
                   <td className="btnObs">
                     <i className="fas fa-bars"></i>
                   </td>
-                  <td className="BtnDescFun">
-                    Nome do Funcionário <ModalAltObservacoes />
-                  </td>
+                  <td className="BtnDescFun">Nome do Funcionário</td>
                   <td className="btnStatus">
                     <i className="far fa-check-circle"></i>
                   </td>
@@ -188,9 +165,7 @@ function Observacoes() {
                   <td className="btnObs">
                     <i className="fas fa-bars"></i>
                   </td>
-                  <td className="BtnDescFun">
-                    Nome do Funcionário <ModalAltObservacoes />
-                  </td>
+                  <td className="BtnDescFun">Nome do Funcionário</td>
                   <td className="btnStatus">
                     <i className="far fa-check-circle"></i>
                   </td>

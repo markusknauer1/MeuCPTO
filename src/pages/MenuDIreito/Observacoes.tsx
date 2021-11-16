@@ -204,7 +204,6 @@ function Observacoes() {
       <div className="buttonProfileDireita">
         <SideBarDireita />
         <SidebarMobile />
-        <br />
       </div>
     </div>
   )

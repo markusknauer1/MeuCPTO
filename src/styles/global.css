@@ -721,6 +721,10 @@ html {
     top: 100px;
     left: 13.4%;
   }
+  .login-loginEmail input::-webkit-input-placeholder {
+    font: 18px BalooBhaina2-SemiBold;
+    color: #1c396b;
+  }
 
   .login-loginPassword input {
     background-color: #dad8d8;
@@ -742,6 +746,10 @@ html {
     height: 30px;
     top: 140px;
     left: 13.4%;
+  }
+  .login-loginPassword input::-webkit-input-placeholder {
+    font: 18px BalooBhaina2-SemiBold;
+    color: #1c396b;
   }
   .login .enter-app {
     background-color: #172d52;
@@ -967,6 +975,10 @@ html {
     top: 80px;
     left: 13.4%;
   }
+  .login-loginEmail input::-webkit-input-placeholder {
+    font: 18px BalooBhaina2-Medium;
+    color: black;
+  }
 
   .login-loginPassword input {
     background-color: #dad8d8;
@@ -988,6 +1000,10 @@ html {
     height: 30px;
     top: 115px;
     left: 13.4%;
+  }
+  .login-loginPassword input::-webkit-input-placeholder {
+    font: 18px BalooBhaina2-Medium;
+    color: black;
   }
   .login .enter-app {
     background-color: #172d52;

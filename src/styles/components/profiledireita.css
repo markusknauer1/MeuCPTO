@@ -12,22 +12,18 @@
 }
 .titleProfile1 {
   position: absolute;
-  font-family: 'Baloo Bhaina 2', cursive;
+  font: 20px BalooBhaina2-Regular;
   top: 5%;
-  left: -8%;
+  left: -12%;
   width: 100%;
-  font-size: clamp(0.01em, 0.01em + 2vw, 2em);
-  font-weight: 400;
   color: #adadad;
 }
 .titleProfile2 {
   position: absolute;
-  font-family: 'Baloo Bhaina 2', cursive;
+  font: 22px BalooBhaina2-Bold;
   top: 8%;
-  left: -7%;
+  left: -12%;
   width: 100%;
-  font-size: clamp(0.01em, 0.01em + 1.6vw, 3em);
-  font-weight: 700;
   color: #0b9e82;
 }
 
@@ -35,72 +31,24 @@
   position: absolute;
   border: none;
   top: 12%;
-  left: 35%;
-  font-family: 'baloo bhaina 2';
-  font-weight: 500;
-  font-size: clamp(0.01em, 0.01em + 1.2vw, 2em);
+  left: 30%;
+  font: 14px BalooBhaina2-Regular;
   background-color: transparent;
   cursor: pointer;
 }
 .logo1 {
   position: absolute;
   top: 4%;
-  left: 70%;
+  left: 65%;
   width: clamp(1em, 1em + 6vw, 12em);
   height: clamp(1em, 1em + 6vw, 12em);
   border-radius: 50px;
 }
 .logologo {
   position: absolute;
-  bottom: 10%;
-  left: 20%;
+  bottom: 12%;
+  left: 22%;
   width: 60%;
-}
-@media screen and (max-width: 780px) {
-  .Profile-direita {
-    position: absolute;
-    width: 100%;
-    height: 20%;
-    bottom: 0rem;
-    background-color: rgb(211, 211, 211);
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-    border-bottom-left-radius: 0;
-    border-bottom-right-radius: 0;
-    z-index: -2;
-  }
-
-  .logo1 {
-    position: fixed;
-    top: 2.5%;
-    left: 76%;
-    font-size: clamp(1em, 0.5em + 10vw, 120em);
-    border-radius: 100%;
-  }
-  .logologo {
-    position: absolute;
-    bottom: 15%;
-    left: 30%;
-    width: 42%;
-  }
-  .profile-profileEditor {
-    position: fixed;
-    border: none;
-    top: 16%;
-    left: 80%;
-    font-family: 'baloo bhaina 2';
-    font-weight: 500;
-    font-size: clamp(1em, 0.5em + 1vw, 120em);
-    color: #749898;
-    background-color: transparent;
-  }
-
-  .titleProfile1 {
-    display: none;
-  }
-  .titleProfile2 {
-    display: none;
-  }
 }
 
 @media screen and (max-width: 1024px) {
@@ -119,7 +67,7 @@
 
   .logo1 {
     position: absolute;
-    top: -375%;
+    top: -380%;
     left: 76%;
     font-size: clamp(1em, 0.5em + 10vw, 120em);
     border-radius: 100%;
@@ -134,10 +82,96 @@
     position: fixed;
     border: none;
     top: 16%;
+    left: 80%;
+    font: 20px BalooBhaina2-Bold;
+    color: #749898;
+    background-color: transparent;
+  }
+  .titleProfile1 {
+    display: none;
+  }
+  .titleProfile2 {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .Profile-direita {
+    position: absolute;
+    width: 100%;
+    height: 20%;
+    bottom: 0rem;
+    background-color: rgb(211, 211, 211);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    z-index: -2;
+  }
+
+  .logo1 {
+    position: absolute;
+    top: -380%;
+    left: 76%;
+    font-size: clamp(1em, 0.5em + 10vw, 120em);
+    border-radius: 100%;
+  }
+  .logologo {
+    position: absolute;
+    bottom: 15%;
+    left: 30%;
+    width: 42%;
+  }
+  .profile-profileEditor {
+    position: fixed;
+    border: none;
+    top: 16%;
+    left: 79%;
+    font: 16px BalooBhaina2-Bold;
+    color: #749898;
+    background-color: transparent;
+  }
+  .titleProfile1 {
+    display: none;
+  }
+  .titleProfile2 {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .Profile-direita {
+    position: absolute;
+    width: 100%;
+    height: 20%;
+    bottom: 0rem;
+    background-color: rgb(211, 211, 211);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    z-index: -2;
+  }
+
+  .logo1 {
+    position: absolute;
+    top: -380%;
+    left: 76%;
+    font-size: clamp(1em, 0.5em + 10vw, 120em);
+    border-radius: 100%;
+  }
+  .logologo {
+    position: absolute;
+    bottom: 15%;
+    left: 30%;
+    width: 42%;
+  }
+  .profile-profileEditor {
+    position: fixed;
+    border: none;
+    top: 14%;
     left: 78%;
-    font-family: 'baloo bhaina 2';
-    font-weight: 500;
-    font-size: clamp(1em, 0.5em + 1vw, 120em);
+    font: 12px BalooBhaina2-Bold;
     color: #749898;
     background-color: transparent;
   }

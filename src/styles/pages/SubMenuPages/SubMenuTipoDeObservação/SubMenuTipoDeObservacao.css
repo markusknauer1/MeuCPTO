@@ -1,49 +1,43 @@
 .tblSubTipObsCod {
   position: absolute;
-  font-size: 0.35em;
-  font-weight: 500;
+  font: 6px BalooBhaina2-SemiBold;
   top: 5%;
   left: 2.5%;
 }
 .tblSubTipObsPessoad {
   position: absolute;
-  font-size: 0.35em;
-  font-weight: 500;
+  font: 6px BalooBhaina2-SemiBold;
   top: 10%;
   left: 27%;
 }
 .tblSubTipObsfator1 {
   position: absolute;
   font-size: 0.35em;
-  font-weight: 500;
+  font: 6px BalooBhaina2-SemiBold;
   top: 10%;
   left: 54%;
 }
 .tblSubTipObsfator2 {
   position: absolute;
-  font-size: 0.35em;
-  font-weight: 500;
+  font: 6px BalooBhaina2-SemiBold;
   top: 10%;
   left: 63%;
 }
 .tblSubTipObsFatorN {
   position: absolute;
-  font-size: 0.35em;
-  font-weight: 500;
+  font: 6px BalooBhaina2-SemiBold;
   top: 10%;
   left: 72%;
 }
 .tblSubTipObsPermissao {
   position: absolute;
-  font-size: 0.35em;
-  font-weight: 500;
+  font: 6px BalooBhaina2-SemiBold;
   top: 10%;
-  left: 82%;
+  left: 81%;
 }
 .tblSubTipObsAtivo {
   position: absolute;
-  font-size: 0.35em;
-  font-weight: 500;
+  font: 6px BalooBhaina2-SemiBold;
   top: 8%;
   left: 94%;
 }
@@ -60,9 +54,7 @@
   background-color: transparent;
   border: none;
   width: 14rem;
-  font-weight: 500;
-  font-family: 'baloo bhaina 2';
-  font-size: 1rem;
+  font: 10px BalooBhaina2-SemiBold;
 }
 .GroupTipObs {
   cursor: pointer;
@@ -72,8 +64,7 @@
   padding-top: 1%;
   padding-bottom: 1%;
   padding-left: 1%;
-  font-weight: 500;
-  font-family: 'baloo bhaina 2';
+  font: 10px BalooBhaina2-SemiBold;
   width: 20rem;
   font-size: 1rem;
 }
@@ -81,16 +72,14 @@
   padding-top: 1%;
   padding-bottom: 1%;
   padding-left: 3%;
-  font-weight: 500;
-  font-family: 'baloo bhaina 2';
+  font: 10px BalooBhaina2-SemiBold;
   width: 8rem;
 }
 .btnSubTipObsfator2 {
   padding-top: 1%;
   padding-bottom: 1%;
   padding-left: 3%;
-  font-weight: 500;
-  font-family: 'baloo bhaina 2';
+  font: 10px BalooBhaina2-SemiBold;
   width: 8rem;
 }
 
@@ -98,23 +87,21 @@
   padding-top: 1%;
   padding-bottom: 1%;
   padding-left: 3%;
-  font-weight: 500;
-  font-family: 'baloo bhaina 2';
+  font: 10px BalooBhaina2-SemiBold;
   width: 8rem;
 }
 .btnSubTipObsPermissao {
   padding-top: 1%;
   padding-bottom: 1%;
   padding-left: 4%;
-  font-weight: 500;
-  font-family: 'baloo bhaina 2';
+  font: 10px BalooBhaina2-SemiBold;
   width: 10rem;
 }
 .btnSubAtivo {
   padding-top: 1%;
   padding-bottom: 1%;
   padding-left: 3%;
-  font-size: clamp(1em, 1em + 1vw, 1em);
+  font: 10px BalooBhaina2-SemiBold;
   width: 6rem;
 }
 

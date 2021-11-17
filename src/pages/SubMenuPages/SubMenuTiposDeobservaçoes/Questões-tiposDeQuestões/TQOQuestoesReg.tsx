@@ -17,7 +17,7 @@ function TQOQuestoesReg() {
       </Link>
       <div>
         <input
-          className="fnameSubMenu"
+          className="fCxPesquisa"
           placeholder="Pesquisar"
           type="text"
           id="fname7"
@@ -27,9 +27,7 @@ function TQOQuestoesReg() {
       <SideBar />
       <div className="page">
         <div className="filter1">
-          <div className="tittleGpObserv">
-            <h2>Questões de : Cuidado Ativo</h2>
-          </div>
+          <h2 className="subtcad2">Questões de : Cuidado Ativo</h2>
         </div>
         <div className="tabelaPadrao">
           <div className="container">

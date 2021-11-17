@@ -17,7 +17,7 @@ function PermissoesDeAcessoAoSistema() {
       </Link>
       <div>
         <input
-          className="fnameSubMenu"
+          className="fCxPesquisa"
           placeholder="Pesquisar"
           type="text"
           id="fname7"
@@ -27,9 +27,9 @@ function PermissoesDeAcessoAoSistema() {
       <SideBar />
       <div className="page">
         <div className="filter1">
-          <div className="tittlePASObserv">
-            <h2>Permissões de Acesso ao Sistema - Grupo: Avaliadores </h2>
-          </div>
+          <h2 className="tittlePASObserv">
+            Permissões de Acesso ao Sistema - Grupo: Avaliadores{' '}
+          </h2>
         </div>
         <div className="tabelaPadrao">
           <section className="">

@@ -24,9 +24,7 @@ function SubMenuGruposUsuarios() {
       <SideBar />
       <div className="page">
         <div className="filter1">
-          <div className="subtPadrao2">
-            <h2>Grupos de Usuários</h2>
-          </div>
+          <h2 className="subtcad2">Grupos de Usuários</h2>
         </div>
         <div className="tabelaPadrao">
           <section className="">

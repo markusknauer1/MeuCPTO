@@ -49,9 +49,7 @@ body.active-modalGerencia {
   justify-content: center;
   border: none;
   background-color: rgb(190, 190, 190);
-  font-size: clamp(0.01em, 0.01em + 1.2vw, 4em);
-  font-family: 'Baloo Bhaina 2', cursive;
-  font-weight: 600;
+  font: 14px BalooBhaina2-SemiBold;
   padding: 1rem;
 }
 .fObsGerencia {
@@ -62,14 +60,11 @@ body.active-modalGerencia {
   width: 90%;
   height: 30%;
   justify-content: center;
-  font-size: clamp(0.01em, 0.01em + 1.2vw, 4em);
   border: none;
   background-color: rgb(190, 190, 190);
-  font-family: 'Baloo Bhaina 2', cursive;
-  font-weight: 600;
+  font: 14px BalooBhaina2-SemiBold;
   text-align: left;
-  padding-top: 1%;
-  padding-left: 1%;
+  padding: 1%;
 }
 
 @media screen and (max-width: 500px) {

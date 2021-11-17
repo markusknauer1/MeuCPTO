@@ -13,7 +13,7 @@ function AtivadoresSocias() {
     <div className="HomePage">
       <div>
         <input
-          className="fnameSubMenu"
+          className="fnamePadrao"
           placeholder="Pesquisar"
           type="text"
           id="fname7"

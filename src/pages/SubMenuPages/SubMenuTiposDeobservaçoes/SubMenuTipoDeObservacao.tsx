@@ -22,9 +22,7 @@ function SubMenuTipoDeObservacao() {
       <SideBar />
       <div className="page">
         <div className="filter1">
-          <div className="subtPadrao2">
-            <h2>Tipos de Observações</h2>
-          </div>
+          <h2 className="subtcad2">Tipos de Observações</h2>
         </div>
         <div className="tabelaPadrao">
           <section className="">

@@ -21,9 +21,7 @@ function SubMenuPessoas() {
       <SideBar />
       <div className="page">
         <div className="filter1">
-          <div className="subtPadrao2">
-            <h2>Cadastro Geral de Pessoas</h2>
-          </div>
+          <h2 className="subtcad2">Cadastro Geral de Pessoas</h2>
         </div>
         <div className="tabelaPadrao">
           <section className="">

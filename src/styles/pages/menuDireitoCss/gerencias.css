@@ -32,20 +32,20 @@ tr:nth-child(even) {
   padding-bottom: 1%;
   padding-left: 3%;
   width: 6rem;
-  font-weight: 500;
+  font: 12px BalooBhaina2-SemiBold;
 }
 .tblGerDesc {
   padding-top: 1%;
   padding-bottom: 1%;
   padding-left: 1%;
   width: 25rem;
-  font-weight: 500;
+  font: 12px BalooBhaina2-SemiBold;
 }
 .tblGerUni {
   padding-bottom: 1%;
   padding-left: 2%;
   width: 25rem;
-  font-weight: 500;
+  font: 12px BalooBhaina2-SemiBold;
 }
 .tblGerStatus {
   padding-top: 1%;

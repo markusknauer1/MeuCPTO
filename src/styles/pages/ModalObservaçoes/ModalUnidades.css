@@ -2,24 +2,6 @@ body.active-ModalObsUnidades {
   overflow-y: hidden;
 }
 
-.buttonModalObservaçoes {
-  background-color: #172d52;
-  color: white;
-  top: 30%;
-  left: 38%;
-  position: absolute;
-  align-items: center;
-  text-align: center;
-  justify-content: center;
-  font-size: clamp(0.01em, 0.01em + 1.5vw, 1.8em);
-  width: clamp(0.01em, 0.01em + 10vw, 15em);
-  height: clamp(0.01em, 0.01em + 3vw, 15em);
-  border-radius: 6px;
-  border-style: none;
-  display: flex;
-  line-height: 1 !important;
-  font: 400 'baloo bhaina 2';
-}
 .ModalObsUnidades,
 .overlay {
   width: 100%;
@@ -39,9 +21,7 @@ body.active-ModalObsUnidades {
   margin-left: 3%;
   margin-top: 5%;
   margin-bottom: -2rem;
-  font-family: 'baloo bhaina 2';
-  font-weight: 800;
-  font-size: clamp(0.1em, 0.1em + 2.5vw, 3em);
+  font: 26px BalooBhaina2-Bold;
   color: #1c396b;
 }
 
@@ -62,9 +42,7 @@ body.active-ModalObsUnidades {
   top: 3%;
   right: 3.5%;
   border-style: none;
-  font-family: 'baloo bhaina 2';
-  font-weight: 400;
-  font-size: clamp(0.1em, 0.1em + 1.4vw, 3em);
+  font: 20px BalooBhaina2-Medium;
   color: #a0a0a0;
   cursor: pointer;
   background-color: transparent;
@@ -76,8 +54,7 @@ body.active-ModalObsUnidades {
   top: 24%;
   padding-left: 10px;
   background-color: rgb(201, 201, 201);
-  font-size: clamp(0.1em, 0.1em + 1.2vw, 3em);
-  font-family: baloo bhaina2;
+  font: 12px BalooBhaina2-Medium;
   border: none;
   align-items: center;
   color: rgb(41, 41, 41);
@@ -110,7 +87,7 @@ body.active-ModalObsUnidades {
   margin-left: -1px;
   border: 1px solid;
   width: 100.3%;
-  height: 25rem;
+  height: 30rem;
   padding-right: 5px;
   background-color: #fff;
 }
@@ -176,30 +153,35 @@ body.active-ModalObsUnidades {
   padding-bottom: 1%;
   padding-left: 1%;
   width: 26rem;
+  font: 12px BalooBhaina2-SemiBold;
 }
 .btnObsUniLocal {
   padding-top: 1%;
   padding-bottom: 1%;
   padding-left: 2%;
   width: 20rem;
+  font: 12px BalooBhaina2-SemiBold;
 }
 .btnObsUniEquipe {
   padding-top: 1%;
   padding-bottom: 1%;
   padding-left: 2%;
   width: 20rem;
+  font: 12px BalooBhaina2-SemiBold;
 }
 .btnObsUniAtividade {
   padding-top: 1%;
   padding-bottom: 1%;
   padding-left: 2%;
   width: 20rem;
+  font: 12px BalooBhaina2-SemiBold;
 }
 .btnObsUniData {
   padding-top: 1%;
   padding-bottom: 1%;
   padding-left: 1%;
   width: 8rem;
+  font: 12px BalooBhaina2-SemiBold;
 }
 
 .btnObsUniIcs {
@@ -207,12 +189,14 @@ body.active-ModalObsUnidades {
   padding-bottom: 1%;
   padding-left: 1.5%;
   width: 8rem;
+  font: 12px BalooBhaina2-SemiBold;
 }
 .btnObsUniDetalhes {
   padding-top: 1%;
   padding-bottom: 1%;
   padding-left: 1.5%;
   width: 10rem;
+  font: 12px BalooBhaina2-SemiBold;
 }
 
 .verifObserv1 {
@@ -220,14 +204,14 @@ body.active-ModalObsUnidades {
   top: 2%;
   background-color: transparent;
   border-style: none;
-  font-size: clamp(1em, 1em + 2vw, 2em);
+  font-size: clamp(1em, 1em + 2vw, 1.5em);
 }
 .verifObserv2 {
   color: #1c396b;
   top: 2%;
   background-color: transparent;
   border-style: none;
-  font-size: clamp(1em, 1em + 2vw, 2em);
+  font-size: clamp(1em, 1em + 2vw, 1.5em);
 }
 
 @media screen and (max-width: 500px) {

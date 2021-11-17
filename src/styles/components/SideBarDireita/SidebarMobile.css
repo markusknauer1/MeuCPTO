@@ -75,9 +75,7 @@
 .nav-text a {
   text-decoration: none;
   color: #35c2aa;
-  font-family: 'baloo bhaina 2';
-  font-weight: 600;
-  font-size: 30px;
+  font: 18px BalooBhaina2-SemiBold;
   width: 95%;
   height: 100%;
   align-items: center;
@@ -120,9 +118,7 @@ span {
   top: 0px;
   width: 100%;
   height: 15%;
-  font-family: 'baloo bhaina 2';
-  font-weight: 800;
-  font-size: clamp(0.01em, 0.01em + 1.4vw, 2em);
+  font: 20px BalooBhaina2-Bold;
   background-color: #fff;
   color: rgb(0, 0, 0);
   border: none;
@@ -139,9 +135,7 @@ span {
   top: 20%;
   width: 100%;
   height: 15%;
-  font-family: 'baloo bhaina 2';
-  font-weight: 800;
-  font-size: clamp(0.01em, 0.01em + 1.4vw, 2em);
+  font: 20px BalooBhaina2-Bold;
   background-color: #fff;
   color: rgb(0, 0, 0);
   border: none;
@@ -160,9 +154,7 @@ span {
   left: 0;
   width: 100%;
   height: 15%;
-  font-family: 'baloo bhaina 2';
-  font-weight: 800;
-  font-size: clamp(0.01em, 0.01em + 1.4vw, 2em);
+  font: 20px BalooBhaina2-Bold;
   border: none;
 
   border-radius: 5px;
@@ -182,9 +174,7 @@ span {
   right: 0px;
   width: 100%;
   height: 15%;
-  font-family: 'baloo bhaina 2';
-  font-weight: 800;
-  font-size: clamp(0.01em, 0.01em + 1.4vw, 2em);
+  font: 20px BalooBhaina2-Bold;
   border: none;
   border-radius: 10px;
   background-color: #fff;
@@ -205,9 +195,7 @@ span {
   left: 0px;
   width: 100%;
   height: 15%;
-  font-family: 'baloo bhaina 2';
-  font-weight: 800;
-  font-size: clamp(0.01em, 0.01em + 1.4vw, 2em);
+  font: 20px BalooBhaina2-Bold;
   border: none;
   margin-right: 10px;
   background-color: #fff;
@@ -246,17 +234,17 @@ span {
     right: -100%;
     transition: 1000ms;
   }
+  .nav-menu.active {
+    right: 0;
+    bottom: 0;
+    transition: 0.5s;
+  }
   .Moblogologo {
     position: absolute;
 
     width: 50%;
     left: 25%;
     right: 5%;
-  }
-  .nav-menu.active {
-    right: 0;
-    bottom: 0;
-    transition: 0.5s;
   }
   .close-background {
     background-image: url(/src/Images/background.svg);
@@ -270,11 +258,20 @@ span {
     font-size: 2rem;
     padding-left: 19rem;
   }
-
+  .MobileProfileDireita {
+    position: absolute;
+    top: 30vh;
+    left: 2.5rem;
+    width: 25vw;
+    height: 550px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: transparent;
+    z-index: 2;
+  }
   .Mobwork {
-    font-family: 'baloo bhaina 2';
-    font-weight: 600;
-    font-size: 16px;
+    font-size: 20px;
     background-color: #fff;
     color: rgb(0, 0, 0);
     border: none;
@@ -284,24 +281,20 @@ span {
     height: 6rem;
   }
   .MobtypObs {
-    font-size: 16px;
+    font-size: 20px;
     width: 100%;
     height: 6rem;
     top: 30%;
-    font-family: 'baloo bhaina 2';
-    font-weight: 600;
     background-color: #fff;
     color: rgb(0, 0, 0);
     border: none;
     border-radius: 10px;
   }
   .MobTextActiv {
-    font-size: 16px;
+    font-size: 20px;
     width: 100%;
     height: 6rem;
     top: 42%;
-    font-family: 'baloo bhaina 2';
-    font-weight: 600;
     border: none;
     border-radius: 10px;
     background-color: #fff;
@@ -310,12 +303,10 @@ span {
     border-radius: 10px;
   }
   .MobpeopleTest {
-    font-size: 16px;
+    font-size: 20px;
     width: 100%;
     height: 6rem;
     top: 54%;
-    font-family: 'baloo bhaina 2';
-    font-weight: 600;
     border: none;
     border-radius: 10px;
     background-color: #fff;
@@ -324,12 +315,10 @@ span {
     border-radius: 10px;
   }
   .MobUserGroup {
-    font-size: 16px;
+    font-size: 20px;
     width: 100%;
     height: 6rem;
     top: 66%;
-    font-family: 'baloo bhaina 2';
-    font-weight: 600;
     border: none;
     border-radius: 10px;
     background-color: #fff;
@@ -350,7 +339,7 @@ span {
   }
   .nav-menu {
     background-color: rgb(219, 219, 219);
-    width: 45%;
+    width: 31%;
     height: 100%;
     display: flex;
     justify-content: center;
@@ -358,6 +347,11 @@ span {
     top: 0;
     right: -100%;
     transition: 1000ms;
+  }
+  .nav-menu.active {
+    right: 0;
+    bottom: 0;
+    transition: 0.5s;
   }
   .Moblogologo {
     position: absolute;
@@ -385,10 +379,19 @@ span {
     font-size: 2rem;
     padding-left: 19rem;
   }
-
+  .MobileProfileDireita {
+    position: absolute;
+    top: 30vh;
+    left: 2.5rem;
+    width: 25vw;
+    height: 450px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: transparent;
+    z-index: 2;
+  }
   .Mobwork {
-    font-family: 'baloo bhaina 2';
-    font-weight: 600;
     font-size: 16px;
     background-color: #fff;
     color: rgb(0, 0, 0);
@@ -403,8 +406,6 @@ span {
     width: 100%;
     height: 5rem;
     top: 30%;
-    font-family: 'baloo bhaina 2';
-    font-weight: 600;
     background-color: #fff;
     color: rgb(0, 0, 0);
     border: none;
@@ -415,8 +416,6 @@ span {
     width: 100%;
     height: 5rem;
     top: 42%;
-    font-family: 'baloo bhaina 2';
-    font-weight: 600;
     border: none;
     border-radius: 10px;
     background-color: #fff;
@@ -429,8 +428,6 @@ span {
     width: 100%;
     height: 5rem;
     top: 54%;
-    font-family: 'baloo bhaina 2';
-    font-weight: 600;
     border: none;
     border-radius: 10px;
     background-color: #fff;
@@ -443,8 +440,6 @@ span {
     width: 100%;
     height: 5rem;
     top: 66%;
-    font-family: 'baloo bhaina 2';
-    font-weight: 600;
     border: none;
     border-radius: 10px;
     background-color: #fff;
@@ -462,6 +457,22 @@ span {
     font-size: clamp(1em, 1em + 10vw, 10em);
     border-radius: 50px;
     z-index: 99;
+  }
+  .nav-menu {
+    background-color: rgb(219, 219, 219);
+    width: 31%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: -100%;
+    transition: 1000ms;
+  }
+  .nav-menu.active {
+    left: 0;
+    bottom: 0;
+    transition: 0.5s;
   }
 
   /* botao open */
@@ -526,8 +537,6 @@ span {
   .nav-text a {
     text-decoration: none;
     color: #35c2aa;
-    font-family: 'baloo bhaina 2';
-    font-weight: 600;
     font-size: 30px;
     width: 95%;
     height: 100%;
@@ -556,192 +565,30 @@ span {
   /* conteudo do botão imersivo de navegação direita */
   .MobileProfileDireita {
     position: absolute;
-    display: block;
+    top: 20vh;
+    left: 9rem;
+    width: 50vw;
+    height: 450px;
+    flex-direction: column;
     align-items: center;
-    top: 10%;
-    left: 18%;
-    width: 64%;
-    height: 45%;
-    border-radius: 20px;
+    justify-content: space-around;
     background-color: transparent;
     z-index: 2;
   }
 
-  /*-------------------------MENU COMPLEMENTAR-------*/
-  .mobcaddate {
-    display: none;
-    /* width: 100%;
-      height: 12%;
-      position:absolute;
-      padding-top:1% ;
-      top: 0px;
-      font-family: 'baloo bhaina 2';
-      font-weight: 800;
-      
-      padding-top:1% ;
-      font-size: clamp(0.01em, 0.01em + 4.5vw, 2em);
-      background-color: #fff;
-      color: rgb(0, 0, 0);
-      border: none;
-      border-radius: 5px; */
-  }
-  .mobcontacts {
-    display: none;
-    /* position:absolute;
-      top: 16%;
-      width: 100%;
-      height: 12%;
-      font-family: 'baloo bhaina 2';
-      font-weight: 800;
-      padding-top:1% ;
-      font-size: clamp(0.01em, 0.01em + 4.5vw, 2em);
-      background-color: #fff;
-      color: rgb(0, 0, 0);
-      border: none;
-      border-radius: 5px; */
-  }
-  .mobpeople {
-    display: none;
-    /* position:absolute;
-      top: 32%;
-      left: 0;
-      width: 48%;
-      height: 12%;
-      font-family: 'baloo bhaina 2';
-      font-weight: 800;
-      padding-top:1% ;
-      font-size: clamp(0.01em, 0.01em + 4.5vw, 2em);
-      border: none;
-      border-radius: 5px;
-      background-color: #fff;
-      color: rgb(0, 0, 0);
-      border: none; */
-  }
-  .mobteams {
-    display: none;
-    /* position:absolute;
-      top: 32%;
-      right: 0px;
-      width: 48%;
-      height: 12%;
-      font-family: 'baloo bhaina 2';
-      font-weight: 800;
-      padding-top:1% ;
-      font-size: clamp(0.01em, 0.01em + 4.5vw, 2em);
-      border: none;
-      border-radius: 5px;
-      background-color: #fff;
-      color: rgb(0, 0, 0);
-      border: none;
-      border-radius: 5px; */
-  }
-  .mobmanage {
-    display: none;
-    /* position:absolute;
-      top: 48%;
-      left: 0px;
-      width: 48%;
-      height: 12%;
-      font-family: 'baloo bhaina 2';
-      font-weight: 800;
-      padding-top:1% ;
-      font-size: clamp(0.01em, 0.01em + 4.5vw, 2em);
-      border: none;
-      margin-right: 10px;
-      background-color: #fff;
-      color: rgb(0, 0, 0);
-      border: none;
-      border-radius: 5px; */
-  }
-  .mobactivities {
-    display: none;
-    /* position:absolute;
-      top: 48%;
-      right: 0px;
-      width: 48%;
-      height: 12%;
-      font-family: 'baloo bhaina 2';
-      font-weight: 800;
-      padding-top:1% ;
-      font-size: clamp(0.01em, 0.01em + 4.5vw, 2em);
-      border: none;
-      margin-bottom: 5px;
-      background-color: #fff;
-      color: rgb(0, 0, 0);
-      border: none;
-      border-radius: 5px; */
-  }
-  .mobarea {
-    display: none;
-    /* position:absolute;
-      top: 64%;
-      left: 0px;
-      width: 48%;
-      height: 12%;
-      font-family: 'baloo bhaina 2';
-      font-weight: 800;
-      padding-top:1% ;
-      font-size: clamp(0.01em, 0.01em + 4.5vw, 2em);
-      border: none;
-      border-radius: 5px;
-      margin-bottom: 10px;
-      background-color: #fff;
-      color: rgb(0, 0, 0);
-      border: none;
-      border-radius: 5px; */
-  }
-  .mobcomments {
-    display: none;
-    /* position:absolute;
-      top: 64%;
-      right: 0px;
-      width: 48%;
-      height: 12%;
-      font-family: 'baloo bhaina 2';
-      font-weight: 800;
-      padding-top:1% ;
-      font-size: clamp(0.01em, 0.01em + 4.5vw, 2em);
-      border: none;
-      margin-bottom: 10px;
-      background-color: #fff;
-      color: rgb(0, 0, 0);
-      border: none;
-      border-radius: 5px; */
-  }
-  .mobdashIcs {
-    display: none;
-    /* position:absolute;
-      top: 81%;
-      width: 100%;
-      height: 12%;
-      font-family: 'baloo bhaina 2';
-      font-weight: 800;
-      font-size: clamp(0.01em, 0.01em + 4.5vw, 2em);
-      border: none;
-      background-color: #fff;
-      color: rgb(0, 0, 0);
-      border: none;
-      border-radius: 5px; */
-  }
-  /*------------------------*/
-
   .Mobwork {
-    font-family: 'baloo bhaina 2';
-    font-weight: 800;
     font-size: 16px;
+    width: 100%;
+    height: 40px;
     background-color: #fff;
     color: rgb(0, 0, 0);
     border: none;
     border-radius: 10px;
-    top: 32%;
   }
   .MobtypObs {
     font-size: 16px;
     width: 100%;
-    height: 15%;
-    top: 48%;
-    font-family: 'baloo bhaina 2';
-    font-weight: 800;
+    height: 40px;
     background-color: #fff;
     color: rgb(0, 0, 0);
     border: none;
@@ -750,13 +597,7 @@ span {
   .MobTextActiv {
     font-size: 16px;
     width: 100%;
-    height: 15%;
-    top: 64%;
-    font-family: 'baloo bhaina 2';
-    font-weight: 800;
-    border: none;
-    border-radius: 10px;
-
+    height: 40px;
     background-color: #fff;
     color: rgb(0, 0, 0);
     border: none;
@@ -765,12 +606,7 @@ span {
   .MobpeopleTest {
     font-size: 16px;
     width: 100%;
-    height: 15%;
-    top: 80%;
-    font-family: 'baloo bhaina 2';
-    font-weight: 800;
-    border: none;
-    border-radius: 10px;
+    height: 40px;
     background-color: #fff;
     color: rgb(0, 0, 0);
     border: none;
@@ -779,12 +615,7 @@ span {
   .MobUserGroup {
     font-size: 16px;
     width: 100%;
-    height: 15%;
-    top: 96%;
-    font-family: 'baloo bhaina 2';
-    font-weight: 800;
-    border: none;
-    border-radius: 10px;
+    height: 40px;
     background-color: #fff;
     color: rgb(0, 0, 0);
     border: none;

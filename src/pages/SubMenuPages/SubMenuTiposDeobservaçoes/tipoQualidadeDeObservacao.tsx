@@ -17,7 +17,7 @@ function tipoQualidadeDeObservacao() {
       </Link>
       <div>
         <input
-          className="fnameSubMenu"
+          className="fCxPesquisa"
           placeholder="Pesquisar"
           type="text"
           id="fname7"
@@ -28,9 +28,9 @@ function tipoQualidadeDeObservacao() {
       <SideBar />
       <div className="page">
         <div className="filter1">
-          <div className="tittleGpObserv">
-            <h2>Grupo de Questões - QUALIDADE DA OBSERVAÇÃO</h2>
-          </div>
+          <h2 className="tittleGpObserv">
+            Grupo de Questões - QUALIDADE DA OBSERVAÇÃO
+          </h2>
         </div>
         <div className="tabelaPadrao">
           <div className="container">

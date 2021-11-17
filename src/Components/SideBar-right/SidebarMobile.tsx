@@ -3,7 +3,6 @@ import '../../styles/components/SideBarDireita/SidebarMobile.css'
 
 import logologo from '../../Components/logoIniciativaAzul@2x.png'
 
-import * as IonIcons from 'react-icons/io'
 import { IconContext } from 'react-icons'
 import { Link } from 'react-router-dom'
 

@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import '../../../styles/pages/MenuDireitoCss/modal/modalPessoa.css'
+import '../../../styles/pages/MenuDireito/modal/modalPessoa.css'
 
 export default function Modal() {
   const [modal, setModal] = useState(false)

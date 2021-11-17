@@ -3,9 +3,9 @@ import ProfileDireita from '../../Components/ProfileDireita'
 import SideBar from '../../Components/SideBar'
 import SideBarDireita from '../../Components/SideBar-right/SideBarDireita'
 import '../../styles/pages/MenuDireitoCss/area.css'
-import Modal from './MenuDireito-Modal/ModalCadArea'
 
 import SidebarMobile from '../../Components/SideBar-right/SidebarMobile'
+import Modal from './MenuDireito-Modal/ModalCadArea'
 
 function Area() {
   return (

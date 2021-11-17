@@ -1,7 +1,7 @@
 import ProfileDireita from '../../../Components/ProfileDireita'
 import SideBar from '../../../Components/SideBar'
 import SideBarDireita from '../../../Components/SideBar-right/SideBarDireita'
-import Modal from '../../MenuDIreito/MenuDireito-Modal/ModalCadPessoa'
+import Modal from '../../MenuDireito/MenuDireito-Modal/ModalCadPessoa'
 import '../../../styles/pages/SubMenuPages/SubMenuPessoas/SubMenuPessoas.css'
 import SidebarMobile from '../../../Components/SideBar-right/SidebarMobile'
 

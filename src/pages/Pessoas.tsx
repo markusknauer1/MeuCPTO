@@ -4,7 +4,7 @@ import SideBarDireita from '../Components/SideBar-right/SideBarDireita'
 import SidebarMobile from '../Components/SideBar-right/SidebarMobile'
 
 import '../styles/pages/pessoas.css'
-import Modal from './MenuDIreito/MenuDireito-Modal/ModalCadPessoa'
+import Modal from './MenuDireito/MenuDireito-Modal/ModalCadPessoa'
 
 function Pessoas() {
   return (

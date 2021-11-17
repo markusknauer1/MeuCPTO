@@ -3,8 +3,8 @@ import ProfileDireita from '../../Components/ProfileDireita'
 import SideBar from '../../Components/SideBar'
 import SideBarDireita from '../../Components/SideBar-right/SideBarDireita'
 import '../../styles/pages/MenuDireitoCss/gerencias.css'
-import ModalCadGerencia from './MenuDireito-Modal/ModalCadGerencia'
 import SidebarMobile from '../../Components/SideBar-right/SidebarMobile'
+import ModalCadGerencia from './MenuDireito-Modal/ModalCadGerencia'
 
 function Gerencias() {
   return (

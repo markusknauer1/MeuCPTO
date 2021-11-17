@@ -7,9 +7,6 @@ import '../../../styles/pages/SubMenuPages/SubMenuEmpresas/SubMenuEmpresas.css'
 import Modal from './modal-Empresas/AlterarRegistroEmpresas'
 
 function SubMenuEmpresas() {
-  const [sidebar, setSidebar] = useState(true)
-
-  const showSidebar = () => setSidebar(!sidebar)
   return (
     <div className="HomePage">
       <div>

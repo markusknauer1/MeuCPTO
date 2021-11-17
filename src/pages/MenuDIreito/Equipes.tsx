@@ -5,7 +5,7 @@ import SideBarDireita from '../../Components/SideBar-right/SideBarDireita'
 import SidebarMobile from '../../Components/SideBar-right/SidebarMobile'
 
 import Modal from './MenuDireito-Modal/ModalCadEquipe'
-import '../../styles/pages/MenuDireitoCss/equipes.css'
+import '../../styles/pages/MenuDireitoCss/equipes1.css'
 
 function Equipes() {
   return (

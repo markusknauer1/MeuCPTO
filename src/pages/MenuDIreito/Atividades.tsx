@@ -2,7 +2,7 @@ import React from 'react'
 import ProfileDireita from '../../Components/ProfileDireita'
 import SideBar from '../../Components/SideBar'
 import SideBarDireita from '../../Components/SideBar-right/SideBarDireita'
-import '../../styles/pages/MenuDireitoCss/atividades.css'
+import '../../styles/pages/MenuDireitoCss/atividades1.css'
 import ModalCadAtividade from './MenuDireito-Modal/ModalCadAtividade'
 
 import SidebarMobile from '../../Components/SideBar-right/SidebarMobile'

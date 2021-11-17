@@ -16,9 +16,7 @@ function SidebarMobile() {
     <>
       <IconContext.Provider value={{ color: 'hsl(0, 0%, 100%)' }}>
         <div className="navbar">
-          <Link to="#" className="NavButtomDireita">
-            <i className="fas fa-bars" onClick={showSidebar}></i>
-          </Link>
+          <button onClick={showSidebar} className="NavButtomDireita"></button>
           <nav className={sidebar ? 'nav-menu active' : 'nav-menu'}>
             {/* logoSuperior */}
             <img className="Moblogo" src={logo} alt="logo" />

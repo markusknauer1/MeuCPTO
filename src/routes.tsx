@@ -5,12 +5,6 @@ import Home from './pages/Home'
 import FormCad from './pages/FormularioCadastro'
 import Pessoas from './pages/Pessoas'
 import Relatorio from './pages/Relatorio/Relatorio'
-import Observacoes from './pages/MenuDireito/Observacoes'
-import Equipes from './pages/MenuDireito/Equipes'
-import Gerencias from './pages/MenuDireito/Gerencias'
-import Unidades from './pages/MenuDireito/Unidades'
-import Atividades from './pages/MenuDireito/Atividades'
-import Area from './pages/MenuDireito/Area'
 import UniClienteExe from './pages/Relatorio/UnidadesCadastradas/UniClienteExe'
 import UniClieSetor from './pages/Relatorio/UnidadesCadastradas/UniClieSetor'
 import MesSetor from './pages/Relatorio/UnidadesCadastradas/MesSetor'
@@ -28,7 +22,14 @@ import AtivadoresSociais from './pages/SubMenuPages/SubMenuTextosAtivadores/Text
 import AtivadoresPsicologicos from './pages/SubMenuPages/SubMenuTextosAtivadores/TextosAtivadores/AtivadoresPsicologicos'
 import AtivadoresCognitivos from './pages/SubMenuPages/SubMenuTextosAtivadores/TextosAtivadores/AtivadoresCognitivos'
 import AtivadoresFisiologicos from './pages/SubMenuPages/SubMenuTextosAtivadores/TextosAtivadores/AtivadoresFisiologicos'
+
 import AtivadoresPessoal from './pages/SubMenuPages/SubMenuTextosAtivadores/TextosAtivadores/AtivadoresPessoal'
+import Observacoes from './pages/MenuDireito/Observacoes'
+import Equipes from './pages/MenuDireito/Equipes'
+import Gerencias from './pages/MenuDireito/Gerencias'
+import Unidades from './pages/MenuDireito/Unidades'
+import Area from './pages/MenuDireito/Area'
+import Atividades from './pages/MenuDireito/Atividades'
 
 function Routes() {
   return (

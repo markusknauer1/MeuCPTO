@@ -1,0 +1,96 @@
+.ObsCod {
+  position: absolute;
+  font-size: 0.5rem !important;
+  top: 5%;
+  left: 3%;
+}
+.ObsObservador {
+  position: absolute;
+
+  font-size: 0.5rem !important;
+  top: 5%;
+  left: 9%;
+}
+.ObsDescFun {
+  position: absolute;
+  font-size: 0.5rem !important;
+  top: 5%;
+  text-align: center;
+  left: 23%;
+}
+.ObsStatus {
+  position: absolute;
+  font-size: 0.5rem !important;
+  top: 5%;
+  text-align: center;
+  left: 90%;
+}
+
+/*
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+ .observacaoRef2 :hover {
+  background-color: #ddd;
+} */
+
+.btnObsCod {
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-left: 3%;
+  width: 5rem;
+  font: 12px BalooBhaina2-SemiBold;
+}
+.btnObs {
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-left: 5%;
+  width: 8rem;
+}
+.BtnDescFun {
+  padding-bottom: 1%;
+  padding-left: 2%;
+  padding-top: 1%;
+  width: 40rem;
+  font: 12px BalooBhaina2-SemiBold;
+}
+.btnStatus {
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-left: 5%;
+  width: 8rem;
+}
+.AlterarInfo {
+  position: relative;
+  display: flex;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  transition: color 0.2s ease-in-out;
+  margin-top: -8%;
+  left: 90%;
+
+  height: 4vmin;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1024px) {
+  .cod {
+    top: 2%;
+    left: 5%;
+  }
+  .Obs {
+    top: 2%;
+    left: 20%;
+  }
+  .DescFun {
+    top: 2%;
+    left: 42%;
+    width: 30%;
+  }
+  .status {
+    top: 2%;
+    left: 87%;
+  }
+}

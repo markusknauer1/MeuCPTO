@@ -1,0 +1,282 @@
+.MenuProfileDireita {
+  position: absolute;
+  display: fixed;
+  align-items: center;
+  top: 26%;
+  left: 75%;
+  width: 20%;
+  height: 50%;
+  border-radius: 20px;
+}
+.caddate {
+  width: 100%;
+  height: 12%;
+  position: absolute;
+  padding-top: 1%;
+  top: 0px;
+  font: 20px BalooBhaina2-Bold;
+  padding-top: 1%;
+  background-color: #fff;
+  color: rgb(0, 0, 0);
+  border: none;
+  border-radius: 5px;
+}
+.caddate:focus {
+  color: #fff;
+  background-color: #0b9e82;
+}
+.caddate:hover {
+  color: rgb(255, 255, 255);
+  background-color: #0b9e82;
+  transition: 0.3s;
+}
+.contacts {
+  position: absolute;
+  top: 16%;
+  width: 100%;
+  height: 12%;
+  font: 20px BalooBhaina2-Bold;
+  padding-top: 1%;
+  background-color: #fff;
+  color: rgb(0, 0, 0);
+  border: none;
+  border-radius: 5px;
+}
+.contacts:focus {
+  color: #fff;
+  background-color: #0b9e82;
+}
+.contacts:hover {
+  color: rgb(255, 255, 255);
+  background-color: #0b9e82;
+  transition: 0.3s;
+}
+.people {
+  position: absolute;
+  top: 32%;
+  left: 0;
+  width: 48%;
+  height: 12%;
+  font: 20px BalooBhaina2-Bold;
+  padding-top: 1%;
+  border: none;
+  border-radius: 5px;
+  background-color: #fff;
+  color: rgb(0, 0, 0);
+  border: none;
+}
+.people:focus {
+  color: #fff;
+  background-color: #0b9e82;
+}
+
+.people:hover {
+  color: rgb(255, 255, 255);
+  background-color: #0b9e82;
+  transition: 0.3s;
+}
+.teams {
+  position: absolute;
+  top: 32%;
+  right: 0px;
+  width: 48%;
+  height: 12%;
+  font: 20px BalooBhaina2-Bold;
+  padding-top: 1%;
+  border: none;
+  border-radius: 5px;
+  background-color: #fff;
+  color: rgb(0, 0, 0);
+  border: none;
+  border-radius: 5px;
+}
+.teams:focus {
+  color: #fff;
+  background-color: #0b9e82;
+}
+.teams:hover {
+  color: rgb(255, 255, 255);
+  background-color: #0b9e82;
+  transition: 0.3s;
+}
+.manage {
+  position: absolute;
+  top: 48%;
+  left: 0px;
+  width: 48%;
+  height: 12%;
+  font: 20px BalooBhaina2-Bold;
+  padding-top: 1%;
+  border: none;
+  margin-right: 10px;
+  background-color: #fff;
+  color: rgb(0, 0, 0);
+  border: none;
+  border-radius: 5px;
+}
+.manage:focus {
+  color: #fff;
+  background-color: #0b9e82;
+}
+.manage:hover {
+  color: rgb(255, 255, 255);
+  background-color: #0b9e82;
+  transition: 0.3s;
+}
+.activities {
+  position: absolute;
+  top: 48%;
+  right: 0px;
+  width: 48%;
+  height: 12%;
+  font: 20px BalooBhaina2-Bold;
+  padding-top: 1%;
+  border: none;
+  margin-bottom: 5px;
+  background-color: #fff;
+  color: rgb(0, 0, 0);
+  border: none;
+  border-radius: 5px;
+}
+.activities:focus {
+  color: #fff;
+  background-color: #0b9e82;
+}
+.activities:hover {
+  color: rgb(255, 255, 255);
+  background-color: #0b9e82;
+  transition: 0.3s;
+}
+.area {
+  position: absolute;
+  top: 64%;
+  left: 0px;
+  width: 48%;
+  height: 12%;
+  font: 20px BalooBhaina2-Bold;
+  padding-top: 1%;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  background-color: #fff;
+  color: rgb(0, 0, 0);
+  border: none;
+  border-radius: 5px;
+}
+.area:focus {
+  color: #fff;
+  background-color: #0b9e82;
+}
+.area:hover {
+  color: rgb(255, 255, 255);
+  background-color: #0b9e82;
+  transition: 0.3s;
+}
+.comments {
+  position: absolute;
+  top: 64%;
+  right: 0px;
+  width: 48%;
+  height: 12%;
+  font: 20px BalooBhaina2-Bold;
+  padding-top: 1%;
+  border: none;
+  margin-bottom: 10px;
+  background-color: #fff;
+  color: rgb(0, 0, 0);
+  border: none;
+  border-radius: 5px;
+}
+.comments:focus {
+  color: #fff;
+  background-color: #0b9e82;
+}
+.comments:hover {
+  color: rgb(255, 255, 255);
+  background-color: #0b9e82;
+  transition: 0.3s;
+}
+.dashIcs {
+  position: absolute;
+  top: 81%;
+  width: 100%;
+  height: 12%;
+  font: 20px BalooBhaina2-Bold;
+  padding-top: 1%;
+  border: none;
+  background-color: #fff;
+  color: rgb(0, 0, 0);
+  border: none;
+  border-radius: 5px;
+}
+.dashIcs:focus {
+  color: #fff;
+  background-color: #0b9e82;
+}
+.dashIcs:hover {
+  color: rgb(255, 255, 255);
+  background-color: #0b9e82;
+  transition: 0.3s;
+}
+.buttonSave {
+  position: fixed;
+  font-family: 'baloo bhaina 2';
+  font-weight: 600;
+  font-size: clamp(0.01em, 0.01em + 1.4vw, 2em);
+  border-radius: 5px;
+  border-style: none;
+  color: #35c2aa;
+  background-color: #d8d8d8;
+  top: 90%;
+  left: 54%;
+  width: 10%;
+  height: 5%;
+}
+.buttonSave:hover {
+  color: rgb(255, 255, 255);
+  background-color: #0b9e82;
+  transition: 0.3s;
+}
+
+@media screen and (max-width: 1024px) {
+  .buttonProfileDireita {
+    display: none;
+  }
+
+  .buttonSave {
+    position: fixed;
+    width: 20%;
+    height: 6%;
+    top: 73%;
+    left: 75%;
+    font: 18px BalooBhaina2-SemiBold;
+    color: #35c2aa;
+    border: none;
+    border-radius: 5px;
+    border: none;
+    border-radius: 5px;
+    z-index: 2;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .buttonProfileDireita {
+    display: none;
+  }
+
+  .buttonSave {
+    position: fixed;
+    width: 20%;
+    height: 6%;
+    top: 73%;
+    left: 75%;
+    font: 18px BalooBhaina2-SemiBold;
+    background-color: #d8d8d8;
+    color: #35c2aa;
+    border: none;
+    border-radius: 5px;
+    border: none;
+    border-radius: 5px;
+    z-index: 2;
+  }
+}

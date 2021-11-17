@@ -1,0 +1,1181 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+@font-face {
+  font-family: BalooBhaina2-Bold;
+  src: url(../Fonts/BalooBhaina2-Bold.ttf);
+}
+@font-face {
+  font-family: BalooBhaina2-Medium;
+  src: url(../Fonts/BalooBhaina2-Medium.ttf);
+}
+@font-face {
+  font-family: BalooBhaina2-Regular;
+  src: url(../Fonts/BalooBhaina2-Regular.ttf);
+}
+@font-face {
+  font-family: BalooBhaina2-SemiBold;
+  src: url(../Fonts/BalooBhaina2-SemiBold.ttf);
+}
+html {
+  /* a cada 1rem será considerada 10px */
+  font-size: 62.5%;
+}
+.body {
+  color: white;
+  background-color: #ebfef5;
+}
+
+.login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  background-image: radial-gradient(
+    rgb(34, 53, 88) 0%,
+    rgb(27, 44, 75) 35%,
+    rgb(15, 30, 56) 70%,
+    rgb(11, 24, 46) 100%
+  );
+}
+.bg1 {
+  background: url('/src/Images/logoIniciativa2x.png');
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  background-size: 18%;
+  background-position: 49% 92%;
+  background-repeat: no-repeat;
+  z-index: 1;
+}
+.bg2 {
+  background: url('/src/Images/logoMeuCptoVertBranco2x.png');
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  background-size: 7%;
+  background-position: 15% 50%;
+  background-repeat: no-repeat;
+}
+.bg3 {
+  background: url('/src/Images/logoQ.png');
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  background-size: 57%;
+  background-position: 134% 62%;
+  background-repeat: no-repeat;
+}
+.login-right {
+  z-index: 1;
+  background-color: white;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 35.5%;
+  height: 46%;
+}
+
+.login-right h3 {
+  position: fixed;
+  top: 32.9%;
+  font: 18px BalooBhaina2-Regular;
+  font-weight: 600;
+  color: #0b9e82;
+  font-size: clamp(0.1em, 0.1em + 2vw, 2.5em);
+}
+.hrLogin {
+  position: fixed;
+  width: 30%;
+  top: 40%;
+  height: 3px;
+  border: none;
+  background-image: linear-gradient(
+    90deg,
+    transparent,
+    rgb(197, 197, 197),
+    transparent
+  );
+}
+
+.login-loginEmail input {
+  background-color: #dad8d8;
+  color: #000000;
+  position: fixed;
+  justify-content: center;
+  text-align: left;
+  font-family: BalooBhaina2-Medium;
+  font-size: clamp(1em, 1em + 1.8vw, 1.8em);
+  padding-top: 5px;
+  padding-left: 10px;
+  display: flex;
+  border: none;
+  border-radius: 5px;
+  transition: color 0.2s ease-in-out;
+  width: 20%;
+  height: 5%;
+  top: 43.5%;
+  left: 39.5%;
+}
+
+.login-loginPassword input {
+  background-color: #dad8d8;
+  color: #000000;
+  position: fixed;
+  justify-content: center;
+  text-align: left;
+  font-family: BalooBhaina2-Medium;
+  font-size: clamp(0.1em, 0.1em + 1.3vw, 2.5em);
+  padding-top: 5px;
+  padding-left: 10px;
+  display: flex;
+  border: none;
+  border-radius: 5px;
+  transition: color 0.2s ease-in-out;
+  width: 20%;
+  height: 5%;
+  top: 50%;
+  left: 39.5%;
+}
+
+.enter-app {
+  background-color: #172d52;
+  color: white;
+  position: fixed;
+  padding-top: 0.1%;
+  padding-left: 0.8%;
+  display: flex;
+  border: none;
+  border-radius: 5px;
+  transition: color 0.2s ease-in-out;
+  width: 20%;
+  height: 5%;
+  top: 56.5%;
+  left: 39.5%;
+  text-decoration: none;
+  font-size: clamp(0.1em, 0.1em + 1.3vw, 2.5em);
+  font: 18px BalooBhaina2-SemiBold;
+  cursor: pointer;
+}
+.login-right button:hover {
+  cursor: pointer;
+}
+.login-right .recordPassword {
+  color: #41606c;
+  background-color: transparent;
+  position: fixed;
+  font-size: clamp(0.01em, 0.01em + 1vw, 1em);
+  display: flex;
+  border: none;
+  border-radius: 5px;
+  transition: color 0.2s ease-in-out;
+  width: 15%;
+  top: 63%;
+  left: 39.5%;
+  cursor: pointer;
+}
+.checkBoxMemorizer {
+  position: absolute;
+  display: flex;
+  border: none;
+  border-radius: 5px;
+  transition: color 0.2s ease-in-out;
+  top: 50%;
+  left: 0;
+  width: clamp(0.01em, 0.01em + 1.5vw, 2em);
+}
+.spnCheckBox {
+  position: absolute;
+  font: 10px BalooBhaina2-SemiBold;
+  margin-top: -1%;
+  left: 2%;
+}
+
+.btnrecovery {
+  color: #41606c;
+  background-color: transparent;
+  position: fixed;
+  font: 10px BalooBhaina2-SemiBold;
+  display: flex;
+  border: none;
+  border-radius: 5px;
+  transition: color 0.2s ease-in-out;
+  width: 10%;
+  top: 62.6%;
+  left: 53.5%;
+}
+.fnamePadrao {
+  left: 39%;
+  top: 22.5%;
+  position: absolute;
+  padding-left: 10px;
+  background-color: rgb(201, 201, 201);
+  font: 16px BalooBhaina2-SemiBold;
+  border: none;
+  color: rgb(32, 32, 32);
+  border-radius: 5px;
+  width: 12%;
+  height: 5.5%;
+  z-index: 1;
+}
+.fnamePadrao::-webkit-input-placeholder {
+  font: 14px BalooBhaina2-SemiBold;
+  color: #1c396b;
+}
+.fCxPesquisa {
+  left: 52%;
+  top: 7%;
+  position: absolute;
+  padding-left: 10px;
+  background-color: rgb(201, 201, 201);
+  font: 16px BalooBhaina2-SemiBold;
+  border: none;
+  color: rgb(32, 32, 32);
+  border-radius: 5px;
+  width: 12%;
+  height: 5.5%;
+  z-index: 1;
+}
+.fCxPesquisa::-webkit-input-placeholder {
+  font: 14px BalooBhaina2-SemiBold;
+  color: #1c396b;
+}
+
+.subtPadrao1 {
+  position: fixed;
+  top: 18%;
+  left: 16%;
+  border-radius: 20px;
+  display: block;
+  font: 14px BalooBhaina2-SemiBold;
+  color: #adadad;
+  z-index: 1;
+}
+.subtPadrao2 {
+  position: absolute;
+  top: 22%;
+  left: 10%;
+  font: 28px BalooBhaina2-Bold;
+  border-style: none;
+  background: transparent;
+  color: #172d52;
+  z-index: 2;
+}
+
+.buttonModalPadrao {
+  position: fixed;
+  top: 22.5%;
+  left: 52%;
+  width: 12%;
+  height: 4rem;
+  display: flex;
+  padding-top: 4px;
+  justify-content: center;
+  text-align: center;
+  z-index: 2;
+  cursor: pointer;
+  font: 18px BalooBhaina2-SemiBold;
+  background-color: #0b9e82;
+  color: white;
+  border-style: none;
+  border-radius: 5px;
+}
+.buttonModalPadrao1 {
+  position: fixed;
+  top: 22.5%;
+  left: 52%;
+  width: 12%;
+  height: 4rem;
+  display: flex;
+  padding-top: 4px;
+  justify-content: center;
+  text-align: center;
+  z-index: 2;
+  cursor: pointer;
+  font: 12px BalooBhaina2-SemiBold;
+  background-color: #0b9e82;
+  color: white;
+  border-style: none;
+  border-radius: 5px;
+}
+.buttonModalObservaçoes {
+  background-color: #172d52;
+  color: white;
+  top: 28%;
+  left: 40%;
+  position: absolute;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  width: clamp(0.01em, 0.01em + 10vw, 15em);
+  height: clamp(0.01em, 0.01em + 2.8vw, 15em);
+  border-radius: 6px;
+  border-style: none;
+  display: flex;
+  font: 18px BalooBhaina2-SemiBold;
+}
+.close-modal {
+  position: absolute;
+  top: 6%;
+  right: 5%;
+  border-style: none;
+  font-size: 20px;
+  color: #a0a0a0;
+  height: 1%;
+  width: 1%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  background-color: transparent;
+  cursor: pointer;
+}
+.gravar-modal {
+  position: absolute;
+  right: 5%;
+  bottom: 5%;
+  font: 16px BalooBhaina2-Medium;
+  width: 15rem;
+  height: 3.5rem;
+  background-color: #1c396b;
+  color: white;
+  border-radius: 5px;
+  border-style: none;
+  cursor: pointer;
+}
+.titleModal {
+  position: absolute;
+  left: 5%;
+  top: 4%;
+  font-family: 'baloo bhaina 2';
+  font-weight: 500;
+  font-size: clamp(0.1em, 0.1em + 1.8vw, 3em);
+  color: #1c396b;
+}
+.hrTitleModal {
+  position: absolute;
+  display: flex;
+  background-image: linear-gradient(90deg, #fff 20%, rgb(209, 209, 209) 80%);
+  border-color: transparent;
+  border-style: none;
+  top: 11%;
+  left: 5%;
+  width: 25%;
+  height: 2.5px;
+}
+.hrTitleModal1 {
+  position: absolute;
+  display: flex;
+  background-image: linear-gradient(90deg, #fff 20%, rgb(197, 197, 197) 80%);
+  border-color: transparent;
+  top: 16%;
+  left: 5%;
+  width: 25%;
+  height: 3px;
+}
+.hrTitleModal2 {
+  position: absolute;
+  display: flex;
+  background-image: linear-gradient(
+    90deg,
+    rgb(238, 238, 238) 20%,
+    rgb(197, 197, 197) 80%
+  );
+  border-color: transparent;
+  top: 14%;
+  left: 5%;
+  width: 25%;
+  height: 3px;
+}
+.hrTitleModal3 {
+  position: absolute;
+  display: flex;
+  background-image: linear-gradient(90deg, #fff 20%, rgb(197, 197, 197) 80%);
+  border-color: transparent;
+  top: 16%;
+  left: 5%;
+  width: 45%;
+  height: 3px;
+}
+.hrTitleModal4 {
+  position: absolute;
+  display: flex;
+  background-image: linear-gradient(90deg, #fff 20%, rgb(197, 197, 197) 80%);
+  border-color: transparent;
+  top: 16%;
+  left: 5%;
+  width: 32%;
+  height: 3px;
+}
+
+@media screen and (max-width: 1024px) {
+  .login-right {
+    z-index: 1;
+    background-color: white;
+    border-radius: 30px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0%;
+    width: 400px;
+    height: 280px;
+  }
+  .login-right h3 {
+    position: absolute;
+    top: 15px;
+    color: #0b9e82;
+    font-size: clamp(0.1em, 0.1em + 3vw, 2.5em);
+    width: 100%;
+    max-width: 300px;
+    text-align: center;
+    line-height: 1;
+  }
+  .login-right hr {
+    position: absolute;
+    top: 28%;
+    width: 230px;
+    height: 1px;
+    margin-bottom: 30px;
+  }
+  .login-loginEmail input {
+    background-color: #dad8d8;
+    color: #000000;
+    position: fixed;
+    justify-content: center;
+    text-align: left;
+    font-family: 'baloo bhaina 2', sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+    padding-top: 5px;
+    padding-left: 10px;
+    position: absolute;
+    display: flex;
+    border: none;
+    border-radius: 5px;
+    transition: color 0.2s ease-in-out;
+    width: 73.4%;
+    height: 30px;
+    top: 100px;
+    left: 13.4%;
+  }
+
+  .login-loginPassword input {
+    background-color: #dad8d8;
+    color: #000000;
+    position: fixed;
+    justify-content: center;
+    text-align: left;
+    font-family: 'baloo bhaina 2', sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+    padding-top: 5px;
+    padding-left: 10px;
+    position: absolute;
+    display: flex;
+    border: none;
+    border-radius: 5px;
+    transition: color 0.2s ease-in-out;
+    width: 73.4%;
+    height: 30px;
+    top: 140px;
+    left: 13.4%;
+  }
+  .login .enter-app {
+    background-color: #172d52;
+    position: fixed;
+    justify-content: flex-start;
+    font-family: 'baloo bhaina 2', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    padding-left: 10px;
+    position: absolute;
+    display: flex;
+    border: none;
+    border-radius: 5px;
+    transition: color 0.2s ease-in-out;
+    width: 73.4%;
+    height: 30px;
+    top: 180px;
+    left: 13.4%;
+    z-index: 5;
+  }
+
+  .login-right .recordPassword {
+    position: fixed;
+    font-family: 'baloo bhaina 2', sans-serif;
+    font-weight: 400;
+    font-size: 8px;
+    position: absolute;
+    display: flex;
+    border: none;
+    border-radius: 5px;
+    transition: color 0.2s ease-in-out;
+    width: 73.4%;
+    height: 14%;
+    top: 220px;
+    left: 12%;
+    z-index: 5;
+  }
+
+  .checkBoxMemorizer {
+    position: absolute;
+    display: flex;
+    border: none;
+    border-radius: none;
+    transition: color 0.2s ease-in-out;
+    top: 0;
+    left: 5px;
+    width: clamp(0.01em, 0.01em + 3vw, 2.5em);
+  }
+  .spnCheckBox {
+    margin-left: 30px;
+    margin-top: 0px;
+  }
+  .btnrecovery {
+    position: fixed;
+    font-family: 'baloo bhaina 2', sans-serif;
+    font-weight: 500;
+    font-size: 8px;
+    position: absolute;
+    display: flex;
+    border: none;
+    border-radius: 5px;
+    transition: color 0.2s ease-in-out;
+    width: 28%;
+    height: 10%;
+    top: 220px;
+    left: 70%;
+    z-index: 5;
+  }
+  .bg1 {
+    background-image: url(/src/Images/logoMeuCptoHorizBranco@2x.png);
+    background-position: center 90%;
+    background-size: 440px;
+    background-repeat: no-repeat;
+    position: fixed;
+  }
+  .bg2 {
+    display: none;
+  }
+  .bg3 {
+    background-position: center top;
+    background-size: 770px;
+    background-repeat: no-repeat;
+    position: fixed;
+  }
+  .fnamePadrao {
+    left: 70%;
+    top: 21%;
+    position: absolute;
+    padding-left: 10px;
+    background-color: rgb(201, 201, 201);
+    font: 22px BalooBhaina2-SemiBold;
+    border: none;
+    color: rgb(32, 32, 32);
+    border-radius: 5px;
+    width: 25%;
+    height: 5%;
+    z-index: 1;
+  }
+  .fnamePadrao::-webkit-input-placeholder {
+    font: 22px BalooBhaina2-SemiBold;
+    color: #1c396b;
+  }
+  .fCxPesquisa {
+    left: 70%;
+    top: 21%;
+    position: absolute;
+    padding-left: 10px;
+    background-color: rgb(201, 201, 201);
+    font: 22px BalooBhaina2-SemiBold;
+    border: none;
+    color: rgb(32, 32, 32);
+    border-radius: 5px;
+    width: 25%;
+    height: 5%;
+    z-index: 1;
+  }
+  .fCxPesquisa::-webkit-input-placeholder {
+    font: 22px BalooBhaina2-SemiBold;
+    color: #1c396b;
+  }
+  .buttonModalPadrao {
+    position: absolute;
+    top: 75%;
+    left: 70%;
+    width: 25%;
+    height: 4%;
+    font: 28px BalooBhaina2-SemiBold;
+    z-index: 1;
+    cursor: pointer;
+    background-color: #0b9e82;
+    color: white;
+    border-style: none;
+    border-radius: 10px;
+  }
+  .buttonModalPadrao1 {
+    position: absolute;
+    top: 21%;
+    left: 55%;
+    width: 40%;
+    height: 4%;
+    font: 22px BalooBhaina2-SemiBold;
+    z-index: 1;
+    cursor: pointer;
+    background-color: #0b9e82;
+    color: white;
+    border-style: none;
+    border-radius: 10px;
+  }
+  .buttonModalObservaçoes {
+    background-color: #172d52;
+    color: white;
+    top: 28%;
+    left: 36%;
+    position: absolute;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: clamp(0.01em, 0.01em + 14vw, 15em);
+    height: clamp(0.01em, 0.01em + 4vw, 15em);
+    border-radius: 6px;
+    border-style: none;
+    display: flex;
+    font: 18px BalooBhaina2-SemiBold;
+  }
+
+  .subtPadrao1 {
+    position: fixed;
+    top: 16%;
+    left: 5%;
+    border-radius: 20px;
+    display: block;
+    font: 22px BalooBhaina2-SemiBold;
+    color: #ffffff;
+    z-index: -1;
+  }
+  .subtPadrao2 {
+    position: absolute;
+    top: 0;
+    left: 5%;
+    display: block;
+    font: 42px BalooBhaina2-SemiBold;
+    color: #1c396b;
+    letter-spacing: -2px;
+  }
+}
+@media screen and (max-width: 780px) {
+  .login-right {
+    z-index: 1;
+    background-color: white;
+    border-radius: 30px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: -8%;
+    width: 50%;
+    height: 280px;
+  }
+  .login-right h3 {
+    position: absolute;
+    top: 20px;
+    color: #0b9e82;
+    font-size: clamp(0.1em, 0.1em + 3vw, 2.5em);
+    width: 60%;
+    text-align: center;
+    line-height: 1;
+  }
+  .login-right hr {
+    position: absolute;
+    top: 28%;
+    width: 230px;
+    height: 1px;
+    margin-bottom: 30px;
+  }
+  .login-loginEmail input {
+    background-color: #dad8d8;
+    color: #000000;
+    position: fixed;
+    justify-content: center;
+    text-align: left;
+    font-family: 'baloo bhaina 2', sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+    padding-top: 5px;
+    padding-left: 10px;
+    position: absolute;
+    display: flex;
+    border: none;
+    border-radius: 5px;
+    transition: color 0.2s ease-in-out;
+    width: 73.4%;
+    height: 30px;
+    top: 100px;
+    left: 13.4%;
+  }
+
+  .login-loginPassword input {
+    background-color: #dad8d8;
+    color: #000000;
+    position: fixed;
+    justify-content: center;
+    text-align: left;
+    font-family: 'baloo bhaina 2', sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+    padding-top: 5px;
+    padding-left: 10px;
+    position: absolute;
+    display: flex;
+    border: none;
+    border-radius: 5px;
+    transition: color 0.2s ease-in-out;
+    width: 73.4%;
+    height: 30px;
+    top: 140px;
+    left: 13.4%;
+  }
+  .login .enter-app {
+    background-color: #172d52;
+    position: fixed;
+    justify-content: flex-start;
+    font-family: 'baloo bhaina 2', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    padding-left: 10px;
+    position: absolute;
+    display: flex;
+    border: none;
+    border-radius: 5px;
+    transition: color 0.2s ease-in-out;
+    width: 73.4%;
+    height: 30px;
+    top: 180px;
+    left: 13.4%;
+    z-index: 5;
+  }
+
+  .login-right .recordPassword {
+    position: fixed;
+    font-family: 'baloo bhaina 2', sans-serif;
+    font-weight: 400;
+    font-size: 8px;
+    position: absolute;
+    display: flex;
+    border: none;
+    border-radius: 5px;
+    transition: color 0.2s ease-in-out;
+    width: 36%;
+    height: 14%;
+    top: 220px;
+    left: 12%;
+    z-index: 5;
+  }
+
+  .checkBoxMemorizer {
+    position: absolute;
+    display: flex;
+    border: none;
+    border-radius: none;
+    transition: color 0.2s ease-in-out;
+    top: 0;
+    left: 5px;
+    width: clamp(0.01em, 0.01em + 3vw, 2.5em);
+  }
+  .spnCheckBox {
+    margin-left: 25px;
+  }
+  .btnrecovery {
+    position: fixed;
+    font-family: 'baloo bhaina 2', sans-serif;
+    font-weight: 500;
+    font-size: 8px;
+    position: absolute;
+    display: flex;
+    border: none;
+    border-radius: 5px;
+    transition: color 0.2s ease-in-out;
+    width: 28%;
+    height: 10%;
+    top: 220px;
+    left: 70%;
+    z-index: 5;
+  }
+  .bg1 {
+    background-image: url(/src/Images/logoMeuCptoHorizBranco@2x.png);
+    background-position: center 90%;
+    background-size: 220px;
+    background-repeat: no-repeat;
+    position: fixed;
+  }
+  .bg2 {
+    display: none;
+  }
+  .bg3 {
+    background-position: center top;
+    background-size: 550px;
+    background-repeat: no-repeat;
+    position: fixed;
+  }
+
+  .fnamePadrao {
+    left: 70%;
+    top: 21%;
+    position: absolute;
+    padding-left: 10px;
+    background-color: rgb(201, 201, 201);
+    font: 22px BalooBhaina2-SemiBold;
+    border: none;
+    color: rgb(32, 32, 32);
+    border-radius: 5px;
+    width: 25%;
+    height: 5%;
+    z-index: 1;
+  }
+  .fnamePadrao::-webkit-input-placeholder {
+    font: 22px BalooBhaina2-SemiBold;
+    color: #1c396b;
+  }
+  .fCxPesquisa {
+    left: 70%;
+    top: 21%;
+    position: absolute;
+    padding-left: 10px;
+    background-color: rgb(201, 201, 201);
+    font: 22px BalooBhaina2-SemiBold;
+    border: none;
+    color: rgb(32, 32, 32);
+    border-radius: 5px;
+    width: 25%;
+    height: 5%;
+    z-index: 1;
+  }
+  .fCxPesquisa::-webkit-input-placeholder {
+    font: 22px BalooBhaina2-SemiBold;
+    color: #1c396b;
+  }
+  .buttonModalPadrao {
+    position: absolute;
+    top: 74%;
+    left: 70%;
+    width: 25%;
+    height: 4%;
+    font: 20px BalooBhaina2-SemiBold;
+    z-index: 1;
+    cursor: pointer;
+    background-color: #0b9e82;
+    color: white;
+    border-style: none;
+    border-radius: 10px;
+  }
+  .buttonModalPadrao1 {
+    position: absolute;
+    top: 21%;
+    left: 55%;
+    width: 40%;
+    height: 4%;
+    font: 22px BalooBhaina2-SemiBold;
+    z-index: 1;
+    cursor: pointer;
+    background-color: #0b9e82;
+    color: white;
+    border-style: none;
+    border-radius: 10px;
+  }
+  .buttonModalObservaçoes {
+    background-color: #172d52;
+    color: white;
+    top: 28%;
+    left: 36%;
+    position: absolute;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: clamp(0.01em, 0.01em + 14vw, 15em);
+    height: clamp(0.01em, 0.01em + 4vw, 15em);
+    border-radius: 6px;
+    border-style: none;
+    display: flex;
+    font: 14px BalooBhaina2-SemiBold;
+  }
+
+  .titleModal {
+    position: absolute;
+    left: 5%;
+    top: 4%;
+    font: 26px BalooBhaina2-SemiBold;
+    color: #1c396b;
+  }
+}
+@media screen and (max-width: 500px) {
+  .login-right {
+    z-index: 1;
+    background-color: white;
+    border-radius: 30px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: -8%;
+    width: 68%;
+    height: 230px;
+  }
+  .login-right h3 {
+    position: absolute;
+    top: 15px;
+    color: #0b9e82;
+    font-size: clamp(0.1em, 0.1em + 4vw, 3em);
+    width: 100%;
+    max-width: 180px;
+    text-align: center;
+    line-height: 1;
+  }
+  .login-right hr {
+    position: absolute;
+    top: 26%;
+    width: 230px;
+    height: 1px;
+    margin-bottom: 30px;
+  }
+  .login-loginEmail input {
+    background-color: #dad8d8;
+    color: #000000;
+    position: fixed;
+    justify-content: center;
+    text-align: left;
+    font-family: 'baloo bhaina 2', sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+    padding-top: 5px;
+    padding-left: 10px;
+    position: absolute;
+    display: flex;
+    border: none;
+    border-radius: 5px;
+    transition: color 0.2s ease-in-out;
+    width: 73.4%;
+    height: 30px;
+    top: 80px;
+    left: 13.4%;
+  }
+
+  .login-loginPassword input {
+    background-color: #dad8d8;
+    color: #000000;
+    position: fixed;
+    justify-content: center;
+    text-align: left;
+    font-family: 'baloo bhaina 2', sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+    padding-top: 5px;
+    padding-left: 10px;
+    position: absolute;
+    display: flex;
+    border: none;
+    border-radius: 5px;
+    transition: color 0.2s ease-in-out;
+    width: 73.4%;
+    height: 30px;
+    top: 115px;
+    left: 13.4%;
+  }
+  .login .enter-app {
+    background-color: #172d52;
+    position: fixed;
+    justify-content: flex-start;
+    font-family: 'baloo bhaina 2', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    padding-left: 10px;
+    position: absolute;
+    display: flex;
+    border: none;
+    border-radius: 5px;
+    transition: color 0.2s ease-in-out;
+    width: 73.4%;
+    height: 30px;
+    top: 150px;
+    left: 13.4%;
+    z-index: 5;
+  }
+
+  .login-right .recordPassword {
+    position: fixed;
+    font-family: 'baloo bhaina 2', sans-serif;
+    font-weight: 400;
+    font-size: 8px;
+    position: absolute;
+    display: flex;
+    border: none;
+    border-radius: 5px;
+    transition: color 0.2s ease-in-out;
+    width: 36%;
+    height: 14%;
+    top: 190px;
+    left: 12%;
+    z-index: 5;
+  }
+
+  .checkBoxMemorizer {
+    position: absolute;
+    display: flex;
+    border: none;
+    border-radius: none;
+    transition: color 0.2s ease-in-out;
+    top: 0;
+    left: 5px;
+    width: clamp(0.01em, 0.01em + 3vw, 2.5em);
+  }
+  .spnCheckBox {
+    margin-left: 20px;
+  }
+  .btnrecovery {
+    position: fixed;
+    font-family: 'baloo bhaina 2', sans-serif;
+    font-weight: 500;
+    font-size: 8px;
+    position: absolute;
+    display: flex;
+    border: none;
+    border-radius: 5px;
+    transition: color 0.2s ease-in-out;
+    width: 28%;
+    height: 10%;
+    top: 190px;
+    left: 65%;
+    z-index: 5;
+  }
+  .bg1 {
+    background: url('/src/Images/logoMeuCptoHorizBranco.png');
+    background-position: 50% 90%;
+    background-size: 220px;
+    background-repeat: no-repeat;
+    position: fixed;
+  }
+  .bg2 {
+    display: none;
+  }
+  .bg3 {
+    background-position: top;
+    background-size: 95%;
+  }
+
+  .fnamePadrao {
+    left: 60%;
+    top: 21%;
+    position: absolute;
+    padding-left: 10px;
+    background-color: rgb(201, 201, 201);
+    font: 18px BalooBhaina2-SemiBold;
+    border: none;
+    color: rgb(32, 32, 32);
+    border-radius: 5px;
+    width: 30%;
+    height: 3%;
+    z-index: 1;
+  }
+  .fnamePadrao::-webkit-input-placeholder {
+    font: 8px BalooBhaina2-SemiBold;
+    color: #1c396b;
+  }
+  .fCxPesquisa {
+    left: 70%;
+    top: 21%;
+    position: absolute;
+    padding-left: 10px;
+    background-color: rgb(201, 201, 201);
+    font: 22px BalooBhaina2-SemiBold;
+    border: none;
+    color: rgb(32, 32, 32);
+    border-radius: 5px;
+    width: 25%;
+    height: 5%;
+    z-index: 1;
+  }
+  .fCxPesquisa::-webkit-input-placeholder {
+    font: 22px BalooBhaina2-SemiBold;
+    color: #1c396b;
+  }
+  .buttonModalPadrao {
+    position: absolute;
+    top: 74%;
+    left: 70%;
+    width: 25%;
+    height: 4%;
+    font: 20px BalooBhaina2-SemiBold;
+    z-index: 1;
+    cursor: pointer;
+    background-color: #0b9e82;
+    color: white;
+    border-style: none;
+    border-radius: 10px;
+  }
+  .buttonModalPadrao1 {
+    position: absolute;
+    top: 21%;
+    left: 55%;
+    width: 40%;
+    height: 4%;
+    font: 22px BalooBhaina2-SemiBold;
+    z-index: 1;
+    cursor: pointer;
+    background-color: #0b9e82;
+    color: white;
+    border-style: none;
+    border-radius: 10px;
+  }
+  .buttonModalObservaçoes {
+    background-color: #172d52;
+    color: white;
+    top: 28%;
+    left: 36%;
+    position: absolute;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: clamp(0.01em, 0.01em + 14vw, 15em);
+    height: clamp(0.01em, 0.01em + 4vw, 15em);
+    border-radius: 6px;
+    border-style: none;
+    display: flex;
+    font: 14px BalooBhaina2-SemiBold;
+  }
+
+  .subtPadrao1 {
+    position: fixed;
+    top: 16%;
+    left: 5%;
+    border-radius: 20px;
+    display: block;
+    font: 14px BalooBhaina2-SemiBold;
+    color: #fff;
+    z-index: 1;
+  }
+  .subtPadrao2 {
+    position: absolute;
+    top: 0%;
+    left: 5%;
+    font: 20px BalooBhaina2-Bold;
+    border-style: none;
+    background: transparent;
+    color: #172d52;
+    z-index: 2;
+  }
+  .titleModal {
+    position: absolute;
+    left: 5%;
+    top: 4%;
+    font: 26px BalooBhaina2-SemiBold;
+    color: #1c396b;
+  }
+}

@@ -1,0 +1,156 @@
+.fnameArea {
+  position: absolute;
+  left: 2rem;
+  right: 2rem;
+  margin-top: 17rem;
+  padding-left: 10px;
+  background-color: rgb(201, 201, 201);
+  font-size: 25px;
+  font-family: baloo bhaina2;
+  border: none;
+  align-items: center;
+  color: gray;
+  border-radius: 10px;
+  height: 50px;
+  z-index: 1;
+}
+
+.btnCodArea {
+  position: absolute;
+  top: 5%;
+  left: 4%;
+}
+.btnObserv {
+  position: absolute;
+  top: 5%;
+  left: 13%;
+}
+.btnGerenResp {
+  position: absolute;
+  top: 5%;
+  left: 22%;
+}
+.btnLocalArea {
+  position: absolute;
+  top: 5%;
+  left: 52%;
+}
+.btnMeta {
+  position: absolute;
+  top: 5%;
+  left: 82%;
+}
+.btnAtivo {
+  position: absolute;
+  top: 5%;
+  left: 92.5%;
+}
+
+/* 
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+.areaRef2 :hover {
+  background-color: #ddd;
+} */
+
+.tblCodArea {
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-left: 4%;
+  width: 8rem;
+  font: 12px BalooBhaina2-SemiBold;
+}
+.tblObserv {
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-left: 4%;
+  width: 8rem;
+  font: 12px BalooBhaina2-SemiBold;
+}
+.tblLocalArea {
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-left: 2%;
+  width: 24rem;
+  font: 12px BalooBhaina2-SemiBold;
+}
+.tblGerenResp {
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-left: 2%;
+  width: 24rem;
+  font: 12px BalooBhaina2-SemiBold;
+}
+.tblMeta {
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-left: 4%;
+  width: 8rem;
+}
+.tblStatusAtivo {
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-left: 4%;
+  width: 8rem;
+}
+
+@media screen and (max-width: 500px) {
+  .areaRef1 {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-style: none;
+    font-family: 'baloo bhaina 2';
+    font-weight: 600;
+    background-color: #1c396b;
+    text-align: center;
+    border-radius: 0;
+    font-size: clamp(0.1em, 0.1em + 2.5vw, 3em);
+  }
+  .btnCodArea {
+    position: absolute;
+    top: 2%;
+    left: 1%;
+  }
+  .btnObserv {
+    position: absolute;
+    top: 2%;
+    left: 10%;
+  }
+  .btnGerenResp {
+    position: absolute;
+    font-size: clamp(0.1em, 0.1em + 2.5vw, 3em);
+    top: 2%;
+    left: 18%;
+    width: 14%;
+  }
+  .btnLocalArea {
+    position: absolute;
+    top: 2%;
+    left: 47%;
+  }
+  .btnMeta {
+    position: absolute;
+    top: 2%;
+    left: 78%;
+  }
+  .btnAtivo {
+    position: absolute;
+    top: 2%;
+    left: 90%;
+  }
+  .areaRef2 {
+    position: absolute;
+    top: 5%;
+    font-family: 'baloo bhaina 2';
+    font-weight: 600;
+    font-size: clamp(0.1em, 0.1em + 2.5vw, 3em);
+    width: 100%;
+    border-radius: 10px;
+    background-color: white;
+    border-style: none;
+    border: 1px solid;
+  }
+}

@@ -3,7 +3,6 @@ import ProfileDireita from '../../Components/ProfileDireita'
 import SideBar from '../../Components/SideBar'
 import SideBarDireita from '../../Components/SideBar-right/SideBarDireita'
 import ModalCadObservacoes from './MenuDireito-Modal/ModalCadObservacoes'
-import '../../styles/pages/MenuDireitoCss/observacoes1.css'
 import SidebarMobile from '../../Components/SideBar-right/SidebarMobile'
 
 function Observacoes() {

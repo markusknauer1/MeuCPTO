@@ -22,8 +22,8 @@ import AtivadoresSociais from './pages/SubMenuPages/SubMenuTextosAtivadores/Text
 import AtivadoresPsicologicos from './pages/SubMenuPages/SubMenuTextosAtivadores/TextosAtivadores/AtivadoresPsicologicos'
 import AtivadoresCognitivos from './pages/SubMenuPages/SubMenuTextosAtivadores/TextosAtivadores/AtivadoresCognitivos'
 import AtivadoresFisiologicos from './pages/SubMenuPages/SubMenuTextosAtivadores/TextosAtivadores/AtivadoresFisiologicos'
-
 import AtivadoresPessoal from './pages/SubMenuPages/SubMenuTextosAtivadores/TextosAtivadores/AtivadoresPessoal'
+
 import Observacoes from './pages/MenuDireito/Observacoes'
 import Equipes from './pages/MenuDireito/Equipes'
 import Gerencias from './pages/MenuDireito/Gerencias'

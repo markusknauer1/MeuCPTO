@@ -24,9 +24,8 @@ function Atividades() {
       <div className="page">
         <div className="filter1">
           <h4 className="subtPadrao1">DADOS CADASTRAIS / NOVA ATIVIDADE:</h4>
-          <div className="subtPadrao2">
-            <h2>Atividades Observadas</h2>
-          </div>
+
+          <h2 className="subtPadrao2">Atividades Observadas</h2>
         </div>
         <div className="tabelaPadrao">
           <section className="">

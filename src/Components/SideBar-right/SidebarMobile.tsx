@@ -18,7 +18,7 @@ function SidebarMobile() {
       <IconContext.Provider value={{ color: 'hsl(0, 0%, 100%)' }}>
         <div className="navbar">
           <Link to="#" className="NavButtomDireita">
-            <IonIcons.IoIosAddCircleOutline onClick={showSidebar} />
+            <i className="fas fa-bars" onClick={showSidebar}></i>
           </Link>
           <nav className={sidebar ? 'nav-menu active' : 'nav-menu'}>
             {/* logoSuperior */}

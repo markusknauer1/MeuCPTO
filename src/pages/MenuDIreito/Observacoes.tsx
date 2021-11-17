@@ -25,9 +25,8 @@ function Observacoes() {
       <div className="page">
         <div className="filter1">
           <h4 className="subtPadrao1">DADOS CADASTRAIS / NOVA PESSOA:</h4>
-          <div className="subtPadrao2">
-            <h2>Funções e Permissões de obsevação</h2>
-          </div>
+
+          <h2 className="subtPadrao2">Funções e Permissões de obsevação</h2>
         </div>
 
         <div className="tabelaPadrao">

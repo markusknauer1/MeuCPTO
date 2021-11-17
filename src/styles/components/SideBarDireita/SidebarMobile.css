@@ -1,8 +1,8 @@
 .navbar {
   position: absolute;
-  font-size: 45px;
-  left: 84%;
-  bottom: 0%;
+  font-size: 30px;
+  left: 96%;
+  bottom: 2%;
   z-index: 2;
 }
 
@@ -10,9 +10,7 @@
 .NavButtomDireita {
   background: none;
   transition: 1000ms;
-
-  filter: invert(48%) sepia(0%) saturate(2476%) hue-rotate(86deg)
-    brightness(80%) contrast(119%);
+  color: rgb(95, 95, 95);
 }
 /* botao close */
 .close-background {
@@ -217,14 +215,13 @@ span {
   .navbar {
     background-color: transparent;
     position: fixed;
-    left: 880px;
-    top: 90%;
-    font-size: clamp(1em, 1em + 10vw, 10em);
+    left: 900px;
+    top: 92%;
+    font-size: 70px;
     border-radius: 50px;
     z-index: 99;
   }
   .nav-menu {
-    background-color: rgb(219, 219, 219);
     width: 31%;
     height: 100%;
     display: flex;
@@ -331,9 +328,9 @@ span {
   .navbar {
     background-color: transparent;
     position: fixed;
-    left: 650px;
-    top: 90%;
-    font-size: clamp(1em, 1em + 10vw, 10em);
+    left: 670px;
+    top: 92%;
+    font-size: 60px;
     border-radius: 50px;
     z-index: 99;
   }
@@ -452,9 +449,9 @@ span {
   .navbar {
     background-color: transparent;
     position: fixed;
-    left: 310px;
-    top: 90%;
-    font-size: clamp(1em, 1em + 10vw, 10em);
+    left: 170px;
+    top: 82%;
+    font-size: 35px;
     border-radius: 50px;
     z-index: 99;
   }

@@ -21,9 +21,7 @@ function SubMenuEmpresas() {
       <SideBar />
       <div className="page">
         <div className="filter1">
-          <div className="subtPadrao2">
-            <h2>Cadastro Geral de Empresas</h2>
-          </div>
+          <h2 className="subtPadrao2">Cadastro Geral de Empresas</h2>
         </div>
         <div className="tabelaPadrao">
           <section className="">

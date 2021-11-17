@@ -24,9 +24,8 @@ function Area() {
       <div className="page">
         <div className="filter1">
           <h4 className="subtPadrao1">DADOS CADASTRAIS / NOVO ÁREA:</h4>
-          <div className="subtPadrao2">
-            <h2>Local / Área</h2>
-          </div>
+
+          <h2 className="subtPadrao2">Local / Área</h2>
         </div>
 
         <div className="tabelaPadrao">

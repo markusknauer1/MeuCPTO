@@ -24,9 +24,8 @@ function Equipes() {
       <div className="page">
         <div className="filter1">
           <h4 className="subtPadrao1">DADOS CADASTRAIS / NOVA EQUIPE:</h4>
-          <div className="subtPadrao2">
-            <h2>Equipes</h2>
-          </div>
+
+          <h2 className="subtPadrao2">Equipes</h2>
         </div>
 
         <div className="tabelaPadrao">

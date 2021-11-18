@@ -30,9 +30,9 @@ function Home() {
 
       <SideBar />
       <div className="page">
-        <h5 className="subtcad1">PÁGINA INICIAL</h5>
+        <h5 className="MetaMes1">PÁGINA INICIAL</h5>
         <Link to="/Home">
-          <label className="subtcad2">Metas para Março</label>
+          <label className="MetaMes2">Metas para Março</label>
         </Link>
 
         <div></div>

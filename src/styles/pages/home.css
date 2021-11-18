@@ -13,9 +13,7 @@
   position: absolute;
   top: 22%;
   left: 10%;
-  font-family: BalooBhaina2-bold;
-  font-size: clamp(0.1em, 0.1em + 3vw, 3em);
-  font-weight: 800;
+  font: 28px BalooBhaina2-Bold;
   border-style: none;
   background: transparent;
   color: #172d52;
@@ -389,32 +387,39 @@
 
 @media screen and (max-width: 1024px) {
   .MetaMes1 {
-    display: none;
-  }
-  .MetaMes2 {
-    position: absolute;
-    top: 8%;
-    left: 5%;
-    font-size: clamp(0.01em, 0.01em + 10vw, 5em);
-    border-style: none;
-    background: transparent;
-    color: #172f58;
-    z-index: 2;
-  }
-  .SelectUnidade1 {
     position: fixed;
     top: 16%;
     left: 5%;
     border-radius: 20px;
     display: block;
-    font: 26px BalooBhaina2-Regular;
-    color: #ffffff;
+    font: 30px BalooBhaina2-Medium;
+    color: #fff;
+    z-index: 1;
+  }
+  .MetaMes2 {
+    position: absolute;
+    top: 0%;
+    left: 5%;
+    font: 45px BalooBhaina2-Bold;
+    border-style: none;
+    background: transparent;
+    color: #172d52;
+    z-index: 2;
+  }
+  .SelectUnidade1 {
+    position: fixed;
+    top: 20%;
+    left: 55%;
+    border-radius: 20px;
+    display: block;
+    font: 26px BalooBhaina2-Medium;
+    color: #0b9e82;
     z-index: -1;
   }
   .SelectUnidade2 {
     position: absolute;
-    top: 21%;
-    left: 5%;
+    top: 24%;
+    left: 55%;
     background-color: #e6e6e6;
     font-size: clamp(0.01em, 0.01em + 3vw, 3em);
     border: none;
@@ -1139,10 +1144,8 @@
   .MetaMes2 {
     position: absolute;
     top: 8%;
-    left: 26%;
-    font-family: 'baloo bhaina 2';
-    font-weight: 800;
-    font-size: clamp(0.01em, 0.01em + 6vw, 3em);
+    left: 20%;
+    font: 30px BalooBhaina2-Bold;
     border-style: none;
     background: transparent;
     color: #172f58;

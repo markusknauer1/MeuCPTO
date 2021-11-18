@@ -1219,7 +1219,7 @@
   .titulo7 {
     position: absolute;
     left: 45%;
-    top: 6%;
+    top: 0;
     border-radius: 20px;
     font: 14px BalooBhaina2-SemiBold;
     color: #44ad93;
@@ -1227,7 +1227,7 @@
   .fcadastro7 {
     position: absolute;
     right: 0rem;
-    top: 12%;
+    top: 20px;
     width: 55%;
     height: 20px;
     padding-left: 10px;
@@ -1241,7 +1241,7 @@
   .titulo8 {
     position: absolute;
     left: 45%;
-    top: 20%;
+    top: 40px;
     border-radius: 20px;
     font: 14px BalooBhaina2-SemiBold;
     color: #44ad93;
@@ -1249,7 +1249,7 @@
   .fcadastro8 {
     position: absolute;
     right: 0rem;
-    top: 26%;
+    top: 60px;
 
     width: 55%;
     height: 20px;
@@ -1264,7 +1264,7 @@
   .titulo9 {
     position: absolute;
     left: 45%;
-    top: 34%;
+    top: 80px;
     border-radius: 20px;
     font: 14px BalooBhaina2-SemiBold;
     color: #44ad93;
@@ -1272,7 +1272,7 @@
   .fcadastro9 {
     position: absolute;
     right: 0rem;
-    top: 40%;
+    top: 100px;
     width: 55%;
     height: 20px;
     padding-left: 10px;
@@ -1286,7 +1286,7 @@
   .titulo10 {
     position: absolute;
     left: 45%;
-    top: 48%;
+    top: 120px;
     border-radius: 18px;
     font: 14px BalooBhaina2-SemiBold;
     color: #44ad93;
@@ -1294,7 +1294,7 @@
   .fcadastro10 {
     position: absolute;
     right: 0rem;
-    top: 55%;
+    top: 140px;
     width: 55%;
     height: 20px;
     padding-left: 10px;
@@ -1308,14 +1308,14 @@
   .titulo11 {
     position: absolute;
     left: 45%;
-    top: 62%;
+    top: 160px;
     font: 14px BalooBhaina2-SemiBold;
     color: #44ad93;
   }
   .fcadastro11 {
     position: absolute;
     right: 0rem;
-    top: 68%;
+    top: 180px;
 
     width: 55%;
     height: 20px;
@@ -1330,7 +1330,7 @@
   .titulo12 {
     position: absolute;
     left: 45%;
-    top: 75%;
+    top: 200px;
     border-radius: 20px;
     font: 14px BalooBhaina2-SemiBold;
     color: #44ad93;
@@ -1338,7 +1338,7 @@
   .fcadastro12 {
     position: absolute;
     left: 45%;
-    top: 81%;
+    top: 220px;
     width: 27%;
     height: 20px;
     padding-left: 10px;
@@ -1352,7 +1352,7 @@
   .titulo13 {
     position: absolute;
     left: 75%;
-    top: 75%;
+    top: 200px;
     border-radius: 20px;
     font: 14px BalooBhaina2-SemiBold;
     color: #44ad93;
@@ -1360,7 +1360,7 @@
   .fcadastro13 {
     position: absolute;
     right: 0rem;
-    top: 81%;
+    top: 220px;
     width: 25%;
     height: 20px;
     padding-left: 10px;

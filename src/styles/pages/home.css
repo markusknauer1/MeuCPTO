@@ -5,7 +5,7 @@
   border-radius: 20px;
   display: block;
   font-size: clamp(1em, 1em + 2vw, 1.4em);
-  font-family: BalooBhaina2-SemiBold;
+  font-family: BalooBhaina2-Regular;
   color: #adadad;
   z-index: 1;
 }

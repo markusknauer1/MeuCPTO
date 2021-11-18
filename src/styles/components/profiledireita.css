@@ -21,7 +21,7 @@
 .titleProfile2 {
   position: absolute;
   font: 22px BalooBhaina2-Bold;
-  top: 8%;
+  top: 10%;
   left: -12%;
   width: 100%;
   color: #0b9e82;
@@ -30,7 +30,7 @@
 .profile-profileEditor {
   position: absolute;
   border: none;
-  top: 12%;
+  top: 15%;
   left: 30%;
   font: 14px BalooBhaina2-Regular;
   background-color: transparent;

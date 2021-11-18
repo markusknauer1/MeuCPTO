@@ -21,6 +21,21 @@ section {
   /* rgb(219, 219, 219); */
   /* border-radius: 10px; */
 }
+@media screen and (max-width: 500px) {
+  .container {
+    overflow-y: auto;
+    margin-left: -1px;
+    border: 1px solid;
+    width: 100.4%;
+    height: 25rem;
+  }
+  .container::-webkit-scrollbar {
+    width: 6px;
+    background-color: rgb(219, 219, 219);
+    /* rgb(219, 219, 219); */
+    /* border-radius: 10px; */
+  }
+}
 table {
   border-spacing: 0;
   background-color: #fff;

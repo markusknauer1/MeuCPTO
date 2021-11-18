@@ -141,10 +141,10 @@
 
 @media screen and (max-width: 500px) {
   .Profile-direita {
-    position: absolute;
+    position: fixed;
     width: 100%;
     height: 20%;
-    bottom: 0rem;
+    bottom: 0;
     background-color: rgb(211, 211, 211);
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;

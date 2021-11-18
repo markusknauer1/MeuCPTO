@@ -489,12 +489,14 @@ span {
 @media screen and (max-width: 500px) {
   .navbar {
     position: absolute;
-    width: 60px;
-    height: 60px;
+    justify-content: center;
+    align-items: center;
     left: 42%;
-    top: 80%;
+    top: 80.5%;
+    border-radius: 50px;
+    height: 18vmin;
+    cursor: pointer;
     z-index: 2;
-    background-color: transparent;
   }
 
   /* botao open */

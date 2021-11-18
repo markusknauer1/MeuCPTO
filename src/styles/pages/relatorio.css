@@ -1108,7 +1108,7 @@
     position: absolute;
     top: 105%;
     color: #1c396b;
-    font-size: clamp(0.1em, 0.1em + 1.2vw, 3em);
+    font-size: clamp(1em, 1em + 2vw, 3em);
     background: transparent !important;
   }
   .FuncaoResultado {
@@ -1164,9 +1164,9 @@
     text-align: center;
     justify-content: center;
     left: 10%;
-    top: 10%;
     width: 80%;
-    height: 80%;
+    top: 15%;
+    height: 70%;
     border-radius: 10px;
     border-style: none;
     display: flex;
@@ -1179,9 +1179,9 @@
     text-align: center;
     justify-content: center;
     left: 100%;
-    top: 10%;
     width: 80%;
-    height: 80%;
+    top: 15%;
+    height: 70%;
     border-radius: 10px;
     border-style: none;
     display: flex;
@@ -1194,9 +1194,9 @@
     text-align: center;
     justify-content: center;
     left: 190%;
-    top: 10%;
     width: 80%;
-    height: 80%;
+    top: 15%;
+    height: 70%;
     border-radius: 10px;
     border-style: none;
     display: flex;
@@ -1209,9 +1209,9 @@
     text-align: center;
     justify-content: center;
     left: 280%;
-    top: 10%;
     width: 80%;
-    height: 80%;
+    top: 15%;
+    height: 70%;
     border-radius: 10px;
     border-style: none;
     display: flex;
@@ -1224,9 +1224,9 @@
     text-align: center;
     justify-content: center;
     left: 370%;
-    top: 10%;
     width: 80%;
-    height: 80%;
+    top: 15%;
+    height: 70%;
     border-radius: 10px;
     border-style: none;
     display: flex;
@@ -1240,9 +1240,9 @@
     text-align: center;
     justify-content: center;
     left: 460%;
-    top: 10%;
     width: 80%;
-    height: 80%;
+    top: 15%;
+    height: 70%;
     border-radius: 10px;
     border-style: none;
     display: flex;
@@ -1256,9 +1256,9 @@
     text-align: center;
     justify-content: center;
     left: 550%;
-    top: 10%;
     width: 80%;
-    height: 80%;
+    top: 15%;
+    height: 70%;
     border-radius: 10px;
     border-style: none;
     display: flex;
@@ -1272,9 +1272,9 @@
     text-align: center;
     justify-content: center;
     left: 640%;
-    top: 10%;
     width: 80%;
-    height: 80%;
+    top: 15%;
+    height: 70%;
     border-radius: 10px;
     border-style: none;
     display: flex;
@@ -1288,9 +1288,9 @@
     text-align: center;
     justify-content: center;
     left: 730%;
-    top: 10%;
     width: 80%;
-    height: 80%;
+    top: 15%;
+    height: 70%;
     border-radius: 10px;
     border-style: none;
     display: flex;

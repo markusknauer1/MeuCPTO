@@ -83,7 +83,7 @@ body.active-modalEquipe {
     z-index: 3;
   }
 
-  .modalEquipe-content {
+  .modalPadrao-content {
     position: absolute;
     top: 25%;
     left: 5%;

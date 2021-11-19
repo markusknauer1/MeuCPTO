@@ -2,33 +2,6 @@ body.active-ModalNovoGrupo {
   overflow-y: hidden;
 }
 
-.ModalNovoGrupo,
-.overlay {
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  position: fixed;
-  z-index: 2;
-}
-
-.overlay {
-  background: rgba(49, 49, 49, 0.925);
-}
-
-.ModalNovoGrupo-content {
-  position: fixed;
-  top: 20%;
-  left: 25%;
-  background: #f1f1f1;
-  width: 50%;
-  height: 50%;
-  border-radius: 20px;
-  z-index: 2;
-}
-
 .textActiveDesc {
   position: absolute;
   left: 5%;
@@ -93,6 +66,16 @@ body.active-ModalNovoGrupo {
     right: 0;
     bottom: 0;
     position: fixed;
-    z-index: 3;
+    z-index: 2;
+  }
+  .ModalNovoGrupo-content {
+    position: absolute;
+    top: 20%;
+    left: 25%;
+    background: #f1f1f1;
+    width: 50%;
+    height: 50%;
+    border-radius: 20px;
+    z-index: 99;
   }
 }

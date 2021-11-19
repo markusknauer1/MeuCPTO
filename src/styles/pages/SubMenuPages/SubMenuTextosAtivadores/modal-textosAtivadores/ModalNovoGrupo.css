@@ -75,7 +75,7 @@ body.active-ModalNovoGrupo {
     right: 0;
     bottom: 0;
     position: fixed;
-    z-index: 3;
+    z-index: 2;
   }
 
   .ModalNovoGrupo-content {

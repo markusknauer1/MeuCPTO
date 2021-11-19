@@ -834,7 +834,7 @@ body.active-modal {
   }
 
   ::-webkit-input-placeholder {
-    font: 12px BalooBhaina2-Medium;
+    font: 10px BalooBhaina2-Medium;
     color: black;
   }
   .fcadastroPessoa1 {
@@ -853,7 +853,7 @@ body.active-modal {
     border-radius: 5px;
     width: 40%;
     height: 4%;
-    font-size: clamp(0.01em, 0.01em + 3.5vw, 2em);
+    font-size: clamp(0.01em, 0.01em + 3vw, 2em);
   }
   .fcadastroPessoa3 {
     position: fixed;
@@ -873,7 +873,7 @@ body.active-modal {
     border-radius: 5px;
     width: 60%;
     height: 4%;
-    font-size: 12px;
+    font-size: clamp(0.01em, 0.01em + 3vw, 2em);
   }
   .fcadastroPessoa5 {
     position: fixed;
@@ -1005,8 +1005,8 @@ body.active-modal {
     width: 26%;
     height: 4%;
     padding-top: 1%;
-    padding-left: 1.5%;
-    font-size: clamp(0.01em, 0.01em + 3vw, 2em);
+    padding-left: 1%;
+    font-size: clamp(0.01em, 0.01em + 4vw, 2em);
   }
   .fcadastroPessoa18 {
     position: fixed;
@@ -1022,7 +1022,7 @@ body.active-modal {
   .InputAuthorization {
     position: absolute;
     left: 10%;
-    top: 89%;
+    top: 87%;
     width: 30%;
     background-color: transparent;
     border-radius: 5px;
@@ -1035,10 +1035,11 @@ body.active-modal {
   .checkText {
     position: absolute;
     margin-left: 5%;
-    margin-top: -3%;
+    margin-top: 0%;
     font: 14px BalooBhaina2-SemiBold;
   }
   .CheckAcess {
-    width: clamp(0.01em, 0.01em + 3vw, 2em);
+    height: clamp(0.01em, 0.01em + 12vw, 6em);
+    width: clamp(0.01em, 0.01em + 12vw, 6em);
   }
 }

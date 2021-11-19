@@ -358,10 +358,10 @@
     position: absolute;
     display: flex;
     background-color: transparent;
-    top: 120px;
+    top: 150px;
     left: 5%;
     width: 90%;
-    height: 60%;
+    height: 50%;
   }
 
   .subtcad1 {
@@ -398,7 +398,7 @@
   .titulo1 {
     position: absolute;
     left: 0;
-    top: 1%;
+    top: 0;
     border-radius: 20px;
     font: 22px BalooBhaina2-SemiBold;
     color: #44ad93;
@@ -406,12 +406,13 @@
   .fcadastro1 {
     position: absolute;
     left: 0rem;
-    top: 6%;
+    top: 30px;
     width: 40%;
-    height: 8%;
+    height: 35px;
+    padding-top: 0.6%;
     padding-left: 10px;
     background-color: #d8d8d8;
-    font: 14px BalooBhaina2-SemiBold;
+    font: 20px BalooBhaina2-SemiBold;
     border: none;
     align-items: center;
     color: #1c396b;
@@ -422,7 +423,7 @@
   .titulo2 {
     position: absolute;
     left: 0rem;
-    top: 16%;
+    top: 80px;
     border-radius: 20px;
     font: 22px BalooBhaina2-SemiBold;
     color: #44ad93;
@@ -430,12 +431,14 @@
   .fcadastro2 {
     position: absolute;
     left: 0rem;
-    top: 21%;
+    top: 110px;
     width: 40%;
-    height: 8%;
+    height: 35px;
+
+    padding-top: 0.6%;
     padding-left: 10px;
     background-color: #d8d8d8;
-    font: 14px BalooBhaina2-SemiBold;
+    font: 20px BalooBhaina2-SemiBold;
     border: none;
     align-items: center;
     color: #1c396b;
@@ -444,7 +447,7 @@
   .titulo3 {
     position: absolute;
     left: 0rem;
-    top: 31%;
+    top: 160px;
     border-radius: 20px;
     font: 22px BalooBhaina2-SemiBold;
     color: #44ad93;
@@ -452,12 +455,13 @@
   .fcadastro3 {
     position: absolute;
     left: 0rem;
-    top: 36%;
+    top: 190px;
     width: 40%;
-    height: 8%;
+    height: 35px;
+    padding-top: 0.6%;
     padding-left: 10px;
     background-color: #d8d8d8;
-    font: 14px BalooBhaina2-SemiBold;
+    font: 20px BalooBhaina2-SemiBold;
     border: none;
     align-items: center;
     color: #1c396b;
@@ -466,7 +470,7 @@
   .titulo4 {
     position: absolute;
     left: 0rem;
-    top: 46%;
+    top: 240px;
     border-radius: 20px;
     font: 22px BalooBhaina2-SemiBold;
     color: #44ad93;
@@ -474,12 +478,14 @@
   .fcadastro4 {
     position: absolute;
     left: 0rem;
-    top: 51%;
+    top: 270px;
     width: 40%;
-    height: 8%;
+    height: 35px;
+
+    padding-top: 0.6%;
     padding-left: 10px;
     background-color: #d8d8d8;
-    font: 14px BalooBhaina2-SemiBold;
+    font: 20px BalooBhaina2-SemiBold;
     border: none;
     align-items: center;
     color: #1c396b;
@@ -488,7 +494,7 @@
   .titulo5 {
     position: absolute;
     left: 0rem;
-    top: 61%;
+    top: 320px;
     border-radius: 20px;
     font: 22px BalooBhaina2-SemiBold;
     color: #44ad93;
@@ -496,12 +502,14 @@
   .fcadastro5 {
     position: absolute;
     left: 0rem;
-    top: 66%;
+    top: 350px;
     width: 40%;
-    height: 8%;
+    height: 35px;
+
+    padding-top: 0.6%;
     padding-left: 10px;
     background-color: #d8d8d8;
-    font: 14px BalooBhaina2-SemiBold;
+    font: 20px BalooBhaina2-SemiBold;
     border: none;
     align-items: center;
     color: #1c396b;
@@ -510,7 +518,7 @@
   .titulo6 {
     position: absolute;
     left: 0rem;
-    top: 76%;
+    top: 400px;
     border-radius: 20px;
     font: 22px BalooBhaina2-SemiBold;
     color: #44ad93;
@@ -518,12 +526,14 @@
   .fcadastro6 {
     position: absolute;
     left: 0rem;
-    top: 81%;
+    top: 430px;
     width: 40%;
-    height: 8%;
+    height: 35px;
+
+    padding-top: 0.6%;
     padding-left: 10px;
     background-color: #d8d8d8;
-    font: 14px BalooBhaina2-SemiBold;
+    font: 20px BalooBhaina2-SemiBold;
     border: none;
     align-items: center;
     color: #1c396b;
@@ -532,7 +542,7 @@
   .titulo7 {
     position: absolute;
     left: 45%;
-    top: 1%;
+    top: 0;
     border-radius: 20px;
     font: 22px BalooBhaina2-SemiBold;
     color: #44ad93;
@@ -540,12 +550,14 @@
   .fcadastro7 {
     position: absolute;
     right: 0rem;
-    top: 6%;
+    top: 30px;
     width: 55%;
-    height: 8%;
+    height: 35px;
+
+    padding-top: 0.6%;
     padding-left: 10px;
     background-color: #d8d8d8;
-    font: 14px BalooBhaina2-SemiBold;
+    font: 20px BalooBhaina2-SemiBold;
     border: none;
     align-items: center;
     color: #1c396b;
@@ -554,7 +566,7 @@
   .titulo8 {
     position: absolute;
     left: 45%;
-    top: 16%;
+    top: 80px;
     border-radius: 20px;
     font: 22px BalooBhaina2-SemiBold;
     color: #44ad93;
@@ -562,13 +574,15 @@
   .fcadastro8 {
     position: absolute;
     right: 0rem;
-    top: 21%;
+    top: 110px;
 
     width: 55%;
-    height: 8%;
+    height: 35px;
+
+    padding-top: 0.6%;
     padding-left: 10px;
     background-color: #d8d8d8;
-    font: 14px BalooBhaina2-SemiBold;
+    font: 20px BalooBhaina2-SemiBold;
     border: none;
     align-items: center;
     color: #1c396b;
@@ -577,7 +591,7 @@
   .titulo9 {
     position: absolute;
     left: 45%;
-    top: 31%;
+    top: 160px;
     border-radius: 20px;
     font: 22px BalooBhaina2-SemiBold;
     color: #44ad93;
@@ -585,12 +599,14 @@
   .fcadastro9 {
     position: absolute;
     right: 0rem;
-    top: 36%;
+    top: 190px;
     width: 55%;
-    height: 8%;
+    height: 35px;
+
+    padding-top: 0.6%;
     padding-left: 10px;
     background-color: #d8d8d8;
-    font: 14px BalooBhaina2-SemiBold;
+    font: 20px BalooBhaina2-SemiBold;
     border: none;
     align-items: center;
     color: #1c396b;
@@ -599,7 +615,7 @@
   .titulo10 {
     position: absolute;
     left: 45%;
-    top: 46%;
+    top: 240px;
     border-radius: 18px;
     font: 22px BalooBhaina2-SemiBold;
     color: #44ad93;
@@ -607,12 +623,14 @@
   .fcadastro10 {
     position: absolute;
     right: 0rem;
-    top: 51%;
+    top: 270px;
     width: 55%;
-    height: 8%;
+    height: 35px;
+
+    padding-top: 0.6%;
     padding-left: 10px;
     background-color: #d8d8d8;
-    font: 14px BalooBhaina2-SemiBold;
+    font: 20px BalooBhaina2-SemiBold;
     border: none;
     align-items: center;
     color: #1c396b;
@@ -621,20 +639,22 @@
   .titulo11 {
     position: absolute;
     left: 45%;
-    top: 61%;
+    top: 320px;
     font: 22px BalooBhaina2-SemiBold;
     color: #44ad93;
   }
   .fcadastro11 {
     position: absolute;
     right: 0rem;
-    top: 66%;
+    top: 350px;
 
     width: 55%;
-    height: 8%;
+    height: 35px;
+
+    padding-top: 0.6%;
     padding-left: 10px;
     background-color: #d8d8d8;
-    font: 14px BalooBhaina2-SemiBold;
+    font: 20px BalooBhaina2-SemiBold;
     border: none;
     align-items: center;
     color: #1c396b;
@@ -643,7 +663,7 @@
   .titulo12 {
     position: absolute;
     left: 45%;
-    top: 76%;
+    top: 400px;
     border-radius: 20px;
     font: 22px BalooBhaina2-SemiBold;
     color: #44ad93;
@@ -651,12 +671,14 @@
   .fcadastro12 {
     position: absolute;
     left: 45%;
-    top: 81%;
+    top: 430px;
     width: 27%;
-    height: 8%;
+    height: 35px;
+
+    padding-top: 0.6%;
     padding-left: 10px;
     background-color: #d8d8d8;
-    font: 14px BalooBhaina2-SemiBold;
+    font: 20px BalooBhaina2-SemiBold;
     border: none;
     align-items: center;
     color: #1c396b;
@@ -665,7 +687,7 @@
   .titulo13 {
     position: absolute;
     left: 75%;
-    top: 76%;
+    top: 400px;
     border-radius: 20px;
     font: 22px BalooBhaina2-SemiBold;
     color: #44ad93;
@@ -673,12 +695,14 @@
   .fcadastro13 {
     position: absolute;
     right: 0rem;
-    top: 81%;
+    top: 430px;
     width: 25%;
-    height: 8%;
+    height: 35px;
+
+    padding-top: 0.6%;
     padding-left: 10px;
     background-color: #d8d8d8;
-    font: 14px BalooBhaina2-SemiBold;
+    font: 20px BalooBhaina2-SemiBold;
     border: none;
     align-items: center;
     color: #1c396b;

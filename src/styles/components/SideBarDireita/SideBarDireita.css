@@ -232,11 +232,6 @@
   width: 10%;
   height: 5%;
 }
-.buttonSave:hover {
-  color: rgb(255, 255, 255);
-  background-color: #0b9e82;
-  transition: 0.3s;
-}
 
 @media screen and (max-width: 1024px) {
   .buttonProfileDireita {

@@ -1,10 +1,3 @@
-import home from '../Images/Home.svg'
-
-import formularioCad from '../Images/pointer.svg'
-import pessoas from '../Images/Pessoas.svg'
-import graph from '../Images/Graph.svg'
-import Logout from '../Images/Logout.svg'
-
 import { Link } from 'react-router-dom'
 
 import logoQMobile from '../Images/logoMeuCptoHorizBranco@2x.png'
@@ -16,39 +9,24 @@ function SideBar() {
       <div className="logoQ2" />
       <div className="logo" />
       <img className="logoMobile" src={logoQMobile} alt="logoQMobile" />
-      <aside className="app-sidebar">
+      <ul className="app-sidebar">
         <Link to="/Home">
-          <button className="buttonHome" type="button">
-            <img src={home} className="buttonHome" alt="home" />
-          </button>
+          <button className="buttonHome" type="button"></button>
         </Link>
-
         <Link to="/FormularioCadastro">
-          <button className="buttonCadastro" type="button">
-            <img
-              src={formularioCad}
-              className="buttonCadastro"
-              alt="formularioCad"
-            />
-          </button>
+          <button className="buttonCadastro" type="button"></button>
         </Link>
 
         <Link to="/Pessoas">
-          <button className="buttonShare" type="button">
-            <img src={pessoas} className="buttonShare" alt="pessoas" />
-          </button>
+          <button className="buttonShare" type="button"></button>
         </Link>
         <Link to="/Relatorio">
-          <button className="buttonGraph" type="button">
-            <img src={graph} className="buttonGraph" alt="graph" />
-          </button>
+          <button className="buttonGraph" type="button"></button>
         </Link>
         <Link to="/">
-          <button className="buttonLogout" type="button">
-            <img src={Logout} className="buttonLogout" alt="Logout" />
-          </button>
+          <button className="buttonLogout" type="button"></button>
         </Link>
-      </aside>
+      </ul>
     </div>
   )
 }

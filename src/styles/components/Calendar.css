@@ -2,7 +2,7 @@
   width: 90%;
   background: white;
   border: none;
-  font-family: 'baloo bhaina 2', sans-serif;
+  font: 10px BalooBhaina2;
   border-radius: 10px;
 }
 .react-calendar--doubleView {
@@ -94,9 +94,6 @@
 }
 .react-calendar__tile {
   /* dias do mes */
-  font-weight: 800;
-  font-family: 'baloo bhaina2', sans-serif;
-  font-size: clamp(0.01em, 0.01em + 0.8vw, 2em);
   max-width: 100%;
   text-align: center;
   padding: 0px;

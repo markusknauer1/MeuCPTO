@@ -669,6 +669,13 @@ html {
     color: #1c396b;
     letter-spacing: -2px;
   }
+  .titleModal {
+    position: absolute;
+    left: 5%;
+    top: 4%;
+    font: 34px BalooBhaina2-SemiBold;
+    color: #1c396b;
+  }
 }
 @media screen and (max-width: 780px) {
   .login-right {
@@ -1189,9 +1196,9 @@ html {
   }
   .titleModal {
     position: absolute;
-    left: 5%;
-    top: 4%;
-    font: 26px BalooBhaina2-SemiBold;
+    left: 8%;
+    top: 2%;
+    font: 20px BalooBhaina2-SemiBold;
     color: #1c396b;
   }
 }

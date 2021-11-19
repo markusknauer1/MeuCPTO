@@ -2,7 +2,7 @@
   width: 90%;
   background: white;
   border: none;
-  font: 10px BalooBhaina2;
+  font: 10px BalooBhaina2-Medium;
   border-radius: 10px;
 }
 .react-calendar--doubleView {
@@ -75,7 +75,7 @@
 }
 .react-calendar__month-view__days__day--weekend {
   font-size: 12px !important;
-  color: #0b9e82;
+  color: black;
 }
 .react-calendar__month-view__days__day--neighboringMonth {
   font-size: 12px;

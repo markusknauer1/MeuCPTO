@@ -349,6 +349,225 @@ body.active-modal {
   font-size: clamp(0.01em, 0.01em + 0.5vw, 1em);
   width: clamp(0.01em, 0.01em + 1.5vw, 1.5em);
 }
+@media screen and (max-width: 1024px) {
+  .modalPessoa-content {
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    line-height: 1.4;
+    background: #f1f1f1;
+    width: 90%;
+    height: 74%;
+    border-radius: 25px;
+    z-index: 2;
+  }
+  ::-webkit-input-placeholder {
+    font: 20px BalooBhaina2-Regular;
+    color: black;
+  }
+
+  .fcadastroPessoa1 {
+    position: fixed;
+    left: 10%;
+    top: 22%;
+    border-radius: 5px;
+    width: 80%;
+    height: 4%;
+    font: 20px BalooBhaina2-SemiBold;
+  }
+  .fcadastroPessoa2 {
+    position: fixed;
+    left: 10%;
+    top: 27%;
+    border-radius: 5px;
+    width: 20%;
+    height: 4%;
+    font: 18px BalooBhaina2-SemiBold;
+  }
+  .fcadastroPessoa3 {
+    position: fixed;
+    left: 31%;
+    top: 27%;
+    border-radius: 5px;
+    text-align: left;
+    letter-spacing: 0;
+    width: 26%;
+    height: 4%;
+    font: 20px BalooBhaina2-SemiBold;
+  }
+  .fcadastroPessoa4 {
+    position: fixed;
+    left: 58%;
+    top: 27%;
+    border-radius: 5px;
+    width: 32%;
+    height: 4%;
+    font: 18px BalooBhaina2-SemiBold;
+  }
+  .fcadastroPessoa5 {
+    position: fixed;
+    left: 10%;
+    top: 32%;
+    border-radius: 5px;
+    width: 80%;
+    height: 4%;
+    font: 20px BalooBhaina2-SemiBold;
+  }
+  .fcadastroPessoa6 {
+    position: fixed;
+    left: 10%;
+    top: 37%;
+    border-radius: 5px;
+    width: 38%;
+    height: 4%;
+    font: 20px BalooBhaina2-SemiBold;
+  }
+  .fcadastroPessoa7 {
+    position: fixed;
+    left: 50%;
+    top: 37%;
+    border-radius: 5px;
+    width: 40%;
+    height: 4%;
+    font: 20px BalooBhaina2-SemiBold;
+  }
+  .fcadastroPessoa8 {
+    position: fixed;
+    left: 62%;
+    top: 42%;
+    border-radius: 5px;
+    width: 20%;
+    height: 4%;
+    font: 20px BalooBhaina2-SemiBold;
+  }
+  .consulltaCep {
+    position: fixed;
+    left: 83%;
+    top: 42%;
+    color: black;
+    border-radius: 5px;
+    font-size: clamp(0.1em, 0.1em + 4.5vw, 3em);
+  }
+  .fcadastroPessoa9 {
+    position: fixed;
+    left: 10%;
+    top: 42%;
+    border-radius: 5px;
+    width: 50%;
+    height: 4%;
+    font: 20px BalooBhaina2-SemiBold;
+  }
+  .fcadastroPessoa10 {
+    position: fixed;
+    left: 54%;
+    top: 47%;
+    border-radius: 5px;
+    width: 15%;
+    height: 4%;
+    font: 20px BalooBhaina2-SemiBold;
+  }
+  .fcadastroPessoa11 {
+    position: fixed;
+    left: 70%;
+    top: 47%;
+    border-radius: 5px;
+    width: 20%;
+    height: 4%;
+    font: 20px BalooBhaina2-SemiBold;
+  }
+
+  .fcadastroPessoa12 {
+    position: fixed;
+    left: 10%;
+    top: 47%;
+    border-radius: 5px;
+    width: 43%;
+    height: 4%;
+    font: 20px BalooBhaina2-SemiBold;
+  }
+  .fcadastroPessoa13 {
+    position: fixed;
+    left: 10%;
+    top: 52%;
+    border-radius: 5px;
+    width: 39%;
+    height: 4%;
+    font: 20px BalooBhaina2-SemiBold;
+  }
+  .fcadastroPessoa14 {
+    position: fixed;
+    left: 50%;
+    top: 52%;
+    border-radius: 5px;
+    width: 40%;
+    height: 4%;
+    font: 20px BalooBhaina2-SemiBold;
+  }
+  .fcadastroPessoa15 {
+    position: fixed;
+    left: 10%;
+    top: 57%;
+    border-radius: 5px;
+    width: 80%;
+    height: 10%;
+    padding-top: 1%;
+    font: 20px BalooBhaina2-SemiBold;
+  }
+  .fcadastroPessoa16 {
+    position: fixed;
+    left: 10%;
+    top: 68%;
+    border-radius: 5px;
+    width: 26%;
+    height: 4%;
+    padding-top: 1%;
+    font: 20px BalooBhaina2-SemiBold;
+  }
+  .fcadastroPessoa17 {
+    position: fixed;
+    left: 38%;
+    top: 68%;
+    border-radius: 5px;
+    width: 26%;
+    height: 4%;
+    padding-top: 1%;
+    padding-left: 1.5%;
+    font-size: clamp(0.01em, 0.01em + 3vw, 2em);
+  }
+  .fcadastroPessoa18 {
+    position: fixed;
+    left: 65%;
+    top: 68%;
+    border-radius: 5px;
+    width: 25%;
+    height: 4%;
+    padding-top: 1%;
+    font: 20px BalooBhaina2-SemiBold;
+  }
+  .InputAuthorization {
+    position: absolute;
+    left: 5%;
+    top: 89%;
+    width: 30%;
+    background-color: transparent;
+    border-radius: 5px;
+    justify-content: center;
+    border: none;
+    color: #1c396b;
+    cursor: pointer;
+    line-height: 25px;
+    letter-spacing: -1px;
+  }
+  .checkText {
+    position: absolute;
+    margin-top: -5%;
+    font: 24px BalooBhaina2-Medium;
+  }
+  .CheckAcess {
+    height: clamp(0.01em, 0.01em + 10vw, 5em);
+    width: clamp(0.01em, 0.01em + 10vw, 5em);
+  }
+}
 @media screen and (max-width: 780px) {
   .modalPessoa-content {
     position: absolute;
@@ -546,27 +765,26 @@ body.active-modal {
   }
   .InputAuthorization {
     position: absolute;
-    left: 40%;
-    top: 90%;
-    width: 25%;
+    left: 5%;
+    top: 89%;
+    width: 30%;
+    background-color: transparent;
     border-radius: 5px;
     justify-content: center;
     border: none;
-    background-color: transparent;
     color: #1c396b;
-    font-family: 'Baloo Bhaina 2', cursive;
-    font-size: clamp(0.1em, 0.1em + 2.2vw, 3em);
     cursor: pointer;
+    line-height: 25px;
+    letter-spacing: -1px;
   }
-
   .checkText {
     position: absolute;
-    margin-left: 5%;
-    margin-top: -10%;
-    font: 25px BalooBhaina2-SemiBold;
+    margin-top: -5%;
+    font: 24px BalooBhaina2-Medium;
   }
   .CheckAcess {
-    font-size: clamp(1em, 1em + 10vw, 10em);
+    height: clamp(0.01em, 0.01em + 10vw, 5em);
+    width: clamp(0.01em, 0.01em + 10vw, 5em);
   }
 }
 @media screen and (max-width: 500px) {
@@ -615,6 +833,10 @@ body.active-modal {
     background: #f1f1f1;
   }
 
+  ::-webkit-input-placeholder {
+    font: 12px BalooBhaina2-Medium;
+    color: black;
+  }
   .fcadastroPessoa1 {
     position: fixed;
     left: 10%;
@@ -648,11 +870,10 @@ body.active-modal {
     position: fixed;
     left: 10%;
     top: 32%;
-    text-align: center;
     border-radius: 5px;
     width: 60%;
     height: 4%;
-    font-size: 14px;
+    font-size: 12px;
   }
   .fcadastroPessoa5 {
     position: fixed;
@@ -661,7 +882,6 @@ body.active-modal {
     border-radius: 5px;
     width: 80%;
     height: 4%;
-    padding-top: 4%;
     font-size: clamp(0.01em, 0.01em + 4vw, 2em);
   }
   .fcadastroPessoa6 {
@@ -671,7 +891,6 @@ body.active-modal {
     border-radius: 5px;
     width: 39%;
     height: 4%;
-    padding-top: 4%;
     font-size: clamp(0.01em, 0.01em + 4vw, 2em);
   }
   .fcadastroPessoa7 {
@@ -681,7 +900,6 @@ body.active-modal {
     border-radius: 5px;
     width: 40%;
     height: 4%;
-    padding-top: 4%;
     font-size: clamp(0.01em, 0.01em + 4vw, 2em);
   }
   .fcadastroPessoa8 {
@@ -691,13 +909,12 @@ body.active-modal {
     border-radius: 5px;
     width: 30%;
     height: 4%;
-    padding-top: 4%;
     font-size: clamp(0.01em, 0.01em + 4vw, 2em);
   }
   .consulltaCep {
     position: fixed;
-    left: 79%;
-    top: 45%;
+    left: 82%;
+    top: 46.5%;
     color: black;
     border-radius: 5px;
     font-size: clamp(0.1em, 0.1em + 4.5vw, 3em);
@@ -709,7 +926,6 @@ body.active-modal {
     border-radius: 5px;
     width: 40%;
     height: 4%;
-    padding-top: 4%;
     font-size: clamp(0.01em, 0.01em + 4vw, 2em);
   }
   .fcadastroPessoa10 {
@@ -719,7 +935,6 @@ body.active-modal {
     border-radius: 5px;
     width: 39%;
     height: 4%;
-    padding-top: 4%;
     font-size: clamp(0.01em, 0.01em + 4vw, 2em);
   }
   .fcadastroPessoa11 {
@@ -729,7 +944,6 @@ body.active-modal {
     border-radius: 5px;
     width: 40%;
     height: 4%;
-    padding-top: 4%;
     font-size: clamp(0.01em, 0.01em + 4vw, 2em);
   }
 
@@ -740,7 +954,6 @@ body.active-modal {
     border-radius: 5px;
     width: 80%;
     height: 4%;
-    padding-top: 4%;
     font-size: clamp(0.01em, 0.01em + 4vw, 2em);
   }
   .fcadastroPessoa13 {
@@ -761,7 +974,6 @@ body.active-modal {
     border-radius: 5px;
     width: 40%;
     height: 4%;
-    padding-top: 4%;
     padding-left: 3%;
     font-size: clamp(0.01em, 0.01em + 4vw, 2em);
   }
@@ -806,23 +1018,27 @@ body.active-modal {
     padding-top: 1%;
     font-size: clamp(0.01em, 0.01em + 4vw, 2em);
   }
+
   .InputAuthorization {
     position: absolute;
-    left: 40%;
-    top: 88%;
-    width: 20%;
+    left: 10%;
+    top: 89%;
+    width: 30%;
+    background-color: transparent;
     border-radius: 5px;
     justify-content: center;
     border: none;
-    background-color: transparent;
     color: #1c396b;
-    font-family: 'Baloo Bhaina 2', cursive;
-    font-weight: 600;
-    font-size: clamp(0.1em, 0.1em + 2.2vw, 3em);
     cursor: pointer;
+    letter-spacing: -1px;
   }
-
+  .checkText {
+    position: absolute;
+    margin-left: 5%;
+    margin-top: -3%;
+    font: 14px BalooBhaina2-SemiBold;
+  }
   .CheckAcess {
-    width: clamp(0.01em, 0.01em + 3vw, 2.5em);
+    width: clamp(0.01em, 0.01em + 3vw, 2em);
   }
 }

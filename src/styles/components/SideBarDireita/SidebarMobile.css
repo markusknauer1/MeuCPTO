@@ -225,7 +225,7 @@ span {
     position: absolute;
     width: 100px;
     height: 100px;
-    left: 86%;
+    left: 85%;
     bottom: 2%;
     z-index: 2;
     background-color: transparent;
@@ -237,7 +237,7 @@ span {
     background-color: transparent;
     border: none;
     background-position: center center;
-    background-size: 80px 100px;
+    background-size: 60px 80px;
     background-repeat: no-repeat;
     width: 100px;
     height: 100px;
@@ -354,8 +354,8 @@ span {
     position: absolute;
     width: 60px;
     height: 60px;
-    left: 87%;
-    bottom: 3%;
+    left: 86%;
+    bottom: 4%;
     z-index: 2;
     background-color: transparent;
   }
@@ -366,7 +366,7 @@ span {
     background-color: transparent;
     border: none;
     background-position: center center;
-    background-size: 50px 70px;
+    background-size: 40px 60px;
     background-repeat: no-repeat;
     width: 60px;
     height: 60px;

@@ -31,9 +31,7 @@ function AtivadoresPessoa() {
       <SideBar />
       <div className="page">
         <div className="filter1">
-          <div className="subtPadrao2">
-            <h2>Ativadores: Pessoal</h2>
-          </div>
+          <h2 className="subtPadrao2">Ativadores: Pessoal</h2>
         </div>
         <div className="tabelaPadrao">
           <section className="">

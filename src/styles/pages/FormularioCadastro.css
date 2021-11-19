@@ -703,10 +703,10 @@
     position: absolute;
     display: flex;
     background-color: transparent;
-    top: 90px;
+    top: 120px;
     left: 5%;
     width: 90%;
-    height: 60%;
+    height: 50%;
   }
 
   .subtcad1 {
@@ -743,7 +743,7 @@
   .titulo1 {
     position: absolute;
     left: 0;
-    top: 6%;
+    top: 0;
     border-radius: 20px;
     font: 22px BalooBhaina2-SemiBold;
     color: #44ad93;
@@ -751,7 +751,7 @@
   .fcadastro1 {
     position: absolute;
     left: 0rem;
-    top: 12%;
+    top: 30px;
     width: 40%;
     height: 6%;
     padding-left: 10px;
@@ -767,7 +767,7 @@
   .titulo2 {
     position: absolute;
     left: 0rem;
-    top: 20%;
+    top: 60px;
     border-radius: 20px;
     font: 22px BalooBhaina2-SemiBold;
     color: #44ad93;
@@ -775,7 +775,7 @@
   .fcadastro2 {
     position: absolute;
     left: 0rem;
-    top: 26%;
+    top: 90px;
     width: 40%;
     height: 6%;
     padding-left: 10px;
@@ -789,7 +789,7 @@
   .titulo3 {
     position: absolute;
     left: 0rem;
-    top: 34%;
+    top: 120px;
     border-radius: 20px;
     font: 22px BalooBhaina2-SemiBold;
     color: #44ad93;
@@ -797,7 +797,7 @@
   .fcadastro3 {
     position: absolute;
     left: 0rem;
-    top: 40%;
+    top: 150px;
     width: 40%;
     height: 6%;
     padding-left: 10px;
@@ -811,7 +811,7 @@
   .titulo4 {
     position: absolute;
     left: 0rem;
-    top: 48%;
+    top: 190px;
     border-radius: 20px;
     font: 22px BalooBhaina2-SemiBold;
     color: #44ad93;
@@ -819,7 +819,7 @@
   .fcadastro4 {
     position: absolute;
     left: 0rem;
-    top: 55%;
+    top: 220px;
     width: 40%;
     height: 6%;
     padding-left: 10px;
@@ -833,7 +833,7 @@
   .titulo5 {
     position: absolute;
     left: 0rem;
-    top: 62%;
+    top: 260px;
     border-radius: 20px;
     font: 22px BalooBhaina2-SemiBold;
     color: #44ad93;
@@ -841,7 +841,7 @@
   .fcadastro5 {
     position: absolute;
     left: 0rem;
-    top: 68%;
+    top: 290px;
     width: 40%;
     height: 6%;
     padding-left: 10px;
@@ -855,7 +855,7 @@
   .titulo6 {
     position: absolute;
     left: 0rem;
-    top: 75%;
+    top: 330px;
     border-radius: 20px;
     font: 22px BalooBhaina2-SemiBold;
     color: #44ad93;
@@ -863,7 +863,7 @@
   .fcadastro6 {
     position: absolute;
     left: 0rem;
-    top: 81%;
+    top: 360px;
     width: 40%;
     height: 6%;
     padding-left: 10px;
@@ -877,7 +877,7 @@
   .titulo7 {
     position: absolute;
     left: 45%;
-    top: 6%;
+    top: 0;
     border-radius: 20px;
     font: 22px BalooBhaina2-SemiBold;
     color: #44ad93;
@@ -885,7 +885,7 @@
   .fcadastro7 {
     position: absolute;
     right: 0rem;
-    top: 12%;
+    top: 30px;
     width: 55%;
     height: 6%;
     padding-left: 10px;
@@ -899,7 +899,7 @@
   .titulo8 {
     position: absolute;
     left: 45%;
-    top: 20%;
+    top: 60px;
     border-radius: 20px;
     font: 22px BalooBhaina2-SemiBold;
     color: #44ad93;
@@ -907,7 +907,7 @@
   .fcadastro8 {
     position: absolute;
     right: 0rem;
-    top: 26%;
+    top: 90px;
 
     width: 55%;
     height: 6%;
@@ -922,7 +922,7 @@
   .titulo9 {
     position: absolute;
     left: 45%;
-    top: 34%;
+    top: 120px;
     border-radius: 20px;
     font: 22px BalooBhaina2-SemiBold;
     color: #44ad93;
@@ -930,7 +930,7 @@
   .fcadastro9 {
     position: absolute;
     right: 0rem;
-    top: 40%;
+    top: 150px;
     width: 55%;
     height: 6%;
     padding-left: 10px;
@@ -944,7 +944,7 @@
   .titulo10 {
     position: absolute;
     left: 45%;
-    top: 48%;
+    top: 190px;
     border-radius: 18px;
     font: 22px BalooBhaina2-SemiBold;
     color: #44ad93;
@@ -952,7 +952,7 @@
   .fcadastro10 {
     position: absolute;
     right: 0rem;
-    top: 55%;
+    top: 220px;
     width: 55%;
     height: 6%;
     padding-left: 10px;
@@ -966,14 +966,14 @@
   .titulo11 {
     position: absolute;
     left: 45%;
-    top: 62%;
+    top: 260px;
     font: 22px BalooBhaina2-SemiBold;
     color: #44ad93;
   }
   .fcadastro11 {
     position: absolute;
     right: 0rem;
-    top: 68%;
+    top: 290px;
 
     width: 55%;
     height: 6%;
@@ -988,7 +988,7 @@
   .titulo12 {
     position: absolute;
     left: 45%;
-    top: 75%;
+    top: 330px;
     border-radius: 20px;
     font: 22px BalooBhaina2-SemiBold;
     color: #44ad93;
@@ -996,7 +996,7 @@
   .fcadastro12 {
     position: absolute;
     left: 45%;
-    top: 81%;
+    top: 360px;
     width: 27%;
     height: 6%;
     padding-left: 10px;
@@ -1010,7 +1010,7 @@
   .titulo13 {
     position: absolute;
     left: 75%;
-    top: 75%;
+    top: 330px;
     border-radius: 20px;
     font: 22px BalooBhaina2-SemiBold;
     color: #44ad93;
@@ -1018,7 +1018,7 @@
   .fcadastro13 {
     position: absolute;
     right: 0rem;
-    top: 81%;
+    top: 360px;
     width: 25%;
     height: 6%;
     padding-left: 10px;
@@ -1048,10 +1048,10 @@
     position: absolute;
     display: flex;
     background-color: transparent;
-    top: 100px;
+    top: 120px;
     left: 5%;
     width: 90%;
-    height: 50%;
+    height: 40%;
   }
 
   .subtcad1 {

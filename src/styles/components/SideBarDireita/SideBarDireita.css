@@ -245,20 +245,37 @@
 
   .buttonSave {
     position: fixed;
-    width: 20%;
-    height: 6%;
+    padding-top: 0.4%;
+    font: 35px BalooBhaina2-Medium;
+    border-radius: 5px;
+    border-style: none;
+    color: #35c2aa;
+    background-color: #d8d8d8;
     top: 73%;
     left: 75%;
-    font: 18px BalooBhaina2-SemiBold;
-    color: #35c2aa;
-    border: none;
-    border-radius: 5px;
-    border: none;
-    border-radius: 5px;
-    z-index: 2;
+    width: 20%;
+    height: 5%;
   }
 }
+@media screen and (max-width: 780px) {
+  .buttonProfileDireita {
+    display: none;
+  }
 
+  .buttonSave {
+    position: fixed;
+    padding-top: 0.4%;
+    font: 25px BalooBhaina2-Medium;
+    border-radius: 5px;
+    border-style: none;
+    color: #35c2aa;
+    background-color: #d8d8d8;
+    top: 73%;
+    left: 75%;
+    width: 20%;
+    height: 5%;
+  }
+}
 @media screen and (max-width: 500px) {
   .buttonProfileDireita {
     display: none;
@@ -266,17 +283,15 @@
 
   .buttonSave {
     position: fixed;
-    width: 20%;
-    height: 6%;
-    top: 73%;
-    left: 75%;
-    font: 18px BalooBhaina2-SemiBold;
-    background-color: #d8d8d8;
+    padding-top: 0.4%;
+    font: 20px BalooBhaina2-Medium;
+    border-radius: 5px;
+    border-style: none;
     color: #35c2aa;
-    border: none;
-    border-radius: 5px;
-    border: none;
-    border-radius: 5px;
-    z-index: 2;
+    background-color: #d8d8d8;
+    top: 73%;
+    left: 65%;
+    width: 30%;
+    height: 5%;
   }
 }

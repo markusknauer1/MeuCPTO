@@ -51,7 +51,12 @@ function Pessoas() {
                 </thead>
                 <tbody>
                   <td className="tblPesCod">001</td>
-                  <td className="tblPesOBS">Nome do Funcionário</td>
+                  <td className="tblPesOBS">
+                    <button>
+                      <Modal />
+                      Nome do Funcionário
+                    </button>
+                  </td>
                   <td className="tblPesMail">cpto@cpto.com.br</td>
                   <td className="tblPesFunc">Supervisão</td>
                   <td className="tblPesMetas">

@@ -55,7 +55,7 @@ export default function Modal() {
                     height="150"
                   />
                 ) : (
-                  <img src={endImg} alt="Perfil" width="150" height="150" />
+                  <img src={endImg} alt="Perfil" className="imgProfile" />
                 )}
                 <input
                   type="file"

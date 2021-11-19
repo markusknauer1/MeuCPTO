@@ -144,9 +144,10 @@ body.active-AlterarRegistroEmpresas {
 }
 .imgProfileEmpresa {
   position: absolute;
-  width: clamp(1em, 1em + 6vw, 12em);
-  height: clamp(1em, 1em + 6vw, 12em);
-  border-radius: 50px;
+}
+.imgProfile {
+  width: 150px;
+  height: 150px;
 }
 .form-control-file {
   position: fixed;
@@ -183,53 +184,133 @@ body.active-AlterarRegistroEmpresas {
     z-index: 3;
   }
 
-  .fArea {
-    position: absolute;
+  .fNomeFantasiaEmpresa {
+    position: relative;
+    top: 18%;
     left: 5%;
-    top: 5.5rem;
+    padding-left: 2%;
+    width: 40%;
+    height: 15px;
     border-radius: 5px;
-    width: 90%;
-    height: 10%;
     justify-content: center;
-    font-size: clamp(0.01em, 0.01em + 5vw, 4em);
+    font-size: clamp(0.01em, 0.01em + 1vw, 1.3em);
     border: none;
     background-color: rgb(190, 190, 190);
-    color: rgb(94, 94, 94);
+    color: black;
     font-family: 'Baloo Bhaina 2', cursive;
-    font-weight: 600;
-    padding: 1rem;
+    font-weight: 500;
+    padding-top: 5px;
+    padding-left: 2%;
   }
-  .fAreaRef {
-    position: absolute;
+  .fRazãoSocialEmpresa {
+    position: relative;
+    top: 20%;
     left: 5%;
-    top: 26%;
-    width: 90%;
-    height: 10%;
+    padding-left: 2%;
+    width: 40%;
+    height: 15px;
     border-radius: 5px;
     justify-content: center;
-    font-size: 18px;
+    font-size: clamp(0.01em, 0.01em + 1vw, 1.3em);
     border: none;
     background-color: rgb(190, 190, 190);
-    color: rgb(94, 94, 94);
+    color: black;
     font-family: 'Baloo Bhaina 2', cursive;
-    font-weight: 600;
-    padding-left: 10px;
+    font-weight: 500;
+    padding-top: 5px;
+    padding-left: 2%;
   }
-  .fObsArea {
-    position: absolute;
-    left: 5%;
-    top: 38%;
+  .fSelectTipEmpresa {
+    position: relative;
+    top: 25%;
+    left: -35%;
+    width: 40%;
+    height: 15px;
     border-radius: 5px;
-    width: 90%;
-    height: 40%;
     justify-content: center;
-    font-size: 18px;
+    border: none;
+    font-size: clamp(0.01em, 0.01em + 2vw, 2em);
+    background-color: rgb(190, 190, 190);
+    color: black;
+  }
+  .fCNPJEmpresa {
+    position: relative;
+    top: 27%;
+    left: 5%;
+    padding-left: 2%;
+    width: 40%;
+    height: 15px;
+    border-radius: 5px;
+    justify-content: center;
+    font-size: clamp(0.01em, 0.01em + 1vw, 1.3em);
     border: none;
     background-color: rgb(190, 190, 190);
-    color: rgb(94, 94, 94);
+    color: black;
     font-family: 'Baloo Bhaina 2', cursive;
-    font-weight: 600;
-    text-align: left;
-    padding: 1rem;
+    font-weight: 500;
+    padding-top: 5px;
+  }
+  .fInscEst {
+    position: relative;
+    top: 32%;
+    left: -35%;
+    padding-left: 2%;
+    width: 40%;
+    height: 15px;
+    border-radius: 5px;
+    justify-content: center;
+    font-size: clamp(0.01em, 0.01em + 1vw, 1.3em);
+    border: none;
+    background-color: rgb(190, 190, 190);
+    color: black;
+    font-family: 'Baloo Bhaina 2', cursive;
+    font-weight: 500;
+    padding-top: 5px;
+  }
+  .fObsEmpresa {
+    position: relative;
+    top: 40%;
+    left: 5%;
+    padding-left: 2%;
+    width: 90%;
+    height: 25%;
+    border-radius: 5px;
+    justify-content: center;
+    font-size: clamp(0.01em, 0.01em + 1vw, 1.3em);
+    border: none;
+    background-color: rgb(190, 190, 190);
+    color: black;
+    font-family: 'Baloo Bhaina 2', cursive;
+    font-weight: 500;
+    padding-top: 5px;
+  }
+  .form-group {
+    text-align: center;
+    position: absolute;
+    top: 16%;
+    left: 50%;
+    width: 40%;
+    font-size: 1em;
+    height: 25%;
+  }
+  .btn-AlterarInfo {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+  .imgProfileEmpresa {
+    position: absolute;
+    border-radius: 50px;
+  }
+  .imgProfile {
+    width: 100px;
+    height: 100px;
+  }
+  .form-control-file {
+    position: fixed;
+    left: 47%;
+    letter-spacing: -0.5px;
+    top: 50%;
+    font-size: 0.8rem;
   }
 }

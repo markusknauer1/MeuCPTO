@@ -30,23 +30,18 @@ function SubMenuPessoas() {
                 <thead>
                   <tr className="header">
                     <th className="tblSubCod">
-                      CÓD
                       <div>CÓD</div>
                     </th>
                     <th className="tblSubPessoacod">
-                      Pessoa
                       <div>Pessoa</div>
                     </th>
                     <th className="tblSubMail">
-                      E-Mail/login
                       <div>E-Mail/login</div>
                     </th>
                     <th className="tblSubMetas">
-                      Metas
                       <div>Metas</div>
                     </th>
                     <th className="tblSubAtivo">
-                      Ativo
                       <div>Ativo</div>
                     </th>
                   </tr>

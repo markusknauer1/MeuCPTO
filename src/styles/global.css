@@ -411,6 +411,103 @@ html {
   width: 32%;
   height: 3px;
 }
+section {
+  position: relative;
+  border: 1px solid #000;
+  padding-top: 5%;
+  margin-top: 2%;
+  width: 100%;
+  height: 10%;
+  font: 12px BalooBhaina2-Regular;
+  background: #1c396b;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.tabelaPadrao {
+  position: absolute;
+  top: 30%;
+  left: 10%;
+  width: 80%;
+  height: 65%;
+  background-color: rgb(255, 255, 255);
+  border-radius: 0;
+  z-index: 5;
+}
+.container {
+  overflow-y: auto;
+  margin-left: -1px;
+  border: 1px solid;
+  width: 100.2%;
+  height: 38rem;
+}
+
+.container::-webkit-scrollbar {
+  width: 6px;
+  background-color: rgb(219, 219, 219);
+  /* rgb(219, 219, 219); */
+  /* border-radius: 10px; */
+}
+table {
+  border-spacing: 0;
+  background-color: #fff;
+  font-size: clamp(0.1em, 0.1em + 1.6vw, 1.2em);
+  width: 100%;
+}
+td + td {
+  border-left: 1px solid #eee;
+}
+th {
+  border-bottom: 1px solid #eee;
+  background: #ddd;
+  color: #000;
+  height: 0;
+  line-height: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  color: transparent;
+  border: none;
+  white-space: nowrap;
+}
+td {
+  border-bottom: 1px solid #eee;
+  background: #fff;
+  color: #000;
+  width: 100%;
+}
+th div {
+  position: absolute;
+  background: transparent;
+  color: #fff;
+  top: 1%;
+  margin-left: 4%;
+  line-height: normal;
+  border-left: none;
+  font-size: clamp(0.1em, 0.1em + 1vw, 3em);
+}
+th:first-child div {
+  border: none;
+}
+
+table {
+  border-spacing: 0;
+  background-color: #fff;
+}
+td + td {
+  border-left: 1px solid #eee;
+}
+th {
+  border-bottom: 1px solid #eee;
+  background: #ddd;
+  color: #000;
+  height: 0;
+  line-height: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  color: transparent;
+  border: none;
+  white-space: nowrap;
+}
 
 @media screen and (max-width: 1024px) {
   .login-right {
@@ -642,12 +739,90 @@ html {
     align-items: center;
     text-align: center;
     justify-content: center;
-    width: clamp(0.01em, 0.01em + 14vw, 15em);
-    height: clamp(0.01em, 0.01em + 4vw, 15em);
+    width: clamp(0.01em, 0.01em + 15vw, 15em);
+    height: clamp(0.01em, 0.01em + 5vw, 15em);
     border-radius: 6px;
     border-style: none;
     display: flex;
     font: 18px BalooBhaina2-SemiBold;
+  }
+  .gravar-modal {
+    position: absolute;
+    right: 5%;
+    bottom: 5%;
+    font: 20px BalooBhaina2-Medium;
+    padding-top: 0.5%;
+    width: 20rem;
+    height: 5rem;
+    background-color: #1c396b;
+    color: white;
+    border-radius: 5px;
+    border-style: none;
+    cursor: pointer;
+  }
+  .titleModal {
+    position: absolute;
+    left: 5%;
+    top: 4%;
+    font-family: 'baloo bhaina 2';
+    font-weight: 500;
+    font-size: clamp(0.1em, 0.1em + 1.8vw, 3em);
+    color: #1c396b;
+  }
+  .hrTitleModal {
+    position: absolute;
+    display: flex;
+    background-image: linear-gradient(90deg, #fff 20%, rgb(209, 209, 209) 80%);
+    border-color: transparent;
+    border-style: none;
+    top: 11%;
+    left: 5%;
+    width: 25%;
+    height: 2.5px;
+  }
+  .hrTitleModal1 {
+    position: absolute;
+    display: flex;
+    background-image: linear-gradient(90deg, #fff 20%, rgb(197, 197, 197) 80%);
+    border-color: transparent;
+    top: 10%;
+    left: 5%;
+    width: 25%;
+    height: 3px;
+  }
+  .hrTitleModal2 {
+    position: absolute;
+    display: flex;
+    background-image: linear-gradient(
+      90deg,
+      rgb(238, 238, 238) 20%,
+      rgb(197, 197, 197) 80%
+    );
+    border-color: transparent;
+    top: 10%;
+    left: 5%;
+    width: 40%;
+    height: 3px;
+  }
+  .hrTitleModal3 {
+    position: absolute;
+    display: flex;
+    background-image: linear-gradient(90deg, #fff 20%, rgb(197, 197, 197) 80%);
+    border-color: transparent;
+    top: 16%;
+    left: 5%;
+    width: 45%;
+    height: 3px;
+  }
+  .hrTitleModal4 {
+    position: absolute;
+    display: flex;
+    background-image: linear-gradient(90deg, #fff 20%, rgb(197, 197, 197) 80%);
+    border-color: transparent;
+    top: 16%;
+    left: 5%;
+    width: 32%;
+    height: 3px;
   }
 
   .subtPadrao1 {
@@ -675,6 +850,104 @@ html {
     top: 4%;
     font: 34px BalooBhaina2-SemiBold;
     color: #1c396b;
+  }
+
+  /* -----------tabelas----------- */
+  .tabelaPadrao {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    width: 80%;
+    height: 5%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 0;
+    z-index: 5;
+  }
+  .container {
+    overflow-y: auto;
+    margin-left: -1px;
+    border: 1px solid;
+    width: 100.3%;
+    height: 500px;
+  }
+  section {
+    position: relative;
+    border: 1px solid #000;
+    padding-top: 5%;
+    margin-top: 2%;
+    width: 100%;
+    height: 10%;
+    font: 12px BalooBhaina2-Regular;
+    background: #1c396b;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+
+  .container::-webkit-scrollbar {
+    width: 6px;
+    background-color: rgb(219, 219, 219);
+    /* rgb(219, 219, 219); */
+    /* border-radius: 10px; */
+  }
+  table {
+    border-spacing: 0;
+    background-color: #fff;
+    font-size: clamp(0.1em, 0.1em + 1.6vw, 1.2em);
+    width: 100%;
+  }
+  td + td {
+    border-left: 1px solid #eee;
+  }
+  th {
+    border-bottom: 1px solid #eee;
+    background: #ddd;
+    color: #000;
+    height: 0;
+    line-height: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    color: transparent;
+    border: none;
+    white-space: nowrap;
+  }
+  td {
+    border-bottom: 1px solid #eee;
+    background: #fff;
+    color: #000;
+    width: 100%;
+  }
+  th div {
+    position: absolute;
+    background: transparent;
+    color: #fff;
+    top: 1%;
+    margin-left: 4%;
+    line-height: normal;
+    border-left: none;
+    font-size: clamp(0.1em, 0.1em + 1vw, 3em);
+  }
+  th:first-child div {
+    border: none;
+  }
+
+  table {
+    border-spacing: 0;
+    background-color: #fff;
+  }
+  td + td {
+    border-left: 1px solid #eee;
+  }
+  th {
+    border-bottom: 1px solid #eee;
+    background: #ddd;
+    color: #000;
+    height: 0;
+    line-height: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    color: transparent;
+    border: none;
+    white-space: nowrap;
   }
 }
 @media screen and (max-width: 780px) {
@@ -921,13 +1194,179 @@ html {
     display: flex;
     font: 14px BalooBhaina2-SemiBold;
   }
-
+  .gravar-modal {
+    position: absolute;
+    right: 5%;
+    bottom: 5%;
+    font: 20px BalooBhaina2-Medium;
+    padding-top: 0.5%;
+    width: 20rem;
+    height: 5rem;
+    background-color: #1c396b;
+    color: white;
+    border-radius: 5px;
+    border-style: none;
+    cursor: pointer;
+  }
   .titleModal {
     position: absolute;
     left: 5%;
-    top: 4%;
-    font: 26px BalooBhaina2-SemiBold;
+    top: 3%;
+    font-family: 'baloo bhaina 2';
+    font-weight: 500;
+    font-size: clamp(0.1em, 0.1em + 3.5vw, 4em);
     color: #1c396b;
+  }
+  .hrTitleModal {
+    position: absolute;
+    display: flex;
+    background-image: linear-gradient(90deg, #fff 20%, rgb(209, 209, 209) 80%);
+    border-color: transparent;
+    border-style: none;
+    top: 11%;
+    left: 5%;
+    width: 25%;
+    height: 2.5px;
+  }
+  .hrTitleModal1 {
+    position: absolute;
+    display: flex;
+    background-image: linear-gradient(90deg, #fff 20%, rgb(197, 197, 197) 80%);
+    border-color: transparent;
+    top: 10%;
+    left: 5%;
+    width: 25%;
+    height: 3px;
+  }
+  .hrTitleModal2 {
+    position: absolute;
+    display: flex;
+    background-image: linear-gradient(
+      90deg,
+      rgb(238, 238, 238) 20%,
+      rgb(197, 197, 197) 80%
+    );
+    border-color: transparent;
+    top: 12%;
+    left: 5%;
+    width: 30%;
+    height: 3px;
+  }
+  .hrTitleModal3 {
+    position: absolute;
+    display: flex;
+    background-image: linear-gradient(90deg, #fff 20%, rgb(197, 197, 197) 80%);
+    border-color: transparent;
+    top: 16%;
+    left: 5%;
+    width: 45%;
+    height: 3px;
+  }
+  .hrTitleModal4 {
+    position: absolute;
+    display: flex;
+    background-image: linear-gradient(90deg, #fff 20%, rgb(197, 197, 197) 80%);
+    border-color: transparent;
+    top: 16%;
+    left: 5%;
+    width: 32%;
+    height: 3px;
+  } /* -----------tabelas----------- */
+  .tabelaPadrao {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    width: 80%;
+    height: 5%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 0;
+    z-index: 5;
+  }
+  .container {
+    overflow-y: auto;
+    margin-left: -1px;
+    border: 1px solid;
+    width: 100.3%;
+    height: 400px;
+  }
+  section {
+    position: relative;
+    border: 1px solid #000;
+    padding-top: 5%;
+    margin-top: 2%;
+    width: 100%;
+    height: 5%;
+    font: 12px BalooBhaina2-Regular;
+    background: #1c396b;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+
+  .container::-webkit-scrollbar {
+    width: 6px;
+    background-color: rgb(219, 219, 219);
+    /* rgb(219, 219, 219); */
+    /* border-radius: 10px; */
+  }
+  table {
+    border-spacing: 0;
+    background-color: #fff;
+    font-size: clamp(0.1em, 0.1em + 1.6vw, 1.2em);
+    width: 100%;
+  }
+  td + td {
+    border-left: 1px solid #eee;
+  }
+  th {
+    border-bottom: 1px solid #eee;
+    background: #ddd;
+    color: #000;
+    height: 0;
+    line-height: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    color: transparent;
+    border: none;
+    white-space: nowrap;
+  }
+  td {
+    border-bottom: 1px solid #eee;
+    background: #fff;
+    color: #000;
+    width: 100%;
+  }
+  th div {
+    position: absolute;
+    background: transparent;
+    color: #fff;
+    top: 1%;
+    margin-left: 4%;
+    line-height: normal;
+    border-left: none;
+    font-size: clamp(0.1em, 0.1em + 1vw, 3em);
+  }
+  th:first-child div {
+    border: none;
+  }
+
+  table {
+    border-spacing: 0;
+    background-color: #fff;
+  }
+  td + td {
+    border-left: 1px solid #eee;
+  }
+  th {
+    border-bottom: 1px solid #eee;
+    background: #ddd;
+    color: #000;
+    height: 0;
+    line-height: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    color: transparent;
+    border: none;
+    white-space: nowrap;
   }
 }
 @media screen and (max-width: 500px) {
@@ -1200,5 +1639,198 @@ html {
     top: 2%;
     font: 20px BalooBhaina2-SemiBold;
     color: #1c396b;
+  } /* -----------tabelas----------- */
+  .tabelaPadrao {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    width: 80%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 0;
+    z-index: 5;
+  }
+  .container {
+    overflow-y: auto;
+    margin-left: -1px;
+    border: 1px solid;
+    width: 100.3%;
+    height: 300px;
+  }
+  section {
+    position: relative;
+    border: 1px solid #000;
+    padding-top: 5%;
+    margin-top: 2%;
+    width: 100%;
+    height: 2%;
+    font: 12px BalooBhaina2-Regular;
+    background: #1c396b;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+  }
+
+  .container::-webkit-scrollbar {
+    width: 6px;
+    background-color: rgb(219, 219, 219);
+    /* rgb(219, 219, 219); */
+    /* border-radius: 10px; */
+  }
+  table {
+    border-spacing: 0;
+    background-color: #fff;
+    font-size: clamp(0.1em, 0.1em + 1.6vw, 1.2em);
+    width: 100%;
+  }
+  td + td {
+    border-left: 1px solid #eee;
+  }
+  th {
+    border-bottom: 1px solid #eee;
+    background: #ddd;
+    color: #000;
+    height: 0;
+    line-height: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    color: transparent;
+    border: none;
+    white-space: nowrap;
+  }
+  td {
+    border-bottom: 1px solid #eee;
+    background: #fff;
+    color: #000;
+    width: 100%;
+  }
+  th div {
+    position: absolute;
+    background: transparent;
+    color: #fff;
+    top: 1%;
+    margin-left: 4%;
+    line-height: normal;
+    border-left: none;
+    font-size: clamp(0.1em, 0.1em + 1vw, 3em);
+  }
+  th:first-child div {
+    border: none;
+  }
+
+  table {
+    border-spacing: 0;
+    background-color: #fff;
+  }
+  td + td {
+    border-left: 1px solid #eee;
+  }
+  th {
+    border-bottom: 1px solid #eee;
+    background: #ddd;
+    color: #000;
+    height: 0;
+    line-height: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    color: transparent;
+    border: none;
+    white-space: nowrap;
+  }
+}
+
+@media screen and (max-height: 640px) {
+  .tabelaPadrao {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    width: 80%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 0;
+    z-index: 5;
+  }
+  .container {
+    overflow-y: auto;
+    margin-left: -1px;
+    border: 1px solid;
+    width: 100.3%;
+    height: 250px;
+  }
+  section {
+    position: relative;
+    border: 1px solid #000;
+    padding-top: 5%;
+    margin-top: 2%;
+    width: 100%;
+    height: 2%;
+    font: 12px BalooBhaina2-Regular;
+    background: #1c396b;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+  }
+
+  .container::-webkit-scrollbar {
+    width: 6px;
+    background-color: rgb(219, 219, 219);
+    /* rgb(219, 219, 219); */
+    /* border-radius: 10px; */
+  }
+  table {
+    border-spacing: 0;
+    background-color: #fff;
+    font-size: clamp(0.1em, 0.1em + 1.6vw, 1.2em);
+    width: 100%;
+  }
+  td + td {
+    border-left: 1px solid #eee;
+  }
+  th {
+    border-bottom: 1px solid #eee;
+    background: #ddd;
+    color: #000;
+    height: 0;
+    line-height: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    color: transparent;
+    border: none;
+    white-space: nowrap;
+  }
+  td {
+    border-bottom: 1px solid #eee;
+    background: #fff;
+    color: #000;
+    width: 100%;
+  }
+  th div {
+    position: absolute;
+    background: transparent;
+    color: #fff;
+    top: 1%;
+    margin-left: 4%;
+    line-height: normal;
+    border-left: none;
+    font-size: clamp(0.1em, 0.1em + 1vw, 3em);
+  }
+  th:first-child div {
+    border: none;
+  }
+
+  table {
+    border-spacing: 0;
+    background-color: #fff;
+  }
+  td + td {
+    border-left: 1px solid #eee;
+  }
+  th {
+    border-bottom: 1px solid #eee;
+    background: #ddd;
+    color: #000;
+    height: 0;
+    line-height: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    color: transparent;
+    border: none;
+    white-space: nowrap;
   }
 }

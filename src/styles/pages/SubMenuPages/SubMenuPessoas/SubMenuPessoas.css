@@ -1,138 +1,60 @@
-section {
-  position: relative;
-  border: 1px solid #000;
-  padding-top: 5%;
-  margin-top: 2%;
-  width: 100%;
-  height: 10%;
-  background: #1c396b;
-  border-radius: 10px;
-}
-.container {
-  overflow-y: auto;
-  margin-left: -1px;
-  border: 1px solid;
-  width: 100.4%;
-  height: 38rem;
-}
-.container::-webkit-scrollbar {
-  width: 6px;
-  background-color: rgb(219, 219, 219);
-  /* rgb(219, 219, 219); */
-  /* border-radius: 10px; */
-}
-@media screen and (max-width: 500px) {
-  .container {
-    overflow-y: auto;
-    margin-left: -1px;
-    border: 1px solid;
-    width: 100.4%;
-    height: 25rem;
-  }
-  .container::-webkit-scrollbar {
-    width: 6px;
-    background-color: rgb(219, 219, 219);
-    /* rgb(219, 219, 219); */
-    /* border-radius: 10px; */
-  }
-}
-table {
-  border-spacing: 0;
-  background-color: #fff;
-}
-td + td {
-  border-left: 1px solid #eee;
-}
-th {
-  border-bottom: 1px solid #eee;
-  background: #ddd;
-  color: #000;
-  height: 0;
-  line-height: 0;
-  padding-top: 0;
-  padding-bottom: 0;
-  color: transparent;
-  border: none;
-  white-space: nowrap;
-}
-td {
-  border-bottom: 1px solid #eee;
-  background: #fff;
-  font: 12px BalooBhaina2-SemiBold;
-  color: #000;
-  width: 100%;
-}
-th div {
-  position: absolute;
-  background: transparent;
-  color: #fff;
-  top: 1%;
-  margin-left: 4%;
-  line-height: normal;
-  border-left: none;
-  font-size: clamp(0.1em, 0.1em + 1vw, 3em);
-}
-th:first-child div {
-  border: none;
-}
-
 /*-------------Conteudo do cabeçalho da tabela-----------------*/
 .tblSubCod {
   position: absolute;
-  font: 12px BalooBhaina2-SemiBold;
-  top: 5%;
+  font: 40px BalooBhaina2-SemiBold;
+  top: 1%;
   left: 2%;
 }
 .tblSubPessoacod {
   position: absolute;
-  font: 18px BalooBhaina2-SemiBold;
-  top: 5%;
+  font: 40px BalooBhaina2-SemiBold;
+  top: 1%;
   left: 14%;
 }
 .tblSubMail {
   position: absolute;
-  font: 18px BalooBhaina2-SemiBold;
-  top: 5%;
+  font: 40px BalooBhaina2-SemiBold;
+  top: 1%;
   left: 46%;
 }
 .tblSubMetas {
   position: absolute;
-  font: 18px BalooBhaina2-SemiBold;
-  top: 5%;
+  font: 40px BalooBhaina2-SemiBold;
+  top: 1%;
   left: 80%;
 }
 .tblSubAtivo {
   position: absolute;
-  font: 18px BalooBhaina2-SemiBold;
-  top: 5%;
+  font: 40px BalooBhaina2-SemiBold;
+  top: 1%;
   left: 92%;
 }
 
 /*-------------Conteudo da tabela-----------------*/
 .btnSubCod {
   padding-top: 1%;
-  font: 12px BalooBhaina2-SemiBold;
+  font: 10px BalooBhaina2-SemiBold;
   padding-bottom: 1%;
   padding-left: 3%;
   width: 10rem;
 }
 .btnSubOBS {
   padding-top: 1%;
-  font: 12px BalooBhaina2-SemiBold;
+  font: 10px BalooBhaina2-SemiBold;
   padding-bottom: 1%;
   padding-left: 1%;
   width: 25rem;
 }
 .btnSubMail {
   padding-top: 1%;
-  font: 12px BalooBhaina2-SemiBold;
+  font: 10px BalooBhaina2-SemiBold;
   padding-bottom: 1%;
   padding-left: 1%;
   width: 25rem;
 }
 .btnSubMetas {
   padding-top: 1%;
-  font: 12px BalooBhaina2-SemiBold;
+  font: 10px BalooBhaina2-SemiBold;
   padding-bottom: 1%;
   padding-left: 4.5%;
   width: 10rem;
@@ -153,31 +75,9 @@ th:first-child div {
   background-color: transparent;
   border: none;
   cursor: pointer;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
-.action {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 25%;
-  background-color: transparent;
-  border: none;
-}
-
-/*------------------------------------------------------------------------------------------*/
-
 @media screen and (max-width: 1024px) {
-  .tabelaPadrao {
-    overflow: auto;
-    position: absolute;
-    top: 10%;
-    left: 5%;
-    width: 90%;
-    height: 55%;
-    background-color: #fff;
-    border-radius: 5px;
-  }
-
   .tblcod {
     top: 2%;
     position: absolute;
@@ -204,4 +104,6 @@ th:first-child div {
     position: absolute;
     left: 90%;
   }
+}
+@media screen and (max-width: 500px) {
 }

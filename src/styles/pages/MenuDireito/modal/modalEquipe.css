@@ -18,17 +18,6 @@ body.active-modalEquipe {
   background: rgba(49, 49, 49, 0.8);
 }
 
-.modalPadrao-content {
-  position: fixed;
-  top: 25%;
-  left: 25%;
-  background: #f1f1f1;
-  width: 50%;
-  height: 50%;
-  border-radius: 20px;
-  z-index: 2;
-}
-
 .fcadastroEquipe {
   position: absolute;
   left: 5%;
@@ -70,7 +59,7 @@ body.active-modalEquipe {
   padding: 1%;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 1024px) {
   .modalEquipe,
   .overlay {
     width: 100%;
@@ -80,17 +69,6 @@ body.active-modalEquipe {
     right: 0;
     bottom: 0;
     position: fixed;
-    z-index: 3;
-  }
-
-  .modalPadrao-content {
-    position: absolute;
-    top: 25%;
-    left: 5%;
-    background: #f1f1f1;
-    width: 90%;
-    height: 60%;
-    border-radius: 20px;
     z-index: 3;
   }
 

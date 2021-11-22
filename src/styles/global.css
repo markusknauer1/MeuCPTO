@@ -267,6 +267,16 @@ html {
   z-index: 2;
 }
 
+.modalPadrao-content {
+  position: fixed;
+  top: 25%;
+  left: 25%;
+  background: #f1f1f1;
+  width: 50%;
+  height: 50%;
+  border-radius: 20px;
+  z-index: 2;
+}
 .buttonModalPadrao {
   position: fixed;
   top: 22.5%;
@@ -338,7 +348,7 @@ html {
   position: absolute;
   right: 5%;
   bottom: 5%;
-  font: 16px BalooBhaina2-Medium;
+  font: 14px BalooBhaina2-Medium;
   width: 15rem;
   height: 3.5rem;
   background-color: #1c396b;
@@ -701,6 +711,16 @@ th {
   .fCxPesquisa::-webkit-input-placeholder {
     font: 22px BalooBhaina2-SemiBold;
     color: #1c396b;
+  }
+  .modalPadrao-content {
+    position: absolute;
+    top: 25%;
+    left: 15%;
+    background: #f1f1f1;
+    width: 70%;
+    height: 35%;
+    border-radius: 20px;
+    z-index: 3;
   }
   .buttonModalPadrao {
     position: absolute;
@@ -1198,9 +1218,9 @@ th {
     position: absolute;
     right: 5%;
     bottom: 5%;
-    font: 20px BalooBhaina2-Medium;
+    font: 18px BalooBhaina2-Medium;
     padding-top: 0.5%;
-    width: 20rem;
+    width: 18rem;
     height: 5rem;
     background-color: #1c396b;
     color: white;
@@ -1212,9 +1232,7 @@ th {
     position: absolute;
     left: 5%;
     top: 3%;
-    font-family: 'baloo bhaina 2';
-    font-weight: 500;
-    font-size: clamp(0.1em, 0.1em + 3.5vw, 4em);
+    font: 26px BalooBhaina2-SemiBold;
     color: #1c396b;
   }
   .hrTitleModal {
@@ -1259,7 +1277,7 @@ th {
     border-color: transparent;
     top: 16%;
     left: 5%;
-    width: 45%;
+    width: 70%;
     height: 3px;
   }
   .hrTitleModal4 {
@@ -1573,7 +1591,7 @@ th {
     top: 74%;
     left: 70%;
     width: 25%;
-    height: 4%;
+    height: 20px;
     font: 20px BalooBhaina2-SemiBold;
     z-index: 1;
     cursor: pointer;
@@ -1587,7 +1605,7 @@ th {
     top: 21%;
     left: 55%;
     width: 40%;
-    height: 4%;
+    height: 20px;
     font: 22px BalooBhaina2-SemiBold;
     z-index: 1;
     cursor: pointer;
@@ -1612,6 +1630,30 @@ th {
     display: flex;
     font: 14px BalooBhaina2-SemiBold;
   }
+  .modalPadrao-content {
+    position: absolute;
+    top: 25%;
+    left: 5%;
+    background: #f1f1f1;
+    width: 90%;
+    height: 50%;
+    border-radius: 20px;
+    z-index: 3;
+  }
+  .gravar-modal {
+    position: absolute;
+    right: 5%;
+    bottom: 5%;
+    font: 12px BalooBhaina2-Medium;
+    padding-top: 0.5%;
+    width: 10rem;
+    height: 3rem;
+    background-color: #1c396b;
+    color: white;
+    border-radius: 5px;
+    border-style: none;
+    cursor: pointer;
+  }
 
   .subtPadrao1 {
     position: fixed;
@@ -1635,9 +1677,9 @@ th {
   }
   .titleModal {
     position: absolute;
-    left: 8%;
-    top: 2%;
-    font: 20px BalooBhaina2-SemiBold;
+    left: 5%;
+    top: 3%;
+    font: 18px BalooBhaina2-SemiBold;
     color: #1c396b;
   } /* -----------tabelas----------- */
   .tabelaPadrao {
@@ -1832,5 +1874,47 @@ th {
     color: transparent;
     border: none;
     white-space: nowrap;
+  }
+  .buttonModalPadrao {
+    position: absolute;
+    top: 72% !important;
+    left: 70%;
+    width: 25%;
+    height: 3.5rem !important;
+    font: 20px BalooBhaina2-SemiBold;
+    z-index: 1;
+    cursor: pointer;
+    background-color: #0b9e82;
+    color: white;
+    border-style: none;
+    border-radius: 10px;
+  }
+  .buttonModalPadrao1 {
+    position: absolute;
+    top: 21%;
+    left: 55%;
+    width: 40%;
+    height: 5rem;
+    font: 22px BalooBhaina2-SemiBold;
+    z-index: 1;
+    cursor: pointer;
+    background-color: #0b9e82;
+    color: white;
+    border-style: none;
+    border-radius: 10px;
+  }
+  .gravar-modal {
+    position: absolute;
+    right: 5%;
+    bottom: 4%;
+    font: 10px BalooBhaina2-Medium;
+    padding-top: 0.5%;
+    width: 10rem;
+    height: 3rem;
+    background-color: #1c396b;
+    color: white;
+    border-radius: 5px;
+    border-style: none;
+    cursor: pointer;
   }
 }

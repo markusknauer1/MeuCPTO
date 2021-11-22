@@ -34,9 +34,9 @@ import Atividades from './pages/MenuDireito/Atividades'
 function Routes() {
   return (
     <BrowserRouter>
+      <Route path="/" exact component={index} />
       <Switch>
         {/* ------------ menu princial ----------------------------*/}
-        <Route path="/" exact component={index} />
         <Route path="/Home" component={Home} />
         <Route path="/FormularioCadastro" component={FormCad} />
         <Route path="/Pessoas" component={Pessoas} />

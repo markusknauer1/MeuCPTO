@@ -4,7 +4,7 @@
   height: 38px;
   left: 83%;
   bottom: 2%;
-  z-index: 2;
+  z-index: 1;
 }
 
 /* botao open */
@@ -227,7 +227,7 @@ span {
     height: 100px;
     left: 85%;
     bottom: 2%;
-    z-index: 2;
+    z-index: 1;
     background-color: transparent;
   }
 
@@ -356,7 +356,7 @@ span {
     height: 60px;
     left: 86%;
     bottom: 4%;
-    z-index: 2;
+    z-index: 1;
     background-color: transparent;
   }
 
@@ -496,7 +496,7 @@ span {
     border-radius: 50px;
     height: 18vmin;
     cursor: pointer;
-    z-index: 2;
+    z-index: 1;
   }
 
   /* botao open */

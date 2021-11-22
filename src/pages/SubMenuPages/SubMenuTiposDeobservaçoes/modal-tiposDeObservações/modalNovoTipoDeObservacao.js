@@ -35,12 +35,12 @@ export default function Modal() {
               name="fname"
             ></input>
             <label className="NTOFatores">
-              Fatores para calculo de resultado final da observação:
+              Fatores para cálculo de resultado final da observação:
             </label>
             <label className="TQOTittlePositivo">Positivo:</label>
             <input
               className="NTOPositivo"
-              placeholder="1"
+              placeholder="Nº"
               type="text"
               id="fname"
               name="fname"
@@ -48,7 +48,7 @@ export default function Modal() {
             <label className="TQOTittleNegativo">Negativo:</label>
             <input
               className="NTONegativo"
-              placeholder="1"
+              placeholder="Nº"
               type="text"
               id="fname"
               name="fname"
@@ -56,14 +56,14 @@ export default function Modal() {
             <label className="TQOTittleNeutro">Neutro:</label>
             <input
               className="NTONeutro"
-              placeholder="1"
+              placeholder="Nº"
               type="text"
               id="fname"
               name="fname"
             ></input>
 
             <textarea
-              className="NTODescriçao"
+              className="NTOOBS"
               placeholder="Observações"
               type="text"
               id="fname"

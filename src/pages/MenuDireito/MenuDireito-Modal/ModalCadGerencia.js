@@ -17,14 +17,14 @@ export default function Modal() {
   return (
     <>
       <button onClick={toggleModal} className="buttonModalPadrao">
-        Nova Gerencia
+        Nova Gerência
       </button>
 
       {modal && (
         <div className="modalGerencia">
           <div onClick={toggleModal} className="overlay"></div>
           <div className="modalPadrao-content">
-            <h2 className="titleModal">Nova Gerencia</h2>
+            <h2 className="titleModal">Nova Gerência</h2>
             <hr className="hrTitleModal1" />
 
             <input

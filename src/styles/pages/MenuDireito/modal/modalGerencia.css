@@ -50,7 +50,7 @@ body.active-modalGerencia {
   border: none;
   background-color: rgb(190, 190, 190);
   font: 14px BalooBhaina2-SemiBold;
-  padding: 1rem;
+  padding: 1%;
 }
 .fObsGerencia {
   position: absolute;
@@ -94,7 +94,7 @@ body.active-modalGerencia {
   .fDescGerencia {
     position: absolute;
     left: 5%;
-    top: 5.5rem;
+    top: 8rem;
     border-radius: 5px;
     width: 90%;
     height: 10%;
@@ -110,10 +110,10 @@ body.active-modalGerencia {
   .fObsGerencia {
     position: absolute;
     left: 5%;
-    top: 30%;
+    top: 38%;
     border-radius: 5px;
     width: 90%;
-    height: 40%;
+    height: 35%;
     justify-content: center;
     font-size: 18px;
     border: none;

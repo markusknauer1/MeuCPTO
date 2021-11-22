@@ -346,11 +346,13 @@ html {
 }
 .gravar-modal {
   position: absolute;
+  justify-content: center;
+  text-align: center;
   right: 5%;
   bottom: 5%;
   font: 14px BalooBhaina2-Medium;
-  width: 15rem;
-  height: 3.5rem;
+  width: 14rem;
+  height: 4rem;
   background-color: #1c396b;
   color: white;
   border-radius: 5px;
@@ -768,11 +770,13 @@ th {
   }
   .gravar-modal {
     position: absolute;
+    justify-content: center;
+    text-align: center;
     right: 5%;
     bottom: 5%;
     font: 20px BalooBhaina2-Medium;
     padding-top: 0.5%;
-    width: 20rem;
+    width: 18rem;
     height: 5rem;
     background-color: #1c396b;
     color: white;
@@ -1216,10 +1220,11 @@ th {
   }
   .gravar-modal {
     position: absolute;
+    justify-content: center;
+    text-align: center;
     right: 5%;
     bottom: 5%;
     font: 18px BalooBhaina2-Medium;
-    padding-top: 0.5%;
     width: 18rem;
     height: 5rem;
     background-color: #1c396b;
@@ -1251,9 +1256,9 @@ th {
     display: flex;
     background-image: linear-gradient(90deg, #fff 20%, rgb(197, 197, 197) 80%);
     border-color: transparent;
-    top: 10%;
+    top: 16%;
     left: 5%;
-    width: 25%;
+    width: 35%;
     height: 3px;
   }
   .hrTitleModal2 {
@@ -1636,18 +1641,19 @@ th {
     left: 5%;
     background: #f1f1f1;
     width: 90%;
-    height: 50%;
+    height: 40%;
     border-radius: 20px;
     z-index: 3;
   }
   .gravar-modal {
     position: absolute;
+    justify-content: center;
+    text-align: center;
     right: 5%;
     bottom: 5%;
     font: 12px BalooBhaina2-Medium;
-    padding-top: 0.5%;
     width: 10rem;
-    height: 3rem;
+    height: 4rem;
     background-color: #1c396b;
     color: white;
     border-radius: 5px;

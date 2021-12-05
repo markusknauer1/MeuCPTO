@@ -11,7 +11,7 @@ function SideBar() {
       <div className="logo" />
       <img className="logoMobile" src={logoQMobile} alt="logoQMobile" />
       <ul className="app-sidebar">
-        <Link to="/Home">
+        <Link to="/Relatorio">
           <button className="buttonHome" type="button" />
         </Link>
         <Link to="/FormularioCadastro">
@@ -21,7 +21,7 @@ function SideBar() {
         <Link to="/Pessoas">
           <button className="buttonShare" type="button" />
         </Link>
-        <Link to="/Relatorio">
+        <Link to="/Home">
           <button className="buttonGraph" type="button" />
         </Link>
         <Link to="/">

@@ -35,7 +35,6 @@ function Home() {
           <label className="MetaMes2">Metas para Março</label>
         </Link>
 
-        <div></div>
         <div className="Metas">
           <Link to="/Home">
             <button className="metas1">

@@ -142,15 +142,11 @@
 @media screen and (max-width: 500px) {
   .Profile-direita {
     position: fixed;
-    width: 100%;
-    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 26px 15px 15px;
     bottom: 0;
-    background-color: rgb(211, 211, 211);
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-    border-bottom-left-radius: 0;
-    border-bottom-right-radius: 0;
-    z-index: -2;
   }
 
   .logo1 {

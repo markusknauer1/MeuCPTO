@@ -34,7 +34,7 @@ export default function Modal() {
                 type="text"
                 id="fname"
                 name="fname"
-              ></input>
+              />
 
               <select
                 name="Sexo"
@@ -64,28 +64,28 @@ export default function Modal() {
                 type="text"
                 id="mail"
                 name="fname"
-              ></input>
+              />
               <input
                 className="fcadastroPessoa6"
                 placeholder="Telefone"
                 type="text"
                 id="fname"
                 name="fname"
-              ></input>
+              />
               <input
                 className="fcadastroPessoa7"
                 placeholder="Celular"
                 type="text"
                 id="fname"
                 name="fname"
-              ></input>
+              />
               <input
                 className="fcadastroPessoa8"
                 placeholder="CEP"
                 type="text"
                 id="fname"
                 name="fname"
-              ></input>
+              />
               <button className="consulltaCep">
                 <i class="fas fa-search"></i>
               </button>
@@ -95,42 +95,42 @@ export default function Modal() {
                 type="text"
                 id="fname"
                 name="fname"
-              ></input>
+              />
               <input
                 className="fcadastroPessoa10"
                 placeholder="Número"
                 type="text"
                 id="fname"
                 name="fname"
-              ></input>
+              />
               <input
                 className="fcadastroPessoa11"
                 placeholder="Complemento"
                 type="text"
                 id="fname"
                 name="fname"
-              ></input>
+              />
               <input
                 className="fcadastroPessoa12"
                 placeholder="Bairro"
                 type="text"
                 id="fname"
                 name="fname"
-              ></input>
+              />
               <input
                 className="fcadastroPessoa13"
                 placeholder="Cidade"
                 type="text"
                 id="fname"
                 name="fname"
-              ></input>
+              />
               <input
                 className="fcadastroPessoa14"
                 placeholder="Estado"
                 type="text"
                 id="fname"
                 name="fname"
-              ></input>
+              />
               <textarea
                 className="fcadastroPessoa15"
                 placeholder="Observações"
@@ -139,28 +139,28 @@ export default function Modal() {
                 name="fname"
                 row="none"
                 maxLength="500"
-              ></textarea>
+              />
               <input
                 className="fcadastroPessoa16"
                 placeholder="Senha"
                 type="text"
                 id="fname"
                 name="fname"
-              ></input>
+              />
               <input
                 className="fcadastroPessoa17"
                 placeholder="Confirmar Senha"
                 type="text"
                 id="fname"
                 name="fname"
-              ></input>
+              />
               <input
                 className="fcadastroPessoa18"
                 placeholder="Grupo"
                 type="text"
                 id="fname"
                 name="fname"
-              ></input>
+              />
             </div>
             <div className="InputAuthorization">
               <label>

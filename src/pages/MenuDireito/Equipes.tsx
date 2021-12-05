@@ -75,8 +75,8 @@ function Equipes() {
       <ProfileDireita />
       <div className="buttonProfileDireita">
         <SideBarDireita />
-        <SidebarMobile />
       </div>
+      <SidebarMobile />
     </div>
   )
 }

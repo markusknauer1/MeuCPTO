@@ -1,4 +1,4 @@
-import { BrowserRouter, Switch, Route } from 'react-router-dom'
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 
 import index from './Components/Login/index'
 import Home from './pages/Home'
@@ -33,14 +33,14 @@ import Atividades from './pages/MenuDireito/Atividades'
 
 function Routes() {
   return (
-    <BrowserRouter>
+    <Router>
       <Route path="/" exact component={index} />
       <Switch>
         {/* ------------ menu princial ----------------------------*/}
-        <Route path="/Home" component={Home} />
+        <Route path="/Home" component={Relatorio} />
         <Route path="/FormularioCadastro" component={FormCad} />
         <Route path="/Pessoas" component={Pessoas} />
-        <Route path="/Relatorio" component={Relatorio}></Route>
+        <Route path="/Relatorio" component={Home}></Route>
 
         {/* ------------ menu sideBar direita---------------------- */}
         <Route path="/Observacoes" component={Observacoes} />
@@ -96,7 +96,7 @@ function Routes() {
           component={AtivadoresCognitivos}
         ></Route>
       </Switch>
-    </BrowserRouter>
+    </Router>
   )
 }
 

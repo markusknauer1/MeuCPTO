@@ -133,8 +133,8 @@ function Unidades() {
       <ProfileDireita />
       <div className="buttonProfileDireita">
         <SideBarDireita />
-        <SidebarMobile />
       </div>
+      <SidebarMobile />
     </div>
   )
 }

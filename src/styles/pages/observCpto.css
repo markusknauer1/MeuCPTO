@@ -103,8 +103,7 @@
   top: 36%;
   left: 85%;
   display: block;
-  font-size: clamp(0.1em, 0.1em + 3vw, 4em);
-  font-family: 'baloo bhaina 2';
+  font-size: clamp(0.01em, 0.01em + 3vw, 4em);
   border-style: none;
   background-color: transparent;
   color: #830133;

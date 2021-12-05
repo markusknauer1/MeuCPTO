@@ -16,7 +16,7 @@ function Relatorio() {
       <SideBar />
       <div className="page">
         <div className="filter1">
-          <h4 className="subtRel1">UNIDADES / RELATÓRIO:</h4>
+          <h4 className="MetaMes1">PÁGINA INICIAL</h4>
           <h2 className="subtRel2">Resultado do ICS</h2>
           <img className="logoK" src={logoKlabim} alt="LogoK" />
           <h3 className="subtRel3">Índice de Comportamento Seguro</h3>
